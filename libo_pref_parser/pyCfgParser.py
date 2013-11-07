@@ -17,6 +17,7 @@ isNewPref = 0;   # Whether a new pref
 boolTypeCnt = 0;  # Number of boolean types 
 intTypeCnt = 0;  # Number of integer types 
 otherTypeCnt = 0;  # Number of other types 
+prefDict = {};   # A hashtable of pref count
 
 # handler functions 
 def start_element(name, attrs): 
@@ -26,11 +27,17 @@ def start_element(name, attrs):
     global allPrefsList; 
     global isValue; 
     global isNewPref; 
+    global prefDict; 
     
     if (name == "prop"): 
         propCnt = propCnt + 1; 
         propCntGlobal = propCntGlobal + 1; 
         prefPath = os.path.join(currPath, attrs["oor:name"]); 
+        if (prefPath in prefDict):
+            prefDict[prefPath] = prefDict[prefPath] + 1; 
+        else:
+            prefDict[prefPath] = 1; 
+        
         if (prefPath not in allPrefsList):  
             isNewPref = 1;  # A new pref
             allPrefsList.append(prefPath); 
@@ -102,6 +109,7 @@ def process_curr_directory(directoryPath):
 # Start of the program
 process_curr_directory(os.curdir); 
 
+print "allPrefList: ", allPrefsList; 
 print "allPrefsList Length:", len(allPrefsList); 
 print "allPrefsList Set Length: ", len(set(allPrefsList)); 
 print "propCnt: ", propCntGlobal;  
@@ -110,3 +118,4 @@ print "value count: ", valueCnt;
 print "boolTypeCnt: ", boolTypeCnt; 
 print "intTypeCnt: ", intTypeCnt; 
 print "otherTypeCnt: ", otherTypeCnt; 
+# print "prefDict: ", prefDict; 

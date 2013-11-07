@@ -6,11 +6,14 @@
 import xml.parsers.expat; 
 import os; 
 
+prefList = []; 
 
 # handler functions 
 def start_element(name, attrs):  
+    global prefList; 
     if (name == "preference"): 
-        print attrs["name"]; 
+        # print attrs["name"]; 
+        prefList.append(attrs["name"]); 
         
 def end_element(name): 
     pass; 
@@ -51,3 +54,4 @@ def process_curr_directory(directoryPath):
 # Start of the program
 process_curr_directory(os.curdir); 
 
+print "prefList length: ", len(prefList); 
