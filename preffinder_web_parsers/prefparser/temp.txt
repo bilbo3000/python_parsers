@@ -1,0 +1,7736 @@
+ 
+bidi. browser. ui
+
+
+ Boolean
+
+ 
+True
+: Activates bidi interface and keyboard unconditionally
+False
+: Only activates bidi interface and keyboard in bidi locales. (Default)
+
+ 
+bidi. characterset
+
+
+ Integer
+
+ How the browser determines the character set to use
+1
+ (default): Document-specified character set
+2
+: Default character set
+
+ 
+bidi. controlstextmode
+
+
+ Integer
+
+ How controls are used
+1
+ (default): Logical
+2
+: Visual (this is no longer supported and leads to strange side-effects, see 
+bug 373319
+)
+3
+: Container
+
+ 
+bidi. direction
+
+
+ Integer
+
+ Select direction of text
+1
+ (default): Left-to-right
+2
+: Right-to-left
+
+ 
+bidi. numeral
+
+
+ Integer
+
+ How numerals are displayed
+0
+ (default): Nominal numerals
+1
+: Regular context numerals
+2
+: Hindi context numerals
+3
+: Arabic numerals
+4
+: Hindi numerals
+
+ 
+bidi. support
+
+
+ Integer
+
+ Select provider of bi-directional support
+1
+ (default): Mozilla
+2
+: OS
+3
+: Disable
+
+ 
+bidi. texttype
+
+
+ Integer
+
+ Type of text
+1
+ (default): Charset
+2
+: Logical
+3
+: Visual
+
+ 
+bidi.edit.caret movement style
+
+
+
+
+
+
+ 
+bidi.edit.delete immediately
+
+
+
+
+
+
+ 
+ browser. active_color
+
+
+ String
+
+ The default color for active links as a hex code. Default is 
+#EE0000
+.
+
+ 
+ browser. anchor_color
+
+
+ String
+
+ The default color for links as a hex code.  Default is 
+#0000EE
+ Note: This can be changed in Firefox via "
+Tools → Options
+ → Content / Fonts 
+ Colors  → Colors... → Link Colors →  Unvisited Links" (
+Firefox 1.5 and above
+) and via "Edit → Preferences → Appearance → Colors / Link Colors → Unvisited Links" in Mozilla Suite and SeaMonkey.
+
+ 
+browser. backspace_action
+
+
+ Integer
+
+ Determines the behavior of the backspace key
+0
+: Goes back in history
+1
+: Acts as Page Up
+2
+ (and above): Does nothing
+Note: See 
+bug 301248
+ (Mozilla Suite)
+
+ 
+browser. blink_allowed
+
+
+ Boolean
+
+ 
+True
+ (default): Use of the blink tag or 
+CSS
+'s 
+text-decoration: blink
+ will result in blinking elements.
+False
+: Blinking is disabled.
+
+ 
+browser. block. target_new_window
+
+
+ Boolean
+
+ 
+True
+: Links with target set to 
+_blank
+ will open in the current tab instead of a new window.
+False
+: Links with target set to 
+_blank
+ will open in a new window.
+Note: No longer in use. Use 
+browser.link.open_newwindow
+ instead.
+
+ 
+browser. bookmarks. added_static_root
+
+
+ Boolean
+
+ Keeps track of whether a root folder for system (imported) bookmarks has been created in 
+bookmarks.html
+.
+True
+: The root folder has been created
+False
+ (default until import complete): Create the root folder (unless we're using dynamic bookmarks - 
+browser.bookmarks.import_system_favorites
+), and then set this pref to true.
+
+ 
+ browser. bookmarks. file
+
+
+ String
+
+ The full path and filename of your bookmarks file (
+bookmarks.html
+). In Windows, the path separator must be two backslashes (e.g. "
+C:\\Path\\To\\bookmarks.html
+") if the value is being set in 
+user.js
+ or 
+prefs.js
+ instead of within 
+about:config
+
+
+ 
+browser. bookmarks. import_system_favorites
+
+
+ Boolean
+
+ Determine the system bookmark strategy.
+True
+: Enable a "live view" of system bookmarks which is read-only
+False
+ (default): Opposite of above.
+Note: Setting this to "true" will prevent "Imported IE Favorites" folder from being deleted where applicable (see 
+bug 22642
+).
+
+ 
+ browser. bookmarks. livemark_refresh_seconds
+
+
+ Integer
+
+ The number of seconds between Live Bookmark checks. Values under 60 are assumed to be 60; the default is 
+3600
+ (1 hour).
+
+ 
+browser. bookmarks. restore_default_bookmarks
+
+
+ Boolean
+
+ 
+True
+: Overwrite the current 
+bookmarks.html
+ file with the default set of bookmarks.
+False
+ (default): Do not reset bookmarks.
+Note: Firefox 1.5 and above only
+
+ 
+browser. bookmarks. sort. direction
+
+
+ String
+
+ The order in which to sort bookmarks in the Bookmarks Manager
+descending
+ (default): Unsorted
+natural
+: Alphabetically, A-Z
+ascending
+: Alphabetically, Z-A
+Note: In Firefox, this can be changed via "Bookmarks →  Organize (or Manage) Bookmarks... → View"
+
+ 
+browser. bookmarks. sort. resource
+
+
+ String
+
+ The RDF source to use when sorting the bookmarks in the Bookmarks Manager
+ 
+rdf:http://home.netscape.com/NC-rdf#Name
+ (default) - by bookmark name
+ 
+rdf:http://home.netscape.com/NC-rdf#URL
+ - by URL 
+ 
+rdf:http://home.netscape.com/NC-rdf#ShortcutURL
+ - by bookmark keyword 
+ 
+rdf:http://home.netscape.com/NC-rdf#Description
+ - by description 
+ 
+rdf:http://home.netscape.com/NC-rdf#BookmarkAddDate
+ - by bookmark creation date 
+ 
+rdf:http://home.netscape.com/WEB-rdf#LastModifiedDate
+ - by bookmark modification date 
+  
+rdf:http://home.netscape.com/WEB-rdf#LastVisitDate
+ - by date of last visit 
+
+
+Note: In Firefox, this can be changed via "Bookmarks → Organize (or Manage) Bookmarks... → View"
+
+
+
+ 
+browser. cache. check_doc_frequency
+
+
+ Integer
+
+ How often to check the remote page for a newer version than what might be in the cache
+0
+: Check once per browser session
+1
+: Check every time I view the page
+2
+: Never check (always use cached page)
+3
+ (default): Check when the page is out of date (automatically determined)
+
+ 
+ browser. cache. disk. capacity
+
+
+ Integer
+
+ Amount of disk space allowed for the browser's cache (in KB). Default is 
+50000
+.
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Advanced → Network / Offline Storage" (Firefox3), Tools → Options → Advanced → Network / Cache" (Firefox 2)    or "Tools → Options → Privacy → Cache (Firefox 1.5 and earlier); in Mozilla Suite/SeaMonkey, via "
+Edit → Preferences
+ → Advanced  → Cache".
+
+ 
+ browser. cache. disk. enable
+
+
+ Boolean
+
+ 
+True
+ (default): Use disk cache, up to capacity specified in 
+browser.cache.disk.capacity
+False
+: Disable disk cache (same effect as setting 
+browser.cache.disk.capacity
+ to 0)
+
+ 
+browser. cache. disk. parent_directory
+
+
+ String
+
+ Full path to the 
+parent
+ directory of the 
+Cache
+ folder used for storing the browser's cache.  In Windows, the path separator must be two backslashes (e.g. "
+C:\\Path\\To\\Parent\\Folder
+") if the value is being set in the 
+user.js
+ or 
+prefs.js
+ instead of within 
+about:config
+.
+
+ 
+ browser. cache. disk_cache_ssl
+
+
+ Boolean
+
+ 
+True
+ (default): Cache content received via SSL
+False
+: Do not cache content received via SSL
+Note: See 
+bug 531801
+ for more information
+
+ 
+ browser. cache. memory. capacity
+
+
+ Integer
+
+ Determines how the browser uses RAM for cache.
+-1
+ (default): 
+Automatically set size of capacity
+ as a percentage of physical RAM
+0
+: disables the memory cache device entirely
+(n)
+: Set the maximum RAM used to 
+n
+ KB.
+
+ 
+ browser. cache. memory. enable
+
+
+ Boolean
+
+ 
+True
+ (default): Use memory cache, up to capacity specified in 
+browser.cache.memory.capacity
+ (if set); otherwise, use a percentage of physical RAM (see 
+bug 105344
+)
+False
+: Disable memory cache (same effect as setting 
+browser.cache.memory.capacity
+ to 0)
+
+ 
+browser. chrome. favicons
+
+
+ Boolean
+
+ 
+True
+ (default): Load and display "favicons" residing in the current page's site root directory
+False
+: Opposite of the above
+Note: This should be set to the same value as 
+browser.chrome.site_icons
+ for legacy reasons.
+
+ 
+browser. chrome. image_icons. max_size
+
+
+ Integer
+
+ If an image's height or width is greater than this number (in pixels), the image will not have a thumbnail placed in its tab (or the 
+Location Bar
+). Setting it to 
+0
+ will prevent thumbnails from being used altogether. The default value is 
+1024
+ pixels.
+Note: Firefox 1.5 and above and SeaMonkey only.
+
+ 
+browser. chrome. load_toolbar_icons
+
+
+ Integer
+
+ 
+0
+ (default): Never load site icons/favicons when displaying bookmarks in menus (overrides 
+browser.chrome.site_icons
+)
+1
+: Load site icons/favicons when they've been cached
+2
+: Always load site icons/favicons
+
+ 
+browser. chrome. site_icons
+
+
+ Boolean
+
+ 
+True
+ (default): Load and display site icons specified by 
+link
+ element(s) in the web page
+False
+: Opposite of the above
+Note: This should be set to the same value as 
+browser.chrome.favicons
+ for legacy reasons.
+
+ 
+browser. chrome. toolbar_style
+
+
+ Integer
+
+ Set toolbar style for browser
+0
+: Pictures Only
+1
+: Text Only
+2
+ (default): Pictures and Text
+
+ 
+browser. chrome. toolbar_tips
+
+
+ Boolean
+
+ Determines tooltip behavior for chrome elements.
+True
+ (default): Show tooltips for toolbars and bookmarks. Display the name and URL for bookmarks
+False
+: Hide tooltips for chrome elements
+
+ 
+browser. chromeURL
+
+
+ String
+
+ Location of browser's UI chrome; launched at browser startup. Default value is 
+chrome://browser/content/
+
+
+ 
+browser. display. background_color
+
+
+ String
+
+ The default color for the background of browser content as a hex code. This affects blank tabs, web pages whose backgrounds are not explicitly set, and XUL error pages. Default value is 
+#FFFFFF
+.
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Content / Fonts 
+ Colors → Colors... → Text and Background → Background " (
+Firefox 1.5 and above
+).
+
+ 
+browser. display. focus_background_color
+
+
+ String
+
+ The default color for the background of focused elements as a hex code. Default value is 
+#117722
+. Requires that 
+browser.display.use_focus_colors
+ be true
+
+ 
+browser. display. focus_ring_on_anything
+
+
+ Boolean
+
+ 
+True
+: Display the focus ring (normally only shown on links) on anything
+False
+ (default): Display the focus ring on links only
+
+ 
+browser. display. focus_ring_width
+
+
+ Integer
+
+ Determines the display of the focus ring around focused elements.
+0
+: Hide focus ring
+1
+ (default): Dots around focused elements will be displayed with a 1 pixel border
+(n)
+: Display dots with a width of 
+n
+ pixels around focused elements
+
+ 
+browser. display. focus_text_color
+
+
+ String
+
+ The default color for the text of focused elements as a hex code. Default value is 
+#ffffff
+. Requires that 
+browser.display.use_focus_colors
+ be true
+
+ 
+browser. display. force_inline_alttext
+
+
+ Boolean
+
+ 
+True
+: Force broken images' 
+alt
+ text to be displayed inline
+False
+ (default): Show an icon if rendering in Quirks Mode and there is no 
+alt
+ text, or if rendering in Quirks Mode and the image has a size specified.
+
+ 
+browser. display. foreground_color
+
+
+ String
+
+ The default color for the foreground of browser content as a hex code. This affects web pages whose text colors are not explicity set and XUL error pages. Default value is 
+#000000
+.
+Note: In Firefox, this can be changed via  "
+Tools → Options
+ → Content / Fonts 
+ Colors → Colors... → Text and Background → Text" (
+Firefox 1.5 and above
+).
+
+ 
+browser. display. normal_lineheight_calc_control
+
+
+ Integer
+
+ Determine method of calculating line-height (leading) in layout
+-1
+: Uninitialized
+0
+: Don't include external leading
+1
+: Use what the font vendor provides
+2
+ (default): Compensate leading if vendor's leading is insufficient
+
+ 
+browser. display. screen_resolution
+
+
+ Integer
+
+ 
+Firefox 1.5 only
+ DPI of display device. Affects 
+CSS
+ absolute length units (e.g. pt, mm).
+-1
+ (default): Use the operating system's logical resolution or 96 DPI, whichever is greater
+0
+: Force use of operating system's logical resolution
+(n)
+: Assume screen DPI of 
+n
+. Default DPI is 
+96
+.
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Content → Advanced → Display Resolution".  See 
+browser. screen_resolution
+ for Firefox 1.0.x or 
+layout. css. dpi
+ for Firefox 2.0+.
+
+ 
+browser. display. show_image_placeholders
+
+
+ Boolean
+
+ 
+True
+ (default): Show placeholders while image is loading
+False
+: Opposite of above
+
+ 
+browser. display. use_document_colors
+
+
+ Boolean
+
+ 
+True
+ (default): Allow documents to specify colors to use
+False
+: Opposite of above
+Note: In Firefox, this can be changed via "
+Tools → Options
+  → Content / Fonts 
+ Colors → Colors → Allow pages to chose their own colors, instead of my selections above" (
+Firefox 1.5 and above
+).
+
+ 
+browser. display. use_document_fonts
+
+
+ Integer
+
+ 
+0
+: Never use document's fonts
+1
+: Allow documents to specify fonts to use
+2
+: Always use document's fonts (deprecated)
+Note:
+ In Firefox, this can be changed (between 
+0
+ and 
+1
+) via "
+Tools → Options
+ → Content / Fonts 
+ Colors → Advanced → Allow pages to chose their own fonts, instead of my selections above" (
+Firefox 1.5 and above
+).
+In SeaMonkey, the corresponding setting is 
+Edit → Preferences
+ → Appearance → Fonts → [√] Allow documents to use other fonts
+
+ 
+browser. display. use_focus_colors
+
+
+ Boolean
+
+ 
+True
+: Set colors on focused items according to preferences
+False
+ (default): Do not set colors on focused items
+
+ 
+browser. display. use_system_colors
+
+
+ Boolean
+
+ 
+True
+: Use colors specified by OS to display documents
+False
+ (default): Opposite of above
+Note: In Firefox, this can be changed via "
+Tools → Options
+  → Content / Fonts 
+ Colors → Colors → Use system colors" (
+Firefox 1.5 and above
+).
+
+ 
+browser. dom. document. all. disabled
+
+
+ Boolean
+
+ 
+True
+: Disables emulation of IE's 
+document.all
+ collection
+False
+ (default): Enable undetectable 
+document.all
+ support in quirks mode (see 
+bug 248549
+)
+
+ 
+browser. dom. global_scope_pollution. disabled
+
+
+ Boolean
+
+ 
+True
+: Disable the more aggressive emulation of IE's "IDs directly accessible in the global scope" behavior.
+False
+ (default): Automatically add IDs to the global (
+window
+) scope in quirks mode.
+
+ 
+browser. dom. window. dump. enabled
+
+
+ Boolean
+
+ 
+True
+: Enable 
+JavaScript
+ 
+dump() output
+False
+: Opposite of the above
+
+ 
+browser. download. defaultFolder
+
+
+ String
+
+ Holds the path of the default download directory determined from 
+browser.download.folderList
+. Not set by default; set after the user configures their download options.
+
+ 
+browser. download. dir
+
+
+ String
+
+ The last directory used for saving a file from the "What should (browser) do with this file?" dialog.
+
+ 
+browser. download. downloadDir
+
+
+ String
+
+ Determines the directory to download to when 
+browser.download.useDownloadDir
+ is 
+false
+. Appears to mirror 
+browser.download.dir
+.
+
+ 
+browser. download. folderList
+
+
+ Integer
+
+ Which of several internally-specified locations to use for the default download directory
+0
+: the desktop
+1
+ (default): the downloads folder
+2
+: the last folder specified for a download
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Main / Downloads → Save files to...  (Firefox 2 and above)  or Downloads/Download Folder  → Save all files to this folder" (Firefox 1.5).
+
+ 
+browser. download. hide_plugins_without_extensions
+
+
+ Boolean
+
+ 
+True
+ (default): In the Download Actions dialog, remove entries where no file extensions are associated with a plugin.
+False
+: Opposite of the above.
+
+ 
+browser. download. lastDir
+
+
+ String
+
+ Path to the last directory used for a download via "Save As."
+
+ 
+browser. download. manager. alertOnEXEOpen
+
+
+ Boolean
+
+ 
+True
+ (default): warn the user attempting to open an executable from the Download Manager
+False
+: display no warning and allow executable to be run
+Note: In Firefox, this can be changed by checking the "Don't ask me this again" box when you encounter the alert.
+
+ 
+browser. download. manager. closeWhenDone
+
+
+ Boolean
+
+ 
+True
+: Close the Download Manager when all downloads are complete
+False
+ (default): Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Main / Downloads → Close it when all downloads are finished" (Firefox 2 and above) or  Downloads / Download Manager → Close the Download Manager when all downloads are complete" (Firefox 1.5).
+
+ 
+browser. download. manager. flashCount
+
+
+ Integer
+
+ Number of times to flash the Download Manager's taskbar entry when the DM is not in the foreground. Set to 0 to disable flashing. Default value is 
+2
+.
+
+ 
+browser. download. manager. focusWhenStarting
+
+
+ Boolean
+
+ 
+True
+: Set the Download Manager window as active when starting a download
+False
+ (default): Leave the window in the background when starting a download
+
+ 
+browser. download. manager. openDelay
+
+
+ Integer
+
+ If a download takes less than this number of milliseconds to complete, do not open the Download Manager window. Default value is 
+0
+ (always show Download Manager window).
+
+ 
+browser. download. manager. retention
+
+
+ Integer
+
+ When to remove downloaded files' entries from the Download Manager
+0
+: Upon successful download
+1
+: When the browser exits
+2
+ (default): Manually
+Note: In Firefox, this can be changed via "
+Tools → Options
+ →  Privacy / History → Remember what I've downloaded" (Firefox 2 and above) or "Privacy → Download History → Remove files from the Download Manager" (Firefox 1.5).
+
+ 
+browser. download. manager. showAlertInterval
+
+
+ Integer
+
+ Number of milliseconds after downloads complete to show the "completed" alert. Default value is 
+2000
+.
+
+ 
+browser. download. manager. showAlertOnComplete
+
+
+ Boolean
+
+ 
+True
+ (default): popup window at bottom right corner of the screen will appear once all downloads are finished.
+False
+: the popup window will not appear.
+
+ 
+browser. download. manager. scanWhenDone
+
+
+ Boolean
+
+ 
+True
+ (default): Scan files for viruses when they finish downloading
+False
+: Do not scan downloads for viruses
+
+ 
+browser. download. manager. showWhenStarting
+
+
+ Boolean
+
+ 
+True
+ (default): Show Download Manager window when a download begins
+False
+: Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Main / Downloads → Show the Downloads window when downloading a file" (
+Firefox 2 and above
+) or "
+Tools → Options
+ → Downloads / Download Manager → Show Download Manager when a download begins" (
+Firefox 1.5
+)
+
+ 
+browser. download. manager. skipWinSecurityPolicyChecks
+
+
+ Boolean
+
+ 
+True
+:  Bypass the Windows security check  (ignore system security settings for executable file downloads).    
+
+
+False:
+ (default) Use Windows' security setting for executable file downloads ("Launching applications and unsafe files" setting in Internet Options).  This 
+blocks executable file downloads
+ if the Windows setting is set to "Disable". 
+Note: Added in  
+bug 445158
+ for Firefox 3 (3.0.6, 3.1b2 and above).  No longer used in Firefox 3.6 and above (removed in 
+bug 504804
+).
+
+
+
+ 
+browser. download. manager. useWindow
+
+
+ Boolean
+
+ 
+True
+: Use the Download Manager window for downloads
+False
+: Opposite of the above
+Note: In Firefox, this is effectively the same as setting 
+browser.download.manager.showWhenStarting
+ to false; the Download Manager is used for downloads regardless of the setting.
+Note: This was removed in 
+bug 439495
+ for Firefox 3.1.
+
+ 
+browser. download. save_converter_index
+
+
+ Integer
+
+ The format to save web pages in
+0
+: Web Page (Complete)
+1
+: Web Page (HTML Only)
+2
+: Text
+Note: In Firefox, this setting is remembered from the option you choose in the Save As dialog.
+
+ 
+browser. download. show_plugins_in_list
+
+
+ Boolean
+
+ 
+True
+ (default): In the Download Actions dialog, display actions and filetypes associated with installed plugins.
+False
+: Opposite of the above.
+
+ 
+browser. download. useDownloadDir
+
+
+ Boolean
+
+ 
+True
+ (default): Without asking a location, download files to the directory specified in 
+browser.download.folderList
+False
+: Ask where to save every file
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Main / Downloads → Always ask me where to save files (Firefox 2 and above) or  Downloads / Download Folder → Ask me where to save every file" (Firefox 1.5)
+
+ 
+browser. enable_automatic_image_resizing
+
+
+ Boolean
+
+ 
+True
+ (default): When viewing an image not in a web page, the image will be resized to fit in the browser window if it is too large for the browser window. The image can be shown in its real size by left clicking on it.
+False
+: Images are always shown in their real size.
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Advanced → General → Resize large images to fit in the browser window (
+Firefox 1.0.x and 1.5
+)". UI removed in Firefox 2.0+.
+
+ 
+browser. feedview. articleLength
+
+
+ Integer
+
+ 
+Pref removed.
+ Previously:
+The number of words per feed item to display. Default value is 
+50
+.
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.
+
+ 
+browser. feedview. reloadInterval
+
+
+ Integer
+
+ 
+Pref removed.
+ Previously:
+Determines how often in seconds to reload the currently rendered feed. Default value is 
+0
+ (never reload).
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.
+
+ 
+browser. feedview. showBar
+
+
+ Boolean
+
+ 
+Pref removed.
+ Previously:
+True
+ (default): Display the options settings in feed view.
+False
+: Opposite of the above
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.
+
+ 
+browser. feedview. showImage
+
+
+ Boolean
+
+ 
+Pref removed.
+ Previously:
+True
+ (default): Display images embedded in feed items in-line.
+False
+: Opposite of the above.
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.
+
+ 
+browser. feedview. showMenu
+
+
+ Boolean
+
+ 
+Pref removed.
+ Previously:
+True
+ (default): Display a menu alongside rendered feeds with relevant functions
+False
+: Opposite of the above.
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.
+
+ 
+browser. feedview. timerInterval
+
+
+ Integer
+
+ 
+Pref removed.
+ Previously:
+Determines how often to refresh the feed. Default value is 
+0
+ (no refresh).
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.
+
+ 
+browser. feedview. externalCSS
+
+
+ String
+
+ 
+Pref removed.
+ Previously:
+Path to a custom CSS file to apply to feeds. Default value is an empty string.
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.
+
+ 
+browser. fixup. alternate. enabled
+
+
+ Boolean
+
+ 
+True
+ (default): Try to fix up 
+http://foo
+ to 
+http://(prefix)foo(suffix)
+False
+: Do not second-guess the user
+
+ 
+browser. fixup. alternate. prefix
+
+
+ String
+
+ The prefix to prepend when attempting to fix an entered URL. Default is "
+www.
+" (includes full stop). Requires 
+browser.fixup.alternate.enabled
+ be true.
+
+ 
+browser. fixup. alternate. suffix
+
+
+ String
+
+ The suffix to append when attempting to fix an entered URL. Default is "
+.com
+". Requires 
+browser.fixup.alternate.enabled
+ be true.
+
+ 
+browser. fixup. hide_user_pass
+
+
+ Boolean
+
+ 
+True
+ (default): When attempting to fix an entered URL, do not fix an entered password along with it (i.e. do not turn 
+http://user:password@foo
+ into 
+http://user:password@(prefix)foo(suffix)
+ but instead 
+http://user@(prefix)foo(suffix))
+False
+: Include entered password in fixed URL
+
+ 
+browser. fixup. use-utf8
+
+
+ Boolean
+
+ Firefox 11 / SeaMonkey 2.8 and above only. See 
+bug 647403
+.
+Default: 
+false
+ (but 
+true
+ on zh-TW localized builds).
+
+ 
+browser. formfill. enable
+
+
+ Boolean
+
+ 
+True
+ (default): Save information entered in web page forms and the 
+Search Bar
+False
+: Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Privacy / History → Remember what I enter in forms and the search bar" (
+Firefox 2 and above
+) or "
+Tools → Options
+ → Privacy → Saved Forms → Save information I enter in forms and the 
+Search Bar
+" (
+Firefox 1.5
+)
+
+ 
+browser. forms. submit. backwards_compatible
+
+
+ Boolean
+
+ 
+True
+ (default): Leave off mandatory 
+Content-Transfer-Encoding
+ header when submitting HTML forms
+False
+: Send header as the spec requires
+Note: Sending the header "used to cause Bad Things, including server crashes" according to comments in the Mozilla source (see 
+bug 83065
+). Eventually this pref may disappear.
+
+ 
+browser. frames. enabled
+
+
+ Boolean
+
+ 
+True
+ (default): Enables the display of HTML frames
+False
+: Opposite of the above; displays 
+noframes
+ content instead
+
+ 
+ browser. fullscreen. animateUp
+
+
+ Integer
+
+ Controls toolbar and tab strip animation while in Full Screen.
+0
+: No toolbar and tab strip animation
+1
+ (default): Animates only first collapse.
+2
+: Animates each collapse.
+
+ 
+ browser. fullscreen. autohide
+
+
+ Boolean
+
+ Hides toolbar and tab strip when entering Full Screen.
+True
+ (default): Shows toolbar and tab strip.
+False
+: Hides toolbar and tab strip
+
+ 
+browser. goBrowsing. enabled
+
+
+ Boolean
+
+ 
+True
+ (default): If a normal DNS lookup times out, try hitting Google
+False
+: Opposite of the above
+Note: No longer used
+
+ 
+browser. helperApps. alwaysAsk. force
+
+
+ Boolean
+
+ 
+True
+: Always ask what to do with an unknown MIME type, and disable option to remember what to open it with
+False
+ (default): Opposite of above
+
+ 
+browser. helperApps. deleteTempFileOnExit
+
+
+ Boolean
+
+ 
+True
+: Delete temporary files on exit. See 
+comment 19 on bug 238789
+ (especially Mac)
+False
+ (same as default unset): Opposite of above (keep the files)
+
+ 
+browser. helperApps. neverAsk. openFile
+
+
+ String
+
+ A comma-separated list of MIME types to open directly without asking for confirmation. Default value is an empty string.
+
+ 
+browser. helperApps. neverAsk. saveToDisk
+
+
+ String
+
+ A comma-separated list of MIME types to save to disk without asking what to use to open the file. Default value is an empty string.
+
+ 
+browser. hiddenWindowChromeURL
+
+
+ String
+
+ The chrome:// URL for the hidden window. Used in Mac OS X for when the browser is running but has no windows open. Default value is 
+chrome://browser/content/hiddenWindow.xul
+
+
+ 
+browser. history. grouping
+
+
+ String
+
+ How to group entries in the history window (not applicable for Firefox's History sidebar). Default value is 
+day
+.
+
+ 
+browser. history_expire_days
+
+
+ Integer
+
+ Number of maximum days to remember visited pages in history. Default value is 
+9
+ for SeaMonkey and Firefox 2, 
+180
+ for Firefox 3.
+Note: In Firefox 2, this can be changed via "
+Tools → Options
+ → Privacy → History → Remember visited pages for the last ___ days". No UI for Firefox 3.
+
+ 
+browser. history_expire_days_min
+
+
+ Integer
+
+ Number of minimum days to remember visited pages in history. Default value is 
+90
+.
+Note: In Firefox 3, this can be changed via “Keep my history for at least ___ days” under “
+Tools → Options
+ → Privacy → History”
+
+ 
+browser. history_expire_sites
+
+
+ Integer
+
+ Maximum number of websites to keep in history. Default value is 
+40000
+.
+
+ 
+browser. jsannoyances. disabled
+
+
+ Boolean
+
+ The collective state of several other preferences; namely, 
+dom.event.contextmenu.enabled
+, 
+dom.disable_window_move_resize
+, 
+dom.disable_window_flip
+, 
+dom.disable_window_open_feature.status
+, and 
+dom.disable_window_status_change
+. Used by the preferences dialog for tracking; changing the value of this preference manually does not change the tracked preferences.
+True
+: Consider all of the above preferences to be true (except 
+dom.event.contextmenu.enabled
+, which is considered to be false)
+False
+ (default): Opposite of the above
+Note: Firefox 1.5 and above only.
+
+ 
+browser. link. open_external
+
+
+ Integer
+
+ Where to open links sent to the browser from an external application
+2
+ (default in SeaMonkey): Opens external links in a new window 
+3
+  (default in Firefox): Opens external links in a new tab in the most recent window
+1
+ (or anything else): Opens external links in current window
+Note: In Firefox 1.5, this can be changed via "
+Tools → Options
+ → Tabs → Open links from other applications in:"; in Firefox 2 and above, via “Tools → Options → Tabs → New pages should be opened in:” (same as 
+browser.link. open_newwindow
+) and in SeaMonkey, via "
+Edit -
+ Preferences
+ -
+ Navigator -
+ Tabbed browsing / Links from other applications -
+ Open links passed from another applications in".
+
+Pref removed from Firefox 3.5
+
+
+
+
+ 
+browser. link. open_newwindow
+
+
+ Integer
+
+ Where to open links that would normally open in a new window
+2
+ (default in SeaMonkey and Firefox 1.5): In a new window
+3
+ (default in Firefox 2 and above): In a new tab
+1
+ (or anything else): In the current tab or window 
+Note: In Firefox 1.5, this can be changed via "
+Tools → Options
+ → Tabs → Force links that open new windows to open in:"; in Firefox 2 and above, via  “Tools → Options → Tabs → New pages should be opened in:” (same as 
+browser.link.open_external
+) and, in SeaMonkey, via "
+Edit -
+ Preferences
+ -
+ Navigator -
+ Tabbed browsing / Link open behavior -
+ Open links meant to open a new window in".
+
+ 
+browser. link. open_newwindow. restriction
+
+
+ Integer
+
+ Firefox and SeaMonkey only. Source: 
+The Burning Edge
+.
+0
+ (Default in Firefox 1.0.x and SeaMonkey): Force all new windows opened by JavaScript into tabs.
+1
+: Let all windows opened by JavaScript open in new windows. (Default behavior in IE.)
+2
+ (Default in Firefox 1.5 and above): Catch new windows opened by JavaScript that do not have specific values set (how large the window should be, whether it should have a status bar, etc.) This is useful because some popups are legitimate — it really is useful to be able to see both the popup and the original window at the same time. However, most advertising popups also open in new windows with values set, so beware.
+
+ 
+browser. link. open_newwindow. ui
+
+
+ Integer
+
+ Determine which new window open options are available from the UI. No longer used in Firefox 1.0. Default value is 
+3
+.
+
+ 
+browser. microsummary. enabled
+
+
+ Boolean
+
+ 
+True
+ (default): Allow the 
+microsummary service
+ to retrieve information for bookmarks with microsummaries.
+False
+: Prevent microsummary updates to bookmarks.
+
+ 
+browser. microsummary. generatorUpdateInterval
+
+
+ Integer
+
+ Determines how often to check for updates to microsummary generators when generator updates are enabled. A non-negative integer, in seconds, determining the amount of time between microsummary generator update checks. If unspecified, updates occur weekly (7 * 86400 seconds apart).
+
+ 
+browser. microsummary. requestTimeout
+
+
+ Integer
+
+ Determines how long to wait for a response until the connection is cancelled. A positive integer determining the number of seconds to wait until cancelling microsummary loads that take too long. Default value is 300.
+
+ 
+browser. microsummary. updateGenerators
+
+
+ Boolean
+
+ 
+True
+ (default): Periodically check for updates to microsummary generators.
+False
+: Do not update microsummary generators.
+
+ 
+browser. microsummary. updateInterval
+
+
+ Integer
+
+ Determines how often microsummaries’ target pages are re-fetched for new information. Number of minutes between microsummary updates for microsummaries that do not specify an update interval. Default is 30.
+
+ 
+browser. offline
+
+
+ Boolean
+
+ Status of the "Work Offline" option
+True
+: Attempt to retrieve pages from cache. Do not make external connections to retrieve resources.
+False
+ (default): Assume a connection is present and retrieve resources where necessary.
+Note: In Firefox, this can be changed via "File → Work Offline"
+
+ 
+browser. places. createdDefaultQueries
+
+
+ Boolean
+
+ 
+True
+: A "Most Viewed" folder in the Bookmarks Toolbar Folder has been created already; do not create a new one.
+False
+ (default): Create a "Most Viewed" folder in the Bookmarks Toolbar Folder, then toggle this preference to True.
+
+ 
+browser. popups. showPopupBlocker
+
+
+ Boolean
+
+ 
+True
+ (default): Show an icon in the status bar when a popup has been blocked.
+False
+: Do not show an icon in the status bar when a popup has been blocked.
+
+ 
+browser. preferences. advanced. selectedTabIndex
+
+
+ Integer
+
+ Determines which tab in the Advanced section of the preferences is visible.
+0
+ (default): General
+1
+: Update
+2
+: Security
+
+ 
+browser. preferences. animateFadeIn
+
+
+ Boolean
+
+ 
+True
+ (default in Mac OS X): When switching prefs panels, change the height of the window and fade the new panel in over about a second.
+False
+ (default everywhere else): Do not animate switching pref panels
+Note: Firefox 1.5 and above only.
+
+ 
+browser. preferences. instantApply
+
+
+ Boolean
+
+ 
+True
+ (default in all platforms but Windows): Changes to preferences are active immediately. The preferences window is not modal. Instead of "OK" and "Cancel" buttons, there is only a "Close" button.
+False
+: Changes to preferences occur after clicking "OK" button. The preference window is modal.
+Applies to:
+
+ Firefox 1.5 and above
+
+ SeaMonkey 2 dated 20071028 and later, for preferences migrated to "new toolkit".
+
+
+
+ 
+browser. preferences. lastpanel
+
+
+ Integer
+
+ Which part of the preferences window was displayed the last time it was closed. In Firefox:
+0
+: General
+1
+: Privacy
+2
+: Web Features
+3
+: Downloads
+4
+: Advanced
+Note: In Firefox, this is determined by the section of "
+Tools → Options
+" you are viewing when you close the dialog.
+
+ 
+browser. preferences. privacy. selectedTabIndex
+
+
+ Integer
+
+ Determines which tab in the Privacy section of the preferences is visible.
+0
+ (default): History
+1
+: Saved Forms
+2
+: Passwords
+3
+: Download History
+4
+: Cookies
+5
+: Cache
+
+ 
+browser. related. autoload
+
+
+ Integer
+
+ Automatically load "What's Related" for a given URL
+0
+: Always
+1
+ (default): After first use (default)
+2
+: Never
+Note: This is not used in Firefox (there is no "What's Related").
+
+ 
+browser. related. disabledForDomains
+
+
+ String
+
+ A comma-separated list of domains for which "What's Related" is disabled. Default value is an empty string.
+Note: This is not used in Firefox (there is no "What's Related").
+
+ 
+browser. related. enabled
+
+
+ Boolean
+
+ Setting for "What's Related"
+True
+ (default): Enable
+False
+: Disable
+Note: This is not used in Firefox (there is no "What's Related").
+
+ 
+browser. related. provider
+
+
+ String
+
+ The URL to retrieve "What's Related" data from. Default value is 
+http://www-rl.netscape.com/wtgn
+?
+Note: This is not used in Firefox (there is no "What's Related").
+
+ 
+browser. safebrowsing. dataProvider
+
+
+ Integer
+
+ The provider ID of the site used to get the web forgery list. Default value is 
+0
+.
+Note: This references the pref tree 
+browser.safebrowsing.provider.*
+
+
+ 
+browser. safebrowsing. enabled
+
+
+ Boolean
+
+ Whether to determine if a site is a web forgery or not.
+True
+ (default): Check visited sites
+False
+: Do not check any sites
+ Note: This can be changed in Firefox via "
+Tools → Options
+ → Security / Tell me if the site I'm visiting is a suspected forgery".
+
+ 
+browser. safebrowsing. provider. *
+
+
+ Tree
+
+ Tree containing provider information used in the safe browsing process.
+Note: There is currently only one default provider (Google); however, more may be added.
+
+ 
+browser. safebrowsing. remoteLookups
+
+
+ Boolean
+
+ Method to determine if a site is a web forgery.
+True
+: Ask provider by sending a request
+False
+ (default): Use internal list
+ Note: This can be changed in Firefox via "
+Tools → Options
+ → Security" radio buttons:
+* "Check using a downloaded list of suspected sites" (False)
+* "Check by asking ____ about each site I visit" (True).
+Note: When an internal list is used, it is updated about once an hour from the provider.
+
+ 
+browser. safebrowsing. warning.infoURL
+
+
+ String
+
+ The FAQ URL for the Safe Browsing feature.
+
+ 
+browser. screen_resolution
+
+
+ Integer
+
+ 
+Firefox 1.0.x only
+ DPI of display device. Affects 
+CSS
+ absolute length units (e.g. pt, mm).
+-1
+ (default): Use the operating system's logical resolution or 96 DPI, whichever is greater
+0
+: Force use of operating system's logical resolution
+(n)
+: Assume screen DPI of 
+n
+. Default DPI is 
+96
+.
+Note: In Firefox 1.0.x, this can be changed via "
+Tools → Options
+ → General → Fonts 
+ Colors → Display Resolution".  See 
+browser. display. screen_resolution
+ for Firefox 1.5.0.x or 
+layout. css. dpi
+ for Firefox 2.0+.
+
+ 
+browser. search. basic. min_ver
+
+
+ String
+
+ Version number used to determine which 
+ search engine plugins
+ should be installed/displayed. Default value is 
+0.0
+.
+
+ 
+browser. search. defaultenginename
+
+
+ String
+
+ Default 
+ search engine plugin
+ to use. Default value is 
+Google
+.
+
+ 
+browser. search. defaulturl
+
+
+ String
+
+ URL to prepend to search terms. Default value is 
+http://www.google.com/search?lr=
+ie=UTF-8
+oe=UTF-8
+q=
+
+
+ 
+browser. search. log
+
+
+ Boolean
+
+ 
+True
+: Log debugging information about the search service to the 
+JavaScript Console
+ and 
+stdout
+.
+False
+ (default): Do not log debugging information.
+Note: Firefox 2.0 and above only.
+
+ 
+browser. search. openintab
+
+
+ Boolean
+
+ 
+True
+: When performing a search from the Search Bar, open the results in a new tab.
+False
+ (default): Open search results in the current tab/window.
+Note: Firefox nightly trunk builds only.
+
+ 
+browser. search. order. (digit)
+
+
+ String
+
+ (digit) is used to weight the search engine specified by the value for sorting in the list of search engines.
+
+ 
+browser. search. order. (name) (. digit)
+
+
+ String
+
+ Used for weighting search engine entry sorting. Points to 
+.properties
+ file.
+
+ 
+browser. search. param. (name). (digit). ("custom" or "default")
+
+
+ String
+
+ Used for adding arbitrary variables to the search query of the 
+(name)
+ search plugin.
+
+ 
+browser. search. selectedEngine
+
+
+ String
+
+ Name of currently selected search engine plugin
+
+ 
+browser. search. selectedEngineInDialog
+
+
+ String
+
+ Name of currently selected search engine plugin in the search dialog (used when the 
+Search Bar
+ is hidden)
+Note: Firefox 1.5 and above only.
+
+ 
+browser. search. update
+
+
+ Boolean
+
+ 
+True
+ (default): Automatically check for updates to 
+ search plugins
+.
+False
+: Opposite of the above.
+Note: Firefox 1.5 and above only.
+
+ 
+browser. sessionhistory. cache_subframes
+
+
+ Boolean
+
+ 
+True
+: Cache the content viewer (when 
+browser.sessionhistory.max_total_viewers
+ is greater than 0) for subframes
+False
+ (default): Opposite of the above
+Note: Firefox 1.5 and above only.
+
+ 
+browser. sessionhistory. max_entries
+
+
+ Integer
+
+ The maximum number of pages in the browser's session history, i.e. the maximum number of URLs you can traverse purely through the Back/Forward buttons. Default value is 
+50
+.
+
+ 
+ browser. sessionhistory. max_total_viewers
+
+
+ Integer
+
+ Determines the maximum number of content viewers to cache for "bfcache" (fast back/forward navigation). Default value is 
+-1
+ (calculate based on available memory). All values less than 0 are equivalent.
+Note: Firefox 1.5 and above only. Supersedes 
+browser.sessionhistory.max_viewers
+.
+
+ 
+browser. sessionhistory. max_viewers
+
+
+ Integer
+
+ The number of content viewers to cache for "bfcache" (fast back/forward navigation). Default value is 
+3
+.
+Note: Deer Park/Firefox 1.5b1 only. Functionality has been replaced by 
+browser.sessionhistory.max_total_viewers
+.
+
+ 
+browser. sessionstore. max_concurrent_tabs
+
+
+ Integer
+
+?
+ Firefox 4.0b7 and above
+ See 
+http://twitter.com/limi/status/2489319692435456
+
+
+ 
+browser. shell. checkDefaultBrowser
+
+
+ Boolean
+
+ Check the system 
+default browser
+ on startup.
+True
+ (default): Check to see if the browser is set as default; if not, ask if the user wants it set that way
+False
+: Do not perform the check
+Note:  In Firefox, this can be changed via "
+Tools → Options
+ → Main / System Defaults" (Firefox 2.0 and above) or "Tools → Options → General → Default Browser" (Firefox 1.5 and 1.0.x).
+
+ 
+browser. startup. homepage
+
+
+ String
+
+ URL of homepage, or pipe (
+|
+)-separated list of URLs to open in tabs when going to the homepage
+In SeaMonkey (or at least in SeaMonkey 2 and above), this is the URL of your first or only homepage tab. If you have a multitab homepage, additional URLs are in 
+browser.startup.homepage.1, browser.startup.homepage.2,
+ etc.
+Note: This can be changed in Firefox via "
+Tools → Options
+ → Main (Firefox 1.5 and 1.0.x: General) → Homepage" and in SeaMonkey via "
+Edit → Preferences
+ → Browser → Home Page".
+
+ 
+browser. startup. homepage. count
+
+
+ Integer
+
+ In SeaMonkey, the number of tabs of your multitab homepage, or 1 if you use a single-tab homepage.
+
+ 
+browser. startup. homepage_override. 1
+
+
+ Boolean
+
+ Stub for browser.startup.homepage_override (used in Netscape 4.x). No longer used. Default value is 
+false
+.
+
+ 
+browser. startup. homepage_override. mstone
+
+
+ String
+
+ The last browser version (milestone) this profile was loaded with. If it differs from the current version, pref is changed to current version.
+
+ 
+browser. startup. homepage_reset
+
+
+ String
+
+ If, during installation, the user requested that their homepage be reset, get the new homepage value from this location. Default value is 
+resource:/browserconfig.properties
+
+
+ 
+browser. startup. page
+
+
+ Integer
+
+ Page to open on browser startup
+0
+: Blank
+1
+ (default): Home (a.k.a. 
+browser.startup.homepage
+)
+2
+: Last (works in Firefox 2 and above; experimental in the latest nightlies of SeaMonkey 2.0b1pre; probably doesn't work in earlier versions).
+Note: This can be changed in Firefox via "
+Tools → Options
+ → Main → Startup → When Firefox starts", and in SeaMonkey via "
+Edit → Preferences
+ → Browser → Display on → Browser startup".
+
+ 
+browser. tabs. autoHide
+
+
+ Boolean
+
+ Behavior for the tab bar when only one tab exists
+True
+ (default): Hide the tab bar
+False
+: Always show the tab bar
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Tabs → Always show the tab bar" (Firefox 2 and above) or  Tools → Options → Tabs → Hide the tab bar when only one web site is open (
+Firefox 1.5
+).
+
+ 
+browser. tabs. closeButtons
+
+
+Integer
+
+(Firefox 2.0 and above) This preference controls how close buttons can be displayed on tabs.
+0:
+ Display a close button on the active tab only 
+1:
+ (default) Display a close button on each tab
+2:
+ Don't display any close buttons
+3:
+ Display a single close button at the end of the tab bar (Firefox 1.x behavior)
+
+ 
+browser. tabs. closeWindowWithLastTab
+
+
+Boolean
+
+(Firefox 3.5 and above) This preference controls whether closing the last tab, closes the window.
+True:
+ Close window when closing last tab (default)
+False:
+ Do not close the window when closing last tab (pre Firefox 3.5 behavior)
+Note: Changing to False prevents Firefox from closing the window when you close the last  tab such as with Ctrl+W, and subsequently from closing Firefox itself when closing the last tab of the last Firefox window.
+
+ 
+browser. tabs. forceHide
+
+
+ Boolean
+
+ Display of the tab bar
+True
+: Hide the tab bar 
+False
+: Show tab bar normally 
+ Note: This is not used to enable/disable the tab bar. It's used internally to decide whether or not to show the tabbed bar.
+
+ 
+browser. tabs. insertRelatedAfterCurrent
+
+
+ Boolean
+
+ (Firefox 3.6 and above) This preference controls where new tabs will be located.
+True
+ (default): Open new tabs to the right of the parent tab.
+False
+: Restores pre Firefox 3.6 behavior where new tabs are opened at the far right of the tabs bar.
+Note: 
+Bug 465673 -- tabs opened from links should appear next to the current tab (instead of at the end of the tabstrip)
+
+
+ 
+browser. tabs. loadBookmarksInBackground
+
+
+ Boolean
+
+ Focus behavior of new tabs from bookmarks 
+ history
+True
+: When you open a bookmark in a new tab then that tab will load in the background without taking focus from the current tab.
+False
+ (default): When you open a bookmark in a new tab then that tab will become the current tab.
+Note: 
+you likely want to set this  to the same setting value as used in browser.tabs.loadInBackground
+ (
+Bug 469456
+)
+Note: Firefox 1.0.x had a Tabs option for  "Select New Tabs from Bookmarks or History"
+
+ 
+browser. tabs. loadDivertedInBackground
+
+
+ Boolean
+
+ Determines behavior of pages normally meant to open in a new window (such as 
+target="_blank"
+ or from an external program), but that have instead been loaded in a new tab.
+True
+: Load the new tab in the background, leaving focus on the current tab
+False
+ (default): Load the new tab in the foreground, taking the focus from the current tab.
+Note: Setting this preference to 
+True
+ will still bring the browser to the front when opening links from outside the browser.
+
+Note: 
+target="_new"
+  creates/reuses a window named "_new" and is frequently used by Google.
+    
+target="_blank"
+  loads the designated document in a new, unnamed window [  
+[1]
+].  
+
+
+
+ 
+browser. tabs. loadFolderAndReplace
+
+
+ Boolean
+
+ 
+True
+ (default): When opening a folder of bookmarks in tabs, the existing tabs will be replaced by the new bookmark pages.
+False
+: Existing tabs will be preserved when loading a folder of bookmarks.  The bookmark pages will be loaded in tabs that are appended to the current tabs.
+Note: This option was removed in Firefox 3 alpha 8.
+
+ 
+browser. tabs. loadGroup
+
+
+ Integer
+
+ 
+0
+: Append group to current tab set
+1
+ (default): Replace current tab set with group
+Note: Mozilla Suite/SeaMonkey only.
+
+ 
+browser. tabs. loadInBackground
+
+
+ Boolean
+
+ Focus behavior for new tabs from links
+True
+ (default): Do not focus new tabs opened from links (load in background)
+False
+: Opposite of above
+Note: 
+bookmarks 
+ history can be opened similarly with browser.tabs.loadBookmarksInBackground
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Tabs → When I open a link in a new tab, switch to it immediately" (
+Firefox 2 and above
+) or "
+Tools → Options
+ → Tabs → Select new tabs opened from links" (
+Firefox 1.5
+).
+
+ 
+browser. tabs. loadOnNewTab
+
+
+ Integer
+
+ Determines what will be displayed in a new tab
+-1
+: Browser startup page
+0
+ (default): Blank page
+1
+: Homepage
+2
+: Last visited page
+Note: Does not work in Firefox (see 
+bug 269664
+).
+
+ 
+browser. tabs. onTop
+
+
+ Boolean
+
+ (Firefox 4.0 and above) Determines position of the Tabs Bar relative to the Location Bar.
+True
+ (default): Tabs Bar above Location Bar 
+False
+: Restores old behavior of Tabs Bar 
+below
+ Location Bar
+Note:
+ 
+bug 755593
+ will soon remove tabs-on-bottom mode. Once it is RESOLVED FIXED, this pref will no longer be effective.
+
+ 
+browser. tabs. opentabfor. bookmarks
+
+
+ Boolean
+
+ Controls if a clicked bookmark will open in a new tab when middleclicked.
+Note: 
+Pref removed (obsolete)
+. 
+Functionality proposed as enhancement request
+.
+
+ 
+browser. tabs. opentabfor. middleclick
+
+
+ Boolean
+
+ Determines the behavior of a link when middle-clicked.
+True
+ (default): Opens link in new tab
+False
+: Opens link in new window
+
+ 
+browser. tabs. opentabfor. searchdialog
+
+
+ Boolean
+
+ Determines whether to create a new tab for the search results from queries entered in the search dialog (used when the 
+Search Bar
+ is hidden)
+Note: Firefox 1.5 and above only.
+
+ 
+browser. tabs. opentabfor. urlbar
+
+
+ Boolean
+
+ 
+Pref removed (unused)
+. Previously:
+Determines the behavior of pressing Enter in the address bar or clicking the Go button.
+True
+ (default): Open URL in new tab
+False
+: Open URL in current tab
+Note: 
+Functionality proposed as enhancement request
+.
+
+ 
+browser. tabs. opentabfor. windowopen
+
+
+ Boolean
+
+ 
+Pref removed (obsolete)
+.
+
+ 
+browser. tabs. showSingleWindowModePrefs
+
+
+ Boolean
+
+ Determines whether to display "Single Window Mode" settings in preferences in Firefox 1.0.x (see 
+bug 266759
+). Note: 
+Preference is obsolete
+ and 
+has no effect in Firefox 1.5 and above
+ 
+True
+: Show "Force links that open in new windows to open in..." options under "
+Tools → Options
+ → Advanced → Tabbed Browsing" (
+Firefox 1.0.x
+)
+False
+ (default): Opposite of above
+
+ 
+browser. tabs. warnOnClose
+
+
+ Boolean
+
+ 
+True
+ (default): The browser will prompt for confirmation when closing the browser when more than one tab is open.
+False
+: No warnings will be given when closing the browser with more than one tab.
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Tabs → Warn (me) when closing multiple tabs" (
+Firefox 1.5 and above
+).
+
+ 
+browser. tabs. warnOnCloseOther
+
+
+ Boolean
+
+ 
+True
+ (default): The browser will prompt for confirmation when closing all other tabs from the tab context menu ("Close Other Tabs")
+False
+: Opposite of the above
+
+ 
+browser. throbber. url
+
+
+ String
+
+ Indicates what URL to load when the throbber is clicked. Default value is 
+http://www.mozilla.org/products/firefox/central.html
+
+
+ 
+browser. trim_user_and_password
+
+
+ Boolean
+
+ Unused
+
+ 
+browser. triple_click_selects_paragraph
+
+
+ Boolean
+
+ 
+True
+ (default): Select the entire paragraph under the mouse cursor when triple-clicking.
+False
+: Select the line under the mouse cursor when triple-clicking
+Note: This feature is currently only stable on trunk (1.9).
+
+ 
+browser. turbo. enabled
+
+
+ Boolean
+
+ 
+Pref removed (obsolete)
+. Previously:
+Determined whether to load browser in "Turbo Mode" (aka "quick launch") (Windows/Mozilla Suite only)
+True
+: Load some Mozilla code into memory on Windows boot
+False
+ (default): Load browser normally on program execution
+
+ 
+ browser. underline_anchors
+
+
+ Boolean
+
+ Determines default text-decoration of anchor elements.
+True
+ (default): Underlines links
+False
+: Opposite of above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Content → Fonts 
+ Colors → Underline links"
+
+ 
+browser. update. resetHomepage
+
+
+ Boolean
+
+ Determine whether to reset homepage during browser installation
+True
+: Reset homepage in browser.startup.homepage to value in 
+browser.startup.homepage_reset
+False
+ (default): Do not reset homepage
+
+ 
+browser. urlbar. autoFill
+
+
+ Boolean
+
+ 
+True
+: Enables 
+ inline autocomplete
+.
+False
+ (default): Opposite of above.
+
+ 
+browser. urlbar. autocomplete. enabled
+
+
+ Boolean
+
+ 
+True
+ (default) 
+ 
+False
+
+
+ 
+browser. urlbar. clickAtEndSelects
+
+
+ Boolean
+
+ 
+True
+ (default) 
+ 
+False
+
+
+ 
+browser. urlbar. clickSelectsAll
+
+
+ Boolean
+
+ 
+True
+ (default in non-Unix builds): Select the contents of the address bar when it is clicked
+False
+ (default everywhere else): Opposite of above
+
+ 
+browser. urlbar. default. behavior
+
+
+ Integer
+
+ Customizes the search behavior of the location bar, starting in Firefox 3.5 and SeaMonkey 2.  See the linked article for values and UI.
+
+ 
+browser. urlbar. doubleClickSelectsAll
+
+
+ Boolean
+
+ 
+True
+: Select the contents of the address bar when it is double clicked
+False
+(default): Opposite of above
+
+ 
+browser. urlbar. filter. javascript
+
+
+ Boolean
+
+ 
+True
+ (default): Filter out “javascript:” URLs from appearing in the Location Bar autocomplete dropdown.
+False
+: Allow “javascript:” URLs to appear in the dropdown.
+
+ 
+browser. urlbar. formatting. enabled
+
+
+ Boolean
+
+ 
+True
+ (default): Format url in location bar to emphasize domain name.
+False
+: Don't fade non domain portions of url in location bar.
+
+ 
+browser. urlbar. match. title
+
+
+ String
+
+ See 
+Location Bar search
+
+
+ 
+browser. urlbar. match. url
+
+
+ String
+
+ See 
+Location Bar search
+
+
+ 
+browser. urlbar. matchBehavior
+
+
+ Integer
+
+ Determines how to use word boundaries when searching for items in the 
+Location Bar
+. 
+ 
+0
+ Search anywhere within available text, irrespective of word boundaries.  
+1
+ (default): Use word boundaries first when searching, then try matching anywhere
+2
+: Use only word boundaries when searching for typed text
+3
+: Match only the beginning of page URLs and titles
+
+ 
+browser. urlbar. matchOnlyTyped
+
+
+ Boolean
+
+ Determines behavior of autocomplete in 
+Location Bar
+.  No longer used in Firefox 3.5 - replaced by 
+browser.urlbar.default.behavior
+ (see bugs 
+463483
+ and 
+463558
+)  
+True
+: Only matches typing against URLs specifically typed into Location Bar
+False
+ (default): Match against history
+
+ 
+browser. urlbar. matchOnWordBoundary
+
+
+ Boolean
+
+ Determines behavior of autocomplete in 
+Location Bar
+True
+ (default): Use word boundaries when searching for typed text in the Location Bar autocomplete.
+False
+: Search anywhere within available text, irrespective of word boundaries. 
+Obsoleted by 
+browser. urlbar. matchBehavior
+.
+
+ 
+ browser. urlbar. maxRichResults
+
+
+ Integer
+
+ Determines how many entries should appear (at most) in the dropdown in 
+Location Bar
+.
+
+ 
+browser. urlbar. restrict. bookmark
+
+
+ String
+
+ See 
+Location Bar search
+
+
+ 
+browser. urlbar. restrict. history
+
+
+ String
+
+ See 
+Location Bar search
+
+
+ 
+browser. urlbar. restrict. tag
+
+
+ String
+
+ See 
+Location Bar search
+
+
+ 
+browser. urlbar. restrict. typed
+
+
+ String
+
+ See 
+Location Bar search
+
+
+ 
+browser. urlbar. search. chunkSize
+
+
+ Integer
+
+ Number of dropdowns to fetch at a time. Default is 
+1000
+.
+
+ 
+browser. urlbar. search. timeout
+
+
+ Integer
+
+ Number of milliseconds to wait between fetching batches of dropdown items. Default is 
+100
+ (1/10th of a second).
+
+ 
+browser. urlbar. showPopup
+
+
+ Boolean
+
+ 
+True
+ (default) 
+ 
+False
+
+
+ 
+browser. urlbar. showSearch
+
+
+ Boolean
+
+ 
+True
+ (default) 
+ 
+False
+
+
+ 
+browser. urlbar. trimURLs
+
+
+ Boolean
+
+ 
+True
+ (default): Trim "http://" prefix from url address displayed in location bar  .
+False
+: Don't trim url in location bar.
+
+ 
+ browser. visited_color
+
+
+ String
+
+ The default color for visited links as a hex code. Default is 
+#551A8B
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Content → Fonts 
+ Colors → Visited Links"
+
+ 
+browser. windows. loadOnNewWindow
+
+
+ Integer
+
+ Set what should be displayed in a newly created window
+-1
+: Browser Startup Page
+0
+: Blank Page
+1
+ (default): Your Homepage
+2
+: Last Visited
+
+ 
+ browser. xul. error_pages. enabled
+
+
+Boolean
+
+ 
+True
+ (default in Firefox 1.5 and above and SeaMonkey): The browser will use error pages.
+False
+ (default in Firefox 1.0.x and below): The browser will use error alert boxes.
+
+ 
+browser. zoom. full
+
+
+ Boolean
+
+ 
+True
+ (Default): Full page zoom
+False
+: Text zoom
+
+ 
+browser. zoom. siteSpecific
+
+
+ Boolean
+
+ 
+True
+ (Default): Remember the zoom level on a per-site basis.
+False
+: The zoom level should be applied on the current tab only.
+
+ 
+ config. trim_on_minimize
+
+
+ Boolean
+
+ Windows-only. Determines how Windows handles memory for the browser when minimizing. Setting to 
+False
+ will often prevent delays when restoring the window (see 
+bug 76831
+).
+True
+: Allow Windows to trim the working set when the browser is minimized
+False
+ (default): Prevent Windows from trimming the working set
+
+ 
+config. use_system_prefs
+
+
+ Boolean
+
+ 
+True
+: Use preferences set by operating system (e.g. proxies, accessibility)
+False
+ (default): Opposite of the above
+Note: Seems to be unused in Firefox 1.0
+
+ 
+config. use_system_prefs. accessibility
+
+
+ Boolean
+
+ 
+True
+: The system is configured with accessibility features; use them
+False
+ (default): Opposite of the above
+Note: Seems to be unused in Firefox 1.0
+
+ 
+dom. allow_scripts_to_close_windows
+
+
+ Boolean
+
+ Determines which 
+close()
+ operations are legal.
+True
+: Any script may close any window
+False
+ (default): Only windows opened via script may be closed via 
+close()
+.
+
+ 
+dom. disable_image_src_set
+
+
+ Boolean
+
+ Determines whether scripts may change the 
+.src
+ member of image objects (effectively, whether images can be changed via 
+JavaScript
+)
+True
+: Scripts may not modify 
+.src
+ of images
+False
+ (default): Opposite of above
+Note: In Mozilla Suite,  this can be changed via "Edit → Preferences → Advanced → Scripts 
+ Plug-ins → Allow scripts to: Change images" and, in Firefox 1.0.x, via "
+Tools → Options
+ → Web Features → Enable JavaScript / Advanced → Allow scripts to: Change images".  This option has been removed from the UI in Firefox 1.5 
+[2]
+
+
+ 
+dom. disable_open_click_delay
+
+
+ Integer
+
+ If a popup will be created as the result of a 
+setTimeout()
+ or 
+setInterval()
+ 
+JavaScript
+ call and the delay specified is smaller than this value (in milliseconds), handle the popup according to the current popup blocker settings. Default value is 
+1000
+.
+
+ 
+dom. disable_open_during_load
+
+
+ Boolean
+
+ Determines popup blocker behavior
+True
+ (default in Firefox): Block popup windows created while the page is loading
+False
+ (default in Mozilla Suite): Allow popup windows
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Content (Web Features in Firefox 1.0.x) → Block Popup Windows" and, in Mozilla Suite, via "Edit → Preferences → Privacy 
+ Security → Popup Windows → Block unrequested popup windows.
+
+ 
+dom. disable_window_flip
+
+
+ Boolean
+
+ Determines whether windows can be 
+focus()
+ed via non-chrome 
+JavaScript
+.
+True
+ (default in Mozilla Suite): Windows may not be set as active via JavaScript
+False
+ (default in Firefox): Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Content (Web Features in Firefox 1.0.x) → Enable JavaScript / Advanced → Allow scripts to: Raise or lower windows" and, in Mozilla Suite, via "Edit → Preferences → Advanced → Scripts 
+ Plug-ins → Allow scripts to: Raise or lower windows".
+
+ 
+dom. disable_window_move_resize
+
+
+ Boolean
+
+ Determines whether windows can be moved or resized via non-chrome 
+JavaScript
+.
+True
+ (default in Mozilla Suite): Windows may not be moved or resized via JavaScript
+False
+ (default in Firefox): Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Content (Web Features in Firefox 1.0.x) → Enable JavaScript / Advanced → Allow scripts to: Move or resize existing windows" and, in Mozilla Suite, via "Edit → Preferences → Advanced → Scripts 
+ Plug-ins → Allow scripts to: Move or resize existing windows".
+
+ 
+dom. disable_window_open_feature. *
+
+
+ Boolean
+
+ Webpage authors can disable many features of a popup window that they open. Setting these preferences to 
+true
+ will override the author's settings and ensure that that feature is enabled and present in any popup window.
+close
+: Prevents the close button from being disabled.
+directories
+: Prevents the bookmarks toolbar from being hidden.
+location
+: Prevents the address bar from being hidden
+menubar
+: Prevents the menubar from being hidden.
+minimizable
+: Prevents popup window minimization from being disabled.
+personalbar
+: Prevents the bookmarks toolbar from being hidden.
+resizable
+: Prevents popup window resizing from being disabled.
+scrollbars
+: Prevents the scrollbars on a popup from being disabled.
+status
+: Prevents the status bar from being hidden.
+titlebar
+: Prevents the title bar from being hidden.
+toolbar
+: Prevents the navigation toolbar from being hidden.
+
+ 
+dom. disable_window_status_change
+
+
+ Boolean
+
+ Determines whether the text in the browser status bar may be set by non-chrome 
+JavaScript
+.
+True
+ (default in Firefox): JavaScript access to 
+window.status
+ is disabled
+False
+ (default in Mozilla Suite): Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Content (Web Features in Firefox 1.0.x) → Enable JavaScript / Advanced → Allow scripts to: Change status bar text" and, in Mozilla Suite, via "Edit → Preferences → Advanced → Scripts 
+ Plug-ins → Allow scripts to: Change status bar text".
+
+ 
+dom. event. contextmenu. enabled
+
+
+ Boolean
+
+ Determines whether the 
+oncontextmenu
+ event can be caught by non-chrome 
+JavaScript
+ (e.g., in an anti-right-click script).
+True
+ (default): the opposite of below.
+False
+: Webpages will not be able to affect the context menu event, thus allowing to access the context menu all the time.
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Content (Web Features in Firefox 1.0.x) → Advanced → Allow scripts to: Disable or replace context menus" and, in Mozilla Suite, via "Edit → Preferences → Advanced → Scripts 
+ Plug-ins → Allow scripts to: Disable or replace context menus".
+
+ 
+dom. ipc. plugins. enabled
+
+
+ Boolean
+
+ Determines whether plugins will run in a separate "plugin-container" process.  See 
+Plugin-container and out-of-process plugins
+ for details. Can be overridden for plugins specified by filename  (
+bug 539063
+). 
+True
+ (default in Firefox 4 on Windows and Linux): Run plugins out-of-process, except for "blacklisted" plugins set in 
+dom.ipc.plugins.enabled.
+filename
+ with value 
+false
+ (see below).
+False
+ (default in Firefox 3.6.x on Windows and Linux, and in Firefox 4 on Mac OS): Do not run plugins out-of-process, except for "whitelisted" plugins set in 
+dom.ipc.plugins.enabled.
+filename
+ with value 
+true
+ (see below). 
+Note: First shipped in Firefox 3.6.4 for Windows and Linux only, with the plugins Adobe 
+Flash
+, Apple 
+QuickTime
+ (Windows) and Microsoft Silverlight (Windows) whitelisted by default  
+[3]
+
+
+ 
+dom.  ipc. plugins. enabled. 
+filename
+
+
+ Boolean
+
+ Overrides 
+dom.ipc.plugins.enabled
+ (see above) for plugins specified by filename (plugin filenames can be found in 
+about:plugins
+ and must be specified in lowercase).  
+True
+: Run the specified plugin in a separate "plugin-container" process.
+False
+:  Do not run the specified plugin out-of-process (run within the browser process).  
+Windows examples:
+ 
+ Microsoft Silverlight:  dom.ipc.plugins.enabled.npctrl.dll  
+ Apple QuickTime:  dom.ipc.plugins.enabled.npqtplugin.dll  
+ Adobe Flash (listed as "Shockwave Flash"): dom.ipc.plugins.enabled.npswf32.dll  
+ 
+NPAPI
+ test plugin: dom.ipc.plugins.enabled.nptest.dll 
+Linux examples:
+  
+ Adobe Flash (listed as "Shockwave Flash"): dom.ipc.plugins.enabled.libflashplayer.so 
+ NPAPI test plugin: dom.ipc.plugins.enabled.libnptest.so 
+Mac examples:
+ (Firefox 4) 
+[4]
+ Adobe Flash (listed as "Shockwave Flash"):dom.ipc.plugins.enabled.flash player.plugin 
+ Java: dom.ipc.plugins.enabled.javaplugin2_npapi.plugin
+
+ 
+dom. ipc. plugins. enabled. timeoutSecs
+
+
+ Integer
+
+ Number of seconds before an 
+out-of-process plugin
+ is terminated, when the browser detects that the plugin or plugin script has stopped responding.  
+[5]
+   Default is 
+45
+ in Firefox 3.6.6 (increased from 
+10
+).   Set the value to 
+-1
+ to disable plugin hang detection, so that the browser does not terminate plugins that stop responding  
+[6]
+  
+[7]
+ 
+[8]
+  
+Note: First shipped in Firefox 3.6.4 for Windows and Linux.
+
+ 
+dom. max_chrome_script_run_time
+and
+dom. max_script_run_time
+
+
+ Integer
+
+ Determines the maximum amount of time in seconds a script can run (with chrome or content privileges, respectively). Default values are 
+20
+ and 
+10
+ respectively. Zero or negative values mean "forever". See the details pages for former behaviour (prior to 2006-07-27).
+2012-08-21:
+ New default for chrome is 0 (forever) on SeaMonkey and Thunderbird, except on Linux, see 
+bug 482811
+
+
+ 
+dom. min_background_timeout_value
+
+
+ Integer
+
+ See the 
+"Inactive tabs" section of the window.setTimeout method's help
+.
+
+ 
+ dom. popup_allowed_events
+
+
+ String
+
+ A space-separated list of the events that are allowed to create popups.  Default value is "
+change click dblclick mouseup reset submit
+". A presumably complete list of events from 
+mozilla/content/events/src/nsDOMEvent.cpp
+:
+Form events
+:
+
+
+select
+:
+change
+:
+input
+:
+submit
+:
+reset
+:
+
+
+
+
+Other events
+:
+
+
+
+
+keydown
+:
+keypress
+:
+keyup
+:
+mousedown
+:
+mouseup
+:
+click
+:
+dblclick
+:
+error
+:
+
+
+
+
+ 
+ dom. popup_maximum
+
+
+ Integer
+
+ The maximum number of simultaneously open popup windows. Default value is 
+20
+.
+
+ 
+editor. background_color
+
+
+ Boolean
+
+ Determines background color for Thunderbird editor; other forks' behaviour unknown.
+#000000
+: Use black instead of white in editor. Works well in conjunction with .text_color, but if HTML mail is sent, it's odd to some folks.; an invert_display option would be more practical, but doesn't exist (yet).* preferences for content
+#FFFFFF
+ (default)
+
+ 
+editor. css. default_length_unit
+
+
+ String
+
+ Determines the default units for 
+CSS
+ rules.
+cm
+: centimeters
+em
+: ems (width of the capital letter "M" in typography, but line height in CSS)
+ex
+: ex (height of the lower-case "x")
+in
+: inches
+mm
+: milimeters
+%
+: percentage of parent element
+pc
+: picas (1/6th of an inch)
+px
+ (default): pixels
+pt
+: points (1/72nd of an inch)
+
+ 
+editor. htmlWrapColumn
+
+
+ Integer
+
+ The column at which HTML source wraps. Default value is 
+72
+.
+
+ 
+editor. positioning. offset
+
+
+ Integer
+
+ The default offset, both X and Y, of absolutely positioned elements. Default value is 
+0
+.
+
+ 
+editor. quotesPreformatted
+
+
+ Boolean
+
+ Originally meant to be a 
+temporary preference
+ to control the behavior of plaintext quotations inserted into email.
+True
+: Wrap quoted email text in a 
+pre
+ element
+False
+ (default): Wrap quoted email text in a 
+span
+ element
+
+ 
+editor. resizing. preserve_ratio
+
+
+ Boolean
+
+ Determines the behavior of resizing images in Composer.
+True
+ (default): Preserve ratio of image while resizing
+False
+: Allow free resizing of height and width
+
+ 
+editor. singleLine. pasteNewlines
+
+
+ Integer
+
+ Determines the behavior when pasting content containing newlines into single-line text boxes.
+0
+ (default in Linux): Paste content intact (include newlines)
+1
+ (default everywhere else): Paste the content only up to (but not including) the first newline
+2
+: Replace each newline with a space
+3
+: Remove all newlines from content
+4
+: Substitute commas for newlines in text box
+5
+: Remove all newlines and surrounding whitespace
+
+ 
+editor. use_css
+
+
+ Boolean
+
+ Determines the preferred method of formatting content.
+True
+ (default): Use CSS styling where appropriate
+False
+: Use non-CSS methods of styling content
+
+ 
+editor. use_custom_colors
+
+
+ Boolean
+
+ Determines whether to use user-specified colors for content. No effect in Thunderbird.
+True
+: Use colors specified in editor.* preferences for content
+False
+ (default): Use the default colors
+
+ 
+extensions. {GUID}. description
+
+
+ String
+
+ Specify a custom description for the extension whose GUID is specified (see 
+Localize extension descriptions
+ for application).
+
+ 
+extensions. autoDisableScopes
+
+
+ Integer
+
+ "Extension scopes" where newly installed addons are disabled by default (Gecko 7 and later since 2011-06-28, see 
+bug 666437
+). This is an additive bit field: 
+1 = addons found in this profile (this bit is probably masked off) 
+2 = addons applying to all profiles of this user 
+4 = addons applying to all users of this application 
+8 = addons (e.g. plug-ins) applying to anyone on this computer 
+Default varies among versions: Undefined (no disabling, as with 0), 10 (all except app-global and user-profile), 15 (all, but does not apply to some specific locations such as IIUC 
+installdir
+/extensions/ and 
+profiledir
+/extensions/)
+
+ 
+extensions. checkCompatibility
+
+
+ Boolean
+
+ Undefined (default) or 
+True
+: Check extension for browser compatibility on upgrade/install.
+False
+: Disable extension compatibility checking.
+  Available in Firefox and Thunderbird 2.0, SeaMonkey 2.0, Sunbird 1.0b1. Note: Use with caution (see 
+bug 330895
+).
+Note:
+ In applications based on Gecko 1.9.2a and later, this preference is replaced by 
+extensions.checkCompatibility.x.yy
+ where 
+x.yy
+ should be replaced by the major and minor version numbers of the application, including the letter (a, b, pre) if present but not the 3rd and further numbers: e.g. 
+extensions.checkCompatibility.2.1a
+ for SeaMonkey 2.1a2pre or 
+extensions.checkCompatibility.3.6
+ for Firefox 3.6.6.
+
+ 
+extensions.checkUpdateSecurity
+
+
+ Boolean
+
+ Undefined (default) or 
+True
+: Checks that extensions provide secure updates.
+False
+: Disable secure updates checking.
+  Available in Firefox 3.0, Thunderbird 3.0, SeaMonkey 2.0. Note: Use with caution (see 
+bug 378216
+).
+
+ 
+extensions. disabledObsolete
+
+
+ Boolean
+
+ Indicates whether obsolete extensions have been disabled as a result of a change in the browser version.
+
+ 
+extensions. dss. enabled
+
+
+ Boolean
+
+ 
+True
+: Enable dynamic skin (theme) switching.
+False
+ (default): Require a browser restart when switching themes.
+Note: Switching themes dynamically is buggy (see 
+bug 226791
+).
+
+ 
+extensions. dss. switchPending
+
+
+ Boolean
+
+ 
+True
+: Non-dynamic theme switch pending a browser restart
+False
+ (default): Opposite of the above
+
+ 
+extensions. enabledScopes
+
+
+ Integer
+
+ (Applies to Gecko 1.9.3 and later since 2010-04-07, see 
+bug 555486
+) 
+"Scopes" from which addons will be loaded (additive bit field): 
+1 = addons found in this profile (cannot be disabled) 
+2 = addons applying to all profiles of this user 
+4 = addons applying to anyone using this application 
+8 = addons (e.g. plug-ins) applying to anyone on this computer 
+Default is Undefined, which means the same as 15 (addons from all scopes will be loaded unless disabled for some other reason) 
+See also 
+extensions. autoDisableScopes
+ above.
+
+ 
+extensions. getMoreExtensionsURL
+
+
+ String
+
+ Determines the URL used for the "Get More Extensions" link in "Tools → Add-ons → Extensions" dialog.
+
+ 
+extensions. getMoreThemesURL
+
+
+ String
+
+ Determines the URL used for the "Get More Themes" link in "Tools → Add-ons → Themes" dialog.
+
+ 
+extensions. ignoreMTimeChanges
+
+
+ Boolean
+
+ 
+True
+: Prevent extensions system from using last-modified file metadata when determining whether an extension is new (and should therefore be registered)
+False
+ (default): Opposite of the above
+Note: Nightlies only.
+
+ 
+extensions. lastAppVersion
+
+
+ String
+
+ The last version of the browser to successfully load extensions. Used to determine whether or not to disable extensions due to possible incompatibilities.
+
+ 
+extensions. logging. enabled
+
+
+ Boolean
+
+ 
+True
+: Enables some extra extension system logging (can reduce performance)
+False
+ (default): Opposite of the above
+Note: Nightlies only
+
+ 
+extensions. reporter. hidePrivacyStatement
+
+
+ Boolean
+
+ 
+True
+: The user has viewed and agreed to the privacy statement for the Report Broken Website tool, so don't show it again.
+False
+: Display the privacy statement when opening the Report Broken Website tool.
+
+ 
+extensions. update. autoUpdate
+
+
+ Boolean
+
+ 
+True
+: Automatically download and install available updates
+False
+ (default): Opposite of the above
+Note: Not implemented
+
+ 
+extensions. update. autoUpdateEnabled
+
+
+ Boolean
+
+ 
+True
+ (default): Allow automatic checking for updates at the specified interval
+False
+: Opposite of the above
+
+ 
+extensions. update. count
+
+
+ Integer
+
+ The number of extension/theme/etc. updates available. Default value is 
+0
+.
+
+ 
+extensions. update. enabled
+
+
+ Boolean
+
+ 
+True
+ (default): Allow checking for updates
+False
+: Opposite of the above
+Can be overridden on a per-extension basis by setting 
+extensions.{GUID}.update.enabled
+.
+
+ 
+extensions. update. interval
+
+
+ Integer
+
+ Determines how often to check the update URL for updates.
+In Firefox 1.0.x and below, default value is 
+604800000
+ (milliseconds in 1 week).
+In Firefox 1.5 and above, default value is 
+86400
+ (seconds in 1 day).
+
+ 
+extensions. update. lastUpdateDate
+
+
+ Integer
+
+ When the last extension update occurred, in UNIX epoch format (seconds since 1970-01-01). Default value is 
+0
+.
+
+ 
+extensions. update. notifyUser
+
+
+ Boolean
+
+ A flag for whether to show the software update dialog for extensions on startup.  The application sets this pref to true after it checks for extension updates in the background and finds one or more updates available.  On the next startup, the dialog is shown and the pref is immediately set to false.  You would not normally change this pref manually, unless debugging startup and updates. Setting it to true will cause the dialog to open on next startup, but the dialog will close immediately if there is no update pending.  Unset by default (until first background check).  Introduced by the patch for 
+bug 307358
+.
+ Firefox / Thunderbird 2.x and later.
+
+ 
+extensions. update. severity. threshold
+
+
+ Integer
+
+ The number of pending Extension/Theme updates you can have before the update notifier goes from low to medium severity. Default value is 
+5
+.
+
+ 
+extensions. update. url
+
+
+ String
+
+ Determines the URL queried when polling for extension updates. Can be overridden on a per-extension basis by setting 
+extensions.{GUID}.update.url
+. Default value is pulled from chrome://mozapps/locale/update/update.properties.
+
+ 
+font. default (. 
+language code
+)
+
+
+ String
+
+ The default 
+generic-family
+ to use. If a language code is specified, the preference only applies to that language.
+serif
+ (default): Serif
+sans-serif
+: Sans-serif
+
+ 
+font. language. group
+
+
+ String
+
+ The user's language group. Pulled from the localized data at chrome://global/locale/intl.properties by default on installation.
+
+ 
+font. size. nav4rounding
+
+
+ Boolean
+
+ 
+Unused (obsolete)
+. Previously:
+True
+: In Windows, 
+adjust rounding of some pixel font sizes to match Netscape 4.x's (incorrect) rounding
+False
+ (default): Display fonts normally
+
+ 
+font. FreeType2.enable
+
+
+ Boolean
+
+ Attempt to use FreeType fonts.
+
+ 
+font. FreeType2.printing
+
+
+ Boolean
+
+ Attempt to use FreeType fonts when printing using the 
+ PostScript
+ printing system.
+
+ 
+geo. enabled
+
+
+ Boolean
+
+ Is location aware browsing enabled. Default is true. See 
+http://www.mozilla.com/en-US/firefox/geolocation/
+
+
+ 
+geo. wifi. url
+
+
+ String
+
+ Which geolocation service provider to use. Default is 
+https://www.google.com/loc/json
+
+
+ 
+general. autoScroll
+
+
+ Boolean
+
+ Status of the autoscroll option (middle-clicking on a web page produces a scrolling icon and will automatically scroll the page based on the pointer's relative location to the icon)
+True
+ (default): Activate autoscroll
+False
+ (default in *nix): Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Advanced → General → Browsing → Use autoscrolling"
+
+ 
+general. config. filename
+
+
+ String
+
+ A 
+.cfg
+ file to parse and read for AutoConfig. Unset by default.
+
+ 
+general. config. obscure_value
+
+
+ Integer
+
+ An integer to use when obscuring the AutoConfig file saved to and read from disk. Default value is 
+13
+ (effectively, ROT-13 the content).
+
+ 
+general. config. vendor
+
+
+ String
+
+ A vendor ID associated with the AutoConfig file.
+
+ 
+general. skins. selectedSkin
+
+
+ String
+
+ The current skin used by the browser. Default value is 
+classic/1.0
+.
+Note: In Firefox, this can be changed via "Tools → Add-ons → Themes" (
+Firefox 2
+) or "Tools → Themes" (
+Firefox 1.5 and below
+)
+
+ 
+general. smoothScroll
+
+
+ Boolean
+
+ Status of ths smooth scrolling option (scrolling on a web page moves page content pixelwise rather than line-by-line)
+True
+: Activate smooth scrolling
+False
+ (default): Opposite of the above
+Note: In Firefox,  this can be changed via "
+Tools → Options
+ → Advanced → General → Browsing → Use smooth scrolling"
+
+ 
+general. startup. browser
+
+
+ Boolean
+
+ 
+True
+ (default): When launching Mozilla Suite or SeaMonkey, load the browser component
+False
+: Opposite of the above
+Note: This preference has little to no significance in Firefox as it is only a browser. It has no effect since Firefox 1.5.
+
+ 
+general. useragent. contentlocale
+
+
+ String
+
+ The content locale 
+ISO 639-2 value
+ specified in the 
+User-Agent
+ string
+
+ 
+general. useragent. extra. (product name/version)
+
+
+ String
+
+ Allows an arbitrary number of strings to be added to the end of the 
+User-Agent
+ string. By default, 
+general.useragent.extra.
+product
+ is defined and set to 
+product
+/
+version
+. See 
+bug 274928
+ for more information.
+Note: Only Firefox 1.5 and above, Thunderbird 1.5 and above, SeaMonkey 1.1 and above.
+
+ 
+general. useragent. locale
+
+
+ String
+
+ 
+ISO 639-2 value
+ representing the user's language for the 
+User-Agent
+ string
+
+ 
+general. useragent. override
+
+
+ String
+
+ A complete 
+User-Agent
+ string to use in place of the default.
+
+ 
+general. useragent. security
+
+
+ String
+
+ Security level of the browser in the 
+User-Agent
+ string
+N
+: No security
+U
+ (default): Strong security
+I
+: Weak security
+
+ 
+general. useragent. vendor
+
+
+ String
+
+ Vendor in the 
+User-Agent
+ string. Default value depends on browser (
+Firefox
+ in Firefox 1.0).
+Note: No longer specified by default in Firefox 1.5.
+
+ 
+general. useragent. vendorSub
+
+
+ String
+
+ Vendor substring in the 
+User-Agent
+ string. Default value depends on browser version (
+1.0
+ in Firefox 1.0)
+Note: No longer specified by default in Firefox 1.5.
+
+ 
+intl. accept_charsets
+
+
+ String
+
+ Currently unused. Previously: Character sets in which to accept data. Default value is 
+iso-8859-1,*,utf-8
+.
+
+ 
+intl. accept_languages
+
+
+ String
+
+ 
+ISO 639-2
+ values of languages to accept. Default value is determined by localized information in 
+chrome://navigator/locale/navigator.properties
+.
+
+ 
+intl. charset. default
+
+
+ String
+
+ Determines the default character set. Default value is 
+chrome://global-platform/locale/intl.properties
+
+
+ 
+intl. charset. detector
+
+
+ String
+
+ Determines which locale URI sets how character set are detected in the browser
+
+ 
+intl. charsetmenu. browser. cache
+
+
+ String
+
+ A comma-and-space-delimited list of cached character sets for the browser
+
+ 
+intl. charsetmenu. browser. cache. size
+
+
+ Integer
+
+ Number of character sets to cache. Default value is 
+5
+.
+
+ 
+intl. charsetmenu. browser. more*
+
+
+ String
+
+ A comma-and-space-delimited list of character sets to display in the character encoding menu
+Note: In Firefox, these menus are viewable via "View → Character Encoding → More Encodings"
+
+ 
+intl. charsetmenu. browser. static
+
+
+ String
+
+ A comma-and-space-delimited list of character sets to always display in the character encoding menu.
+Note: In Firefox, this can be changed via "View → Character Encoding → Customize List"
+
+ 
+intl. charsetmenu. browser. unicode
+
+
+ String
+
+ A comma-and-space-delimited list of Unicode character sets to display in the character encoding menu
+Note: In Firefox, this menus is viewable via "View → Character Encoding → More Encodings → Unicode"
+
+ 
+intl. charsetmenu. composer. cache
+
+
+ String
+
+ A comma-and-space-delimited list of cached character sets for Composer
+
+ 
+intl. charsetmenu. mailedit
+
+
+ String
+
+ Determines the layout of the Character Coding menu in Mozilla Mail/News (message editor)
+
+ 
+intl. charsetmenu. mailview. cache
+
+
+ String
+
+ A comma-and-space-delimited list of cached character sets for Mozilla Mail/News (main view)
+
+ 
+intl. collationOption
+
+
+ String
+
+ A workaround to get correct column sorting in Mozilla Mail in Japanese builds of Linux. Default value is an empty string. Setting it to 
+useCodePointOrder
+ enables the workaround (see 
+bug 18338
+).
+
+ 
+intl. content. langcode
+
+
+ String
+
+ Default content language code
+
+ 
+intl. fallbackCharsetList. (character set)
+
+
+ String
+
+ Determines the substitute character set if (character set) is unavailable.
+
+ 
+intl. jis0208. map
+
+
+ String
+
+ Determines the map to use for JIS X 0208
+CP932
+ (default in Windows): Use a CP932-compatible map
+IBM943
+ (default in OS/2): Use an IBM943-compatible map
+
+ 
+intl. keyboard. per_window_layout
+
+
+ Boolean
+
+ 
+True
+: Allow different windows to retain their own keyboard locale settings (see 
+bug 186549
+)
+False
+ (default): Opposite of the above
+
+ 
+intl. locale. matchOS
+
+
+ Boolean
+
+ Determines how to decide locale
+True
+: Use the locale the OS is using
+False
+ (default): Use the value set in 
+general.useragent.locale
+.
+
+ 
+intl. menuitems. alwaysappendaccesskeys
+
+
+ String
+
+ Specifies URI to determine if access keys are appended to menu items
+
+ 
+intl. menuitems. insertseparatorbeforeaccesskeys
+
+
+ String
+
+ Specifies URI to determine if there is a space before the paranthesis of the accesskey in the menu's label (see 
+bug 298712
+).
+
+ 
+ network. auth. use-sspi
+
+
+ Boolean
+
+ 
+True
+ (default in Windows): Use 
+SSPI
+ instead of 
+GSSAPI
+ for 
+Kerberos-based authentication
+False
+: Opposite of the above
+Note: Firefox 1.5 and above only.
+
+ 
+ network. autodial-helper. enabled
+
+
+ Boolean
+
+ Help Windows NT, 2000, and XP dialup a RAS connection when a network address is unreachable.
+True
+ (default): Launch dialer (if one is configured) when address is unreachable
+False
+: Display error message
+
+ 
+ network. automatic-ntlm-auth. allow-proxies
+
+
+ Boolean
+
+ Enable automatic use of the operating system's NTLM implementation to silently authenticate the user with their Windows domain logon with proxy servers. (See 
+Integrated Authentication
+ for more information)
+True
+ (default): Automatically authenticate with proxy servers
+False
+: Prompt for authentication
+
+ 
+ network. automatic-ntlm-auth. trusted-uris
+
+
+ String
+
+ A comma-and-space-delimited list of URIs with which to automatically authenticate via NTLM (Windows domain logon). Default value is an empty string. (See 
+Integrated Authentication
+ for more information)
+
+ 
+ network. cookie. alwaysAcceptSessionCookies
+
+
+ Boolean
+
+ Determines whether to accept session 
+ cookies
+ (kept for the duration of the browser session, then removed) if 
+network.cookie.lifetimePolicy
+ is 
+1
+.
+True
+: Accept session cookies without prompting
+False
+ (default): Prompt before accepting session cookies
+
+ 
+ network. cookie. blockFutureCookies
+
+
+ Boolean
+
+ 
+True
+: Allow sites to set cookies unless the user has removed cookies set by the site
+False
+ (default): Removed cookies do not affect future cookie acceptance.
+
+ 
+ network. cookie. cookieBehavior
+
+
+ Integer
+
+ Determines how the browser should handle 
+ cookies
+.
+0
+: Enable all cookies (default)
+1
+: Allow cookies from originating server only 
+2
+: Disable all cookies
+3
+: Use P3P policy to decide (Mozilla Suite/SeaMonkey only) 
+Note:  In Firefox,  this can be changed via "
+Tools → Options
+ → Privacy → Cookies → Allow sites to set cookies / for the originating web site only" (
+Firefox 1.5 and below
+) or "
+Tools → Options
+ → Privacy / Cookies → Accept cookies from sites" (
+Firefox 2
+); or, in Mozilla Suite/SeaMonkey, via 
+Edit -
+ Preferences
+ -
+ Privacy 
+ Security -
+ Cookies / Cookie Acceptance Policy.   Note: The option to limit cookies to the originating server was removed from the UI in Firefox 2.
+
+ 
+network. cookie. denyRemovedCookies
+
+
+ Boolean
+
+ Seemingly unused.
+
+ 
+network. cookie. disableCookieForMailNews
+
+
+ Boolean
+
+ Determines how Mozilla Mail/News should handle 
+ cookies
+.
+True
+ (default): Reject all cookies in Mozilla Mail/News
+False
+: Accept cookies normally
+
+ 
+network. cookie. enableForCurrentSessionOnly
+
+
+ Boolean
+
+ 
+True
+: Delete all 
+ cookies
+ at the end of the browser session
+False
+ (default): Opposite of the above
+Note: This setting is deprecated in favor of 
+network.cookies.lifetimePolicy
+ (setting that to 
+2
+ is the equivalent of this preference set to 
+True
+)
+
+ 
+ network. cookie. lifetime. days
+
+
+ Integer
+
+ Determines the number of days to keep 
+ cookies
+ if 
+network.cookie.lifetimePolicy
+ is 
+3
+. Default value is 
+90
+.
+
+ 
+ network. cookie. lifetimePolicy
+
+
+ Integer
+
+ Determines how browser sets 
+ cookie
+ lifetimes.
+0
+ (default): Use supplied lifetime
+1
+: Ask before accepting
+2
+: Accept for session only
+3
+: Cookies last for the number of days specified in 
+network.cookie.lifetime.days
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Privacy → Cookies → Keep Cookies:" (
+Firefox 1.5 and below
+) or via "
+Tools → Options
+ → Privacy / Cookies → Keep until:" (
+Firefox 2
+).
+
+ 
+ network. cookie. maxNumber
+
+
+ Integer
+
+ Determines the maximum amount of cookies to be stored. Valid range is from 0-65535 (
+RFC 2109
+ and 
+RFC 2965
+ require this to be at least 300). Default value is 
+1000
+.
+
+ 
+ network. cookie. maxPerHost
+
+
+ Integer
+
+ Determines the maximum amount of cookies to be stored per host. Valid range is from 0-65535 (
+RFC 2109
+ and 
+RFC 2965
+ require this to be at least 20). Default value is 
+50
+.
+
+ 
+ network. cookie. p3p
+
+
+ String
+
+ Determines the browser's P3P handling. An 8-character string. Default value is 
+ffffaaaa
+. Each position in the string may be one of the following:
+f
+: Flag the cookie
+d
+: Accept the cookie, but downgrade it to a session-only lifetime
+a
+: Accept the cookie
+r
+: Reject the cookie
+The character positions are as follows:
+1st position
+: First party cookies from sites with no policy
+2nd position
+: Third party cookies from sites with no policy
+3rd position
+: First party cookies from sites that collect personal information without permission
+4th position
+: Third party cookies from sites that collect personal information without permission
+5th position
+: First party cookies from sites that collect personal information only with permission
+6th position
+: Third party cookies from sites that collect personal information only with permission
+7th position
+: First party cookies from sites that don't collect personal information
+8th position
+: Third party cookies from sites that don't collect personal information
+Note: P3P functionality is not present in Firefox and will probably be removed from Mozilla Suite (see 
+bug 225287
+).
+
+ 
+ network. cookie. p3plevel
+
+
+ Integer
+
+ Security level of filtering for 
+ cookies
+0
+: Low (use 
+afafaaaa
+)
+1
+ (default): Medium (use 
+ffffaaaa
+)
+2
+: High (use 
+frfradaa
+)
+3
+: Custom (use value in 
+network.cookies.p3p
+)
+Note: P3P functionality is not present in Firefox and will probably be removed from Mozilla Suite (see 
+bug 225287
+).
+
+ 
+ network. cookie. prefsMigrated
+
+
+ Boolean
+
+ Indicates whether some 
+ cookie
+ preferences — previously stored in deprecated preferences — have been migrated to current preferences.
+True
+: Consult current preferences for cookie prefs
+False
+ (default): Read deprecated preferences, update current preferences, then set this preference to true
+
+ 
+ network. dir. format
+
+
+ Integer
+
+ How to format directory listings (e.g., from FTP servers)
+1
+: Raw — exactly what comes off the network
+2
+ (default): HTML
+3
+: 
+application/http-index-format
+ (requires code to parse/display that is not present by default in Firefox; it is present in the Mozilla application suite)
+
+ 
+network. dns. disableIPv6
+
+
+ Boolean
+
+ Determines whether to perform IPv6 name lookups (see 
+bug 68796
+)
+True
+ (default in OS X): Do not perform lookups
+False
+ (default in all others): Opposite of the above
+
+ 
+ network. dns. ipv4OnlyDomains
+
+
+ String
+
+ A comma-separated list of domains for which DNS lookups are for IPv4 addresses only (see 
+bug 68796
+). Default value is 
+.doubleclick.net
+.
+
+ 
+ network. dnsCacheEntries
+
+
+ Integer
+
+ Determines the maximum number of entries to keep in the DNS cache. Default value is 
+20
+.
+
+ 
+ network. dnsCacheExpiration
+
+
+ Integer
+
+ Determines the maximum number of seconds to cache resolved DNS entries. Default value is 
+60
+.
+
+ 
+network. enableIDN
+
+
+ Boolean
+
+ Determines whether to use 
+IDN (International Domain Name) support
+ in the browser
+True
+ (default): Enable IDN support
+False
+: Opposite of the above
+Note: In Firefox 1.0, this preference did not "stick" (see 
+bug 261934
+). Fixed in 1.0.1.
+
+ 
+network. enablePad
+
+
+ Boolean
+
+ Determines whether the browser is allowed to perform proxy autodiscovery
+True
+: Autodiscovery enabled
+False
+ (default): Opposite of the above
+
+ 
+network. ftp. anonymous_password
+
+
+ String
+
+ Password to use when connecting to anonymous FTP servers. Sent instead of "mozilla@example.com" if 
+advanced.mailftp
+ is true. Not set by default.
+
+ 
+ network. ftp. idleConnectionTimeout
+
+
+ Integer
+
+ Time in seconds until an idle FTP connection is dropped. Default value is 
+300
+.
+
+ 
+network. hosts. nntp_server
+
+
+ String
+
+ 
+Pref to be removed (obsolete)
+. Previously: News server for Mozilla Mail/News. Default value is 
+news.mozilla.org
+.
+
+ 
+network. hosts. pop_server
+
+
+ String
+
+ POP (incoming mail) server for Mozilla Mail/News. Default value is 
+mail
+.
+
+ 
+network. hosts. smtp_server
+
+
+ String
+
+ SMTP (outgoing mail) server for Mozilla Mail/News. Default value is 
+mail
+.
+
+ 
+ network. http. accept-encoding
+
+
+ String
+
+ Comma-separated list of encoding types to accept from server. Sent with HTTP requests in 
+Accept-Encoding
+ header. Default value is 
+gzip, deflate
+.
+Note: 
+compress
+ is not a supported encoding (see 
+bug 196406
+).
+
+ 
+ network. http. accept. default
+
+
+ String
+
+ Comma-separated list of MIME types to accept from server. Sent with HTTP requests in 
+Accept
+ header. Default value is 
+text/xml,application/xml,application/xhtml+xml,text/html; q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+. (The space is actually not present and was only inserted to make it wrap.)
+
+ 
+network. http. connect. timeout
+
+
+ Integer
+
+ 
+Pref removed (unused)
+. Previously: determines how long to wait for a response until registering a timeout. Default value is 
+30
+.
+
+ 
+ network. http. default-socket-type
+
+
+ String
+
+ Determines the socket type to be used for normal HTTP traffic. Default value is an empty string, indicating a normal TCP/IP socket type.
+
+ 
+ network. http. keep-alive
+
+
+ Boolean
+
+ Determines whether to use HTTP Keep-Alive connections. If more than one request is made, the browser attempts to reuse open connections that have been kept alive.
+True
+ (default): Send 
+Connection: keep-alive
+ header and 
+Keep-Alive
+ header based on contents of 
+network.http.keep-alive.timeout
+False
+: Opposite of the above (recommended in case of problems)
+Note: This preference is effectively obsolete, as all connections are considered keep-alive in HTTP/1.1.
+
+ 
+ network. http. keep-alive. timeout
+
+
+ Integer
+
+ Requested timeout for Keep-Alive connections in seconds. Default value is 
+300
+.
+
+ 
+network. http. max-connections
+
+
+ Integer
+
+ Determines the maximum number of simultaneous HTTP connections. Default value is 
+30
+. Valid values are between 1 and 65535 inclusive.
+
+ 
+ network. http. max-connections-per-server
+
+
+ Integer
+
+ Determines the maximum number of simultaneous HTTP connections that can be established per host. If a proxy server is configured, then the server is the proxy server. Default value is 
+15
+. Valid values are between 1 and 255 inclusive.
+
+ 
+ network. http. max-persistent-connections-per-proxy
+
+
+ Integer
+
+ If 
+network.http.keep-alive
+ is true, and if a proxy server is configured, then a new connection will only be attempted if the number of active persistent connections to the server is less than this preference. Default value is 
+8
+. Valid values are between 1 and 255 inclusive.
+
+ 
+ network. http. max-persistent-connections-per-server
+
+
+ Integer
+
+ If 
+network.http.keep-alive
+ is true, and if a proxy server is 
+not
+ configured, then a new connection will only be attempted if the number of active persistent connections to the server is less than this preference.  Default value is 
+6
+. Valid values are between 1 and 255 inclusive.
+
+ 
+network. http. phishy-userpass-length
+
+
+ Integer
+
+ A number between 0 and 255. Warn the user if we load an URL containing a userpass field (e.g., 
+http://user:pass@example.com/
+) unless its length is less than this threshold. Default value is 
+1
+.
+
+ 
+ network. http. pipelining
+
+
+ Boolean
+
+ Determines whether to use 
+HTTP/1.1 pipelining
+.
+True
+: Enable pipelining
+False
+ (default): Disable pipelining
+Note: Pipelining is not well-supported by some servers and proxies. 
+Things may break — use with caution.
+
+
+ 
+network. http. pipelining. firstrequest
+
+
+ Boolean
+
+ 
+Pref removed (unused)
+
+
+ 
+ network. http. pipelining. maxrequests
+
+
+ Integer
+
+ Determines the maximum number of HTTP requests in the pipeline (sent sequentially without waiting for a response). Values greater than 8 are assumed to be 
+8
+; values less than 1 are assumed to be 1. Default value is 
+4
+.
+
+ 
+ network. http. proxy. keep-alive
+
+
+ Boolean
+
+ Determines whether to use HTTP Keep-Alive connections when a proxy server is configured. If more than one request is made, the browser attempts to reuse open connections that have been kept alive.
+True
+ (default): Send 
+Connection: keep-alive
+ header and 
+Keep-Alive
+ header based on contents of 
+network.http.keep-alive.timeout
+False
+: Opposite of the above (recommended in case of problems)
+Note: This preference is effectively obsolete, as all connections are considered keep-alive in HTTP/1.1.
+
+ 
+ network. http. proxy. pipelining
+
+
+ Boolean
+
+ Determines whether to use 
+HTTP/1.1 pipelining
+ when a proxy server is configured.
+True
+: Enable pipelining
+False
+ (default): Disable pipelining
+Note: Pipelining is not well-supported by some servers and proxies. 
+Things may break — use with caution.
+
+
+ 
+ network. http. proxy. version
+
+
+ String
+
+ Determines which HTTP version to use when a proxy server is configured. Default value is 
+1.1
+, though 
+1.0
+ is recommended for some finnicky proxies (such as the Junkbuster proxy).
+
+ 
+ network. http. redirection-limit
+
+
+ Integer
+
+ Determines how many consecutive HTTP redirects the browser will follow. Default value is 
+20
+. Setting it to 
+0
+ will stop all redirects from occuring.
+Note: These are header-based redirects, not (for example) 
+meta http-equiv="refresh"
+ HTML-based redirects.
+
+ 
+ network. http. request. max-start-delay
+
+
+ Integer
+
+ Determines amount of time (in seconds) to suspend pending requests, before spawning a new connection, once the limit on the number of persistent connections per host (
+network.http.max-persistent-connections-per-server
+) has been reached. However, a new connection will not be created if max-connections (
+network.http.max-connections
+) or max-connections-per-server (
+network.http.max-connections-per-server
+) has also been reached. Default value is 
+10
+.
+
+ 
+network. http. request. timeout
+
+
+ Integer
+
+ 
+Pref removed (unused)
+. Previously: HTTP-specific network timeout. Default value is 
+120
+.
+
+ 
+ network. http. sendRefererHeader
+
+
+ Integer
+
+ Determines when to send the 
+Referer
+ HTTP header.
+0
+: Never send the referring URL
+1
+: Send only on clicked links
+2
+ (default): Send for links and images
+
+ 
+ network. http. sendSecureXSiteReferrer
+
+
+ Boolean
+
+ Determines how to handle 
+Referer
+ HTTP header when navigating between secure (HTTPS) hosts.
+True
+ (default): Send referring URL normally (default for compatibility reasons, see 
+bug 141641
+)
+False
+: Send no referring URL
+
+ 
+ network. http. use-cache
+
+
+ Boolean
+
+ Determines whether to enable caching of HTTP documents.
+True
+ (default): Enable caching
+False
+: Opposite of the above
+
+ 
+ network. http. version
+
+
+ String
+
+ Determines which HTTP version to use. Default value is 
+1.1
+.
+
+ 
+network. IDN_show_punycode
+
+
+ Boolean
+
+ Determines how to display IDN hostnames in the 
+Location Bar
+ (see 
+bug 282270
+).
+True
+ (default): All IDN (UTF-8) domain names will be normalized to punycode.
+False
+: Display IDN domain names in UTF-8
+Note: Addresses may be input as UTF-8 regardless of this setting.
+
+ 
+network. IDN. blacklist_chars
+
+
+ String
+
+ If a domain name contains any of the characters in this preference's value, display the domain in punycode, overriding 
+network.IDN_show_punycode
+ and 
+network.IDN.whitelist
+ (see 
+bug 301694
+). See 
+here
+ for a complete list of characters in the default preference.
+Note: Firefox 1.5 and above only.
+
+ 
+network. IDN. whitelist. (TLD)
+
+
+ Boolean
+
+ When 
+network.IDN_show_punycode
+ is 
+false
+, these preferences are checked against the top-level domain of any IDN domain name. If there is a whitelist entry for the top-level domain and the entry is set to true, then the IDN is shown as intended. Otherwise, it is shown in punycode. By default, the top-level domains 
+ac
+, 
+at
+, 
+br
+, 
+ch
+, 
+cl
+, 
+cn
+, 
+de
+, 
+dk
+, 
+fi
+, 
+gr
+, 
+hu
+, 
+info
+, 
+io
+, 
+jp
+, 
+kr
+, 
+li
+, 
+lt
+, 
+museum
+, 
+no
+, 
+se
+, 
+sh
+, 
+th
+, 
+tm
+, 
+tw
+, and 
+vn
+ are whitelisted (set to 
+true
+).
+Note: Firefox 1.5 and above only.
+
+ 
+network. image. imageBehavior
+
+
+ Integer
+
+ Determines when images should be loaded.
+0
+ (default): Load all images
+1
+: Load images from same (originating) server only
+2
+: Do not load any images
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Web Features → Load Images / for the originating web site only"
+In Firefox 1.5 and above, this preference has been 
+renamed
+ to 
+permissions.default.image
+.
+
+ 
+network. image. warnAboutImages
+
+
+ Boolean
+
+ 
+Pref unused (feature disabled).
+ Previously:
+Determines whether to prompt the user before loading an image.
+True
+: Load no images until user confirms
+False
+ (default): Load images normally
+
+ 
+network. manage-offline-status 
+
+
+ Boolean
+
+ (Applies to Firefox 3.5 and above)  
+ Determines whether Firefox is allowed to automatically set itself to offline mode in response to certain Web sites, or if the network connection is interrupted.  (See 
+bug 620472
+ and 
+this and following messages
+ for more information.) 
+ 
+True
+ (implicit default in Firefox 3.5 and 3.6): Allows automatically setting offline mode. 
+ 
+False
+ (default in Firefox 4): Prevents automatically setting offline mode.
+True
+ in SeaMonkey 2.0 and above but SeaMonkey and Thunderbird have a separate offline manager as part of MailNews.
+
+ 
+network. negotiate-auth. allow-proxies
+
+
+ Boolean
+
+ 
+True
+ (default): Allow SPNEGO by default when challenged by a proxy server. (See 
+Integrated Authentication
+ and 
+bug 266485
+ for more information.)
+False
+: Opposite of the above
+
+ 
+network. negotiate-auth. delegation-uris
+
+
+ String
+
+ A comma-and-space-delimited list of sites for which the browser may delegate user authorization to the server. (See 
+Integrated Authentication
+ for more information.) Default value is an empty string.
+
+ 
+network. negotiate-auth. gsslib
+
+
+ String
+
+ Path to a specific GSSAPI library. Allows the browser (e.g.) to load different Kerberos implementations at the user's request. Default value is an empty string.
+Note: See 
+bug 295109
+ for more information.
+
+ 
+network. negotiate-auth. trusted-uris
+
+
+ String
+
+ A comma-and-space-delimited list of sites that are permitted to engage in SPNEGO authentication with the browser. (See 
+Integrated Authentication
+ for more information.) Default value is an empty string.
+
+ 
+network. negotiate-auth. using-native-gsslib
+
+
+ Boolean
+
+ 
+True
+ (default): Use the GSS lib that comes standard with the host operating system
+False
+: Use the GSSAPI library specified in 
+network.negotiate-auth.gsslib
+.
+
+ 
+network. ntlm. send-lm-response
+
+
+ Boolean
+
+ Determines whether or not the LM hash will be included in response to a NTLM challenge. Servers should almost never need the LM hash, and the LM hash is what makes NTLM authentication less secure.
+True
+: Send the LM hash
+False
+ (default): Opposite of the above
+Note: Does not affect 
+network.automatic-ntlm-auth.*
+ settings. See 
+bug 250961
+ for more information.
+
+ 
+network. online
+
+
+ Boolean
+
+ Indicates whether the user is currently online. Used for enabling/disabling various options in the UI.
+True
+ (default): User is online
+False
+: Opposite of the above
+
+ 
+network. prefetch-next
+
+
+ Boolean
+
+ Determines whether to use 
+link prefetching
+.
+True
+ (default): Silently prefetch hinted documents and store in the cache
+False
+: Disable all link prefetching
+
+ 
+network. protocol-handler. app. (protocol)
+
+
+ String
+
+ The path and program to run for the specified protocol.
+Note: To set up a new protocol, it must be registered. See 
+ here
+ for more information.
+
+ 
+network. protocol-handler. expose-all
+
+
+ Boolean
+
+ Determines whether to expose (enable) all protocol handlers. This preference overrides more specific preferences, e.g. 
+network.protocol-handler.expose.mailto
+.
+True
+: Try to open link clicks in browser first, then fail over to system handlers
+False
+: Do not expose all protocol handlers
+
+ 
+network. protocol-handler. expose. (protocol)
+
+
+ Boolean
+
+ Determines whether to expose (enable) the specified protocol handler. These preferences are overridden by 
+network.protocol-handler.expose-all
+.
+True
+: Try to open link clicks in browser firsst, then fail over to system handlers
+False
+: Do not expose this protocol handler
+
+ 
+network. protocol-handler. external-default
+
+
+ Boolean
+
+ Determines the default action for unlisted external protocol handlers
+True
+ (default): Try to load
+False
+: Opposite of the above
+
+ 
+network. protocol-handler. external. (protocol)
+
+
+ Boolean
+
+ Determines whether to allow external protocol handlers to catch links with these protocols
+True
+: Allow external handler to handle link
+False
+ (default): Prevent external handler from handling this link
+
+ 
+network. protocol-handler. warn-external-default
+
+
+ Boolean
+
+ Determines whether to warn the user before loading an unlisted external handler
+True
+ (default): Warn the user
+False
+: Opposite of the above
+
+ 
+network. protocol-handler. warn-external. (protocol)
+
+
+ Boolean
+
+ Determines whether to warn the user before loading this protocol's external handler
+True
+: Warn the user
+False
+ (default): Opposite of the above
+
+ 
+ network. proxy. autoconfig_url
+
+
+ String
+
+ The automatic proxy configuration URL used by the browser to determine a proxy server. Used when 
+network.proxy.type
+ is 
+2
+. Default value is an empty string.
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Advanced → Network (Firefox 1.5 and 1.0.x: General) → Connection Settings... → Automatic proxy configuration URL"
+
+ 
+ network. proxy. failover_timeout
+
+
+ Integer
+
+ Determines how long to wait until re-contacting an unresponsive proxy server. Default value is 
+1800
+ (30 minutes).
+
+ 
+ network. proxy. (protocol)
+
+
+ String
+
+ A manually configured proxy for the given protocol. Default value is an empty string.
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → General (Firefox 2.0+: Advanced → Network) → Connection Settings... → Manual proxy configuration"
+
+ 
+ network. proxy. (protocol)_port
+
+
+ Integer
+
+ The port for the manually configured proxy for the given protocol. Used when 
+network.proxy.type
+ is 
+1
+.
+Note: In Firefox, this can be changed via "Tools → Options → General (Firefox 2.0+: Advanced → Network) → Connection Settings... → Manual proxy configuration"
+
+ 
+ network. proxy. no_proxies_on
+
+
+ String
+
+ A comma-and-space-delimited list of hosts for which the specified proxies should not be used. (See 
+No proxy for
+ for syntax.)
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → General (Firefox 2.0+: Advanced → Network) → Connection Settings... → Manual proxy configuration → No Proxy for"
+
+ 
+ network. proxy. share_proxy_settings
+
+
+ Boolean
+
+ Determines whether to use the same proxy server for all protocols.
+True
+: Use one proxy for all protocols
+False
+ (default): Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → General (Firefox 2.0+: Advanced → Network) → Connection Settings... → Manual proxy configuration → Use the same proxy for all protocols"
+
+ 
+ network. proxy. socks_remote_dns
+
+
+ Boolean
+
+ 
+True
+: Perform all DNS lookups on remote proxy server (see 
+bug 134105
+)
+False
+ (default): Perform all DNS lookups client-side
+
+ 
+ network. proxy. socks_version
+
+
+ Integer
+
+ Determines which version of SOCKS to use with the server specified in 
+network.proxy.socks
+. Default value is 
+5
+. (The only other valid version is 
+4
+.)
+
+ 
+ network. proxy. type
+
+
+ Integer
+
+ Determines how the browser uses proxies.
+0
+ (default): Direct connection to the Internet (no proxy used)
+1
+: Manual proxy configuration (use values in 
+network.proxy.*
+)
+2
+: Autoconfiguration by URL (use value in 
+network.proxy.autoconfig_url
+)
+3
+: Same as 
+0
+ for compatibility reasons (see 
+bug 115720
+) and will be reset to 0
+4
+: Auto-detect proxy settings for this network
+
+
+ 
+ network. security. ports. banned
+
+
+ String
+
+ A comma-separated list of port numbers to disable in addition to the ports already disabled by default. (See 
+Mozilla Port Blocking
+ for more information.)
+
+ 
+ network. security. ports. banned. override
+
+
+ String
+
+ A comma-separated list of port numbers to enable, overriding the default port blocking. (See 
+Mozilla Port Blocking
+ for more information.)
+
+ 
+ network. standard-url. encode-utf8
+
+
+ Boolean
+
+ Determines how URLs are encoded and sent
+True
+: Always encode and send URLs as UTF-8
+False
+ (default in Firefox 1.0.x): Opposite of the above
+Note: This was 
+True
+ for a short time before Firefox 1.5, causing trouble with some international websites (see 
+bug 284474
+)
+
+ 
+ network. standard-url. escape-utf8
+
+
+ Boolean
+
+ Determines whether URLs with UTF-8 characters are escaped per the spec
+True
+ (default): Escape UTF-8 characters
+False
+: Send URLs as they are
+
+ 
+nglayout. compatibility. mode
+
+
+ Integer
+
+ Force a compatibility mode instead of autodetecting.
+0
+ (default): Use supplied DTD
+1
+: Standards compliance mode
+2
+: Quirks mode
+
+ 
+nglayout. debug. checksum_xul_fastload_file
+
+
+ Boolean
+
+ 
+True
+ (default): Verify that the checksum of the XUL Fastload file hasn't changed since that file was last written to disk
+False
+: Don't bother verifying the checksum
+
+ 
+nglayout. debug. crossing_event_dumping
+
+
+ Boolean
+
+ 
+True
+: In debug-enabled builds, output information about 
+NS_MOUSE_ENTER
+/
+EXIT
+-related events to stdout when Caps Lock is on and 
+nglayout.debug.event_dumping
+ is true
+False
+ (default): Opposite of the above
+
+ 
+nglayout. debug. disable_xul_cache
+
+
+ Boolean
+
+ 
+True
+: 
+ Prevent Mozilla from caching any chrome-level XUL components
+ (XUL, JavaScript, CSS).
+False
+ (default): Cache XUL components for better performance.
+
+ 
+nglayout. debug. disable_xul_fastload
+
+
+ Boolean
+
+ 
+True
+: Disable XUL Fastload caching the in-memory compiled XUL to file (
+xul.mfl
+, 
+xul.mfasl
+)
+False
+ (default): Enable XUL Fastload (see 
+bug 112064
+)
+
+ 
+nglayout. debug. enable_xbl_forms
+
+
+ Boolean
+
+ 
+True
+: Use 
+XBL form controls
+False
+ (default): Opposite of the above
+
+ 
+nglayout. debug. event_dumping
+
+
+ Boolean
+
+ 
+True
+: In debug-enabled builds, output event-related information to stdout when Caps Lock is on
+False
+ (default): Opposite of the above
+
+ 
+nglayout. debug. invalidate_dumping
+
+
+ Boolean
+
+ 
+True
+: In debug-enabled builds, output information about invalidated objects/elements to stdout when Caps Lock is on
+False
+ (default): Opposite of the above
+
+ 
+nglayout. debug. motion_event_dumping
+
+
+ Boolean
+
+ 
+True
+: In debug-enabled builds, output information about 
+NS_MOUSE_MOVE
+-related events to stdout when Caps Lock is on and 
+nglayout.debug.event_dumping
+ is true
+False
+ (default): Opposite of the above
+
+ 
+nglayout. debug. paint_dumping
+
+
+ Boolean
+
+ 
+True
+: In debug-enabled builds, output information about paint events to stdout when Caps Lock is on
+False
+ (default): Opposite of the above
+
+ 
+nglayout. debug. paint_flashing
+
+
+ Boolean
+
+ 
+True
+: In debug-enabled builds, flash painted elements/objects when Caps Lock is on
+False
+ (default): Opposite of the above
+
+ 
+nglayout. events. dispatchLeftClickOnly
+
+
+ Boolean
+
+ Determines whether to dispatch left-click events only to content in the browser (chrome/XUL is exempt from the effects)
+True
+ (default): Dispatch only left-click events to browser content
+False
+: Dispatch both left- and middle-click events
+
+ 
+ nglayout. initialpaint. delay
+
+
+ Integer
+
+ Determines time in milliseconds to wait before an initial reflow attempt during page rendering. Default value is 
+250
+ (PAINTLOCK_EVENT_DELAY). Synchronize with 
+content.notify.interval
+ for best performance.
+
+ 
+plugin. default_plugin_disabled
+
+
+ Boolean
+
+ 
+True
+ (default): When a plugin is needed, prompt the user
+False
+: Don't prompt the user to install needed plugins
+
+ 
+plugin. disable_full_page_plugin_for_types
+
+
+ String
+
+ MIME types that would normally be opened with a plugin, except that the action has been changed in the Firefox Download Actions window.  Resetting this preference changes the download action back to the plugin.
+
+ 
+plugin. expose_full_path
+
+
+ Boolean
+
+ 
+True
+: In about:plugins and 
+navigator.plugins
+, reveal the full path to plugin files
+False
+ (default): Show only the plugin filename
+
+ 
+plugin. override_internal_types
+
+
+ Boolean
+
+ 
+True
+: Allow plugins to override internal imglib decoder MIME types in full-page mode
+False
+ (default): Opposite of the above
+
+ 
+plugin. scan. 4xPluginFolder
+
+
+ Boolean
+
+ Controls the scanning of the Navigator 4.x directory for plugins. When this preference is missing, the default is to pickup popular plugins such as Flash, Shockwave, Acrobat, and Quicktime. If set to true, ALL plugins will be picked up and if set to false the scan will not happen at all.
+
+ 
+plugin. scan. (Plugin)
+
+
+ String
+
+ Name of plugin to scan for, with a minimum version specified. By default, this preference exists for 
+Acrobat
+ (5.0), 
+QuickTime
+ (5.0), 
+SunJRE
+ (1.3), and 
+WindowsMediaPlayer
+ (7.0).
+
+ 
+plugin. scan. plid. all
+
+
+ Boolean
+
+ 
+True
+ (default): Locate plugins by the directories specified in the Windows registry for PLIDs (currently HKLM\Software\MozillaPlugins\xxxPLIDxxx\Path)
+False
+: Opposite of the above
+
+ 
+print. always_cache_old_pres
+
+
+ Boolean
+
+ 
+True
+: Cache old presentation when going into Print Preview
+False
+ (default): Opposite of the above
+
+ 
+print. extend_native_print_dialog
+
+
+ Boolean
+
+ 
+True
+ (default): Extend the native dialog with information on printing frames.
+False
+: Opposite of the above
+Note: Firefox 1.5 and above only.
+
+ 
+print. postscript.enabled
+
+
+ Boolean
+
+ 
+True
+ (default): Enable the the 
+ Postscript
+ printing system on Linux, Unix, or VMS.
+False
+: Disable the system.
+
+ 
+print. postscript.cups.enabled
+
+
+ Boolean
+
+ 
+True
+ (default): Enable CUPS support within the 
+ Postscript
+ printing system.
+False
+: Do not try to access CUPS.
+
+ 
+print. print_edge_(position)
+
+
+ Integer
+
+ Determines the distance from the (position) edge of the page to measure the margin. Default value is 
+0
+.
+
+ 
+print. print_extra_margin
+
+
+ Integer
+
+ Determines an extra gap or margin in twips (90 twips is 1/8 of an inch) around the content of the page for Print Preview only. Default value is 
+90
+ (1/8").
+
+ 
+print. print_(footer or header)(position)
+
+
+ String
+
+ At the given position in the header or footer, print one of the following:
+T
+: Title of the document
+U
+: URL
+D
+: Date/time
+P
+: Page number
+PT
+: Page number "of" total pages
+(any string)
+: A literal string with the above substitutions made
+
+ 
+print. printer_list
+
+
+ String
+
+ Manually supplied list of printers for the 
+ Postscript
+ printing system on Linux, Unix, or VMS.
+
+ 
+print. save_print_settings
+
+
+ Boolean
+
+ 
+True
+ (default): Save the print settings after each print job
+False
+: Opposite of the above
+
+ 
+print. show_print_progress
+
+
+ Boolean
+
+ 
+True
+ (default): Show the progress dialog when printing
+False
+: Opposite of the above
+
+ 
+print. use_global_printsettings
+
+
+ Boolean
+
+ 
+True
+ (default): Every browser window uses the same print settings
+False
+: Each browser window uses its own settings, and changes in one window don't affect the others
+
+ 
+print. use_native_print_dialog
+
+
+ Boolean
+
+ 
+True
+ (default): Use the native print dialog
+False
+: Use the OS print dialog
+Note: Windows-only
+
+ 
+print. whileInPrintPreview
+
+
+ Boolean
+
+ 
+True
+ (default): Allow printing while in Print Preview screen
+False
+: Opposite of the above
+
+ 
+privacy. item. cache
+
+
+ Boolean
+
+ 
+True
+ (default): Clear the cache when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+: Do not clear the cache
+Note: This can be changed via "
+Tools → Options
+ → Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).
+
+ 
+privacy. item. cookies
+
+
+ Boolean
+
+ 
+True
+: Delete all cookies when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+ (default): Opposite of the above
+Note: This can be changed via "
+Tools → Options
+ → Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).
+
+ 
+privacy. item. downloads
+
+
+ Boolean
+
+ 
+True
+ (default): Clear history of downloaded files when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+: Opposite of the above
+Note: This can be changed via "
+Tools → Options
+ → Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).
+
+ 
+privacy. item. formdata
+
+
+ Boolean
+
+ 
+True
+ (default): Clear all saved form data when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+: Opposite of the above
+Note: This can be changed via "
+Tools → Options
+ → Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).
+
+ 
+privacy. item. history
+
+
+ Boolean
+
+ 
+True
+ (default): Clear the browsing history when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+: Opposite of the above
+Note: This can be changed via "
+Tools → Options
+ → Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).
+
+ 
+privacy. item. offlineApps
+
+
+ Boolean
+
+ 
+True
+: Clear the offline website data when using the Clear Private Data feature (Firefox 3 and above only)
+False
+ (default): Opposite of the above
+Note: This can be changed via "
+Tools → Options
+ → Privacy /  Private Data → Settings...".
+
+ 
+privacy. item. passwords
+
+
+ Boolean
+
+ 
+True
+: Delete all saved passwords when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+ (default): Opposite of the above
+Note: This can be changed via "
+Tools → Options
+ → Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).
+
+ 
+privacy. item. sessions
+
+
+ Boolean
+
+ 
+True
+ (default): Clear all authenticated SSL sessions when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+: Opposite of above
+Note: This can be changed via "
+Tools → Options
+ → Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).
+
+ 
+privacy. item. siteprefs
+
+
+ Boolean
+
+ Planned for future use.
+
+ 
+ privacy.popups. disable_from_plugins
+
+
+ Integer
+
+ Sets limits on popups generated from plugins (e.g. Flash)
+0
+: lets all popups through
+ 
+1
+: limits their number to 
+dom.popup_maximum
+ (even with popup blocker disabled)
+2
+: (default in Firefox 1.5 and above and SeaMonkey) blocks popups from plugins.  Whitelisted sites will still be able to open popups, regardless of this setting.
+3
+:  Blocks all plugin-initiated popups, even those on whitelisted sites.
+
+ 
+privacy. popups. firstTime
+
+
+ Boolean
+
+ 
+True
+ (default): The user has never hidden the popup blocker notification bar before, so show a dialog explaining the status bar icon
+False
+: The user has been informed of the status bar icon
+
+ 
+privacy. popups. policy
+
+
+ Integer
+
+ Determines the popup blocker behavior.
+1
+: Allow popups
+2
+: Reject popups
+Note: Seems to be deprecated in favor of 
+dom.disable_open_during_load
+
+
+ 
+privacy. popups. showBrowserMessage
+
+
+ Boolean
+
+ 
+True
+ (default): Display a message at the top of the browser window when a popup has been blocked
+False
+: Display a status bar icon to indicate when a popup has been blocked
+
+ 
+privacy. popups. usecustom
+
+
+ Boolean
+
+ Seemingly unused.
+
+ 
+privacy. sanitize. promptOnSanitize
+
+
+ Boolean
+
+ 
+True
+ (default): Prompt before performing the Clear Private Data operation (Firefox 1.5 and above only)
+False
+: Clear Private Data without confirmation
+Note: In Firefox 1.5 and above, this can be changed via "
+Tools → Options
+ → Privacy → Settings..."
+
+ 
+privacy. sanitize. sanitizeOnShutdown
+
+
+ Boolean
+
+ 
+True
+: Perform the Clear Private Data operation when closing the browser (Firefox 1.5 and above only)
+False
+ (default): Clear Private Data only when asked
+Note: In Firefox 1.5 and above, this can be changed via "
+Tools → Options
+ → Privacy → Settings..."
+
+ 
+profile. allow_automigration
+
+
+ Boolean
+
+ Determines how the 
+Profile Manager
+ handles automigration of Netscape 4.x profiles
+True
+: Allow automigration
+False
+ (default): Opposite of the above
+Note: Has no effect since Gecko 1.9.0 (Firefox 3.0, SeaMonkey 2.0, Thunderbird 3.0).
+
+ 
+profile. confirm_automigration
+
+
+ Boolean
+
+ 
+True
+ (default): Ask user before performing an automigration
+False
+: Opposite of the above
+
+ 
+profile. manage_only_at_launch
+
+
+ Boolean
+
+ 
+True
+: Only show the 
+Profile Manager
+ at program launch
+False
+ (default): Show 
+Profile Manager
+ at any time via menus
+Note: In Firefox, there is no UI to access the Profile Manager from within the browser
+
+ 
+profile. migration_behavior
+
+
+ Integer
+
+ Determines how the profile root is set.
+0
+ (default): use NS_APP_USER_PROFILES_ROOT_DIR
+1
+: create one based on the NS4.x profile root
+2
+: Use value in 
+profile.migration_directory
+ (if empty, use NS_APP_USER_PROFILES_ROOT_DIR)
+
+ 
+profile. migration_directory
+
+
+ String
+
+ Path to directory for migration. Default value is an empty string.
+
+ 
+profile. seconds_until_defunct
+
+
+ Integer
+
+ Number of seconds to wait until the profile is considered defunct. Default value is 
+-1
+ (never consider the profile defunct).
+
+ 
+security. OCSP. URL
+
+
+ String
+
+ Determines the URL to query for 
+OCSP
+ certificate verification/validation if 
+security.OCSP.enabled
+ is 
+2
+. Default value is an empty string.
+Notes
+:
+ In 
+Firefox,
+ this can be changed via "
+Tools → Options
+ → Advanced → Validation → OCSP → Service URL".
+In 
+SeaMonkey 2,
+ this can be changed via "
+Edit → Preferences
+ → Privacy 
+ Security → Validation → OCSP → Validate all certificates using the following OCSP server → Service URL".
+
+ 
+security. OCSP. enabled
+
+
+ Integer
+
+ Determines behavior of 
+OCSP
+-based certificate verification/validation.
+0
+ (default in Firefox 2 and below): Do not use OCSP for certificate validation
+1
+ (default in Firefox 3 and above): Use OCSP to validate only certificates that specify an OCSP service URL (see  
+bug 110161
+). 
+2
+: Enable and use values in 
+security.OCSP.URL
+ and 
+security.OCSP.signingCA
+ for validation.
+ 
+Notes
+:
+ In 
+Firefox,
+ this can be changed via "
+Tools → Options
+ → Advanced → Validation → OCSP".
+In 
+SeaMonkey 2,
+ this can be changed via the first checkbox and the radio buttons under "
+Edit → Preferences
+ → Privacy 
+ Security → Validation → OCSP".
+
+ 
+security. OCSP. signingCA
+
+
+ String
+
+ Determines the name of the 
+OCSP
+ signing certificate authority to use if 
+security.OCSP.enabled
+ is 
+2
+. Default value is an empty string.
+Notes
+:
+ In 
+Firefox,
+ this can be changed via "
+Tools → Options
+ → Advanced → Validation → OCSP → Response Signer".
+In 
+SeaMonkey 2,
+ this can be changed via "
+Edit → Preferences
+ → Privacy 
+ Security → Validation → OCSP → Validate all certificates using the following OCSP server → Response Signer".
+
+ 
+security. ask_for_password
+
+
+ Integer
+
+ Determines when Mozilla Mail should ask for the master password.
+0
+ (default): Only the first time it's needed
+1
+: Every time it's needed
+2
+: Every 
+n
+ minutes, where 
+n
+ is the value in 
+security.password_lifetime
+.
+
+ 
+security. checkloaduri
+
+
+ Boolean
+
+ 
+Pref removed
+ (
+use CAPS instead
+). Previously:
+Determines how to handle access across schemes (e.g., 
+ loading 
+file:
+ URLs from 
+http:
+ URLs
+)
+True
+ (default): Perform security checks and block access for insecure access
+False
+: Opposite of the above
+
+ 
+security. default_personal_cert
+
+
+ String
+
+ Determines the selection of a security certificate to present to web sites that require one.
+Select Automatically
+ (default): Automatically choose the certificate
+Ask Every Time
+: Prompt user with a choice of certificate options every time
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Advanced → Certificates → Client Certificate Selection"
+
+ 
+security. dialog_enable_delay
+
+
+ Integer
+
+ Amount of time in milliseconds to disable buttons on security-sensitive dialog boxes. Default value is 
+2000
+.
+
+ 
+security. directory
+
+
+ String
+
+ Seemingly unused.
+
+ 
+security. enable_java
+
+
+ Boolean
+
+ 
+True
+ (default): Java is enabled
+False
+: Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Content (Web Features in Firefox 1.0.x) → Enable Java"
+
+ 
+security. enable_ssl2
+
+
+ Boolean
+
+ 
+True
+ (default in Firefox 1.5 and below): SSL 2.0 is enabled
+False
+ (default in Firefox 2): Opposite of the above
+Note: In Firefox 1.5 and below, this can be changed via "
+Tools → Options
+ → Advanced → Security → Use SSL 2.0" (removed from the UI in Firefox 2).
+
+ 
+security. enable_ssl3
+
+
+ Boolean
+
+ 
+True
+ (default): SSL 3.0 is enabled
+False
+: Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Advanced → Security → Use SSL 3.0"
+
+ 
+security. enable.tls
+
+
+ Boolean
+
+ 
+True
+ (default): TLS 1.0 is enabled
+False
+: Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+ → Advanced → Security → Use TLS 1.0"
+
+ 
+security. password_lifetime
+
+
+ Integer
+
+ Determines how long (in minutes) to go without asking for the master password in Mozilla Mail when 
+security.ask_for_password
+ is 
+2
+.  Default value is 
+30
+.
+
+ 
+security. (ssl2 or ssl3). (cipher suite)
+
+
+ Boolean
+
+ 
+True
+ (default in all except the two below): The SSL 2.0 encryption type (cipher suite) is enabled
+False
+: Opposite of the above
+
+ 
+security. ssl3. rsa_null_sha
+
+
+ Boolean
+
+ 
+True
+: Enable "No encryption with RSA authentication and an SHA-1 MAC" as a cipher suite
+False
+ (default): Opposite of the above
+
+ 
+security. ssl3. rsa_null_md5
+
+
+ Boolean
+
+ 
+True
+: Enable "No encryption with RSA authentication and an MD5 MAC" as a cipher suite
+False
+ (default): Opposite of the above
+
+ 
+security. ui. enable
+
+
+ Boolean
+
+ 
+Pref removed
+
+
+ 
+security. warn_entering_secure
+
+
+ Boolean
+
+ 
+True
+ (default): Display a dialog warning the user when entering a secure site from an insecure one
+False
+: Opposite of the above
+
+ 
+security. warn_entering_secure. show_once
+
+
+ Boolean
+
+ 
+True
+ (default): Leave the "Alert me whenever..." box unchecked on the security warning dialog
+False
+: Opposite of the above
+
+ 
+security. warn_entering_weak
+
+
+ Boolean
+
+ 
+True
+ (default): Display a dialog warning the user when entering an insecure site from a secure one
+False
+: Opposite of the above
+
+ 
+security. warn_entering_weak. show_once
+
+
+ Boolean
+
+ 
+True
+ (default): Leave the "Alert me whenever..." box unchecked on the security warning dialog
+False
+: Opposite of the above
+
+ 
+security. warn_leaving_secure
+
+
+ Boolean
+
+ 
+True
+ (default): Display a dialog warning the user when leaving a secure site
+False
+: Opposite of the above
+
+ 
+security. warn_leaving_secure. show_once
+
+
+ Boolean
+
+ 
+True
+ (default): Leave the "Alert me whenever..." box unchecked on the security warning dialog
+False
+: Opposite of the above
+
+ 
+security. warn_submit_insecure
+
+
+ Boolean
+
+ 
+True
+ (default): Display a dialog warning the user when submitting a form to an insecure site
+False
+: Opposite of the above
+
+ 
+security. warn_submit_insecure. show_once
+
+
+ Boolean
+
+ 
+True
+ (default): Leave the "Alert me whenever..." box unchecked on the security warning dialog
+False
+: Opposite of the above
+
+ 
+security. warn_viewing_mixed
+
+
+ Boolean
+
+ 
+True
+ (default): Display a dialog warning the user when a page has both encrypted and non-encrypted content
+False
+: Opposite of the above
+
+ 
+security. warn_viewing_mixed. show_once
+
+
+ Boolean
+
+ 
+True
+ (default): Leave the "Alert me whenever..." box unchecked on the security warning dialog
+False
+: Opposite of the above
+
+ 
+security. xpconnect. plugin. unrestricted
+
+
+ Boolean
+
+ 
+True
+ (default): Allow scripting of plugins by untrusted scripts
+False
+: Opposite of the above
+
+ 
+signon. prefillForms
+
+
+ Boolean
+
+ 
+True
+ (default): Allows auto-filling of stored usernames and passwords on webpage forms 
+False
+: Opposite of the above  
+Added in Firefox 1.5.0.9 and 2.0.0.1; set to "False" as workaround for 
+bug 360493
+
+
+ 
+signon. SignonFileName
+
+
+ String
+
+ Determines the filename that the 
+Password Manager
+ uses for storing signon data. Default value is 
+signons.txt
+
+
+ 
+signon. SignonFileName2
+
+
+String
+
+Determines the filename that the 
+Password Manager
+ uses for storing signon data starting in Firefox 1.5.0.10 and Firefox 2.0.0.2 (
+bug 360493
+). Default value is 
+signons2.txt
+
+
+ 
+signon.expireMasterPassword
+
+
+ Boolean
+
+ 
+True
+: The master password for the 
+Password Manager
+ will expire
+False
+ (default): Opposite of the above
+
+ 
+signon. rememberSignons
+
+
+ Boolean
+
+ 
+True
+: (default): Enable the 
+Password Manager
+False
+ Opposite of the above
+
+ 
+snav. directionalBias
+
+
+ Integer
+
+ When calculating distances between elements on the screen, elements may be given a bias if the elements are in the direction of navigation.  The bias is a given by a fraction such that:
+bias distance = true distance / directional bias
+. The default value is 
+3
+.
+
+ 
+snav. disableJS
+
+
+ Boolean
+
+ 
+True
+ (default): Disable 
+onFocus
+ event that an element may recieve during spatial navigation.  On some pages the page decides to move the focus as if the targeted content was clicked.  This may lead to an undesirable behavior.
+False
+: Honor 
+onFocus
+ handlers triggered by spatial navigation
+
+ 
+snav. enabled
+
+
+ Boolean
+
+ 
+True
+ (default): Enable spatial navigation
+False
+: Opposite of the above
+
+ 
+snav. ignoreTextFields
+
+
+ Boolean
+
+ 
+True
+ (default): Ensure that text fields and inputs retain focus even if spatial navigation was requested
+False
+: Opposite of the above
+
+ 
+snav. keyCode. down
+
+
+ String
+
+ Determines the key code corresponding to downwards spatial navigation. Default value is 
+DOM_VK_DOWN
+. 
+(A complete listing of possible key codes is available in 
+nsIDOMKeyEvent.idl
+.)
+
+
+ 
+snav. keyCode. left
+
+
+ String
+
+ Determines the key code corresponding to left spatial navigation. Default value is 
+DOM_VK_LEFT
+. 
+(A complete listing of possible key codes is available in 
+nsIDOMKeyEvent.idl
+.)
+
+
+ 
+snav. keyCode. modifier
+
+
+ String
+
+ Determines the key code corresponding to the required modifier keys. These values are given as follows:
+NONE: 0 
+SHIFT: 0x00100000
+CONTROL: 0x00001100
+ALT: 0x00000012
+The default value is 
+ALT 
+|
+ SHIFT
+.
+
+ 
+snav. keyCode. right
+
+
+ String
+
+ Determines the key code corresponding to right spatial navigation. Default value is 
+DOM_VK_RIGHT
+. 
+(A complete listing of possible key codes is available in 
+nsIDOMKeyEvent.idl
+.)
+
+
+ 
+snav. keyCode. up
+
+
+ String
+
+ Determines the key code corresponding to upwards spatial navigation. Default value is 
+DOM_VK_LEFT
+. 
+(A complete listing of possible key codes is available in 
+nsIDOMKeyEvent.idl
+.)
+
+
+ 
+snav. rectFudge
+
+
+ Integer
+
+ To reduce the chance that a element overlaps with another element, we reduce the elements height and width by this value. Default value is 
+20
+.
+
+ 
+ toolkit. autocomplete. richBoundaryCutoff
+
+
+ Integer
+
+ Determines how much of the text to search for matched text, specified as the number of characters from the beginning. Default is 200.
+
+ 
+ toolkit. scrollbox. clickToScroll. scrollDelay
+
+
+ Integer
+
+ Determines how many milliseconds to wait before scrolling the tab strip by another increment. (Default: 150)
+
+ 
+ toolkit. scrollbox. scrollIncrement
+
+
+ Integer
+
+ Determines how many pixels to scroll at a time when scrolling the tab strip’s scrollbox. (Default: 20)
+
+ 
+ toolkit. scrollbox. smoothScroll
+
+
+ Boolean
+
+ 
+True
+ (default): Scroll the tab strip smoothly to a newly-selected tab.
+False
+: Move to the new tab immediately.
+
+toolkit. storage. synchronous
+
+
+Integer
+
+Specify the 
+SQLite disk sync mode
+ to use.
+
+0
+: risky sync mode. May cause database corruption if the OS crashes or the computer loses power.
+1
+ (default): safe sync mode.
+2
+: extra-slow-extra-safe sync mode.
+
+This preference was added in 
+bug 421482
+. At the same time, Firefox was modified to use mode 1 instead of mode 2 by default, to improve performance.
+[9]
+ (Firefox 3)
+
+
+
+ 
+ toolkit. zoomManager. zoomValues
+
+
+ String
+
+ Specify the zoom levels as multipliers that the user can use on content. Default value is .3,.5,.67,.8,.9,1,1.1,1.2,1.33,1.5,1.7,2,2.4,3
+
+ 
+ui. key. accelKey
+
+
+ Integer
+
+ Determines the key code corresponding to the accelerator key.
+17
+ (default in Windows): Ctrl
+18
+ (default in BeOS): Alt
+224
+ (default in Mac OS X): Cmd
+
+ 
+ui. key. generalAccessKey
+
+
+ Integer
+
+ Determines the key code corresponding to the generic key used for Mozilla shortcuts
+-1
+ (default in recent builds) Use 
+ui. key. chromeAccess
+ for chrome and 
+ui. key. contentAccess
+ for content
+0
+ Disable
+17
+ (default in BeOS, Mac OS X): Ctrl
+18
+ (default in Windows): Alt
+
+ 
+ui. key. chromeAccess
+
+
+ Integer
+
+ Determines the key accelerator for chrome shortcuts
+0
+ Disable
+1
+ Shift
+2
+ Ctrl (default in Mac OS X)
+4
+ Alt (default in Windows and Linux)
+8
+ Meta or Cmd
+Other:
+ Add the above for keychords
+
+ 
+ui. key. contentAccess
+
+
+ Integer
+
+ Determines the key accelerator for shortcuts in content
+0
+ Disable
+1
+ Shift
+2
+ Ctrl (default in Mac OS X)
+4
+ Alt
+8
+ Meta or Cmd
+Other:
+ Add the above for keychords. E.g. 
+5
+ = Alt+Shift (default in Windows and Linux)
+
+ 
+ui. key. menuAccessKey
+
+
+ Integer
+
+ Determines the key code corresponding to Mozilla menu access
+0
+ (default in Mac OS X): none
+17
+ (default in BeOS): Ctrl
+18
+ (default in Windows): Alt
+
+ 
+ui. key. menuAccessKeyFocuses
+
+
+ Boolean
+
+ 
+True
+ (default in Windows): Menus gain focus when 
+ui.key.menuAccessKey
+ is pressed
+False
+: Opposite of the above
+
+ 
+ui. key. saveLink. shift
+
+
+ Boolean
+
+ 
+True
+ (default): Shift-clicking a link opens the Save Link As dialog
+False
+: Opposite of the above
+
+ 
+ui. submenuDelay
+
+
+ Integer
+
+ Determines the delay in milliseconds between hovering over a menu option with a submenu and the submenu appearing. If this preference is not set, the OS's value is used.
+
+ 
+ui. textSelectBackground
+
+
+ String
+
+ Determines the background color to use for text selections as a hex code or named color. If this preference is not set, the OS's value is used.
+
+ 
+ui. textSelectBackgroundAttention
+
+
+ String
+
+ Determines the background color used for 
+Find As You Type
+ as a hex code or named color. If this preference is not set, the inverse of 
+ui.textSelectBackground
+ is used.
+
+ 
+ui. textSelectForeground
+
+
+ String
+
+ Determines the text color to use for text selections as a hex code or named color. If this preference is not set, the OS's value is used.
+
+ 
+update. interval
+
+
+ Integer
+
+ Determines how often to check 
+extensions.update.interval
+ and 
+app.update.interval
+ in milliseconds. Default value is 
+3600000
+ (1 hour).
+
+ 
+update. severity
+
+
+ Integer
+
+ Used by the update system to determines when to display the icon for pending updates.
+0
+ (default): Low severity update(s) available (extension/theme updates)
+1
+: Medium severity update(s) available (numerous extension/theme updates)
+2
+: High severity updates available (new version of Firefox/security patch)
+
+ 
+update. showSlidingNotification
+
+
+ Boolean
+
+ 
+True
+ (default): Display the sliding alert when updates are available
+False
+: Opposite of the above
+
+ 
+update_notifications. enabled
+
+
+ Boolean
+
+ 
+True
+ (default): Display a notification in the browser when updates are available
+False
+: Opposite of the above
+
+ 
+update_notifications. provider. 0. datasource
+
+
+ String
+
+ Determines where to get update notifications. Value is pulled from chrome://browser-region/locale/region.properties.
+
+ 
+update_notifications. provider. 0. frequency
+
+
+ Integer
+
+ Number of days between update checks. Default value is 
+7
+.
+
+ 
+ view_source. editor. external
+
+
+ Boolean
+
+ 
+True
+: The program defined in 
+view_source. editor. path
+ should be used when View Source is requested. 
+False
+ (default): The internal viewer should be used when View Source is requested.
+
+ 
+ view_source. editor. path
+
+
+ String
+
+ Path to the external editor to use for View Source when 
+view_source. editor. external
+ is True. If the path doesn't exist or isn't a program, the internal viewer will always be used.
+
+ 
+ view_source. syntax_highlight
+
+
+ Boolean
+
+ 
+True
+ (default): Enable syntax highlighting in the view source window.
+False
+: Opposite of the above
+Note: This can be changed via "View → Syntax Highlighting" in the view source window.
+
+ 
+ view_source. tab_size
+
+
+ Integer
+
+ sets the width of a tab character in the view source window. Already open windows aren't updated (implemented in 
+bug 295506
+ in trunk builds (mozilla-1.9.3a1) starting 2010-02-03)
+
+ 
+ view_source. wrap_long_lines
+
+
+ Boolean
+
+ 
+True
+: HTML code will wrap in the view source window.
+False
+ (default): HTML code will not wrap in the view source window.
+Note: This can be changed via "View → Wrap Long Lines" in the view source window.
+
+ 
+xpinstall. dialog. confirm
+
+
+ String
+
+ Determines the chrome location of the XPInstall dialog. Default value is 
+chrome://mozapps/content/xpinstall/xpinstallConfirm.xul
+.
+
+ 
+xpinstall. dialog. progress. chrome
+
+
+ String
+
+ Determines the chrome location of the extensions dialog. Default value is 
+chrome://mozapps/content/extensions/extensions.xul?type=extensions
+.
+
+ 
+xpinstall. dialog. progress. skin
+
+
+ String
+
+ Determines the chrome location of the themes dialog. Default value is 
+chrome://mozapps/content/extensions/extensions.xul?type=themes
+.
+
+ 
+xpinstall. enabled
+
+
+ Boolean
+
+ 
+True
+ (default): Enables the XPInstall system (i.e., allows extensions to be installed)
+False
+: Opposite of the above
+Note: In Firefox 1.0.x, this can be changed in "
+Tools → Options
+ → Web Features → Allow web sites to install software" (UI removed in Firefox 1.5).
+
+ 
+xpinstall. whitelist. add
+
+
+ String
+
+ A comma-separated list of sites to automatically add to the extensions whitelist. Default value is 
+update.mozilla.org,addons.mozilla.org
+ but is cleared as soon as the values are added to the whitelist
+
+ 
+xpinstall. whitelist. required
+
+
+ Boolean
+
+ 
+True
+ (default): When installing extensions from remote hosts, remote host must be on the whitelist
+False
+: Opposite of the above
+
+ 
+allinonegest. *
+
+
+ Varied
+
+ These preferences are set via the 
+All in One Mouse Gestures
+ extension.
+
+ 
+application. use_ns_plugin_finder
+
+
+ Boolean
+
+ 
+True
+: When a plugin is not found, clicking on the puzzle piece will open a dialog telling the user what plugin is needed. Clicking on the "Get the Plugin" button brings the user to the plugins installation page.
+False
+ (default): Clicking on the puzzle piece will send the user to that plugin's page on plugins.netscape.com which will have a link to that plugin's installation page.
+
+ 
+backups. number_of_prefs_copies
+
+
+ Integer
+
+ 
+Unused (obsolete)
+. Previously: number of backup copies of prefs.js to keep.
+
+ 
+clipboard. autocopy
+
+
+ Boolean
+
+ 
+True
+: Selecting text automatically copies it to the clipboard
+False
+ (default): Opposite of the above
+Note: 
+*nix only
+.
+
+ 
+converter. html2txt. header_strategy
+
+
+ Integer
+
+ How to format HTML headers (
+H1
+-
+H6
+) when saving a web page as text-only
+0
+: No indentation
+1
+ (default): Indent headers based on header level (i.e. 
+H
+(n+1)
+ is indented more than 
+H
+(n))
+2
+: Number headings and indent slightly
+
+ 
+converter. html2txt. structs
+
+
+ Boolean
+
+ Determines whether to format "structured" elements (
+strong
+, 
+em
+, 
+code
+, 
+sub
+, 
+sup
+, 
+b
+, 
+i
+, 
+u
+) with other characters when saving a web page as text-only
+True
+ (default): 
+*Strong*
+, 
+/em/
+, 
+|code|
+, 
+_sub
+, 
+^sup
+, 
+*b*
+, 
+/i/
+, 
+_u_
+False
+: 
+Strong
+, 
+em
+, 
+code
+, 
+sub
+, 
+sup
+, 
+b
+, 
+i
+, 
+u
+
+
+ 
+custtoolbar. personal_toolbar_folder
+
+
+ String
+
+ Custom name for the Personal Toolbar Folder.  If empty (default), name is determined by string bundle or the hard-coded value "Personal Toolbar Folder".
+
+ 
+gfx. color_management. display_profile
+
+
+ String
+
+ Full path to an ICM profile for output. Default is an empty string in which case the systems global profile is used. If no global profile can be found a default sRGB profile is used.
+
+ 
+gfx. color_management. enabled
+
+
+ Boolean
+
+ 
+True
+: Enable color management for rendered graphics.
+False
+ (default): Disable color management.
+
+ 
+gfx. use_text_smoothing_setting
+
+
+ Boolean
+
+ 
+True
+: 
+False
+ (default): .
+
+ 
+image. animation_mode
+
+
+ String
+
+ Determines how to animate multi-frame GIF images
+none
+: animated images will never play.
+once
+: animated images will play once.
+normal
+ (default): animated images will play as normal.
+
+ 
+images. dither
+
+
+ String
+
+ Whether to dither images
+auto
+ (default): Automatically decide
+true
+: Dither images
+false
+: Disable image dithering
+
+ 
+ime. password. onBlur. dontCare
+
+
+ Boolean
+
+ Determines how an IME editor window should react when password fields lose focus (see 
+bug 16940
+).
+True
+: Leave the IME open
+False
+ (default): Re-open the IME if it was open prior to the password field's focus.
+Note: Firefox 1.5 and above only.
+
+ 
+ime. password. onFocus. dontCare
+
+
+ Boolean
+
+ Determines how an IME editor window should react when password fields gain focus (see 
+bug 16940
+).
+True
+: Leave the IME open
+False
+ (default): Close the IME.
+Note: Firefox 1.5 and above only.
+
+ 
+inspector. *
+
+
+ Varied
+
+ These entries apply to the 
+DOM Inspector
+ and are only relevant if you have it installed.
+
+ 
+keyword. URL
+
+
+ String
+
+ URL to use for keyword lookups. Default value in Firefox 2.0 is
+
+http://www.google.com/search? ie=UTF-8
+oe=UTF-8
+sourceid=navclient
+gfns=1
+q=
+
+
+
+ 
+keyword. enabled
+
+
+ Boolean
+
+ Determines whether to use keywords
+True
+ (default): Send non-URLs entered in the 
+Location Bar
+ to the URL specified in 
+keyword.URL
+False
+: Disable keywords
+
+ 
+mail. ui. display. dateformat. today
+
+
+ Integer
+
+ See 
+Change the Date Format
+.
+
+ 
+permissions. default. image
+
+
+ Integer
+
+ Determines when images should be loaded.
+1
+ (default): Load all images
+2
+: Do not load any images
+3
+: Load images from same (originating) server only
+Note: This preference was previously known as 
+network.image.imageBehavior
+ prior to Firefox 1.5.
+
+ 
+pfs. datasource. url
+
+
+ String
+
+ Determines where the plugin finder service should query for plugin information. Default value is pulled from chrome://mozapps/locale/plugins/plugins.properties
+
+ 
+places. frecency. *
+
+
+ Integer
+
+ These prefs are used for the 
+frecency calculation process
+.
+
+ 
+prefs. converted-to-utf8
+
+
+ Boolean
+
+ 
+True
+: The preferences have been converted to UTF-8; decode as appropriate
+False
+ (default): Opposite of the above
+
+ 
+roaming. default. files
+
+
+ String
+
+ A comma-separated list of files that will be selected for roaming by default.  Default value is 
+bookmarks.html,abook.mab,cookies.txt
+.
+
+ 
+roaming. showInitialWarning
+
+
+ Boolean
+
+ 
+True
+ (default): Display a general warning to the user about making backups, security, etc.
+False
+: Opposite of the above
+
+ 
+signed. applets. codebase_principal_support
+
+
+ Boolean
+
+ 
+True
+: Give scripts using 
+codebase principals
+ access advanced scripting capabilities. Setting this preference to "true" is often used to allow IRC websites to gain access to the OS's clipboard at the expense of a security risk.
+False
+ (default): Only trusted/signed scripts can access advanced scripting capabilities
+Note: 
+file:
+ and 
+resource:
+ schemes are considered "special" and may get extra capabilities regardless of this preference's setting.
+
+ 
+slider. snapMultiplier
+
+
+ Integer
+
+ Determines the size of the scrollbar snapping region. Default value is 
+6
+ in Windows; 
+0
+ (disabled) in *nix.
+
+ 
+ startup . homepage_override_url
+
+
+ String
+
+ The URL that Firefox goes to when the user starts up the browser after upgrading. In Firefox, defaults to
+http://%LOCALE%.www.mozilla.com/ %LOCALE%/%APP%/%VERSION%/whatsnew/.
+
+ 
+ startup. homepage_welcome_url
+
+
+ String
+
+ The URL that Firefox goes to when the user starts up the browser after the initial installation, or with a new profile. In Firefox, defaults to
+http://%LOCALE%.www.mozilla.com/ %LOCALE%/%APP%/%VERSION%/firstrun/.
+
+ 
+svg. enabled
+
+
+ Boolean
+
+ 
+True
+ (default): On SVG-enabled builds, enables internal SVG renderer, disables externals
+False
+: Opposite of the above (see 
+bug 258511
+)
+
+ 
+ urlclassifier. keyupdatetime. *
+
+
+Integer
+
+Time stamps used by Safe Browsing in Firefox to record the latest updates downloaded and stored in 
+urlclassifier2.sqlite
+.  Downloading is controlled by 
+browser.safebrowsing.remoteLookups
+.
+ See 
+Phishing Protection
+ in the Mozilla Wiki.
+
+ 
+ urlclassifier. tableversion. *
+
+
+String
+
+Version numbers used by Safe Browsing in Firefox to record the latest updates downloaded.
+
+ 
+viewmanager. do_doublebuffering
+
+
+ Boolean
+
+ Determines whether the viewmanager should do double-buffering by default (see 
+bug 169483
+).
+
+ 
+wallet. caveat
+
+
+ Boolean
+
+ Marks whether the user has been shown the warning message regarding security risks of using the 
+Wallet
+ feature.
+
+ 
+ wallet. crypto. autocompleteoverride
+
+
+ Boolean
+
+ Indicates whether browser should ignore the autocomplete="off" attribute in forms.}
+

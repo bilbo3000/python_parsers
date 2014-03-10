@@ -1,5 +1,13 @@
 #!/usr/bin/python
 
+'''
+Parser that extracts preferences along with their descriptions from 
+html web pages (particularly from preferential.html). 
+
+Dongpu Jin
+3/10/2014
+'''
+
 import re; 
 from HTMLParser import HTMLParser; 
     
@@ -46,37 +54,30 @@ class MyHTMLParser(HTMLParser):
         global isSpan; 
         global isName; 
         global isHint;
- 	global outfile; 
-        if isDiv and isSpan: 
-	    data = re.sub('\(', '{', data);
-	    data = re.sub('\)', '}', data);
-	    data = re.sub('\"', ' ', data); 
-            if isName:  # name span field
-                #print "Name: ", data; 
-		outfile.write("NAME: " + data + ' '); 
-		isSpan = 0; 
-                isName = 0; 
+        global outfile; 
+ 		
+        if isDiv and isSpan:  
+            if isName:  # name span field 
+				outfile.write(data + '\n'); 
+
             if isHint:  # hint span field
-		#print "Hint: ", data;
-		outfile.write("HINT: " + data + '\n');  
-                isSpan = 0;   
-                isHint = 0; 
+				outfile.write(data + '\n');  
  
   
 # instantiate a parser instance       
 parser = MyHTMLParser();  
 
 # open file for parsing
-filepath = "/home/djin/work/prefparser/preferential.html";
+filepath = "preferential.html";
 inputfile = open(filepath);
 html = inputfile.read(); # read input file
+
 # initialize global variable
 isDiv= 0; 
 isSpan = 0;
 isName = 0; 
 isHint = 0; 
-outfile = open("./prefDesc.txt", 'w');
-outfile.write("Firefox preferences descriptions\n"); 
+outfile = open("./prefDesc.txt", 'w'); 
 parser.feed(html); 
 
 parser.close(); 

@@ -1,698 +1,1442 @@
-Firefox preferences descriptions
-NAME: accessibility.accesskeycausesactivation HINT: Pressing access key follows link, instead of just highlighting it?
-NAME: accessibility.browsewithcaret HINT: Browse web pages using caret {cursor}?
-NAME: accessibility.disablecache HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: accessibility.disableenumvariant HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: accessibility.tabfocus HINT: Determines which web page elements can gain focus when TAB key is pressed
-NAME: accessibility.typeaheadfind HINT: Enables type-ahead find {see http://www.mozilla.org/projects/ui/accessibility/typeaheadfind.html}
-NAME: accessibility.typeaheadfind.autostart HINT: Start type-ahead find without having to press / {find text} or ' {find links} first?
-NAME: accessibility.typeaheadfind.enablesound HINT: Enable error sound for type-ahead find? {Currently off by default for Linux/Unix, on by default for other platforms}
-NAME: accessibility.typeaheadfind.enabletimeout HINT: Enable error sound for type-ahead find? {Currently off by default for Linux/Unix, on by default for other platforms}
-NAME: accessibility.typeaheadfind.linksonly HINT: Only allow type-ahead find for links?
-NAME: accessibility.typeaheadfind.soundURL HINT: Specify filename {.wav} for the error sound, or use  default  for default sound or  beep  for system beep
-NAME: accessibility.typeaheadfind.startlinksonly HINT: Only match on the start of links?
-NAME: accessibility.typeaheadfind.timeout HINT: Time {in ms} before type-ahead find automatically deactivates
-NAME: accessibility.usebrailledisplay HINT: Enter command-line for the braille display program to use with Mozilla {blank for none}
-NAME: accessibility.usetexttospeech HINT: Enter command-line for the text-to-speech program to use with Mozilla {blank for none}
-NAME: accessibility.warn_on_browsewithcaret HINT: Warn user before turning on caret browsing?
-NAME: addressbook.throbber.url HINT: URL addressbook points to when clicked
-NAME: advanced.always_load_images HINT: Always load all images when visiting a web page?
-NAME: advanced.mailftp HINT: Send user's email address as password for anonymous FTP?
-NAME: advanced.system.supportDDEExec HINT: {Windows only} Support execution of DDE commands?  In some cases, setting this to false may allow external links to open in a new window {see bug 155402 comment 10 - see also browser.always_reuse_window}.
-NAME: aim.session.screenname HINT: AIM user handle
-NAME: alerts.height HINT: Height of alert box
-NAME: alerts.slideIncrement HINT: Amount to 'slide' by
-NAME: alerts.slideIncrementTime HINT: Time {in ms} taken to perform a slide
-NAME: alerts.totalOpenTime HINT: Total time {in ms} that alert remains open
-NAME: application.use_ns_plugin_finder HINT: Use Netscape plug-in finder?
-NAME: autoadmin.append_emailaddr HINT: Automatically append received e-mail addresses to address book?
-NAME: autoadmin.failover_to_cached HINT: Automatically load cached web page if 'live' one cannot be located?
-NAME: autoadmin.global_config_url HINT: URL from which to retrieve all configuration settings
-NAME: autoadmin.offline_failover HINT: Automatically change to offline browsing if online browsing fails?
-NAME: autoadmin.refresh_interval HINT: Time in minutes between fetching the configuration file specified in autoadmin.global_config_url
-NAME: autocomplete.grab_during_popup HINT: {X11 only} Specify if the autocomplete pop-up control should grab the keyboard. This option can be set to false to work around the bug where XKB does not set mode switching properly.
-NAME: autocomplete.ungrab_during_mode_switch HINT: {X11 only} This option complements autocomplete.grab_during_popup. If both preferences are true, then during an autocomplete session the application will release/grab keyboard when a mode-switch key is pressed/released.
-NAME: autoupdate.enabled HINT: Use Autoupdate?
-NAME: backups.number_of_prefs_copies HINT: Number of copies to make of the preference file
-NAME: bidi.characterset HINT: How browser determines character set to use
-NAME: bidi.clipboardtextmode HINT: Type of clipboard to use
-NAME: bidi.controlstextmode HINT: How controls are used
-NAME: bidi.direction HINT: Select direction of text
-NAME: bidi.numeral HINT: How numerals are displayed
-NAME: bidi.support HINT: Select provider of bi-directional support
-NAME: bidi.texttype HINT: Type of text
-NAME: browser.PICS.disable_for_this_session HINT: Turn off PICS until next session?
-NAME: browser.PICS.pages_must_be_rated HINT: Only allow viewing of PICS-rated pages?
-NAME: browser.PICS.ratings_enabled HINT: Enables PICS ratings?
-NAME: browser.PICS.reenable_for_this_session HINT: Turn PICS back on for the remainer of this session?
-NAME: browser.PICS.service.http___home_netscape_com_default_rating.s HINT: Internal PICS rating, do not alter.
-NAME: browser.PICS.service.http___home_netscape_com_default_rating.service_enabled HINT: Internal PICS rating service page, do not alter.
-NAME: browser.allowpopups HINT: Allow unrequested popups in browser?
-NAME: browser.always_reuse_window HINT: Always reuse existing Mozilla windows when OS requests opening of a URL?
-NAME: browser.anchor_color HINT: Default color of hyperlinks {#RRGGBB}
-NAME: browser.blink_allowed HINT: Allow use of 
-NAME: browser.block.target_new_window HINT: Prevent hyperlinks from opening new windows?
-NAME: browser.bookmarks.added_static_root HINT: Has Mozilla already imported the system bookmarks?  {This will only happen once for each profile.}
-NAME: browser.bookmarks.confirm_sorting HINT: Enable the bookmark sorting confirmation prompt?
-NAME: browser.bookmarks.import_system_favourites HINT: Import system {usually IE} URL favourites into Mozilla?
-NAME: browser.cache.check_doc_frequency HINT: Set how often to check accuracy of cached documents
-NAME: browser.cache.disk.capacity HINT: Size of disk cache {in KB}
-NAME: browser.cache.disk.enable HINT: Use disk cache?
-NAME: browser.cache.disk.parent_directory HINT: Directory in which to store cache files
-NAME: browser.cache.disk_cache_ssl HINT: Cache documents retrieved via HTTPS/SSL?
-NAME: browser.cache.enable HINT: Enable caching of documents retrieved by browser?
-NAME: browser.cache.memory.capacity HINT: Size of memory cache {in KB}
-NAME: browser.cache.memory.enable HINT: Use memory cache?
-NAME: browser.chrome.favicons HINT: Display 'favourite icons' in location bar? 
-NAME: browser.chrome.load_toolbar_icons HINT: Sets behavior when loading toolbar icons
-NAME: browser.chrome.site_icons HINT: Display 'favourite icons' in Bookmarks?
-NAME: browser.chrome.toolbar_tips HINT: Show tooltips for toolbars and bookmarks, displaying the bookmark name and URL?
-NAME: browser.chrome.toolbar_style HINT: Set toolbar style for browser
-NAME: browser.chromeURL HINT: Specifies URL used to launch browser XUL
-NAME: browser.display.background_color HINT: Set default browser background color {#RRGGBB}
-NAME: browser.display.base_font_scaler HINT: Set to an integer value to scale base font sizes on websites which do not override defaults {eg. via CSS}.
-NAME: browser.display.focus_background_color HINT: Set background color for focussed text {eg. for type-ahead find}
-NAME: browser.display.focus_ring_on_anything HINT: Draw a dotted focus ring around objects when selected?
-NAME: browser.display.focus_ring_width HINT: Set width {in pixels} of the dotted focus ring?
-NAME: browser.display.focus_text_color HINT: Set foreground color for focussed text {#RRGGBB}
-NAME: browser.display.force_inline_alttext HINT: Force display of ALT text inline with browser text?
-NAME: browser.display.foreground_color HINT: Set default browser foreground color {#RRGGBB}
-NAME: browser.display.internaluse.graphics_changed HINT: RESERVED: for internal use only
-NAME: browser.display.normal_lineheight_calc_control HINT: Used to ensure CSS lineheight calculated correctly {unsure?}
-NAME: browser.display.screen_resolution HINT: Screen resolution {in DPI}
-NAME: browser.display.show_image_placeholders HINT: Show image placeholders while images are loading/broken?
-NAME: browser.display.use_document_colors HINT: Allow current document to specify colors to use? {If false, background images will also not be loaded}
-NAME: browser.display.use_document_fonts HINT: Allow current document to specify fonts to use?
-NAME: browser.display.use_focus_colors HINT: Use focus colors specified by Windows?
-NAME: browser.display.use_system_colors HINT: Automatically choose system colors for foreground and background?
-NAME: browser.display_very_small_fonts HINT: Enable display of very small fonts in browser?
-NAME: browser.dom.window.dump.enabled HINT: Allow dump of DOM window?
-NAME: browser.download.dir HINT: Last directory selected for downloading files
-NAME: browser.download.progressDnldDialog.enable_launch_reveal_buttons HINT: Enable 'Launch' and 'Show File Location' buttons when download completes?
-NAME: browser.download.progressDnldDialog.keepAlive HINT: Keep download progress dialog open after download is complete
-NAME: browser.download.progressDnlgDialog.dontAskForLaunch HINT: Don't ask for confirmation on launching a file from download dialog every time
-NAME: browser.download.save_converter_index HINT: Choose how webpages are saved {Default=0}
-NAME: browser.downloadmanager.behavior HINT: Set how download manager operates
-NAME: browser.drag_out_of_frame_style HINT: Change how selecting text is handled when your mouse is outside of the text's bounding box.
-NAME: browser.editor.disabled HINT: Should the 'Edit Page' option appear?
-NAME: browser.enable_automatic_image_resizing HINT: Enable automatic image scaling if too big for the screen
-NAME: browser.fixup.alternate.enabled HINT: Enable the use of alternate URLs?
-NAME: browser.fixup.alternate.prefix HINT: Text to put before the URL domain name
-NAME: browser.fixup.alternate.suffix HINT: Text to put after the URL domain name
-NAME: browser.forms.submit.backwards_compatible HINT: Use backwards compatible method of submitting forms?
-NAME: browser.frame.validate_origin HINT: Validate origin of frames before allowing display?
-NAME: browser.frames.enabled HINT: Enable display of frames on this browser?
-NAME: browser.goBrowsing.enabled HINT: Display 'Go' button in browser?
-NAME: browser.helperApps.alwaysAsk.force HINT: Force browser to always ask user what they want to do?
-NAME: browser.helperApps.neverAsk.openFile HINT: Set MIME types which browser will always open automatically
-NAME: browser.helperApps.neverAsk.saveToDisk HINT: Set MIME types which browser will always save to disk
-NAME: browser.history.grouping HINT: Set how history URLs are grouped
-NAME: browser.history.last_page_visited HINT: Last page visited in history
-NAME: browser.history_expire_days HINT: Number of days pages are kept in history before being discarded
-NAME: browser.homepage.mode HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: browser.personal_toolbar_button.max_chars HINT: Maximum characters displayed for each button {default is 15}
-NAME: browser.plugins.max_num_cached_plugins HINT: Number of plugins held around when plugin wants to be cached {default: 10}
-NAME: browser.popups.showPopupBlocker HINT: Display icon when a popup window is blocked?
-NAME: browser.prefWindowModal HINT: Make preferences window modal?
-NAME: browser.quartz.enable HINT: {OS X only} Specifies whether to use Quartz rendering if it is available.  The default value is true.
-NAME: browser.related.autoload HINT: AutoLoad behavior for What's Related
-NAME: browser.related.disabledForDomains HINT: Comma-separated list of domains that are excluded from What's Related
-NAME: browser.related.enabled HINT: Enable What's Related?
-NAME: browser.related.provider HINT: URL of provider of What's Related service
-NAME: browser.download.save_converter_index HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: browser.search.basic.min_ver HINT: The minimum version of Sherlock Plugins to accept {see http://mycroft.mozdev.org}
-NAME: browser.search.defaultengine HINT: URI specifying default search engine plugin details
-NAME: browser.search.defaultenginename HINT: Specifies locale URI which determines default engine name
-NAME: browser.search.defaulturl HINT: Specifies locale URI which determines default search URL
-NAME: browser.search.last_search_category HINT: RDF query that specifies last categorisation used for search
-NAME: browser.search.mode HINT: Use basic or advanced search mode?
-NAME: browser.search.opensidebarsearchpanel HINT: Open Sidebar Search panel after search in location bar is performed?
-NAME: browser.search.powermode HINT: Enable advanced search for location bar
-NAME: browser.session.savesessionhistory HINT: Save session history?
-NAME: browser.sessionhistory.max_entries HINT: Maximum number of entries stored in the Location Bar
-NAME: browser.show_about_as_stupid_modal_window HINT: Show Help -
-NAME: browser.startup.autoload_homepage HINT: Automatically load Home page at startup?
-NAME: browser.startup.homepage HINT: URL of home page to load at start up
-NAME: browser.startup.homepage.count HINT: The number of pages in your homepage startup group
-NAME: browser.startup.homepage_override.1 HINT: This appears to be a dummy variable for the nsIPrefBranch interface test, and does not affect the running of the browser
-NAME: browser.startup.homepage_override.mstone HINT: The last browser version this profile was loaded with.  If the browser version is different, on next launch you will be taken to the page specified in startup.homepage_override_url
-NAME: browser.startup.page HINT: Blank page=0
-NAME: browser.tabs.autoHide HINT: Automatically hide tabs when only one tab is open?
-NAME: browser.tabs.forceHide HINT: Reserved for internal use.  Not reliably settable as an end user preference.
-NAME: browser.tabs.loadInBackground HINT: Load new tabs in background before they are displayed?
-NAME: browser.tabs.loadOnNewTab HINT: What should be displayed in a newly created tab
-NAME: browser.tabs.opentabfor.bookmarks HINT: Open new tab when clicking on Bookmarks?
-NAME: browser.tabs.opentabfor.middleclick HINT: Open new tab when middle-click used?
-NAME: browser.tabs.opentabfor.urlbar HINT: Open new tab for each URL typed into Location Bar?
-NAME: browser.tabs.opentabfor.windowopen HINT: Open new tab in all cases when a new window would have been opened?
-NAME: browser.tabs.warnOnClose HINT: Warn when closing window if more than one tab open
-NAME: browser.throbber.url HINT: Specifies URI to load when browser throbber is clicked
-NAME: browser.toolbars.showbutton.bookmarks HINT: Show Bookmarks button on toolbar?
-NAME: browser.toolbars.showbutton.go HINT: Show Go button on toolbar?
-NAME: browser.toolbars.showbutton.home HINT: Show Home button on toolbar?
-NAME: browser.toolbars.showbutton.print HINT: Show Print button on toolbar?
-NAME: browser.toolbars.showbutton.search HINT: Show Search button on toolbar?
-NAME: browser.translation.service HINT: Translation service URL used in older browsers for Translate feature
-NAME: browser.translation.serviceDomain HINT: Translation service label used in older browsers for Translate feature
-NAME: browser.triple_click_selects_paragraph HINT: Enable triple-clicking?
-NAME: browser.turbo.enabled HINT: Enable Quick Launch?
-NAME: browser.turbo.showDialog HINT: Show dialog about Quick Launch when last Mozilla window closes?
-NAME: browser.turbo.singleProfileOnly HINT: Never prompt to select profile when starting Mozilla?
-NAME: browser.underline_anchors HINT: Underline hyperlinks?
-NAME: browser.urlbar.autoFill HINT: Autocomplete best match as you type?
-NAME: browser.urlbar.autocomplete.enabled HINT: Enable Autocomplete?
-NAME: browser.urlbar.clickAtEndSelects HINT: Clicking past the end of the text in the location bar still selects all if browser.urlbar.clickSelectsAll is true
-NAME: browser.urlbar.clickSelectsAll HINT: Clicking in the location bar select the contents
-NAME: browser.urlbar.autocomplete.matchOnlyTyped HINT: Match only URLs already typed into Location Bar?
-NAME: browser.urlbar.autocomplete.showPopup HINT: Show drop-down box showing all matching Autocomplete entries?
-NAME: browser.urlbar.autocomplete.showSearch HINT: Show Internet search engine query?
-NAME: browser.urlbar.matchOnlyTyped HINT: Restrict the popup list items to addresses you have previously typed
-NAME: browser.urlbar.showPopup HINT: Show a list of matching addresses as you enter text in the location bar
-NAME: browser.urlbar.showSearch HINT: Show 'Search on [Search Engine] for [Text]' in location bar popup list
-NAME: browser.visited_color HINT: Set visited hyperlink color {#RRGGBB}
-NAME: browser.windows.loadOnNewWindow HINT: Set what should be displayed in a newly created window
-NAME: browser.xul.error_pages.enabled HINT: Load error pages {aka IE} instead of showing a dialog box?
-NAME: calendar.alarms.defaultsnoozelength HINT: Default snooze time {in minutes}
-NAME: calendar.alarms.emailaddress HINT: Address to send alarm notifications to
-NAME: calendar.alarms.playsound HINT: Is audible alarm on?
-NAME: calendar.alarms.show HINT: Are alarms on?
-NAME: calendar.categories.names HINT: A comma-separated list of categories
-NAME: calendar.date.format HINT: Calendar date format
-NAME: calendar.event.defaultendhour HINT: Default end hour of day
-NAME: calendar.event.defaultlength HINT: Default event length
-NAME: calendar.event.defaultstarthour HINT: Default start hour of day
-NAME: calendar.publish.password HINT: Password for server
-NAME: calendar.publish.path HINT: URL to calendar server
-NAME: calendar.publish.username HINT: Username when logging on to calendar server
-NAME: calendar.servers.reloadonlaunch HINT: Reload remote calendar when Calendar app is launched
-NAME: calendar.week.start HINT: Day to start week on
-NAME: capability.policy.default.DOMException HINT: Allow access to DOM Exceptions?
-NAME: capability.policy.default.DOMParser HINT: Allow access to DOM Parser?
-NAME: capability.policy.default.HTMLDocument HINT: Allow access to HTML DOM elements?
-NAME: capability.policy.default.History HINT: Allow access to History properties and methods?
-NAME: capability.policy.default.Location HINT: Allow access to Location properties and methods?
-NAME: capability.policy.default.Navigator HINT: Allow access to Navigator properties and methods?
-NAME: capability.policy.default.SOAPCall HINT: Allow access to SOAP calls?
-NAME: capability.policy.default.Window HINT: Allow access to Window properties and methods?
-NAME: capability.policy.default.XMLHttpRequest HINT: Allow XML/HTTP requests?
-NAME: capability.policy.default_policynames HINT: Comma-separated list of defined policies that are to be applied by default.
-NAME: capability.policy.mailnews.* HINT: Default access policy for all aspects of mailnews policy
-NAME: capability.policy.mailnews.DOMException HINT: Allow access to DOM Exceptions?
-NAME: capability.policy.mailnews.DOMParser,parseFromStream HINT: Allow access to DOM Parser using a stream?
-NAME: capability.policy.mailnews.DOMParser,parseFromString HINT: Allow access to DOM Parser using a stream?
-NAME: capability.policy.mailnews.HTMLAnchor HINT: Allow access to HTML Anchor elements?
-NAME: capability.policy.mailnews.HTMLDocument HINT: Allow access to HTML DOM elements?
-NAME: capability.policy.mailnews.Location HINT: Allow access to Location properties and methods?
-NAME: capability.policy.mailnews.Range HINT: Allow access to Range properties and methods?
-NAME: capability.policy.mailnews.SOAPCall HINT: Allow access to SOAP calls?
-NAME: capability.policy.mailnews.SOAPEncoding HINT: Allow access to SOAP encoding functions?
-NAME: capability.policy.mailnews.SOAPFault HINT: Allow access to SOAP fault functions?
-NAME: capability.policy.mailnews.SOAPHeaderBlock HINT: Allow access to SOAP Header Block functions?
-NAME: capability.policy.mailnews.SOAPParameter HINT: Allow access to SOAP parameters?
-NAME: capability.policy.mailnews.SOAPPropertyBagMutator HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: capability.policy.mailnews.SOAPResponse HINT: Allow access to SOAP responses?
-NAME: capability.policy.mailnews.SchemaLoader HINT: Allow access to Schema Loader properties and methods?
-NAME: capability.policy.mailnews.Window HINT: Allow access to Window properties and methods?
-NAME: capability.policy.mailnews.XMLHttpRequest HINT: Allow XML/HTTP requests?
-NAME: capability.policy.mailnews.XMLSerializer HINT: Allow access to XML serializer?
-NAME: capability.policy.mailnews.document HINT: Allow access to document properties and methods?
-NAME: capability.policy.mailnews.sites HINT: Whitespace-separated regexp specifying URLS which are to be handled by mailnews policy
-NAME: capability.policy.policynames HINT: Comma-separated list of defined policies.  For example, if the value of this field is 'popupsites', Mozilla will look for and apply policies under 'capability.policy.popupsites.*' as for the 'default' scheme.
-NAME: capability.policy.popupsites.windowinternal.open HINT: Allow access to opening windows?
-NAME: clipboard.autocopy HINT: UNIX-style autocopy
-NAME: compose.throbber.url HINT: Specifies URI to load when composer throbber is clicked
-NAME: content.interrupt.parsing HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: content.max.tokenizing.time HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: content.maxtextrun HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: content.notify.backoffcount HINT: Set the number of reflows to do before waiting for the rest of the page to arrive
-NAME: content.notify.interval HINT: Sets the allowed time between reflows in microseconds
-NAME: content.notify.ontimer HINT: Turn on timer-based reflow management
-NAME: content.switch.threshold HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: converter.html2txt.header_strategy HINT: Set how headers are used when converting HTML to Text
-NAME: converter.html2txt.structs HINT: Output structured phrases {based on strong, em, code, sub, sup, b, i, u tags}?
-NAME: custtoolbar.personal_toolbar_folder HINT: Override name of the Personal Toolbar Folder
-NAME: dom.allow_scripts_to_close_windows HINT: Allow Javascript to close windows?
-NAME: dom.disable_cookie_get HINT: Allow Javascript to read cookies?
-NAME: dom.disable_cookie_set HINT: Allow Javascript to create/change cookies?
-NAME: dom.disable_image_src_set HINT: Allow Javascript to change images?
-NAME: dom.disable_open_click_delay HINT: Disable ability to open popups after a specified delay?
-NAME: dom.disable_open_during_load HINT: Allow Javascript to open unrequested windows?
-NAME: dom.disable_window_flip HINT: Allow Javascript to max/min windows?
-NAME: dom.disable_window_move_resize HINT: Allow Javascript to move/resize windows?
-NAME: dom.disable_window_status_change HINT: Allow Javascript to change status bar text?
-NAME: dom.max_script_run_time HINT: Specify how long {in seconds} Mozilla should wait for a script to run before it displays a warning dialog
-NAME: editor.active_link_color HINT: Hex value {#RRGGBB} for a link that has just been clicked on
-NAME: editor.always_show_publish_dialog HINT: Always show the Publish dialog when saving pages?
-NAME: editor.author HINT: Default author for Composer documents
-NAME: editor.auto_save HINT: Enable/Disable automatic saving
-NAME: editor.auto_save_delay HINT: If auto_save enabled, how many minutes between saves
-NAME: editor.background_color HINT: Default custom hex value {#RRGGBB} for background color
-NAME: editor.background_image HINT: Default location for background image
-NAME: editor.css.default_length_unit HINT: Determines default units for measurement in CSS 
-NAME: editor.default_background_image HINT: Set default background image to use when creating new web pages
-NAME: editor.encode_entity HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: editor.followed_link_color HINT: Default custom hex color {#RRGGBB} for visited links
-NAME: editor.history_title_FOO HINT: Recently edited document FOO
-NAME: editor.history_url_FOO HINT: Recently edited document URL FOO
-NAME: editor.history.url_maximum HINT: Number of URLs Composer will store for recent pages
-NAME: editor.hrule.align HINT: Alignment of new horizontal line {HRULE}
-NAME: editor.hrule.height HINT: Default horizontal line height {HRULE}
-NAME: editor.hrule.shading HINT: 3D Shading on?
-NAME: editor.hrule.width HINT: Default HRULE width
-NAME: editor.hrule.width_percent HINT: Width measured in % of window? {If false, use absolute pixels}
-NAME: editor.html.typing.returnInEmptyListItemClosesList HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: editor.htmlWrapColumn HINT: Value after which Composer will wrap HTML
-NAME: editor.html_editor HINT: Location of outside HTML editor {blank for none}
-NAME: editor.image_editor HINT: Location of outside graphics editor {blank for none}
-NAME: editor.lastFileLocation.html HINT: Location of last HTML file opened
-NAME: editor.lastFileLocation.image HINT: Location of last image file opened
-NAME: editor.link_color HINT: Default custom hex color value {#RRGGBB} for unvisited link
-NAME: editor.prettyprint HINT: Color-code/format HTML for readability
-NAME: editor.publish. HINT: ** Unknown settings, probably bug **
-NAME: editor.publish.default_site HINT: Default site to publish to
-NAME: editor.publish.site_data.FOO HINT: FOO site data
-NAME: editor.publish.site_name.FOO HINT: Site name FOO {look up this value's entry in editor.publish.site_data for more information}
-NAME: editor.quotesPreformatted HINT: Preformat quotes?
-NAME: editor.save_associated_files HINT: Save associated files {images, etc.} when saving web page
-NAME: editor.singleLine.pasteNewlines HINT: Convert up to X lines into a URL {good for copying URLs split over multiple lines}
-NAME: editor.table.delete_key HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: editor.table.maintain_structure HINT: Maintain table layout when inserting/deleting cells?
-NAME: editor.text_color HINT: Default custom hex text color {#RRGGBB} for new pages
-NAME: editor.throbber.url HINT: URL throbber points to when clicked
-NAME: editor.toolbars.showbutton.FOO HINT: Show button FOO?
-NAME: editor.use_background_image HINT: Composer uses background image {seems to have no effect}?
-NAME: editor.use_css HINT: Use CSS instead of HTML attributes?
-NAME: editor.use_custom_colors HINT: Use customs colors defined above in New Page Settings?
-NAME: editor.use_custom_default_colors HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: editor.use_html_editor HINT: Use an outside HTML editor {defined in editor.html_editor}
-NAME: editor.use_image_editor HINT: Whether to use an outside graphics editor {defined in editor.image_editor}
-NAME: extensions.irc.charset HINT: Override the default ChatZilla! character set
-NAME: extensions.irc.collapseMsgs HINT: If true, collapse consecutive messages from the same source {don't show nickname against second and subsequent messages}.
-NAME: extensions.irc.colorCodes HINT: Allow IRC color codes?
-NAME: extensions.irc.copyMessages HINT: Copy important messages to the IRC network window as well as the window they appear in.
-NAME: extensions.irc.debug.tracer HINT: Debugger tracing on?
-NAME: extensions.irc.desc HINT: Default description used when chatting {/desc [name]}
-NAME: extensions.irc.focusNewTab HINT: Focus switches to new tabs when opened?
-NAME: extensions.irc.initialScripts HINT: Initial scripts to run when Chatzilla! is started
-NAME: extensions.irc.initialURLs HINT: Initial URLs to open when ChatZilla! is started
-NAME: extensions.irc.msgBeep HINT: Beep pattern to use when new message is received
-NAME: extensions.irc.munger.bold HINT: Mark *text* as bold?
-NAME: extensions.irc.munger.bugzilla-link HINT: Display URL link to BugZilla on startup?
-NAME: extensions.irc.munger.channel-link HINT: Display URL links to IRC channels on startup?
-NAME: extensions.irc.munger.colorCodes HINT: Allow use of color codes?
-NAME: extensions.irc.munger.ctrl-char HINT: Enable mIRC input compatibility?
-NAME: extensions.irc.munger.ear HINT: Convert 'ear' ASCII art to graphics?
-NAME: extensions.irc.munger.face HINT: Convert 'face' ASCII art to graphics?
-NAME: extensions.irc.munger.italic HINT: Mark /text/ as italic?
-NAME: extensions.irc.munger.link HINT: Mark up URLs as links?
-NAME: extensions.irc.munger.mailto HINT: Mark up e-mail addresses as links?
-NAME: extensions.irc.munger.rheet HINT: Activate the rheet easter egg?  If activated, typing  rheeeeeet  {any number of e's greater than 2 will work} will play a sound.
-NAME: extensions.irc.munger.smileyText HINT: Convert smiley text to graphics?
-NAME: extensions.irc.munger.teletype HINT: Enable display of text in teletype format?
-NAME: extensions.irc.munger.underline HINT: Mark _text_ as underlined?
-NAME: extensions.irc.munger.word-hyphenator HINT: Hyphenate words in ChatZilla!?
-NAME: extensions.irc.newTabLimit HINT: Limit the number of tabs able to be created within Chatzilla window.
-NAME: extensions.irc.newTabThreshold HINT: {deprecated} see extensions.irc.newTabLimit
-NAME: extensions.irc.nickCompleteStr HINT: Type these character{s} to autocomplete nickname
-NAME: extensions.irc.nickname HINT: Default nickname used in ChatZilla!
-NAME: extensions.irc.notify.aggressive HINT: Use aggressive notification for new IRC events?
-NAME: extensions.irc.queryBeep HINT: Beep pattern to use when query is received
-NAME: extensions.irc.raiseNewTab HINT: Raise new tabs when they are created?
-NAME: extensions.irc.reconnect HINT: Automatically attempt to reconnect if connection is broken?
-NAME: extensions.irc.stalkBeep HINT: Beep pattern to use when stalk pattern is detected
-NAME: extensions.irc.stalkWords HINT: String pattern to 'stalk' for {sound alert 
-NAME: extensions.irc.style.default HINT: URI of default CSS stylesheet
-NAME: extensions.irc.username HINT: Default username used in ChatZilla!
-NAME: extensions.irc.views.channel HINT: Maximum size of scroll back history for Channel windows
-NAME: extensions.irc.views.chanuser HINT: Maximum size of scroll back history for Private Message windows
-NAME: extensions.irc.views.client HINT: Maximum size of scroll back history for Client windows
-NAME: extensions.irc.views.network HINT: Maximum size of scroll back history for Network windows
-NAME: extensions.venkman.lastErrorMode HINT: Set action Venkman takes when an error is detected
-NAME: extensions.venkman.lastThrowMode HINT: Set action Venkman takes when an exception is detected
-NAME: extensions.venkman.layoutState.default HINT: URI of default layout state for Venkman
-NAME: extensions.venkman.prettyprint HINT: Use pretty print when printing in Venkman?
-NAME: extensions.venkman.sessionView.currentCSS HINT: URI of current session view for Venkman
-NAME: extensions.venkman.startupCount HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: font.allow_double_byte_special_chars HINT: Allow display of double byte special characters in languages that need it {eg. non-simplified Chinese}?
-NAME: font.antialias.min HINT: Set minimum font size {in pt} at which to enable anti-aliasing.
-NAME: font.default HINT: Default Font type
-NAME: font.embedded_bitmaps.max HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: font.FreeType2.autohinted HINT: Automatically hint FreeType characters?
-NAME: font.FreeType2.enable HINT: Enable FreeType fonts?
-NAME: font.FreeType2.printing HINT: Print using FreeType fonts?
-NAME: font.FreeType2.shared-library HINT: Path to FreeType2 fonts shared directory on your system
-NAME: font.FreeType2.unhinted HINT: Render FreeType fonts as unhinted?
-NAME: font.internaluseonly.changed HINT: RESERVED: Do not modify
-NAME: font.name-list.FOO.he HINT: Default Hebrew FOO font {comma separated, in order of preference}
-NAME: font.name-list.FOO.ja HINT: Default Japanese FOO font {comma separated, in order of preference}
-NAME: font.name-list.FOO.ko HINT: Default Korean FOO font {comma separated, in order of preference}
-NAME: font.name-list.FOO.x-devanagari HINT: Default Devanagari {Hindu/Sanskrit} FOO font {comma separated, in order of preference}
-NAME: font.name-list.FOO.x-tamil HINT: Default Tamil {Sri Lankan} FOO font {comma separated, in order of preference}
-NAME: font.name-list.FOO.zh-CN HINT: Default Simplified Chinese {China} FOO font {comma separated, in order of preference}
-NAME: font.name-list.FOO.zh-TW HINT: Default Traditional Chinese {Taiwan} FOO font {comma separated, in order of preference}
-NAME: font.name.FOO.ar HINT: Default Arabic FOO font
-NAME: font.name.FOO.el HINT: Default Greek FOO font
-NAME: font.name.FOO.he HINT: Default Hebrew FOO font
-NAME: font.name.FOO.ja HINT: Default Japanese FOO font
-NAME: font.name.FOO.ko HINT: Default Korean FOO font
-NAME: font.name.FOO.th HINT: Default Thai FOO font
-NAME: font.name.FOO.tr HINT: Default Turkish FOO font
-NAME: font.name.FOO.x-baltic HINT: Default Baltic FOO font
-NAME: font.name.FOO.x-central-euro HINT: Default Central European FOO font
-NAME: font.name.FOO.x-cyrillic HINT: Default Cyrillic FOO font
-NAME: font.name.FOO.x-devanagari HINT: Default Devanagari {Hindu/Sanskrit} FOO font
-NAME: font.name.FOO.x-tamil HINT: Default Tamil {Sri Lankan} FOO font
-NAME: font.name.FOO.x-unicode HINT: Default Unicode FOO font
-NAME: font.name.FOO.x-western HINT: Default Western FOO font
-NAME: font.name.FOO.zh-CN HINT: Default Simplified Chinese {China} FOO font
-NAME: font.name.FOO.zh-TW HINT: Default Traditional Chinese {Taiwan} FOO font
-NAME: font.size.FOO.ar HINT: Default FOO Arabic font size
-NAME: font.size.FOO.el HINT: Default FOO Greek font size
-NAME: font.size.FOO.he HINT: Default FOO Hebrew font size
-NAME: font.size.FOO.ja HINT: Default FOO Japanese font size
-NAME: font.size.FOO.ko HINT: Default FOO Korean font size
-NAME: font.size.FOO.th HINT: Default FOO Thai font size
-NAME: font.size.FOO.tr HINT: Default FOO Turkish font size
-NAME: font.size.FOO.x-baltic HINT: Default FOO Baltic font size
-NAME: font.size.FOO.x-central-euro HINT: Default FOO Central European font size
-NAME: font.size.FOO.x-cyrillic HINT: Default FOO Cyrillic font size
-NAME: font.size.FOO.x-devanagari HINT: Default FOO Devanagari {Hindu/Sanskrit} font size
-NAME: font.size.FOO.x-tamil HINT: Default FOO Tamil {Sri Lankan} font size
-NAME: font.size.FOO.x-unicode HINT: Default FOO Unicode font size
-NAME: font.size.FOO.x-western HINT: Default FOO Western font size
-NAME: font.size.FOO.zh-CN HINT: Default FOO Simplified Chinese {China} font size
-NAME: font.size.FOO.zh-TW HINT: Default FOO Traditional Chinese {Taiwan} font size
-NAME: font.size.nav4rounding HINT: Round font sizes {eg. convert 11.5pt to 12pt}?
-NAME: games.cards.current-game HINT: Name of current card game being played
-NAME: games.cards.FOO.game-difficulty HINT: FOO difficulty level
-NAME: general.open_location.last_url HINT: Last URL opened
-NAME: general.open_location.last_window_choice HINT: Last  Open in...  setting
-NAME: general.useragent.contentlocale HINT: Specifies which locale URI should retrieve content locale information
-NAME: general.useragent.locale HINT: Specifies which locale URI should retrieve locale information
-NAME: general.useragent.misc HINT: Mozilla version
-NAME: general.useragent.security HINT: Mozilla security version
-NAME: general.useragent.override HINT: User-specified user agent
-NAME: image.animation_mode HINT: Override settings for animated images
-NAME: imageblocker.enabled HINT: Allow blocking of images?
-NAME: images.dither HINT: Dither displayed images?
-NAME: inspector.blink.border-color HINT: Border color when blinking
-NAME: inspector.blink.border-width HINT: Border width
-NAME: inspector.blink.duration HINT: How long elements blinks for {in ms}
-NAME: inspector.blink.invert HINT: Invert colors of DOM element when blinking?
-NAME: inspector.blink.on HINT: Should DOM elements blink when selected?
-NAME: inspector.blink.speed HINT: Blink rate {ms/frame}
-NAME: inspector.dom.showAnon HINT: Show anonymous elements {ie. those with no id}?
-NAME: inspector.dom.showWhitespaceNodes HINT: Show nodes that just contain whitespace?
-NAME: intl.accept_charsets HINT: Character sets allowed in Mozilla
-NAME: intl.accept_languages HINT: Specifies which locale URI determines languages allowed in Mozilla
-NAME: intl.charset.default HINT: Default character set
-NAME: intl.charset.detector HINT: Specifies which locale URI sets how character set are detected in Mozilla
-NAME: intl.charsetmenu.browser.cache HINT: Comma-separated list of cached character sets
-NAME: intl.charsetmenu.browser.cache.size HINT: Number of character sets to cache
-NAME: intl.charsetmenu.browser.moreFOO HINT: Comma-separated list of character sets to display in  More  menu FOO
-NAME: intl.charsetmenu.browser.static HINT: Always display this character set in list
-NAME: intl.charsetmenu.composer.cache HINT: Comma-separated list of cached character sets in Mozilla Composer
-NAME: intl.charsetmenu.mailedit HINT: Set layout of Character Coding menu in Mozilla Mail/News {message editor}
-NAME: intl.charsetmenu.mailview.cache HINT: Comma-separated list of cached character sets in Mozilla Mail/News {main view}
-NAME: intl.collationOption HINT: ** unknown preference -- please inform GuruJ@mbox.com.au with updates **
-NAME: intl.content.langcode HINT: Default content language code
-NAME: intl.fallbackCharsetList.FOO HINT: Display listed character set if FOO is not available
-NAME: intl.jis0208.map HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: intl.locale.matchOS HINT: Match locale to that of operating system?
-NAME: intl.menuitems.alwaysappendacceskeys HINT: Specifies URI to determine if access keys are appended to menu items
-NAME: javascript.allow.mailnews HINT: JavaScript is allowed to execute in Mail 
-NAME: javascript.enabled HINT: Is JavaScript enabled?
-NAME: javascript.options.showInConsole HINT: Show JavaScript in console?
-NAME: javascript.options.strict HINT: Report strict JavaScript warnings?
-NAME: keyword.URL HINT: URL to use for keyword lookups
-NAME: keyword.enabled HINT: Use Internet Keywords? {In Firefox, uses the Google 'I'm feeling lucky' function.}
-NAME: layout.frames.force_resizability HINT: Force frames to be always resizable?
-NAME: layout.word_select.eat_space_to_next_word HINT: Select space following a word when that word is double-clicked?
-NAME: layout.word_select.stop_at_punctuation HINT: Treat punctuation as 'pseudo-space' when a word is double-clicked?
-NAME: ldap_1.directoryFOO.attributes.BAR HINT: Additional LDAP field definition for BAR in directory FOO
-NAME: ldap_1.directoryFOO.description HINT: User-friendly name for LDAP directory
-NAME: ldap_1.directoryFOO.dirType HINT: Type of LDAP directory {leave unset for remote LDAP}
-NAME: ldap_1.directoryFOO.filterBAR.repeatFilterForWords HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: ldap_1.directoryFOO.isOffline HINT: Has an offline copy been made of this directory? {Always false for local LDAP directories.}
-NAME: ldap_1.directoryFOO.searchBase HINT: Start LDAP directory search from this base DN
-NAME: ldap_1.directoryFOO.serverName HINT: DNS or IP address of LDAP server
-NAME: ldap_1.number_of_directories HINT: Total number of configured directories
-NAME: ldap_2.autoComplete.directoryServer HINT: Use the following comma-separated list of directory servers for address autocompletion
-NAME: ldap_2.autoComplete.enabled HINT: Enable Address autocompletion?
-NAME: ldap_2.autoComplete.interval HINT: Time delay after keystroke {in ms} before displaying autocomplete options
-NAME: ldap_2.autoComplete.skipDirectoryIfLocalMatchFound HINT: Skip directory search if a local match is found?
-NAME: ldap_2.autoComplete.useAddressBooks HINT: Use address books for autocomplete?
-NAME: ldap_2.autoComplete.useDirectory HINT: Use LDAP directories for autocomplete?
-NAME: ldap_2.prefs_migrated HINT: Have preferences been migrated from Netscape 4.x?
-NAME: ldap_2.servers.FOO.description HINT: User-friendly description of LDAP directory
-NAME: ldap_2.servers.FOO.dirType HINT: Type of LDAP directory
-NAME: ldap_2.servers.FOO.filename HINT: If local LDAP server, filename where LDAP entries are stored
-NAME: ldap_2.servers.FOO.isOffline HINT: Has an offline copy been made of this directory? {Always false for local LDAP directories.}
-NAME: ldap_2.servers.FOO.position HINT: Position in the address book list
-NAME: ldap_2.servers.FOO.replication.lastChangeNumber HINT: Last replication change number
-NAME: ldap_2.servers.FOO.serverName HINT: DNS or IP address of LDAP directory
-NAME: ldap_2.user_id HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: ldap_2.version HINT: Version of LDAP used for queries
-NAME: mail.SpellCheckBeforeSend HINT: Check messages for spelling errors before sending?
-NAME: mail.account.FOO.identities HINT: Identity for mail account FOO 
-NAME: mail.account.FOO.server HINT: Server identity for mail account FOO
-NAME: mail.accountmanager.accounts HINT: Comma-separated list of accounts
-NAME: mail.accountmanager.defaultaccount HINT: Default account to use
-NAME: mail.accountmanager.localfoldersserver HINT: ID of server that represents the Local Folders
-NAME: mail.addr_book.displayName.autoGeneration HINT: Automatically generate a Display Name based on  Firstname  and  Lastname  fields?
-NAME: mail.addr_book.displayName.lastnamefirst HINT: When generating a display name, use format  Lastname, Firstname ? {If false, format of  Firstname Lastname  is used.}
-NAME: mail.addr_book.lastnamefirst HINT: Set name sort order
-NAME: mail.addr_book.mapit_url.format HINT: Custom URL query to locate address from address book using custom parameters.  Default value is  http://www.mapquest.com/maps/map.adp?country=@CO
-NAME: mail.addr_book.quicksearchquery.format HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: mail.addr_book.show_phonetic_fields HINT: Display fields for phonetic equivalents of Firstname and Lastname in Address Book?
-NAME: mail.attach_vcard HINT: Automatically attach a vCard to all new email messages?
-NAME: mail.auth_login HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: mail.auto_quote HINT: Automatically quote messages when replying to them?
-NAME: mail.compose.dontWarnMail2Newsgroup HINT: Do not warn user if attempting to send news with a mail identity?
-NAME: mail.identity.idFOO.headers HINT: Comma-separated list of headers to add to mail messages.  Each header identity listed must have a corresponce preference mail.identity.FOO.header.BAR.  For example, if mail.identity.id1.headers =  extra1,extra2 , mail.identity.id1.header.extra1 and mail.identity.id1.header.extra2 must be set.
-NAME: mail.identity.idFOO.header.BAR HINT: Add header to mail message specified in SMTP-compatible format {eg:  X-Bar: sample value }
-NAME: mail.imap.confirm_emptyTrashFolderDeletion HINT: Pop up confirmation dialog box before deleting all sub folders under trash folder?
-NAME: mail.server.FOO.auth_login HINT: Does mail server 'FOO' require authentication at logon?
-NAME: mail.server.FOO.useSecAuth HINT: Only use secure mechanisms {e.g. CRAM-MD5, NTLM} for server login?  If false, only insecure methods {USER/PASS, PLAIN, LOGIN} are used.
-NAME: mail.smtpserver.FOO.trySecAuth HINT: Attempt login using secure mechanisms {e.g. CRAM-MD5, NTLM}?  Insecure methods will be tried as well even if this value is true.
-NAME: mail.toolbars.showbutton.FOO HINT: Show button  FOO  in mail window?
-NAME: mailnews.display.original_date HINT: Display date string from mail headers without interpretation {will show time zone information}?
-NAME: mailnews.reply_header_authorwrote HINT: Text string used when an author string is required in reply header {%s will be replaced by your name}
-NAME: mailnews.reply_header_colon HINT: Text string used when colon is required in reply header
-NAME: mailnews.reply_header_locale HINT: Text string used when locale is required in reply header
-NAME: mailnews.reply_header_ondate HINT: Text string used when a date string is required in reply header {%s will be replaced by the date}
-NAME: mailnews.reply_header_originalmessage HINT: ** Preference does not work as expected {see bug 224811} - DO NOT MODIFY **
-NAME: mailnews.reply_header_separator HINT: Text string used to separate parts of the reply header
-NAME: mailnews.reply_header_type HINT: Format of reply header.  Use other reply_header preferences to customize this further, in particular 'author_wrote' and 'ondate'.
-NAME: mailnews.reply_on_top HINT: How to reply to messages
-NAME: mailnews.reuse_message_window HINT: Do message replies have their own window or reuse the existing window?
-NAME: middlemouse.contentLoadURL HINT: Allow paste of URI stored in clipboard into browser location text box? {Linux only}
-NAME: middlemouse.openNewWindow HINT: Clicking middle mouse button on a hyperlink opens a new window?
-NAME: middlemouse.paste HINT: Clicking middle mouse button pastes text stored in clipboard?
-NAME: middlemouse.scrollbarPosition HINT: Clicking middle mouse button allows scroll bar position adjustment?
-NAME: mousewheel.withaltkey.action HINT: Action to take
-NAME: mousewheel.withaltkey.numlines HINT: Number of lines to scroll by {if relevant}
-NAME: mousewheel.withaltkey.sysnumlines HINT: Scroll by a number of lines equal to system default?
-NAME: mousewheel.withcontrolkey.action HINT: Action to take
-NAME: mousewheel.withcontrolkey.numlines HINT: Number of lines to scroll by {if relevant}
-NAME: mousewheel.withcontrolkey.sysnumlines HINT: Scroll by a number of lines equal to system default?
-NAME: mousewheel.withnokey.action HINT: Action to take
-NAME: mousewheel.withnokey.numlines HINT: Number of lines to scroll by {if relevant}
-NAME: mousewheel.withnokey.sysnumlines HINT: Scroll by a number of lines equal to system default?
-NAME: mousewheel.withshiftkey.action HINT: Action to take
-NAME: mousewheel.withshiftkey.numlines HINT: Number of lines to scroll by {if relevant}
-NAME: mousewheel.withshiftkey.sysnumlines HINT: Scroll by a number of lines equal to system default?
-NAME: mozilla.widget.raise-on-setfocus HINT: Specifies if a window should be raised to top when it recieves focus. The default value is true. Setting this preference dynamically takes effect when a window is created.
-NAME: msgcompose.background_color HINT: Default background color when composing messages
-NAME: msgcompose.font_face HINT: Default font typeface to use when composing messages {HTML only}?
-NAME: msgcompose.font_size HINT: Default font size to use when composing messages {HTML only}?
-NAME: msgcompose.text_color HINT: Default text color to use when composing messages {HTML only}? 
-NAME: network.autodial-helper.enabled HINT: Automatically dial a connection if one is not available?
-NAME: network.cookie.cookieBehavior HINT: Set which cookies are allowed to be stored on local computer
-NAME: network.cookie.disableCookieForMailNews HINT: Disable cookies in Mail and Newsgroups?
-NAME: network.cookie.lifetime.behavior HINT: {Only applies if network.cookie.lifetime.enabled is true} Determine when cookies will expire.  If set to 1, number of days is determined by network.cookie.lifetime.days.
-NAME: network.cookie.lifetime.days HINT: Cookies expire in X days
-NAME: network.cookie.lifetime.enabled HINT: Do cookies expire automatically?
-NAME: network.cookie.p3p HINT: Look at the p3p field in the server's response header to determine the privacy policy, and then processes the cookie accordingly.  'f' means 'flag', 'd' means 'downgrade to session', 'a' means 'accept', and 'r' means 'reject'.  The letters in the 1st, 3rd, 5th, and 7th position are for first parties, and those in the even-numbered positions are for third parties.  The four situations are: no policy, collects personal info without permission, collects personal info only with permission, and collects no personal info.
-NAME: network.cookie.p3plevel HINT: Security level of filtering for cookies
-NAME: network.cookie.warnAboutCookies HINT: Ask user before storing any cookies?
-NAME: network.dir.format HINT: Set output format for any directory listing.  {Do not set this value to 0!}
-NAME: network.enableIDN HINT: Enable Internationalized Domain Names?
-NAME: network.enablePad HINT: Enable automatic proxy configuration?
-NAME: network.ftp.anonymous_password HINT: Set FTP anonymous password
-NAME: network.ftp.idleConnectionTimeout HINT: FTP Idle Connection Timeout {in seconds}
-NAME: network.hosts.nntp_server HINT: Proxy News server
-NAME: network.hosts.pop_server HINT: Proxy POP server {default: mail}
-NAME: network.hosts.smtp_server HINT: Proxy SMTP server {default: mail}
-NAME: network.hosts.socks_conf HINT: SOCKS Proxy configuration
-NAME: network.hosts.socks_server HINT: Specify a SOCKS server
-NAME: network.hosts.socks_serverport HINT: Port for SOCKS server above {default: 1080}
-NAME: network.http.accept-encoding HINT: Comma-separated list of compressed encodings to accept from server
-NAME: network.http.accept.default HINT: Default set of comma-separated list of HTTP formats to accept from servers
-NAME: network.http.defensive-auth-prompting HINT: Confirm user intent whenever URL of the form http://user:pass@my.site.com is accessed?
-NAME: network.http.connect.timeout HINT: How long to wait before timeout in HTTP {in seconds}
-NAME: network.http.default-socket-type HINT: Default socket type {apparently unused}
-NAME: network.http.max-connections HINT: Maximum simultaneous HTTP connections
-NAME: network.http.max-connections-per-server HINT: Maximum connections to a single server
-NAME: network.http.max-persistent-connections-per-proxy HINT: Maximum persistent connections per proxy
-NAME: network.http.max-persistent-connections-per-server HINT: Maximum persistent connections per server {normally only relevant for large file downloads}
-NAME: network.http.pipelining.firstrequest HINT: Always pipeline the first {SYN} request? {If servers do not support pipelining, this may break sites}
-NAME: network.http.pipelining.maxrequests HINT: Maximum number of pipelining requests
-NAME: network.proxy.autoconfig_url HINT: URL specifying where to find the autoproxy config file
-NAME: network.proxy.ftp HINT: FTP proxy server name
-NAME: network.proxy.ftp_port HINT: FTP proxy server port
-NAME: network.proxy.gopher HINT: Gopher proxy server name
-NAME: network.proxy.gopher_port HINT: Gopher proxy server port
-NAME: network.proxy.http HINT: HTTP Proxy server name
-NAME: network.proxy.http_port HINT: HTTP Proxy server port
-NAME: network.proxy.news HINT: News Proxy server name
-NAME: network.proxy.news_port HINT: News Proxy server port
-NAME: network.proxy.no_proxies_on HINT: Comma-separated list of site or IP ranges where proxy server should be bypassed
-NAME: network.proxy.socks HINT: SOCKS server port
-NAME: network.proxy.socks_version HINT: Socks version {default: 5}
-NAME: network.proxy.ssl HINT: HTTPS Proxy server name
-NAME: network.proxy.ssl_port HINT: HTTPS proxy server port
-NAME: network.proxy.type HINT: Proxy type
-NAME: network.proxy.wais HINT: WAIS proxy server name
-NAME: network.proxy.wais_port HINT: WAIS proxy server port
-NAME: network.http.proxy.keep-alive HINT: Enable keep-alive in proxy connection
-NAME: network.http.proxy.pipelining HINT: Enable pipelining in proxy
-NAME: network.http.proxy.ssl HINT: If proxy uses SSSL
-NAME: network.http.proxy.version HINT: HTTP version {1.0 or 1.1} to use for proxy
-NAME: network.http.redirection-limit HINT: Max number of redirections in a row
-NAME: network.http.request.max-start-delay HINT: Maximum start time for HTTP request
-NAME: network.http.request.timeout HINT: Request timeout
-NAME: network.http.sendRefererHeader HINT: Handling of HTTP Referer Headers
-NAME: network.http.sendSecureXSiteReferrer HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: network.http.use-cache HINT: Enable caching of HTTP documents
-NAME: network.http.version HINT: HTTP version {1.0/1.1} to use
-NAME: network.image.imageBehavior HINT: Behavior when handling retrieval of images
-NAME: network.image.warnAboutImages HINT: Warn when receiving images?
-NAME: network.online HINT: Is user currently online?
-NAME: network.prefetch-next HINT: Enable pre-fetching of documents {those specified by 
-NAME: network.protocol-handler.external.mailto HINT: {Windows only} Use the external E-mail client identified via Start - Settings - Control Panel - Internet Options - Programs tab when selecting a  mailto:  URL?
-NAME: network.protocols.useSystemDefaults HINT: Use system defaults for protocols?
-NAME: network.search.url HINT: URL to send search text in location field
-NAME: network.security.ports.banned.override HINT: {WARNING: Potential security risk} Allow Mozilla to retrieve web pages from non-standard ports below 1024 {ie. anything other than port 80}.  Provide a comma-separated list of ports to override and allow {eg.  78,79 }.
-NAME: news.cancel.alert_on_success HINT: Alert if cancelled successfully?
-NAME: news.cancel.confirm HINT: Confirm the cancel?
-NAME: news.cc_self HINT: Carbon-copy to own account?
-NAME: news.default_cc HINT: Default CC address
-NAME: news.default_fcc HINT: Default FCC address
-NAME: news.directory HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: news.fcc_folder HINT: Folder location of FCC {file carbon copy}
-NAME: news.mark_old_read HINT: Automatically mark old articles as read?
-NAME: news.max_articles HINT: Max articles to download
-NAME: news.notify.on HINT: News notification on?
-NAME: news.persist_server_open_state_in_folderpane HINT: Persist open state on restart {see Bug #103010}?
-NAME: news.show_size_in_lines HINT: If true, show the message size in lines.  Otherwise, show message size in KB.
-NAME: news.use_fcc HINT: Use FCC?
-NAME: news.wrap_long_lines HINT: Use word wrap?
-NAME: nglayout.debug.crossing_event_dumping HINT: The default value is false.
-NAME: nglayout.debug.enable_xbl_forms HINT: Enable XBL Forms?
-NAME: nglayout.debug.event_dumping HINT: Dump event information?  The default value is false.
-NAME: nglayout.debug.invalidate_dumping HINT: The default value is false.
-NAME: nglayout.debug.motion_event_dumping HINT: Dump event information?  The default value is false.
-NAME: nglayout.debug.paint_dumping HINT: Dump debug information for paint event? This preference can be overridden at run-time by turning on the CAPS lock key. The default value is false.
-NAME: nglayout.debug.paint_flashing HINT: The default value is false.
-NAME: nglayout.events.dispatchLeftClickOnly HINT: Dispatch left click only to content in browser?
-NAME: nglayout.events.showHierarchicalHover HINT: Relates to CSS2 Hover pref
-NAME: nglayout.initialpaint.delay HINT: Time {in ms} before starting to render a page {Default: 250ms}
-NAME: nglayout.widget.gfxscrollbars HINT: Force system-style scrollbars?
-NAME: nglayout.widget.mode HINT: NGLayout widget mode
-NAME: plugin.allow_alien_star_handler HINT: Allow plugins to take over handling of  *  plugin type?
-NAME: plugin.display_plugin_downloader_dialog HINT: If no plugin is registered for the  *  mime type {i.e. no default plugin}, display a dialog showing where to get it?
-NAME: plugin.do_JRE_Plugin_Scan HINT: Scan for JRE 1.3.x in its installed location {default false}?  [NB: You should NOT use this if JRE is 1.4 or greater]
-NAME: plugin.dont_try_safe_call HINT: Turn off exception handling for plugins? {Mainly a debugging tool for plugin developers}
-NAME: plugin.expose_full_path HINT: Allow full path of plugins to be listed in about:plugins?
-NAME: plugin.override_internal_types HINT: Allow plugins to override MIME types normally handled by browser?
-NAME: plugin.skip_real_player_hack HINT: Skip looking for RealPlayer plugin in components folder {Netscape behavior}?
-NAME: prefs.converted-to-utf8 HINT: Preferences converted to UTF-8 format?
-NAME: print.always_cache_old_pres HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: plugin.enable_double_buffer HINT: Enable double buffering on pages when there are plugins in layout? [Default: false]
-NAME: print.print_edge_bottom HINT: Bottom margin width {in mm}
-NAME: print.print_edge_left HINT: Left margin width {in mm}
-NAME: print.print_edge_top HINT: Top margin width {in mm}
-NAME: print.print_edge_right HINT: Right margin width {in mm}
-NAME: print.print_evenpages HINT: Print even pages only?  The default value is false.
-NAME: print.print_extra_margin HINT: Extra margin width {in mm}
-NAME: print.print_footercenter HINT: Centered footer text. This may use up to ONE of the special string constants 
-NAME: print.print_footerleft HINT: Left-aligned footer text. This may use up to ONE of the special string constants 
-NAME: print.print_footerright HINT: Right-aligned footer text. This may use up to ONE of the special string constants 
-NAME: print.print_headercenter HINT: Centered header text. This may use up to ONE of the special string constants 
-NAME: print.printheaderleft HINT: Left-aligned header text. This may use up to ONE of the special string constants 
-NAME: print.printheaderight HINT: Right-aligned header text.  This may use up to ONE of the special string constants 
-NAME: print.print_margin_bottom HINT: Specify bottom margin in half-inch units {e.g. 2 units = 1 }. If the value is not specified, the system default is used. This option has no default value.
-NAME: print.print_margin_left HINT: Specify left margin in half-inch units {e.g. 2 units = 1 }. If the value is not specified, the system default is used. This option has no default value.
-NAME: print.print_margin_right HINT: Specify right margin in half-inch units {e.g. 2 units = 1 }. If the value is not specified, the system default is used. This option has no default value.
-NAME: print.print_margin_top HINT: Specify top margin in half-inch units {e.g. 2 units = 1 }. If the value is not specified, the system default is used. This option has no default value.
-NAME: print.print_oddpages HINT: Print odd pages only?  The default value is false.
-NAME: print.save_print_settings HINT: Save print settings?
-NAME: print.show_print_progress HINT: Show print progress dialog box?
-NAME: print.use_global_printsettings HINT: Each window maintains individual print settings?
-NAME: print.use_native_print_dialog HINT: Use operating system-native Print dialog box?
-NAME: print.whileInPrintPreview HINT: Allow printing directly from Print Preview screen?  Specifically, the Print, Page Setup, Scale, and Portrait/Landscape buttons only appear when this value is set to true.
-NAME: profile.confirm_automigration HINT: Confirm migration of IE/other browser bookmarks when creating a new profile?
-NAME: profile.seconds_until_defunct HINT: Time in seconds before an unused profile is considered defunct, and removed from the profiles list
-NAME: security.OCSP.enabled HINT: Enable OCSP?
-NAME: security.OCSP.signingCA HINT: Defines the signer's name to which all certificates are validated
-NAME: security.OCSP.URL HINT: Defines the OCSP service URL to which all certificates are validated
-NAME: security.ask_for_password HINT: Ask for certificate password {eg. for Mail}.  If option 2 is selected, length is set via security.password_lifetime.
-NAME: security.checkloaduri HINT: Check the originating server before granting permissions?
-NAME: security.default_personal_cert HINT: Default personal certificate {default: Select Automatically}
-NAME: security.directory HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: security.disable_buttonchangePassword HINT: Disable the password change button?
-NAME: security.disable_buttonresetPassword HINT: Disable the reset password button?
-NAME: security.enable_java HINT: Enable Java?
-NAME: security.enable_ssl2 HINT: Enable Secure Sockets Layer 2 {SSL2}?
-NAME: security.enable_ssl3 HINT: Enable Secure Sockets Layer 3 {SSL3}?
-NAME: security.enable_tls HINT: Enable TLS?
-NAME: security.password_lifetime HINT: How long before asking for password {in minutes}
-NAME: security.ui.enable HINT: Enable the Security UI?
-NAME: security.warn_entering_secure HINT: Warn before entering a secure area?
-NAME: security.warn_entering_weak HINT: Warn before entering an insecure area?
-NAME: security.warn_leaving_secure HINT: Warn before leaving a secure area?
-NAME: security.warn_submit_insecure HINT: Warn before submitting a form to an insecure area?
-NAME: security.warn_viewing_mixed HINT: Warn when viewing a page with both secure/insecure elements?
-NAME: security.xpconnect.plugin.unrestricted HINT: Allow unrestricted access for XPConnect plugins?
-NAME: sidebar.customize.all_panels.url HINT: URL for location of RDF file listing Sidebars that can be added
-NAME: sidebar.customize.directory.url HINT: URL of Directory listing all available Sidebars
-NAME: sidebar.customize.more_panels.url HINT: URL directing user to where they can get more Sidebar panels
-NAME: sidebar.num_tabs_in_view HINT: Number of tabs visible before scroll arrows appear at bottom of sidebar panel {Default: 8}
-NAME: slider.snapMultiplier HINT: Distance {in pixels} away from scrollbar mouse can move before scrollbar thumb snaps back to its original position.  {Default on Unix: 0; on Windows: 6}.
-NAME: startup.homepage_override_url HINT: Specifies the application startup home page.\u000aThe default value is 'chrome://navigator-region/locale/region.properties', which points to the default home page specified by the active regional pack.
-NAME: ui.key.accelKey HINT: Set 'accelerator' key used for keyboard shortcuts
-NAME: ui.key.generalAccessKey HINT: Set generic key used for Mozilla shortcuts
-NAME: ui.key.menuAccessKey HINT: Set key used for accessing Mozilla menus
-NAME: ui.key.menuAccessKeyFocuses HINT: Do menus gain focus when Access Key is tapped?
-NAME: ui.key.saveLink.shift HINT: Use SHIFT key + click to save target link?
-NAME: ui.textSelectBackgroundAttention HINT: Select hex color value {#RRGGBB} for found link
-NAME: update_notifications.enabled HINT: Should this program check for updated versions of itself?
-NAME: update_notifications.provider.0.datasource HINT: Specifies which locale URI determines where update notifications are retrieved from
-NAME: update_notifications.provider.0.frequency HINT: Number of days between checks for updates
-NAME: view_source.syntax_highlight HINT: Pretty print HTML syntax when viewing source?
-NAME: view_source.wrap_long_lines HINT: Wrap long lines when viewing source?
-NAME: viewmanager.do_doublebuffering HINT: Should viewmanager code do double-buffering?  {See http://bugzilla.mozilla.org/show_bug.cgi?id=169483 for further details}
-NAME: wallet.Samples HINT: Locale URI specifying where to retrieve Form Manager samples
-NAME: wallet.SchemaValueFileName HINT: Location of ASCII file where all form data is stored
-NAME: wallet.Server HINT: Locale URI specifying where to locate Form Manager server
-NAME: wallet.TutorialFromMenu HINT: Locale URI specifying where to locate Form Manager Tutorials
-NAME: wallet.addressPanel.hide HINT: Hide Wallet address panel?
-NAME: wallet.captureForms HINT: Capture data entered into forms on web pages?
-NAME: wallet.caveat HINT: Use a master password to control access to saved username/password pairs?
-NAME: wallet.creditPanel.hide HINT: Hide Credit Card information?
-NAME: wallet.crypto HINT: Enable use of password manager?
-NAME: wallet.crypto.autocompleteoverride HINT: Enable use of password manager on sites that would normally override this behavior, such as banking sites? {NOT RECOMMENDED}
-NAME: wallet.crypto.autocompleteoverride HINT: Use Autocomplete even on encrypted pages?
-NAME: wallet.employPanel.hide HINT: Hide Employment information?
-NAME: wallet.enabled HINT: Form Manager enabled?
-NAME: wallet.miscPanel.hide HINT: Hide Miscellaneous panel?
-NAME: wallet.namePanel.hide HINT: Hide Name panel?
-NAME: wallet.notified HINT: ** purpose not known - please advise by mailing GuruJ@mbox.com.au **
-NAME: wallet.phonePanel.hide HINT: Hide Phone panel?
-NAME: wallet.version HINT: Form Manager version
-NAME: xpinstall.enabled HINT: Allow installation of XPI packages?
-NAME: xpinstall.manual_confirm HINT: Require user to manually confirm installation of all XPI packages?
-NAME: xpinstall.notifications.enabled HINT: Notify user when an updated version of an XPI is available?
-NAME: xpinstall.notifications.interval HINT: Number of days between checking for updates
-NAME: xpinstall.notifications.lastDate HINT: Last date that XPI packages were checked for updates
+accessibility.accesskeycausesactivation
+Pressing access key follows link, instead of just highlighting it?
+accessibility.browsewithcaret
+Browse web pages using caret (cursor)?
+accessibility.disablecache
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+accessibility.disableenumvariant
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+accessibility.tabfocus
+Determines which web page elements can gain focus when TAB key is pressed
+accessibility.typeaheadfind
+Enables type-ahead find (see http://www.mozilla.org/projects/ui/accessibility/typeaheadfind.html)
+accessibility.typeaheadfind.autostart
+Start type-ahead find without having to press / (find text) or ' (find links) first?
+accessibility.typeaheadfind.enablesound
+Enable error sound for type-ahead find? (Currently off by default for Linux/Unix, on by default for other platforms)
+accessibility.typeaheadfind.enabletimeout
+Enable error sound for type-ahead find? (Currently off by default for Linux/Unix, on by default for other platforms)
+accessibility.typeaheadfind.linksonly
+Only allow type-ahead find for links?
+accessibility.typeaheadfind.soundURL
+Specify filename (.wav) for the error sound, or use "default" for default sound or "beep" for system beep
+accessibility.typeaheadfind.startlinksonly
+Only match on the start of links?
+accessibility.typeaheadfind.timeout
+Time (in ms) before type-ahead find automatically deactivates
+accessibility.usebrailledisplay
+Enter command-line for the braille display program to use with Mozilla (blank for none)
+accessibility.usetexttospeech
+Enter command-line for the text-to-speech program to use with Mozilla (blank for none)
+accessibility.warn_on_browsewithcaret
+Warn user before turning on caret browsing?
+addressbook.throbber.url
+URL addressbook points to when clicked
+advanced.always_load_images
+Always load all images when visiting a web page?
+advanced.mailftp
+Send user's email address as password for anonymous FTP?
+advanced.system.supportDDEExec
+(Windows only) Support execution of DDE commands?  In some cases, setting this to false may allow external links to open in a new window (see bug 155402 comment 10 - see also browser.always_reuse_window).
+aim.session.screenname
+AIM user handle
+alerts.height
+Height of alert box
+alerts.slideIncrement
+Amount to 'slide' by
+alerts.slideIncrementTime
+Time (in ms) taken to perform a slide
+alerts.totalOpenTime
+Total time (in ms) that alert remains open
+application.use_ns_plugin_finder
+Use Netscape plug-in finder?
+autoadmin.append_emailaddr
+Automatically append received e-mail addresses to address book?
+autoadmin.failover_to_cached
+Automatically load cached web page if 'live' one cannot be located?
+autoadmin.global_config_url
+URL from which to retrieve all configuration settings
+autoadmin.offline_failover
+Automatically change to offline browsing if online browsing fails?
+autoadmin.refresh_interval
+Time in minutes between fetching the configuration file specified in autoadmin.global_config_url
+autocomplete.grab_during_popup
+(X11 only) Specify if the autocomplete pop-up control should grab the keyboard. This option can be set to false to work around the bug where XKB does not set mode switching properly.
+The default value is true.
+Setting this preference dynamically takes effect in the next autocomplete session.
+See also: autocomplete.ungrab_during_mode_switch
+autocomplete.ungrab_during_mode_switch
+(X11 only) This option complements autocomplete.grab_during_popup. If both preferences are true, then during an autocomplete session the application will release/grab keyboard when a mode-switch key is pressed/released.
+If either of these two preferences is false, then the application will not release keyboard grab during an autocomplete session.
+The default value is true.
+Setting this preference dynamically takes effect in the next autocomplete session.
+See also: autocomplete.grab_during_popup
+autoupdate.enabled
+Use Autoupdate?
+backups.number_of_prefs_copies
+Number of copies to make of the preference file
+bidi.characterset
+How browser determines character set to use
+bidi.clipboardtextmode
+Type of clipboard to use
+bidi.controlstextmode
+How controls are used
+bidi.direction
+Select direction of text
+bidi.numeral
+How numerals are displayed
+bidi.support
+Select provider of bi-directional support
+bidi.texttype
+Type of text
+browser.PICS.disable_for_this_session
+Turn off PICS until next session?
+browser.PICS.pages_must_be_rated
+Only allow viewing of PICS-rated pages?
+browser.PICS.ratings_enabled
+Enables PICS ratings?
+browser.PICS.reenable_for_this_session
+Turn PICS back on for the remainer of this session?
+browser.PICS.service.http___home_netscape_com_default_rating.s
+Internal PICS rating, do not alter.
+browser.PICS.service.http___home_netscape_com_default_rating.service_enabled
+Internal PICS rating service page, do not alter.
+browser.allowpopups
+Allow unrequested popups in browser?
+browser.always_reuse_window
+Always reuse existing Mozilla windows when OS requests opening of a URL?
+browser.anchor_color
+Default color of hyperlinks (#RRGGBB)
+browser.blink_allowed
+Allow use of 
+BLINK
+ tag?
+browser.block.target_new_window
+Prevent hyperlinks from opening new windows?
+browser.bookmarks.added_static_root
+Has Mozilla already imported the system bookmarks?  (This will only happen once for each profile.)
+browser.bookmarks.confirm_sorting
+Enable the bookmark sorting confirmation prompt?
+browser.bookmarks.import_system_favourites
+Import system (usually IE) URL favourites into Mozilla?
+browser.cache.check_doc_frequency
+Set how often to check accuracy of cached documents
+browser.cache.disk.capacity
+Size of disk cache (in KB)
+browser.cache.disk.enable
+Use disk cache?
+browser.cache.disk.parent_directory
+Directory in which to store cache files
+browser.cache.disk_cache_ssl
+Cache documents retrieved via HTTPS/SSL?
+browser.cache.enable
+Enable caching of documents retrieved by browser?
+browser.cache.memory.capacity
+Size of memory cache (in KB)
+browser.cache.memory.enable
+Use memory cache?
+browser.chrome.favicons
+Display 'favourite icons' in location bar? 
+browser.chrome.load_toolbar_icons
+Sets behavior when loading toolbar icons
+browser.chrome.site_icons
+Display 'favourite icons' in Bookmarks?
+browser.chrome.toolbar_tips
+Show tooltips for toolbars and bookmarks, displaying the bookmark name and URL?
+browser.chrome.toolbar_style
+Set toolbar style for browser
+browser.chromeURL
+Specifies URL used to launch browser XUL
+browser.display.background_color
+Set default browser background color (#RRGGBB)
+browser.display.base_font_scaler
+Set to an integer value to scale base font sizes on websites which do not override defaults (eg. via CSS).
+browser.display.focus_background_color
+Set background color for focussed text (eg. for type-ahead find)
+browser.display.focus_ring_on_anything
+Draw a dotted focus ring around objects when selected?
+browser.display.focus_ring_width
+Set width (in pixels) of the dotted focus ring?
+browser.display.focus_text_color
+Set foreground color for focussed text (#RRGGBB)
+browser.display.force_inline_alttext
+Force display of ALT text inline with browser text?
+browser.display.foreground_color
+Set default browser foreground color (#RRGGBB)
+browser.display.internaluse.graphics_changed
+RESERVED: for internal use only
+browser.display.normal_lineheight_calc_control
+Used to ensure CSS lineheight calculated correctly (unsure?)
+browser.display.screen_resolution
+Screen resolution (in DPI)
+browser.display.show_image_placeholders
+Show image placeholders while images are loading/broken?
+browser.display.use_document_colors
+Allow current document to specify colors to use? (If false, background images will also not be loaded)
+browser.display.use_document_fonts
+Allow current document to specify fonts to use?
+browser.display.use_focus_colors
+Use focus colors specified by Windows?
+browser.display.use_system_colors
+Automatically choose system colors for foreground and background?
+browser.display_very_small_fonts
+Enable display of very small fonts in browser?
+browser.dom.window.dump.enabled
+Allow dump of DOM window?
+browser.download.dir
+Last directory selected for downloading files
+browser.download.progressDnldDialog.enable_launch_reveal_buttons
+Enable 'Launch' and 'Show File Location' buttons when download completes?
+browser.download.progressDnldDialog.keepAlive
+Keep download progress dialog open after download is complete
+browser.download.progressDnlgDialog.dontAskForLaunch
+Don't ask for confirmation on launching a file from download dialog every time
+browser.download.save_converter_index
+Choose how webpages are saved (Default=0)
+browser.downloadmanager.behavior
+Set how download manager operates
+browser.drag_out_of_frame_style
+Change how selecting text is handled when your mouse is outside of the text's bounding box.
+browser.editor.disabled
+Should the 'Edit Page' option appear?
+browser.enable_automatic_image_resizing
+Enable automatic image scaling if too big for the screen
+browser.fixup.alternate.enabled
+Enable the use of alternate URLs?
+browser.fixup.alternate.prefix
+Text to put before the URL domain name
+browser.fixup.alternate.suffix
+Text to put after the URL domain name
+browser.forms.submit.backwards_compatible
+Use backwards compatible method of submitting forms?
+browser.frame.validate_origin
+Validate origin of frames before allowing display?
+browser.frames.enabled
+Enable display of frames on this browser?
+browser.goBrowsing.enabled
+Display 'Go' button in browser?
+browser.helperApps.alwaysAsk.force
+Force browser to always ask user what they want to do?
+browser.helperApps.neverAsk.openFile
+Set MIME types which browser will always open automatically
+browser.helperApps.neverAsk.saveToDisk
+Set MIME types which browser will always save to disk
+browser.history.grouping
+Set how history URLs are grouped
+browser.history.last_page_visited
+Last page visited in history
+browser.history_expire_days
+Number of days pages are kept in history before being discarded
+browser.homepage.mode
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+browser.personal_toolbar_button.max_chars
+Maximum characters displayed for each button (default is 15)
+browser.plugins.max_num_cached_plugins
+Number of plugins held around when plugin wants to be cached (default: 10)
+browser.popups.showPopupBlocker
+Display icon when a popup window is blocked?
+browser.prefWindowModal
+Make preferences window modal?
+browser.quartz.enable
+(OS X only) Specifies whether to use Quartz rendering if it is available.  The default value is true.
+browser.related.autoload
+AutoLoad behavior for What's Related
+browser.related.disabledForDomains
+Comma-separated list of domains that are excluded from What's Related
+browser.related.enabled
+Enable What's Related?
+browser.related.provider
+URL of provider of What's Related service
+browser.download.save_converter_index
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+browser.search.basic.min_ver
+The minimum version of Sherlock Plugins to accept (see http://mycroft.mozdev.org)
+browser.search.defaultengine
+URI specifying default search engine plugin details
+browser.search.defaultenginename
+Specifies locale URI which determines default engine name
+browser.search.defaulturl
+Specifies locale URI which determines default search URL
+browser.search.last_search_category
+RDF query that specifies last categorisation used for search
+browser.search.mode
+Use basic or advanced search mode?
+browser.search.opensidebarsearchpanel
+Open Sidebar Search panel after search in location bar is performed?
+browser.search.powermode
+Enable advanced search for location bar
+browser.session.savesessionhistory
+Save session history?
+browser.sessionhistory.max_entries
+Maximum number of entries stored in the Location Bar
+browser.show_about_as_stupid_modal_window
+Show Help -
+ About in a modal dialog rather than as a web page
+browser.startup.autoload_homepage
+Automatically load Home page at startup?
+browser.startup.homepage
+URL of home page to load at start up
+browser.startup.homepage.count
+The number of pages in your homepage startup group
+browser.startup.homepage_override.1
+This appears to be a dummy variable for the nsIPrefBranch interface test, and does not affect the running of the browser
+browser.startup.homepage_override.mstone
+The last browser version this profile was loaded with.  If the browser version is different, on next launch you will be taken to the page specified in startup.homepage_override_url
+browser.startup.page
+Blank page=0
+browser.tabs.autoHide
+Automatically hide tabs when only one tab is open?
+browser.tabs.forceHide
+Reserved for internal use.  Not reliably settable as an end user preference.
+browser.tabs.loadInBackground
+Load new tabs in background before they are displayed?
+browser.tabs.loadOnNewTab
+What should be displayed in a newly created tab
+browser.tabs.opentabfor.bookmarks
+Open new tab when clicking on Bookmarks?
+browser.tabs.opentabfor.middleclick
+Open new tab when middle-click used?
+browser.tabs.opentabfor.urlbar
+Open new tab for each URL typed into Location Bar?
+browser.tabs.opentabfor.windowopen
+Open new tab in all cases when a new window would have been opened?
+browser.tabs.warnOnClose
+Warn when closing window if more than one tab open
+browser.throbber.url
+Specifies URI to load when browser throbber is clicked
+browser.toolbars.showbutton.bookmarks
+Show Bookmarks button on toolbar?
+browser.toolbars.showbutton.go
+Show Go button on toolbar?
+browser.toolbars.showbutton.home
+Show Home button on toolbar?
+browser.toolbars.showbutton.print
+Show Print button on toolbar?
+browser.toolbars.showbutton.search
+Show Search button on toolbar?
+browser.translation.service
+Translation service URL used in older browsers for Translate feature
+browser.translation.serviceDomain
+Translation service label used in older browsers for Translate feature
+browser.triple_click_selects_paragraph
+Enable triple-clicking?
+browser.turbo.enabled
+Enable Quick Launch?
+browser.turbo.showDialog
+Show dialog about Quick Launch when last Mozilla window closes?
+browser.turbo.singleProfileOnly
+Never prompt to select profile when starting Mozilla?
+browser.underline_anchors
+Underline hyperlinks?
+browser.urlbar.autoFill
+Autocomplete best match as you type?
+browser.urlbar.autocomplete.enabled
+Enable Autocomplete?
+browser.urlbar.clickAtEndSelects
+Clicking past the end of the text in the location bar still selects all if browser.urlbar.clickSelectsAll is true
+browser.urlbar.clickSelectsAll
+Clicking in the location bar select the contents
+browser.urlbar.autocomplete.matchOnlyTyped
+Match only URLs already typed into Location Bar?
+browser.urlbar.autocomplete.showPopup
+Show drop-down box showing all matching Autocomplete entries?
+browser.urlbar.autocomplete.showSearch
+Show Internet search engine query?
+browser.urlbar.matchOnlyTyped
+Restrict the popup list items to addresses you have previously typed
+browser.urlbar.showPopup
+Show a list of matching addresses as you enter text in the location bar
+browser.urlbar.showSearch
+Show 'Search on [Search Engine] for [Text]' in location bar popup list
+browser.visited_color
+Set visited hyperlink color (#RRGGBB)
+browser.windows.loadOnNewWindow
+Set what should be displayed in a newly created window
+browser.xul.error_pages.enabled
+Load error pages (aka IE) instead of showing a dialog box?
+calendar.alarms.defaultsnoozelength
+Default snooze time (in minutes)
+calendar.alarms.emailaddress
+Address to send alarm notifications to
+calendar.alarms.playsound
+Is audible alarm on?
+calendar.alarms.show
+Are alarms on?
+calendar.categories.names
+A comma-separated list of categories
+calendar.date.format
+Calendar date format
+calendar.event.defaultendhour
+Default end hour of day
+calendar.event.defaultlength
+Default event length
+calendar.event.defaultstarthour
+Default start hour of day
+calendar.publish.password
+Password for server
+calendar.publish.path
+URL to calendar server
+calendar.publish.username
+Username when logging on to calendar server
+calendar.servers.reloadonlaunch
+Reload remote calendar when Calendar app is launched
+calendar.week.start
+Day to start week on
+capability.policy.default.DOMException
+Allow access to DOM Exceptions?
+capability.policy.default.DOMParser
+Allow access to DOM Parser?
+capability.policy.default.HTMLDocument
+Allow access to HTML DOM elements?
+capability.policy.default.History
+Allow access to History properties and methods?
+capability.policy.default.Location
+Allow access to Location properties and methods?
+capability.policy.default.Navigator
+Allow access to Navigator properties and methods?
+capability.policy.default.SOAPCall
+Allow access to SOAP calls?
+capability.policy.default.Window
+Allow access to Window properties and methods?
+capability.policy.default.XMLHttpRequest
+Allow XML/HTTP requests?
+capability.policy.default_policynames
+Comma-separated list of defined policies that are to be applied by default.
+capability.policy.mailnews.*
+Default access policy for all aspects of mailnews policy
+capability.policy.mailnews.DOMException
+Allow access to DOM Exceptions?
+capability.policy.mailnews.DOMParser,parseFromStream
+Allow access to DOM Parser using a stream?
+capability.policy.mailnews.DOMParser,parseFromString
+Allow access to DOM Parser using a stream?
+capability.policy.mailnews.HTMLAnchor
+Allow access to HTML Anchor elements?
+capability.policy.mailnews.HTMLDocument
+Allow access to HTML DOM elements?
+capability.policy.mailnews.Location
+Allow access to Location properties and methods?
+capability.policy.mailnews.Range
+Allow access to Range properties and methods?
+capability.policy.mailnews.SOAPCall
+Allow access to SOAP calls?
+capability.policy.mailnews.SOAPEncoding
+Allow access to SOAP encoding functions?
+capability.policy.mailnews.SOAPFault
+Allow access to SOAP fault functions?
+capability.policy.mailnews.SOAPHeaderBlock
+Allow access to SOAP Header Block functions?
+capability.policy.mailnews.SOAPParameter
+Allow access to SOAP parameters?
+capability.policy.mailnews.SOAPPropertyBagMutator
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+capability.policy.mailnews.SOAPResponse
+Allow access to SOAP responses?
+capability.policy.mailnews.SchemaLoader
+Allow access to Schema Loader properties and methods?
+capability.policy.mailnews.Window
+Allow access to Window properties and methods?
+capability.policy.mailnews.XMLHttpRequest
+Allow XML/HTTP requests?
+capability.policy.mailnews.XMLSerializer
+Allow access to XML serializer?
+capability.policy.mailnews.document
+Allow access to document properties and methods?
+capability.policy.mailnews.sites
+Whitespace-separated regexp specifying URLS which are to be handled by mailnews policy
+capability.policy.policynames
+Comma-separated list of defined policies.  For example, if the value of this field is 'popupsites', Mozilla will look for and apply policies under 'capability.policy.popupsites.*' as for the 'default' scheme.
+capability.policy.popupsites.windowinternal.open
+Allow access to opening windows?
+clipboard.autocopy
+UNIX-style autocopy
+compose.throbber.url
+Specifies URI to load when composer throbber is clicked
+content.interrupt.parsing
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+content.max.tokenizing.time
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+content.maxtextrun
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+content.notify.backoffcount
+Set the number of reflows to do before waiting for the rest of the page to arrive
+content.notify.interval
+Sets the allowed time between reflows in microseconds
+content.notify.ontimer
+Turn on timer-based reflow management
+content.switch.threshold
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+converter.html2txt.header_strategy
+Set how headers are used when converting HTML to Text
+converter.html2txt.structs
+Output structured phrases (based on strong, em, code, sub, sup, b, i, u tags)?
+custtoolbar.personal_toolbar_folder
+Override name of the Personal Toolbar Folder
+dom.allow_scripts_to_close_windows
+Allow Javascript to close windows?
+dom.disable_cookie_get
+Allow Javascript to read cookies?
+dom.disable_cookie_set
+Allow Javascript to create/change cookies?
+dom.disable_image_src_set
+Allow Javascript to change images?
+dom.disable_open_click_delay
+Disable ability to open popups after a specified delay?
+dom.disable_open_during_load
+Allow Javascript to open unrequested windows?
+dom.disable_window_flip
+Allow Javascript to max/min windows?
+dom.disable_window_move_resize
+Allow Javascript to move/resize windows?
+dom.disable_window_status_change
+Allow Javascript to change status bar text?
+dom.max_script_run_time
+Specify how long (in seconds) Mozilla should wait for a script to run before it displays a warning dialog
+editor.active_link_color
+Hex value (#RRGGBB) for a link that has just been clicked on
+editor.always_show_publish_dialog
+Always show the Publish dialog when saving pages?
+editor.author
+Default author for Composer documents
+editor.auto_save
+Enable/Disable automatic saving
+editor.auto_save_delay
+If auto_save enabled, how many minutes between saves
+editor.background_color
+Default custom hex value (#RRGGBB) for background color
+editor.background_image
+Default location for background image
+editor.css.default_length_unit
+Determines default units for measurement in CSS 
+editor.default_background_image
+Set default background image to use when creating new web pages
+editor.encode_entity
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+editor.followed_link_color
+Default custom hex color (#RRGGBB) for visited links
+editor.history_title_FOO
+Recently edited document FOO
+editor.history_url_FOO
+Recently edited document URL FOO
+editor.history.url_maximum
+Number of URLs Composer will store for recent pages
+editor.hrule.align
+Alignment of new horizontal line (HRULE)
+editor.hrule.height
+Default horizontal line height (HRULE)
+editor.hrule.shading
+3D Shading on?
+editor.hrule.width
+Default HRULE width
+editor.hrule.width_percent
+Width measured in % of window? (If false, use absolute pixels)
+editor.html.typing.returnInEmptyListItemClosesList
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+editor.htmlWrapColumn
+Value after which Composer will wrap HTML
+editor.html_editor
+Location of outside HTML editor (blank for none)
+editor.image_editor
+Location of outside graphics editor (blank for none)
+editor.lastFileLocation.html
+Location of last HTML file opened
+editor.lastFileLocation.image
+Location of last image file opened
+editor.link_color
+Default custom hex color value (#RRGGBB) for unvisited link
+editor.prettyprint
+Color-code/format HTML for readability
+editor.publish.
+** Unknown settings, probably bug **
+editor.publish.default_site
+Default site to publish to
+editor.publish.site_data.FOO
+FOO site data
+editor.publish.site_name.FOO
+Site name FOO (look up this value's entry in editor.publish.site_data for more information)
+editor.quotesPreformatted
+Preformat quotes?
+editor.save_associated_files
+Save associated files (images, etc.) when saving web page
+editor.singleLine.pasteNewlines
+Convert up to X lines into a URL (good for copying URLs split over multiple lines)
+editor.table.delete_key
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+editor.table.maintain_structure
+Maintain table layout when inserting/deleting cells?
+editor.text_color
+Default custom hex text color (#RRGGBB) for new pages
+editor.throbber.url
+URL throbber points to when clicked
+editor.toolbars.showbutton.FOO
+Show button FOO?
+editor.use_background_image
+Composer uses background image (seems to have no effect)?
+editor.use_css
+Use CSS instead of HTML attributes?
+editor.use_custom_colors
+Use customs colors defined above in New Page Settings?
+editor.use_custom_default_colors
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+editor.use_html_editor
+Use an outside HTML editor (defined in editor.html_editor)
+editor.use_image_editor
+Whether to use an outside graphics editor (defined in editor.image_editor)
+extensions.irc.charset
+Override the default ChatZilla! character set
+extensions.irc.collapseMsgs
+If true, collapse consecutive messages from the same source (don't show nickname against second and subsequent messages).
+extensions.irc.colorCodes
+Allow IRC color codes?
+extensions.irc.copyMessages
+Copy important messages to the IRC network window as well as the window they appear in.
+extensions.irc.debug.tracer
+Debugger tracing on?
+extensions.irc.desc
+Default description used when chatting (/desc [name])
+extensions.irc.focusNewTab
+Focus switches to new tabs when opened?
+extensions.irc.initialScripts
+Initial scripts to run when Chatzilla! is started
+extensions.irc.initialURLs
+Initial URLs to open when ChatZilla! is started
+extensions.irc.msgBeep
+Beep pattern to use when new message is received
+extensions.irc.munger.bold
+Mark *text* as bold?
+extensions.irc.munger.bugzilla-link
+Display URL link to BugZilla on startup?
+extensions.irc.munger.channel-link
+Display URL links to IRC channels on startup?
+extensions.irc.munger.colorCodes
+Allow use of color codes?
+extensions.irc.munger.ctrl-char
+Enable mIRC input compatibility?
+extensions.irc.munger.ear
+Convert 'ear' ASCII art to graphics?
+extensions.irc.munger.face
+Convert 'face' ASCII art to graphics?
+extensions.irc.munger.italic
+Mark /text/ as italic?
+extensions.irc.munger.link
+Mark up URLs as links?
+extensions.irc.munger.mailto
+Mark up e-mail addresses as links?
+extensions.irc.munger.rheet
+Activate the rheet easter egg?  If activated, typing "rheeeeeet" (any number of e's greater than 2 will work) will play a sound.
+extensions.irc.munger.smileyText
+Convert smiley text to graphics?
+extensions.irc.munger.teletype
+Enable display of text in teletype format?
+extensions.irc.munger.underline
+Mark _text_ as underlined?
+extensions.irc.munger.word-hyphenator
+Hyphenate words in ChatZilla!?
+extensions.irc.newTabLimit
+Limit the number of tabs able to be created within Chatzilla window.
+extensions.irc.newTabThreshold
+(deprecated) see extensions.irc.newTabLimit
+extensions.irc.nickCompleteStr
+Type these character(s) to autocomplete nickname
+extensions.irc.nickname
+Default nickname used in ChatZilla!
+extensions.irc.notify.aggressive
+Use aggressive notification for new IRC events?
+extensions.irc.queryBeep
+Beep pattern to use when query is received
+extensions.irc.raiseNewTab
+Raise new tabs when they are created?
+extensions.irc.reconnect
+Automatically attempt to reconnect if connection is broken?
+extensions.irc.stalkBeep
+Beep pattern to use when stalk pattern is detected
+extensions.irc.stalkWords
+String pattern to 'stalk' for (sound alert 
+ activate/flash ChatZilla! window when string is received via IRC)
+extensions.irc.style.default
+URI of default CSS stylesheet
+extensions.irc.username
+Default username used in ChatZilla!
+extensions.irc.views.channel
+Maximum size of scroll back history for Channel windows
+extensions.irc.views.chanuser
+Maximum size of scroll back history for Private Message windows
+extensions.irc.views.client
+Maximum size of scroll back history for Client windows
+extensions.irc.views.network
+Maximum size of scroll back history for Network windows
+extensions.venkman.lastErrorMode
+Set action Venkman takes when an error is detected
+extensions.venkman.lastThrowMode
+Set action Venkman takes when an exception is detected
+extensions.venkman.layoutState.default
+URI of default layout state for Venkman
+extensions.venkman.prettyprint
+Use pretty print when printing in Venkman?
+extensions.venkman.sessionView.currentCSS
+URI of current session view for Venkman
+extensions.venkman.startupCount
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+font.allow_double_byte_special_chars
+Allow display of double byte special characters in languages that need it (eg. non-simplified Chinese)?
+font.antialias.min
+Set minimum font size (in pt) at which to enable anti-aliasing.
+font.default
+Default Font type
+font.embedded_bitmaps.max
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+font.FreeType2.autohinted
+Automatically hint FreeType characters?
+font.FreeType2.enable
+Enable FreeType fonts?
+font.FreeType2.printing
+Print using FreeType fonts?
+font.FreeType2.shared-library
+Path to FreeType2 fonts shared directory on your system
+font.FreeType2.unhinted
+Render FreeType fonts as unhinted?
+font.internaluseonly.changed
+RESERVED: Do not modify
+font.name-list.FOO.he
+Default Hebrew FOO font (comma separated, in order of preference)
+font.name-list.FOO.ja
+Default Japanese FOO font (comma separated, in order of preference)
+font.name-list.FOO.ko
+Default Korean FOO font (comma separated, in order of preference)
+font.name-list.FOO.x-devanagari
+Default Devanagari (Hindu/Sanskrit) FOO font (comma separated, in order of preference)
+font.name-list.FOO.x-tamil
+Default Tamil (Sri Lankan) FOO font (comma separated, in order of preference)
+font.name-list.FOO.zh-CN
+Default Simplified Chinese (China) FOO font (comma separated, in order of preference)
+font.name-list.FOO.zh-TW
+Default Traditional Chinese (Taiwan) FOO font (comma separated, in order of preference)
+font.name.FOO.ar
+Default Arabic FOO font
+font.name.FOO.el
+Default Greek FOO font
+font.name.FOO.he
+Default Hebrew FOO font
+font.name.FOO.ja
+Default Japanese FOO font
+font.name.FOO.ko
+Default Korean FOO font
+font.name.FOO.th
+Default Thai FOO font
+font.name.FOO.tr
+Default Turkish FOO font
+font.name.FOO.x-baltic
+Default Baltic FOO font
+font.name.FOO.x-central-euro
+Default Central European FOO font
+font.name.FOO.x-cyrillic
+Default Cyrillic FOO font
+font.name.FOO.x-devanagari
+Default Devanagari (Hindu/Sanskrit) FOO font
+font.name.FOO.x-tamil
+Default Tamil (Sri Lankan) FOO font
+font.name.FOO.x-unicode
+Default Unicode FOO font
+font.name.FOO.x-western
+Default Western FOO font
+font.name.FOO.zh-CN
+Default Simplified Chinese (China) FOO font
+font.name.FOO.zh-TW
+Default Traditional Chinese (Taiwan) FOO font
+font.size.FOO.ar
+Default FOO Arabic font size
+font.size.FOO.el
+Default FOO Greek font size
+font.size.FOO.he
+Default FOO Hebrew font size
+font.size.FOO.ja
+Default FOO Japanese font size
+font.size.FOO.ko
+Default FOO Korean font size
+font.size.FOO.th
+Default FOO Thai font size
+font.size.FOO.tr
+Default FOO Turkish font size
+font.size.FOO.x-baltic
+Default FOO Baltic font size
+font.size.FOO.x-central-euro
+Default FOO Central European font size
+font.size.FOO.x-cyrillic
+Default FOO Cyrillic font size
+font.size.FOO.x-devanagari
+Default FOO Devanagari (Hindu/Sanskrit) font size
+font.size.FOO.x-tamil
+Default FOO Tamil (Sri Lankan) font size
+font.size.FOO.x-unicode
+Default FOO Unicode font size
+font.size.FOO.x-western
+Default FOO Western font size
+font.size.FOO.zh-CN
+Default FOO Simplified Chinese (China) font size
+font.size.FOO.zh-TW
+Default FOO Traditional Chinese (Taiwan) font size
+font.size.nav4rounding
+Round font sizes (eg. convert 11.5pt to 12pt)?
+games.cards.current-game
+Name of current card game being played
+games.cards.FOO.game-difficulty
+FOO difficulty level
+general.open_location.last_url
+Last URL opened
+general.open_location.last_window_choice
+Last "Open in..." setting
+general.useragent.contentlocale
+Specifies which locale URI should retrieve content locale information
+general.useragent.locale
+Specifies which locale URI should retrieve locale information
+general.useragent.misc
+Mozilla version
+general.useragent.security
+Mozilla security version
+general.useragent.override
+User-specified user agent
+image.animation_mode
+Override settings for animated images
+imageblocker.enabled
+Allow blocking of images?
+images.dither
+Dither displayed images?
+inspector.blink.border-color
+Border color when blinking
+inspector.blink.border-width
+Border width
+inspector.blink.duration
+How long elements blinks for (in ms)
+inspector.blink.invert
+Invert colors of DOM element when blinking?
+inspector.blink.on
+Should DOM elements blink when selected?
+inspector.blink.speed
+Blink rate (ms/frame)
+inspector.dom.showAnon
+Show anonymous elements (ie. those with no id)?
+inspector.dom.showWhitespaceNodes
+Show nodes that just contain whitespace?
+intl.accept_charsets
+Character sets allowed in Mozilla
+intl.accept_languages
+Specifies which locale URI determines languages allowed in Mozilla
+intl.charset.default
+Default character set
+intl.charset.detector
+Specifies which locale URI sets how character set are detected in Mozilla
+intl.charsetmenu.browser.cache
+Comma-separated list of cached character sets
+intl.charsetmenu.browser.cache.size
+Number of character sets to cache
+intl.charsetmenu.browser.moreFOO
+Comma-separated list of character sets to display in "More" menu FOO
+intl.charsetmenu.browser.static
+Always display this character set in list
+intl.charsetmenu.composer.cache
+Comma-separated list of cached character sets in Mozilla Composer
+intl.charsetmenu.mailedit
+Set layout of Character Coding menu in Mozilla Mail/News (message editor)
+intl.charsetmenu.mailview.cache
+Comma-separated list of cached character sets in Mozilla Mail/News (main view)
+intl.collationOption
+** unknown preference -- please inform GuruJ@mbox.com.au with updates **
+intl.content.langcode
+Default content language code
+intl.fallbackCharsetList.FOO
+Display listed character set if FOO is not available
+intl.jis0208.map
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+intl.locale.matchOS
+Match locale to that of operating system?
+intl.menuitems.alwaysappendacceskeys
+Specifies URI to determine if access keys are appended to menu items
+javascript.allow.mailnews
+JavaScript is allowed to execute in Mail 
+ News?
+javascript.enabled
+Is JavaScript enabled?
+javascript.options.showInConsole
+Show JavaScript in console?
+javascript.options.strict
+Report strict JavaScript warnings?
+keyword.URL
+URL to use for keyword lookups
+keyword.enabled
+Use Internet Keywords? (In Firefox, uses the Google 'I'm feeling lucky' function.)
+layout.frames.force_resizability
+Force frames to be always resizable?
+layout.word_select.eat_space_to_next_word
+Select space following a word when that word is double-clicked?
+layout.word_select.stop_at_punctuation
+Treat punctuation as 'pseudo-space' when a word is double-clicked?
+ldap_1.directoryFOO.attributes.BAR
+Additional LDAP field definition for BAR in directory FOO
+ldap_1.directoryFOO.description
+User-friendly name for LDAP directory
+ldap_1.directoryFOO.dirType
+Type of LDAP directory (leave unset for remote LDAP)
+ldap_1.directoryFOO.filterBAR.repeatFilterForWords
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+ldap_1.directoryFOO.isOffline
+Has an offline copy been made of this directory? (Always false for local LDAP directories.)
+ldap_1.directoryFOO.searchBase
+Start LDAP directory search from this base DN
+ldap_1.directoryFOO.serverName
+DNS or IP address of LDAP server
+ldap_1.number_of_directories
+Total number of configured directories
+ldap_2.autoComplete.directoryServer
+Use the following comma-separated list of directory servers for address autocompletion
+ldap_2.autoComplete.enabled
+Enable Address autocompletion?
+ldap_2.autoComplete.interval
+Time delay after keystroke (in ms) before displaying autocomplete options
+ldap_2.autoComplete.skipDirectoryIfLocalMatchFound
+Skip directory search if a local match is found?
+ldap_2.autoComplete.useAddressBooks
+Use address books for autocomplete?
+ldap_2.autoComplete.useDirectory
+Use LDAP directories for autocomplete?
+ldap_2.prefs_migrated
+Have preferences been migrated from Netscape 4.x?
+ldap_2.servers.FOO.description
+User-friendly description of LDAP directory
+ldap_2.servers.FOO.dirType
+Type of LDAP directory
+ldap_2.servers.FOO.filename
+If local LDAP server, filename where LDAP entries are stored
+ldap_2.servers.FOO.isOffline
+Has an offline copy been made of this directory? (Always false for local LDAP directories.)
+ldap_2.servers.FOO.position
+Position in the address book list
+ldap_2.servers.FOO.replication.lastChangeNumber
+Last replication change number
+ldap_2.servers.FOO.serverName
+DNS or IP address of LDAP directory
+ldap_2.user_id
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+ldap_2.version
+Version of LDAP used for queries
+mail.SpellCheckBeforeSend
+Check messages for spelling errors before sending?
+mail.account.FOO.identities
+Identity for mail account FOO 
+mail.account.FOO.server
+Server identity for mail account FOO
+mail.accountmanager.accounts
+Comma-separated list of accounts
+mail.accountmanager.defaultaccount
+Default account to use
+mail.accountmanager.localfoldersserver
+ID of server that represents the Local Folders
+mail.addr_book.displayName.autoGeneration
+Automatically generate a Display Name based on "Firstname" and "Lastname" fields?
+mail.addr_book.displayName.lastnamefirst
+When generating a display name, use format "Lastname, Firstname"? (If false, format of "Firstname Lastname" is used.)
+mail.addr_book.lastnamefirst
+Set name sort order
+mail.addr_book.mapit_url.format
+Custom URL query to locate address from address book using custom parameters.  Default value is "http://www.mapquest.com/maps/map.adp?country=@CO
+address=@A1%20@A2
+city=@CI
+state=@ST
+zipcode=@ZI"
+mail.addr_book.quicksearchquery.format
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+mail.addr_book.show_phonetic_fields
+Display fields for phonetic equivalents of Firstname and Lastname in Address Book?
+mail.attach_vcard
+Automatically attach a vCard to all new email messages?
+mail.auth_login
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+mail.auto_quote
+Automatically quote messages when replying to them?
+mail.compose.dontWarnMail2Newsgroup
+Do not warn user if attempting to send news with a mail identity?
+mail.identity.idFOO.headers
+Comma-separated list of headers to add to mail messages.  Each header identity listed must have a corresponce preference mail.identity.FOO.header.BAR.  For example, if mail.identity.id1.headers = "extra1,extra2", mail.identity.id1.header.extra1 and mail.identity.id1.header.extra2 must be set.
+mail.identity.idFOO.header.BAR
+Add header to mail message specified in SMTP-compatible format (eg: "X-Bar: sample value")
+mail.imap.confirm_emptyTrashFolderDeletion
+Pop up confirmation dialog box before deleting all sub folders under trash folder?
+mail.server.FOO.auth_login
+Does mail server 'FOO' require authentication at logon?
+mail.server.FOO.useSecAuth
+Only use secure mechanisms (e.g. CRAM-MD5, NTLM) for server login?  If false, only insecure methods (USER/PASS, PLAIN, LOGIN) are used.
+mail.smtpserver.FOO.trySecAuth
+Attempt login using secure mechanisms (e.g. CRAM-MD5, NTLM)?  Insecure methods will be tried as well even if this value is true.
+mail.toolbars.showbutton.FOO
+Show button "FOO" in mail window?
+mailnews.display.original_date
+Display date string from mail headers without interpretation (will show time zone information)?
+mailnews.reply_header_authorwrote
+Text string used when an author string is required in reply header (%s will be replaced by your name)
+mailnews.reply_header_colon
+Text string used when colon is required in reply header
+mailnews.reply_header_locale
+Text string used when locale is required in reply header
+mailnews.reply_header_ondate
+Text string used when a date string is required in reply header (%s will be replaced by the date)
+mailnews.reply_header_originalmessage
+** Preference does not work as expected (see bug 224811) - DO NOT MODIFY **
+mailnews.reply_header_separator
+Text string used to separate parts of the reply header
+mailnews.reply_header_type
+Format of reply header.  Use other reply_header preferences to customize this further, in particular 'author_wrote' and 'ondate'.
+mailnews.reply_on_top
+How to reply to messages
+mailnews.reuse_message_window
+Do message replies have their own window or reuse the existing window?
+middlemouse.contentLoadURL
+Allow paste of URI stored in clipboard into browser location text box? (Linux only)
+middlemouse.openNewWindow
+Clicking middle mouse button on a hyperlink opens a new window?
+middlemouse.paste
+Clicking middle mouse button pastes text stored in clipboard?
+middlemouse.scrollbarPosition
+Clicking middle mouse button allows scroll bar position adjustment?
+mousewheel.withaltkey.action
+Action to take
+mousewheel.withaltkey.numlines
+Number of lines to scroll by (if relevant)
+mousewheel.withaltkey.sysnumlines
+Scroll by a number of lines equal to system default?
+mousewheel.withcontrolkey.action
+Action to take
+mousewheel.withcontrolkey.numlines
+Number of lines to scroll by (if relevant)
+mousewheel.withcontrolkey.sysnumlines
+Scroll by a number of lines equal to system default?
+mousewheel.withnokey.action
+Action to take
+mousewheel.withnokey.numlines
+Number of lines to scroll by (if relevant)
+mousewheel.withnokey.sysnumlines
+Scroll by a number of lines equal to system default?
+mousewheel.withshiftkey.action
+Action to take
+mousewheel.withshiftkey.numlines
+Number of lines to scroll by (if relevant)
+mousewheel.withshiftkey.sysnumlines
+Scroll by a number of lines equal to system default?
+mozilla.widget.raise-on-setfocus
+Specifies if a window should be raised to top when it recieves focus. The default value is true. Setting this preference dynamically takes effect when a window is created.
+msgcompose.background_color
+Default background color when composing messages
+msgcompose.font_face
+Default font typeface to use when composing messages (HTML only)?
+msgcompose.font_size
+Default font size to use when composing messages (HTML only)?
+msgcompose.text_color
+Default text color to use when composing messages (HTML only)? 
+network.autodial-helper.enabled
+Automatically dial a connection if one is not available?
+network.cookie.cookieBehavior
+Set which cookies are allowed to be stored on local computer
+network.cookie.disableCookieForMailNews
+Disable cookies in Mail and Newsgroups?
+network.cookie.lifetime.behavior
+(Only applies if network.cookie.lifetime.enabled is true) Determine when cookies will expire.  If set to 1, number of days is determined by network.cookie.lifetime.days.
+network.cookie.lifetime.days
+Cookies expire in X days
+network.cookie.lifetime.enabled
+Do cookies expire automatically?
+network.cookie.p3p
+Look at the p3p field in the server's response header to determine the privacy policy, and then processes the cookie accordingly.  'f' means 'flag', 'd' means 'downgrade to session', 'a' means 'accept', and 'r' means 'reject'.  The letters in the 1st, 3rd, 5th, and 7th position are for first parties, and those in the even-numbered positions are for third parties.  The four situations are: no policy, collects personal info without permission, collects personal info only with permission, and collects no personal info.
+network.cookie.p3plevel
+Security level of filtering for cookies
+network.cookie.warnAboutCookies
+Ask user before storing any cookies?
+network.dir.format
+Set output format for any directory listing.  (Do not set this value to 0!)
+network.enableIDN
+Enable Internationalized Domain Names?
+network.enablePad
+Enable automatic proxy configuration?
+network.ftp.anonymous_password
+Set FTP anonymous password
+network.ftp.idleConnectionTimeout
+FTP Idle Connection Timeout (in seconds)
+network.hosts.nntp_server
+Proxy News server
+network.hosts.pop_server
+Proxy POP server (default: mail)
+network.hosts.smtp_server
+Proxy SMTP server (default: mail)
+network.hosts.socks_conf
+SOCKS Proxy configuration
+network.hosts.socks_server
+Specify a SOCKS server
+network.hosts.socks_serverport
+Port for SOCKS server above (default: 1080)
+network.http.accept-encoding
+Comma-separated list of compressed encodings to accept from server
+network.http.accept.default
+Default set of comma-separated list of HTTP formats to accept from servers
+network.http.defensive-auth-prompting
+Confirm user intent whenever URL of the form http://user:pass@my.site.com is accessed?
+network.http.connect.timeout
+How long to wait before timeout in HTTP (in seconds)
+network.http.default-socket-type
+Default socket type (apparently unused)
+network.http.max-connections
+Maximum simultaneous HTTP connections
+network.http.max-connections-per-server
+Maximum connections to a single server
+network.http.max-persistent-connections-per-proxy
+Maximum persistent connections per proxy
+network.http.max-persistent-connections-per-server
+Maximum persistent connections per server (normally only relevant for large file downloads)
+network.http.pipelining.firstrequest
+Always pipeline the first (SYN) request? (If servers do not support pipelining, this may break sites)
+network.http.pipelining.maxrequests
+Maximum number of pipelining requests
+network.proxy.autoconfig_url
+URL specifying where to find the autoproxy config file
+network.proxy.ftp
+FTP proxy server name
+network.proxy.ftp_port
+FTP proxy server port
+network.proxy.gopher
+Gopher proxy server name
+network.proxy.gopher_port
+Gopher proxy server port
+network.proxy.http
+HTTP Proxy server name
+network.proxy.http_port
+HTTP Proxy server port
+network.proxy.news
+News Proxy server name
+network.proxy.news_port
+News Proxy server port
+network.proxy.no_proxies_on
+Comma-separated list of site or IP ranges where proxy server should be bypassed
+network.proxy.socks
+SOCKS server port
+network.proxy.socks_version
+Socks version (default: 5)
+network.proxy.ssl
+HTTPS Proxy server name
+network.proxy.ssl_port
+HTTPS proxy server port
+network.proxy.type
+Proxy type
+network.proxy.wais
+WAIS proxy server name
+network.proxy.wais_port
+WAIS proxy server port
+network.http.proxy.keep-alive
+Enable keep-alive in proxy connection
+network.http.proxy.pipelining
+Enable pipelining in proxy
+network.http.proxy.ssl
+If proxy uses SSSL
+network.http.proxy.version
+HTTP version (1.0 or 1.1) to use for proxy
+network.http.redirection-limit
+Max number of redirections in a row
+network.http.request.max-start-delay
+Maximum start time for HTTP request
+network.http.request.timeout
+Request timeout
+network.http.sendRefererHeader
+Handling of HTTP Referer Headers
+network.http.sendSecureXSiteReferrer
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+network.http.use-cache
+Enable caching of HTTP documents
+network.http.version
+HTTP version (1.0/1.1) to use
+network.image.imageBehavior
+Behavior when handling retrieval of images
+network.image.warnAboutImages
+Warn when receiving images?
+network.online
+Is user currently online?
+network.prefetch-next
+Enable pre-fetching of documents (those specified by 
+link rel="next"
+ in HTML documents)?
+network.protocol-handler.external.mailto
+(Windows only) Use the external E-mail client identified via Start - Settings - Control Panel - Internet Options - Programs tab when selecting a "mailto:" URL?
+network.protocols.useSystemDefaults
+Use system defaults for protocols?
+network.search.url
+URL to send search text in location field
+network.security.ports.banned.override
+(WARNING: Potential security risk) Allow Mozilla to retrieve web pages from non-standard ports below 1024 (ie. anything other than port 80).  Provide a comma-separated list of ports to override and allow (eg. "78,79").
+news.cancel.alert_on_success
+Alert if cancelled successfully?
+news.cancel.confirm
+Confirm the cancel?
+news.cc_self
+Carbon-copy to own account?
+news.default_cc
+Default CC address
+news.default_fcc
+Default FCC address
+news.directory
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+news.fcc_folder
+Folder location of FCC (file carbon copy)
+news.mark_old_read
+Automatically mark old articles as read?
+news.max_articles
+Max articles to download
+news.notify.on
+News notification on?
+news.persist_server_open_state_in_folderpane
+Persist open state on restart (see Bug #103010)?
+news.show_size_in_lines
+If true, show the message size in lines.  Otherwise, show message size in KB.
+news.use_fcc
+Use FCC?
+news.wrap_long_lines
+Use word wrap?
+nglayout.debug.crossing_event_dumping
+The default value is false.
+nglayout.debug.enable_xbl_forms
+Enable XBL Forms?
+nglayout.debug.event_dumping
+Dump event information?  The default value is false.
+nglayout.debug.invalidate_dumping
+The default value is false.
+nglayout.debug.motion_event_dumping
+Dump event information?  The default value is false.
+nglayout.debug.paint_dumping
+Dump debug information for paint event? This preference can be overridden at run-time by turning on the CAPS lock key. The default value is false.
+nglayout.debug.paint_flashing
+The default value is false.
+nglayout.events.dispatchLeftClickOnly
+Dispatch left click only to content in browser?
+nglayout.events.showHierarchicalHover
+Relates to CSS2 Hover pref
+nglayout.initialpaint.delay
+Time (in ms) before starting to render a page (Default: 250ms)
+nglayout.widget.gfxscrollbars
+Force system-style scrollbars?
+nglayout.widget.mode
+NGLayout widget mode
+plugin.allow_alien_star_handler
+Allow plugins to take over handling of "*" plugin type?
+plugin.display_plugin_downloader_dialog
+If no plugin is registered for the "*" mime type (i.e. no default plugin), display a dialog showing where to get it?
+plugin.do_JRE_Plugin_Scan
+Scan for JRE 1.3.x in its installed location (default false)?  [NB: You should NOT use this if JRE is 1.4 or greater]
+plugin.dont_try_safe_call
+Turn off exception handling for plugins? (Mainly a debugging tool for plugin developers)
+plugin.expose_full_path
+Allow full path of plugins to be listed in about:plugins?
+plugin.override_internal_types
+Allow plugins to override MIME types normally handled by browser?
+plugin.skip_real_player_hack
+Skip looking for RealPlayer plugin in components folder (Netscape behavior)?
+prefs.converted-to-utf8
+Preferences converted to UTF-8 format?
+print.always_cache_old_pres
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+plugin.enable_double_buffer
+Enable double buffering on pages when there are plugins in layout? [Default: false]
+print.print_edge_bottom
+Bottom margin width (in mm)
+print.print_edge_left
+Left margin width (in mm)
+print.print_edge_top
+Top margin width (in mm)
+print.print_edge_right
+Right margin width (in mm)
+print.print_evenpages
+Print even pages only?  The default value is false.
+print.print_extra_margin
+Extra margin width (in mm)
+print.print_footercenter
+Centered footer text. This may use up to ONE of the special string constants 
+T, 
+U, 
+D, 
+P or 
+PT (see drop-down box).
+print.print_footerleft
+Left-aligned footer text. This may use up to ONE of the special string constants 
+T, 
+U, 
+D, 
+P or 
+PT (see drop-down box).
+print.print_footerright
+Right-aligned footer text. This may use up to ONE of the special string constants 
+T, 
+U, 
+D, 
+P or 
+PT (see drop-down box).
+print.print_headercenter
+Centered header text. This may use up to ONE of the special string constants 
+T, 
+U, 
+D, 
+P or 
+PT (see drop-down box).
+print.printheaderleft
+Left-aligned header text. This may use up to ONE of the special string constants 
+T, 
+U, 
+D, 
+P or 
+PT (see drop-down box).
+print.printheaderight
+Right-aligned header text.  This may use up to ONE of the special string constants 
+T, 
+U, 
+D, 
+P or 
+PT (see drop-down box).
+print.print_margin_bottom
+Specify bottom margin in half-inch units (e.g. 2 units = 1"). If the value is not specified, the system default is used. This option has no default value.
+print.print_margin_left
+Specify left margin in half-inch units (e.g. 2 units = 1"). If the value is not specified, the system default is used. This option has no default value.
+print.print_margin_right
+Specify right margin in half-inch units (e.g. 2 units = 1"). If the value is not specified, the system default is used. This option has no default value.
+print.print_margin_top
+Specify top margin in half-inch units (e.g. 2 units = 1"). If the value is not specified, the system default is used. This option has no default value.
+print.print_oddpages
+Print odd pages only?  The default value is false.
+print.save_print_settings
+Save print settings?
+print.show_print_progress
+Show print progress dialog box?
+print.use_global_printsettings
+Each window maintains individual print settings?
+print.use_native_print_dialog
+Use operating system-native Print dialog box?
+print.whileInPrintPreview
+Allow printing directly from Print Preview screen?  Specifically, the Print, Page Setup, Scale, and Portrait/Landscape buttons only appear when this value is set to true.
+profile.confirm_automigration
+Confirm migration of IE/other browser bookmarks when creating a new profile?
+profile.seconds_until_defunct
+Time in seconds before an unused profile is considered defunct, and removed from the profiles list
+security.OCSP.enabled
+Enable OCSP?
+security.OCSP.signingCA
+Defines the signer's name to which all certificates are validated
+security.OCSP.URL
+Defines the OCSP service URL to which all certificates are validated
+security.ask_for_password
+Ask for certificate password (eg. for Mail).  If option 2 is selected, length is set via security.password_lifetime.
+security.checkloaduri
+Check the originating server before granting permissions?
+security.default_personal_cert
+Default personal certificate (default: Select Automatically)
+security.directory
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+security.disable_buttonchangePassword
+Disable the password change button?
+security.disable_buttonresetPassword
+Disable the reset password button?
+security.enable_java
+Enable Java?
+security.enable_ssl2
+Enable Secure Sockets Layer 2 (SSL2)?
+security.enable_ssl3
+Enable Secure Sockets Layer 3 (SSL3)?
+security.enable_tls
+Enable TLS?
+security.password_lifetime
+How long before asking for password (in minutes)
+security.ui.enable
+Enable the Security UI?
+security.warn_entering_secure
+Warn before entering a secure area?
+security.warn_entering_weak
+Warn before entering an insecure area?
+security.warn_leaving_secure
+Warn before leaving a secure area?
+security.warn_submit_insecure
+Warn before submitting a form to an insecure area?
+security.warn_viewing_mixed
+Warn when viewing a page with both secure/insecure elements?
+security.xpconnect.plugin.unrestricted
+Allow unrestricted access for XPConnect plugins?
+sidebar.customize.all_panels.url
+URL for location of RDF file listing Sidebars that can be added
+sidebar.customize.directory.url
+URL of Directory listing all available Sidebars
+sidebar.customize.more_panels.url
+URL directing user to where they can get more Sidebar panels
+sidebar.num_tabs_in_view
+Number of tabs visible before scroll arrows appear at bottom of sidebar panel (Default: 8)
+slider.snapMultiplier
+Distance (in pixels) away from scrollbar mouse can move before scrollbar thumb snaps back to its original position.  (Default on Unix: 0; on Windows: 6).
+startup.homepage_override_url
+Specifies the application startup home page.\u000aThe default value is 'chrome://navigator-region/locale/region.properties', which points to the default home page specified by the active regional pack.
+ui.key.accelKey
+Set 'accelerator' key used for keyboard shortcuts
+ui.key.generalAccessKey
+Set generic key used for Mozilla shortcuts
+ui.key.menuAccessKey
+Set key used for accessing Mozilla menus
+ui.key.menuAccessKeyFocuses
+Do menus gain focus when Access Key is tapped?
+ui.key.saveLink.shift
+Use SHIFT key + click to save target link?
+ui.textSelectBackgroundAttention
+Select hex color value (#RRGGBB) for found link
+update_notifications.enabled
+Should this program check for updated versions of itself?
+update_notifications.provider.0.datasource
+Specifies which locale URI determines where update notifications are retrieved from
+update_notifications.provider.0.frequency
+Number of days between checks for updates
+view_source.syntax_highlight
+Pretty print HTML syntax when viewing source?
+view_source.wrap_long_lines
+Wrap long lines when viewing source?
+viewmanager.do_doublebuffering
+Should viewmanager code do double-buffering?  (See http://bugzilla.mozilla.org/show_bug.cgi?id=169483 for further details)
+wallet.Samples
+Locale URI specifying where to retrieve Form Manager samples
+wallet.SchemaValueFileName
+Location of ASCII file where all form data is stored
+wallet.Server
+Locale URI specifying where to locate Form Manager server
+wallet.TutorialFromMenu
+Locale URI specifying where to locate Form Manager Tutorials
+wallet.addressPanel.hide
+Hide Wallet address panel?
+wallet.captureForms
+Capture data entered into forms on web pages?
+wallet.caveat
+Use a master password to control access to saved username/password pairs?
+wallet.creditPanel.hide
+Hide Credit Card information?
+wallet.crypto
+Enable use of password manager?
+wallet.crypto.autocompleteoverride
+Enable use of password manager on sites that would normally override this behavior, such as banking sites? (NOT RECOMMENDED)
+wallet.crypto.autocompleteoverride
+Use Autocomplete even on encrypted pages?
+wallet.employPanel.hide
+Hide Employment information?
+wallet.enabled
+Form Manager enabled?
+wallet.miscPanel.hide
+Hide Miscellaneous panel?
+wallet.namePanel.hide
+Hide Name panel?
+wallet.notified
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **
+wallet.phonePanel.hide
+Hide Phone panel?
+wallet.version
+Form Manager version
+xpinstall.enabled
+Allow installation of XPI packages?
+xpinstall.manual_confirm
+Require user to manually confirm installation of all XPI packages?
+xpinstall.notifications.enabled
+Notify user when an updated version of an XPI is available?
+xpinstall.notifications.interval
+Number of days between checking for updates
+xpinstall.notifications.lastDate
+Last date that XPI packages were checked for updates
