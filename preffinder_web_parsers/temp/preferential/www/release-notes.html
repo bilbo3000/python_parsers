@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<script language="javascript">
+<!--
+function triggerURL(url) {
+        if (!InstallTrigger.updateEnabled())
+          return false; 
+        else
+          InstallTrigger.startSoftwareUpdate(url); 
+}
+//-->
+</script>
+</head>
+<!-- MAIN CONTENT -->
+<body>
+<div id="title">Archived Release Notes</div>
+
+<p><strong>0.5.3</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>Added integration with Mozilla Thunderbird.</li>
+  <li>Fixed bug when editing string preferences.</li>
+</ul>
+<p><strong>0.5.2</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>Changed search to be case-insensitive.</li>
+</ul>
+<p><strong>0.5.1</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>Fixed bug preventing Preferential running under FireBird 0.6.</li>
+</ul>
+<p><strong>0.5</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>Added search function!  You can now search for a phrase in all preferences and their descriptions.</li>
+</ul>
+<p><strong>0.4.3</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>500 Preferences documented!</li>
+  <li>Fixed bug in Help -> About window.</li>
+</ul>
+<p><strong>0.4.2</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>400 Preferences documented!</li>
+  <li>All browser.* preferences are now documented.</li>
+  <li>Thanks to Mike K for documenting ~100 preferences covering 
+the network.*, print.* and security.* preference branches.</li>
+  <li>Thanks also to Brant, Stephan and Xial for their help.</li>
+  <li>Fixed bug allowing people to enter non-documented value in 
+enumerated preference window.</li>
+  <li>Fixed localisation bug in New Preference window (thanks asbin).</li>
+  <li>Added Reload menu entry allowing refresh of preferences 
+window on call.</li>
+</ul>
+<p><strong>0.4.1</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>Fixed major bug that prevented successful editing of
+Integer and String preferences (bug 2877).</li>
+  <li>Fixed bug that caused unsuccessful loading of preferences when RDF file 
+not 'loaded in time' (bug 2585 - thanks to Matthew Buckett for the patch).</li>
+  <li>Added descriptions and hint text (now 230+ preferences 
+documented - thanks Brant!)</li>
+  <li>You will notice the Search and Bookmarks menu - these are currently 
+disabled while I work on the code for these.</li>
+</ul>
+<p><strong>0.4</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>Added support for enumerated hints when adjusting relevant 
+preferences (eg. 1=Default, 2=Once Only, 3=Never).</li>
+  <li>Added descriptions and hint text for 140+ preferences, 60+ navigation menus.
+<strong>Special thanks</strong> to Mike K for documenting the dom.*, editor.*, font.* and general.* preference sections.</li>
+</ul>
+<p><strong>0.3.1</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>Added support for Phoenix! (Tested with version 0.4)</li>
+</ul>
+<p><strong>0.3</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>Added Expand/Collapse/Expand All/Collapse All menu options</li>
+  <li>Added shortcut keys and access keys for all menu items</li>
+  <li>Created working description field, although this is still mainly unpopulated</li>
+  <li>Added description box for editing/deleting windows</li>
+  <li>Added progress meter (currently unanimated) and status bar while loading data for window</li>
+</ul>
+<p><strong>0.2.1</strong></p>
+<p>Bugfix release: </p>
+<ul>
+  <li>Fixed critical bug that caused Preferential to improperly
+register in Mozilla chrome registry.</li>
+</ul>
+<p><strong>0.2</strong></p>
+<p>Improvements in this release: </p>
+<ul>
+  <li>More user-friendly description of preferences, eg. string,
+boolean, integer &amp; whether preference with default or a user set
+value.</li>
+  <li>Improved localization and internationalisation of code.</li>
+  <li>Fixed bug in handling of boolean preference editing</li>
+</ul>
+<p><strong>0.1</strong></p>
+<p>At the moment, to successfully run Preferential, you must have the
+Venkman debugger installed.  Although tested on Mozilla 1.2b, any
+version of Mozilla should do; however, I cannot guarantee it will work
+successfully on other Gecko browsers.</p>
+<p>Preferential is currently fully functional, but definitely rough
+around the edges.  Some of the features that I plan to add in the near
+future include: </p>
+<ul>
+  <li>Tidying up of the interface, and some more user-friendly options
+(eg. not forcing a reload on each preference change) </li>
+  <li>Enumeration of options for preferences through an RDF datasource </li>
+  <li>Database describing the various preferences and what they
+accomplish (also using RDF) </li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<overlay id="suggesttoolOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/javascript"
+      src="chrome://suggesttool/content/overlay.js" />
+    <menupopup id="menu_ToolsPopup">
+      <menu label="Prefs Suggest Tool" insertafter="devToolsEndSeparator">
+        <menupopup>
+          <menuitem label="Find" oncommand="gSuggestTool.find();" />
+      </menupopup>
+    </menu>
+  </menupopup>
+</overlay>

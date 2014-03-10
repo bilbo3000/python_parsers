@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://preferential/content/preferential.css" type="text/css"?>
+
+<!--
+The contents of this file are subject to the Netscape Public
+License Version 1.1 (the "License"); you may not use this file
+except in compliance with the License. You may obtain a copy of
+the License at http://www.mozilla.org/NPL/
+
+Software distributed under the License is distributed on an "AS
+IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+implied. See the License for the specific language governing
+rights and limitations under the License.
+
+The Original Code is Mozilla Communicator client code, released
+March 31, 1998.
+
+The Initial Developer of the Original Code is Netscape
+Communications Corporation. Portions created by Netscape are
+ Copyright (C) 1998-1999 Netscape Communications Corporation. All
+Rights Reserved.
+
+Contributors:
+Stephen Bounds <guruj@mbox.com.au>
+-->
+
+<!DOCTYPE window SYSTEM "chrome://preferential/locale/preferential.dtd">
+
+<dialog id="preferential-delete"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+        title="&windowPreferentialDelete.title;"
+        buttonalign="center" buttons="accept,cancel"
+        width="400" height="235"
+        screenX="15%" screenY="15%"
+        onload="onPrefDeleteLoad();"
+        ondialogaccept="onPrefDeleteAccept();"
+        ondialogcancel="onPrefDeleteCancel();">
+
+<!-- Handling of the dialog buttons -->
+<script src="chrome://preferential/content/preferential-delete.js"/>
+
+<!-- This needs regionalizing -->
+<spacer flex="1" />
+<text id="warningText" value="&prefDeleteWarning.label;" />
+<spacer flex="1" />
+<label id="prefKeyLabel" value="&prefKey.label;" control="prefKeyText" />
+<textbox id="prefKeyText" readonly="true" maxlength="255" />
+<radiogroup id="deleteType" orient="vertical" value="delete">
+  <radio label="&prefDefault.label;" value="reset" selected="true" />
+  <radio label="&prefDelete.label;" value="delete" />
+</radiogroup>
+<spacer flex="1" />
+<label id="hintTextDesc" value="&prefHint.label;" 
+  control="hintText" />
+<textbox id="hintText" readonly="true" multiline="true" />
+</dialog>
+

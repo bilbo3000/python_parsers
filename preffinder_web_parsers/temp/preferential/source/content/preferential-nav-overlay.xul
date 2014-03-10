@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE window SYSTEM "chrome://preferential/locale/preferential.dtd">
+
+<overlay
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<menupopup id="menu_Edit_Popup">
+  <menuitem id="menu_overlay_preferential" label="&menuOverlayPreferential.label;" oncommand="window.open('chrome://preferential/content/preferential.xul','preferential','chrome,resizable')" />
+</menupopup>
+
+</overlay>

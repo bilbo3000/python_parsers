@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<prefwindow id="suggesttoolPrefs" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+     title="Suggest Tool Preferences">
+  <prefpane>
+  
+    <preferences>
+      <preference id="extensions.suggesttool.numOfPrefs"
+           name="extensions.suggesttool.numOfPrefs"
+           type="int" />
+    </preferences>
+	
+    <groupbox>
+      <caption label="How many prefs to suggest:" />
+      <radiogroup preference="extensions.suggesttool.numOfPrefs">
+        <radio value="1" label="1" selected="true"/>
+        <radio value="3" label="3"/>
+        <radio value="5" label="5" />
+      </radiogroup>
+    </groupbox>
+  </prefpane>
+</prefwindow>

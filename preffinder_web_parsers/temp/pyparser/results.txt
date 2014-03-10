@@ -1,0 +1,69 @@
+/home/djin/.mozilla/firefox/7v5ee6fg.default/prefs.js
+/home/djin/work/mozilla-central/obj-i686-pc-linux-gnu/dist/bin/greprefs.js
+/home/djin/work/mozilla-central/obj-i686-pc-linux-gnu/dist/bin/defaults/pref/channel-prefs.js
+/home/djin/work/mozilla-central/obj-i686-pc-linux-gnu/dist/bin/defaults/preferences/services-aitc.js
+/home/djin/work/mozilla-central/obj-i686-pc-linux-gnu/dist/bin/defaults/preferences/firefox-l10n.js
+/home/djin/work/mozilla-central/obj-i686-pc-linux-gnu/dist/bin/defaults/preferences/services-common.js
+/home/djin/work/mozilla-central/obj-i686-pc-linux-gnu/dist/bin/defaults/preferences/firefox.js
+/home/djin/work/mozilla-central/obj-i686-pc-linux-gnu/dist/bin/defaults/preferences/firefox-branding.js
+/home/djin/work/mozilla-central/obj-i686-pc-linux-gnu/dist/bin/defaults/preferences/services-notifications.js
+/home/djin/work/mozilla-central/obj-i686-pc-linux-gnu/dist/bin/defaults/preferences/services-sync.js
+#### number of prefs in hash table:  1763
+#### number of prefs in files:  1814
+#### 0 prefs in files but not in hash table: 
+#### 0 prefs in hash table but not in files: 
+### Duplicate prefs in files:  51
+['accessibility.typeaheadfind', 'true', 'default']
+['accessibility.typeaheadfind.linksonly', 'true', 'default']
+['accessibility.typeaheadfind.timeout', '4000', 'default']
+['alerts.slideIncrement', '1', 'default']
+['alerts.slideIncrementTime', '10', 'default']
+['alerts.totalOpenTime', '4000', 'default']
+['browser.bookmarks.max_backups', '5', 'default']
+['browser.cache.disk.capacity', '1048576', 'user']
+['browser.cache.disk.smart_size.first_run', 'false', 'user']
+['browser.enable_automatic_image_resizing', 'false', 'default']
+['browser.send_pings', 'false', 'default']
+['browser.startup.homepage', 'http://www.mozilla.com/en-US/firefox/help/', 'user']
+['browser.urlbar.clickSelectsAll', 'false', 'default']
+['browser.zoom.full', 'false', 'default']
+['capability.policy.mailnews.SOAPEncoding.setDecoder', 'noAccess', 'default']
+['clipboard.autocopy', 'false', 'default']
+['devtools.gcli.allowSet', 'false', 'default']
+['dom.disable_open_during_load', 'false', 'default']
+['dom.disable_window_flip', 'false', 'default']
+['dom.disable_window_move_resize', 'false', 'default']
+['dom.disable_window_open_feature.location', 'false', 'default']
+['dom.disable_window_status_change', 'false', 'default']
+['dom.mozApps.runUpdate', 'false', 'user']
+['editor.positioning.offset', '0', 'default']
+['editor.resizing.preserve_ratio', 'true', 'default']
+['font.minimum-size.th', '0', 'default']
+['full-screen-api.enabled', 'false', 'default']
+['general.useragent.locale', 'chrome://global/locale/intl.properties', 'default']
+['general.useragent.locale', 'en-US', 'default']
+['image.mem.max_decoded_image_kb', '51200', 'default']
+['intl.charsetmenu.browser.cache', 'UTF-8', 'user']
+['keyword.URL', 'https://www.google.com/search?ie=UTF-8&oe=utf-8&q=', 'default']
+['keyword.enabled', 'false', 'default']
+['middlemouse.contentLoadURL', 'false', 'default']
+['middlemouse.openNewWindow', 'true', 'default']
+['middlemouse.paste', 'false', 'default']
+['middlemouse.scrollbarPosition', 'false', 'default']
+['mousewheel.with_alt.action', '2', 'default']
+['mousewheel.with_control.action', '3', 'default']
+['mousewheel.with_meta.action', '1', 'default']
+['mousewheel.with_shift.action', '1', 'default']
+['mousewheel.with_win.action', '1', 'default']
+['network.cookie.prefsMigrated', 'true', 'user']
+['network.protocol-handler.expose-all', 'true', 'default']
+['pdfjs.firstRun', 'false', 'user']
+['pdfjs.previousHandler.preferredAction', '3', 'user']
+['plugins.click_to_play', 'false', 'default']
+['privacy.sanitize.migrateFx3Prefs', 'true', 'user']
+['toolkit.identity.debug', 'false', 'default']
+['xpinstall.whitelist.add', '', 'user']
+['xpinstall.whitelist.add.36', '', 'user']
+### Duplicate prefs in hash dump:  0
+####  pref.browser.homepage.disable_button.bookmark_page  in  /home/djin/.mozilla/firefox/7v5ee6fg.default/prefs.js
+#### Find  pref.browser.homepage.disable_button.bookmark_page  in  ['pref.browser.homepage.disable_button.bookmark_page', 'true', 'user']  pref dump.

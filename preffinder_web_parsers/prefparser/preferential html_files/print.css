@@ -1,0 +1,12 @@
+.mozdev-fries,
+
+/*#mozdev-,*/
+#mozdev-feedback,
+#mozdev-navigation {
+  display: none;
+}
+
+#main-content {
+  font-size: 11pt;
+  margin-left: 1.5em;
+}

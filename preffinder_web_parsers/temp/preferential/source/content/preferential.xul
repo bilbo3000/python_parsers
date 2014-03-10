@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://preferential/content/preferential.css" type="text/css"?>
+
+<!--
+The contents of this file are subject to the Netscape Public
+License Version 1.1 (the "License"); you may not use this file
+except in compliance with the License. You may obtain a copy of
+the License at http://www.mozilla.org/NPL/
+
+Software distributed under the License is distributed on an "AS
+IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+implied. See the License for the specific language governing
+rights and limitations under the License.
+
+The Original Code is Mozilla Communicator client code, released
+March 31, 1998.
+
+The Initial Developer of the Original Code is Netscape
+Communications Corporation. Portions created by Netscape are
+ Copyright (C) 1998-1999 Netscape Communications Corporation. All
+Rights Reserved.
+
+Contributors:
+Stephen Bounds <guruj@mbox.com.au>
+Chip Clark <chipc@netscape.com>
+Seth Spitzer <sspitzer@netscape.com>
+-->
+
+<!DOCTYPE window SYSTEM "chrome://preferential/locale/preferential.dtd">
+
+<window id="preferential"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+        title="&windowPreferential.title;"
+        persist="width height screenX screenY"
+        width="750" height="500"
+        onload="onPrefLoad();" onunload="onPrefUnload();">
+
+<!-- declare properties bundle -->
+<stringbundle id="bundle"
+   src="chrome://preferential/locale/preferential.properties"/>
+
+<script src="chrome://preferential/content/tree-utils.js"/>
+<script src="chrome://preferential/content/preferential.js"/>
+
+<!-- Keys -->
+<keyset id="prefKeys">
+  <key id="key:New" modifiers="&menuMainNew.modifier;" keycode="&menuMainNew.keycode;" 
+       oncommand="PrefNewClick();" />
+  <key id="key:Edit" modifiers="&menuMainEdit.modifier;" keycode="&menuMainEdit.keycode;" 
+       oncommand="PrefEditClick();" />
+  <key id="key:Delete" modifiers="&menuMainDelete.modifier;" keycode="&menuMainDelete.keycode;" 
+       oncommand="PrefDeleteClick();" />
+  <key id="key:Reload" modifiers="&menuMainReload.modifier;" key="&menuMainReload.key;" 
+       oncommand="PrefReloadClick();" />
+  <key id="key:PrefsJS" modifiers="&menuMainPrefsJS.modifier;" key="&menuMainPrefsJS.key;" 
+       oncommand="PrefReloadClick();" />
+  <key id="key:Close" modifiers="&menuMainClose.modifier;" key="&menuMainClose.key;" 
+       oncommand="PrefDeleteClick();" />
+
+  <key id="key:Expand" modifiers="&menuTreeExpand.modifier;" keycode="&menuTreeExpand.keycode;" 
+       oncommand="PrefExpandClick();" />
+  <key id="key:ExpandAll" modifiers="&menuTreeExpandAll.modifier;" keycode="&menuTreeExpandAll.keycode;" 
+       oncommand="PrefExpandAllClick();" />
+  <key id="key:Collapse" modifiers="&menuTreeCollapse.modifier;" keycode="&menuTreeCollapse.keycode;" 
+       oncommand="PrefCollapseClick();" />
+  <key id="key:CollapseAll" modifiers="&menuTreeCollapseAll.modifier;" keycode="&menuTreeCollapseAll.keycode;" 
+       oncommand="PrefCollapseAllClick();" />
+
+  <key id="key:Find" modifiers="&menuSearchFind.modifier;" key="&menuSearchFind.key;" 
+       oncommand="PrefFindClick();" />
+  <key id="key:FindNext" modifiers="&menuSearchFindNext.modifier;" keycode="&menuSearchFindNext.keycode;" 
+       oncommand="PrefFindNextClick();" />
+  <key id="key:Filter" modifiers="&menuSearchFilter.modifier;" key="&menuSearchFilter.key;" 
+       oncommand="PrefFilterClick();" />
+  <key id="key:Unfilter" modifiers="&menuSearchUnfilter.modifier;" key="&menuSearchUnfilter.key;" 
+       oncommand="PrefUnfilterClick();" />
+
+  <key id="key:BookmarkAdd" modifiers="&menuBookmarkAdd.modifier;" key="&menuBookmarkAdd.key;" 
+       oncommand="PrefBookmarkAddClick();" />
+  <key id="key:BookmarkRemove" modifiers="&menuBookmarkRemove.modifier;" key="&menuBookmarkRemove.key;" 
+       oncommand="PrefBookmarkRemoveClick();" />
+
+  <key id="key:HelpAbout" modifiers="&menuHelpAbout.modifier;" keycode="&menuHelpAbout.keycode;" 
+       oncommand="PrefHelpAbout();" />
+</keyset>
+
+<!-- This needs regionalizing -->
+<toolbox flex="0">
+  <menubar id="prefs-menubar">
+    <menu id="main-menu" label="&menuMain.label;" accesskey="&menuMain.access;">
+      <menupopup id="prefs-edit-popup">
+        <menuitem label="&menuMainNew.label;" accesskey="&menuMainNew.access;"
+            key="key:New" oncommand="PrefNewClick();" />
+        <menuitem label="&menuMainEdit.label;" accesskey="&menuMainEdit.access;"
+            key="key:Edit" oncommand="PrefEditClick();" />
+        <menuitem label="&menuMainDelete.label;" accesskey="&menuMainDelete.access;"
+            key="key:Delete" oncommand="PrefDeleteClick();" />
+        <menuseparator/>
+        <menuitem label="&menuMainPrefsJS.label;" accesskey="&menuMainPrefsJS.access;"
+            key="key:PrefsJS" oncommand="PrefDisplayPrefsJSClick();" />
+        <menuitem label="&menuMainReload.label;" accesskey="&menuMainReload.access;"
+            key="key:Reload" oncommand="PrefReloadClick();" />
+        <menuseparator/>
+        <menuitem label="&menuMainClose.label;" accesskey="&menuMainClose.access;"
+            key="key:Close" oncommand="window.close();" />
+      </menupopup>
+    </menu>
+    <menu id="tree-menu" label="&menuTree.label;" accesskey="&menuTree.access;">
+      <menupopup id="prefs-tree-popup">
+        <menuitem label="&menuTreeExpand.label;" accesskey="&menuTreeExpand.access;"
+            key="key:Expand" oncommand="PrefExpandClick();" />
+        <menuitem label="&menuTreeExpandAll.label;" accesskey="&menuTreeExpandAll.access;"
+            key="key:ExpandAll" oncommand="PrefExpandAllClick();" />
+        <menuitem label="&menuTreeCollapse.label;" accesskey="&menuTreeCollapse.access;"
+            key="key:Collapse" oncommand="PrefCollapseClick();" />            
+        <menuitem label="&menuTreeCollapseAll.label;" accesskey="&menuTreeCollapseAll.access;"
+            key="key:CollapseAll" oncommand="PrefCollapseAllClick();" />
+      </menupopup>
+    </menu>
+    <menu id="search-menu" label="&menuSearch.label;" accesskey="&menuSearch.access;">
+      <menupopup id="prefs-search-popup">
+        <menuitem label="&menuSearchFind.label;" accesskey="&menuSearchFind.access;"
+            key="key:Find" oncommand="PrefFindClick();" />
+        <menuitem label="&menuSearchFindNext.label;" accesskey="&menuSearchFindNext.access;"
+            key="key:FindNext" oncommand="PrefFindNextClick();" />
+        <menuseparator/>
+        <menuitem label="&menuSearchFilter.label;" accesskey="&menuSearchFilter.access;"
+            key="key:Filter" oncommand="PrefFilterClick();" disabled="true" />            
+        <menuitem label="&menuSearchUnfilter.label;" accesskey="&menuSearchUnfilter.access;"
+            key="key:Unfilter" oncommand="PrefUnfilterClick();" disabled="true" />
+      </menupopup>
+    </menu>
+    <menu id="bookmark-menu" label="&menuBookmark.label;" accesskey="&menuBookmark.access;" disabled="true">
+      <menupopup id="prefs-bookmark-popup">
+        <menuitem label="&menuBookmarkAdd.label;" accesskey="&menuBookmarkAdd.access;"
+            key="key:BookmarkAdd" oncommand="PrefBookmarkAddClick();" />
+        <menuitem label="&menuBookmarkRemove.label;" accesskey="&menuBookmarkRemove.access;"
+            key="key:BookmarkRemove" oncommand="PrefBookmarkRemoveClick();" />
+      </menupopup>
+    </menu>
+    <menu id="help-menu" label="&menuHelp.label;" accesskey="&menuHelp.access;">
+      <menupopup id="prefs-help-popup">
+        <menuitem label="&menuHelpAbout.label;" accesskey="&menuHelpAbout.access;"
+		key="key:HelpAbout" oncommand="PrefHelpAboutClick();" />		
+      </menupopup>
+    </menu>
+  </menubar>
+</toolbox>
+
+<!-- Right-click menu for tree -->
+<popup id="contextMenu">
+  <menuitem label="&menuContextNew.label;" key="key:New" oncommand="PrefNewClick();" />
+  <menuitem label="&menuContextEdit.label;" key="key:Edit" oncommand="PrefEditClick();" />
+  <menuitem label="&menuContextDelete.label;" key="key:Delete" oncommand="PrefDeleteClick();" />
+  <menuseparator/>
+  <menuitem label="&menuContextExpand.label;" key="key:Expand" oncommand="PrefExpandClick();" />
+  <menuitem label="&menuContextExpandAll.label;" key="key:ExpandAll" oncommand="PrefExpandAllClick();" />
+  <menuitem label="&menuContextCollapse.label;" key="key:Collapse" oncommand="PrefCollapseClick();" />
+  <menuitem label="&menuContextCollapseAll.label;" key="key:CollapseAll" oncommand="PrefCollapseAllClick();" />
+  <menuseparator/>
+  <menuitem label="&menuContextPrefsJS.label;" key="key:PrefsJS" oncommand="PrefDisplayPrefsJSClick();" />
+</popup>
+
+<tree id="prefsTree" seltype="single" flex="1" 
+    class="plain" context="contextMenu">
+  <treecols>
+    <treecol id="prefCol" label="&prefColumn.label;" flex="7"
+        class="sortDirectionIndicator"
+        persist="hidden width sortActive sortDirection"
+        primary="true" />
+    <splitter class="tree-splitter" />
+    <treecol id="lockCol" label="&lockColumn.label;"  flex="1"
+        class="sortDirectionIndicator"
+        persist="hidden width sortActive sortDirection"/>
+    <splitter class="tree-splitter" />
+    <treecol id="typeCol" label="&typeColumn.label;"  flex="1"
+        class="sortDirectionIndicator"
+        persist="hidden width sortActive sortDirection"/>
+    <splitter class="tree-splitter" />
+    <treecol id="valueCol" label="&valueColumn.label;" flex="6"
+        class="sortDirectionIndicator"
+        persist="hidden width sortActive sortDirection">
+    </treecol>
+    <splitter class="tree-splitter" />
+    <treecol id="hintCol" label="&hintColumn.label;" flex="10"
+        class="sortDirectionIndicator"
+        persist="hidden width sortActive sortDirection"/>
+  </treecols>
+
+  <treechildren id="prefTreeBody" />
+</tree>
+
+<grid flex="0">
+  <columns>
+    <column/>
+    <column flex="0"/>
+  </columns>
+   
+  <rows>
+    <row class="thin-separator">             
+      <progressmeter id="dialog.progress" mode="undetermined" flex="2" value="0" />
+      <label id="dialog.progressText" flex="8" />
+    </row>
+  </rows>
+</grid>
+
+</window>

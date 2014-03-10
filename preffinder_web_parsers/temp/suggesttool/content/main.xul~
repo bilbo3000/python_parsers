@@ -1,0 +1,29 @@
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    title="Main Page" buttons="cancel,extra1"
+    ondialogcancel="window.close();"
+    ondialogextra1="gSuggestTool.saveValues();"
+    buttonlabelextra1="Search">
+	  
+	<script type="application/javascript" src="chrome://suggesttool/content/overlay.js" />
+	
+	<dialogheader title="Options" />
+	<groupbox> 
+		<caption label="Enter description: " />
+		<textbox id="suggesttoolTextbox" multiline="true" rows="5" cols="15" placeholder="How would you like to customize Firefox?"/>
+	</groupbox> 
+	
+	<groupbox>
+		<caption label="How many prefs to suggest:" />
+		<radiogroup id="suggesttoolRadiogroup" orient="vertical">
+		  <radio value="1" label="1" selected="true"/>
+		  <radio value="3" label="3"/>
+		  <radio value="5" label="5"/>
+		</radiogroup> 
+	</groupbox> 
+	
+	<groupbox> 
+		<caption label="Results " />
+		<textbox id="suggesttoolResults" wrap="false" newlines="pasteintact" multiline="true" rows="15" cols="15" readonly="true" placeholder="Prefs search results..."/>
+	</groupbox>
+</dialog>

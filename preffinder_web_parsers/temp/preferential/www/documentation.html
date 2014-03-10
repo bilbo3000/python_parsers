@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- ***************** DOCUMENTATION *************** -->
+</head>
+<body>
+<div id="infoTabs">
+<div class="infoTab" id="doc-list">
+<h5 class="infoHeader">Available Documentation</h5>
+<ul>
+  <li><a href="documentation.html">FAQ</a></li>
+  <li><a href="preferences.html">Documented Preferences</a></li>
+  <li>Anyone wishing to contribute documentation is encouraged to contact 
+<a href="mailto:GuruJ@mbox.com.au">GuruJ</a>.</li>
+</ul>
+</div>
+<!-- alternative image/table base tab works better in NS4 --><!--
+<div class="infoTab" id="whats-new-image">
+<h5 class="infoHeader"><img src="http://www.mozdev.org/sharedimages/whatsnew_top.gif" width="154" alt="What's New"></h5>
+<div class="infoItems">
+<div>News item goes here</div>
+<div>More news item goes here</div>
+<div><a href="http://mozdev.org/">mozdev.org</a></div>
+</div>
+</div>
+--> </div>
+<!-- ***************** DOCUMENTATION *************** --><!-- MAIN CONTENT -->
+<div id="title">Preferential FAQ</div>
+<p>This page tries to answer some of the commonly answered questions about 
+Preferential.  If you feel that something should be on this page that isn't,
+contact <a href="mailto:GuruJ@mbox.com.au">GuruJ@mbox.com.au</a> and let me
+know your gripe.</p>
+
+<!-- TABLE OF CONTENTS -->
+<div id="section-heading">Table of Contents</div>
+<p>
+<a href="#faq1">1. What does Preferential do?</a><br/>
+<a href="#faq2">2. Who is Preferential designed for?</a><br/>
+<a href="#faq3">3. Why are there several projects for editing preferences?  Can't you get your act together?</a><br/>
+<a href="#faq4">4. How do I install Preferential?</a><br/>
+<a href="#faq5">5. How do I use Preferential?</a><br/>
+<a href="#faq6">6. How do I uninstall Preferential?</a><br/>
+<a href="#faq7">7. Preferential works as super-user, but not as a regular user under Linux?</a><br/>
+<a href="#faq8">8. [insert preference here] doesn't do what you say it does!</strong><br/>
+<a href="#faq9">9. [insert feature here] doesn't work!</a><br/>
+<a href="#faq10">10. Which preferences have been documented?</a><br/>
+<a href="#faq11">11. Can I help?</a>
+</p>
+
+<!-- ANSWERS -->
+<div id="section-heading">Answers</div>
+<p><a name="faq1"></a><strong>1. What does Preferential do?</strong><br/>
+Preferential is an advanced preferences editing program for Mozilla.  As 
+Mozilla evolves and develops, many new preferences are created, some of which
+are never exposed to end-users using the native preference interface
+(accessed through Edit -> Preferences).</p>
+<p>Until now, the only way to modify these preferences was to edit the prefs.js
+or user.js files by hand.  Preferential aims to provide a middle ground for
+those power users who wish to access all of Mozilla's preferences, without
+the complexity and edit->run->test->quit cycles that are necessary for
+hand-editing of preferences.</p>
+<p>An important secondary goal of Preferential is to document all 1000+
+Mozilla preferences, particularly those that have an enumerated set of
+options (eg. Never=0, As needed=1, Always=2).</p>
+
+<p><a name="faq2"></a><strong>2. Who is Preferential designed for?</strong><br/>
+Preferential is designed for power users of the Mozilla browser and its
+derivatives, allowing them to 'tweak' settings to their heart's content
+very easily.  A comparable toolkit would be the TweakUI toolkit for Windows 95/98.</p>
+
+<p><a name="faq3"></a><strong>3. Why are there several projects for editing preferences?  Can't you get your act together?</strong><br/>
+One of the consequences of Open Source Software development is that you will 
+often end up with multiple projects running along similar lines.  For example,
+the QuickPrefs project aims to provide users with access to a far greater
+selection of preferences than 'standard' Mozilla builds.</p>
+<p>However, the goals of Preferential and other preferences projects are quite
+different.  In particular, we are aware of no other project that aims to provide
+access to <i>all</i> preferences, regardless of platform, build or version 
+number.  In addition, Preferential aims to document all known preferences
+(updating this information as new preferences become available).</p>
+<p>By contrast QuickPrefs (and other preferences projects), aim to make a smaller 
+percentage of preferences available, but through a more customized user interface.</p>
+
+<p><a name="faq4"></a><strong>4. How do I install Preferential?</strong><br/>
+<ol>
+<li>Go to the <a href="installation.html">installation</a> page.</li>
+<li>Click on the latest version of the Preferential package, "Preferential X.X.X".</li>
+<li>If you have XPI installation enabled, you will see a popup box explaining
+that the package will be installed.  Click 'Install'.</li>
+<li>Once the package has been downloaded, click 'OK'.</li>
+<li>Close Mozilla (including Quick Launch).  Restart Mozilla.</li>
+<li>If Preferential has been installed successfully, several new menu entries
+are inserted, depending on the Mozilla variant you are using:
+  <ul>
+    <li><b>Edit -> Advanced Preferences... </b> (Mozilla/Netscape Browser)</li>
+    <li><b>Tools -> Advanced Preferences... </b> (Mozilla/Netscape Mail)</li>
+    <li><b>Tools -> Advanced Preferences... </b> (Mozilla Firebird)</li>
+    <li><b>Tools -> Advanced Preferences... </b> (Mozilla Thunderbird)</li>
+  </ul>  
+</li>
+</ol>
+For other distributions, you can access Preferential by directly typing
+its chrome URL into the Location Bar (chrome://preferential/content/preferential.xul).
+You can bookmark this URL like any other web page.</p>
+
+<p><a name="faq5"></a><strong>5. How do I use Preferential?</strong><br/>
+<i>To edit a preference:</i>
+<ol>
+<li>Highlight the relevant preference.  Click Preference -> Edit or press
+CTRL + ENTER.</li>
+<li>A description of what the preference does (if documented) will be in the 
+lower half of the dialog box that appears.  In addition, if this preference
+has an enumerated set of options, you will be able to click on the drop-down
+box to access a list of these values, and a description of what each value
+does.</li>
+<li>Type in or choose the appropriate value, then click OK.</li>
+</ol>
+</p>
+<p><i>To delete a preference:</i>
+<ol>
+<li>Highlight the relevant preference.  Click Preference -> Delete or press
+the DELETE key.</li>
+<li>A description of what the preference does (if documented) will be in the 
+lower half of the dialog box that appears.  You will be given the option
+to either reset the preference to its default value, or to delete it 
+altogether.  If you delete the preference, and it has children, <i>those children
+will be deleted as well</i>.</li>
+<li>Click 'OK' to delete the preference, or 'Cancel' to return to the list
+without deleting.</li>
+</ol>
+</p>
+<p><i>To add a new preference:</i>
+<ol>
+<li>Click Preference -> New or press the INSERT key.</li>
+<li>Enter the preference ID, then select the type of preference (Text,
+Integer or Boolean).</li>
+<li>Enter the initial value for that preference.</li>
+<li>Click 'OK' to add the new preference.</li>
+</ol>
+</p>
+
+<p><a name="faq6"></a><strong>6. How do I uninstall Preferential?</strong><br/>
+Hopefully, you won't want to ;-)</p>
+<p>Unfortunately, Mozilla packaging is still a little immature, and does not come
+with a good method of uninstallation.  The cleanest way to uninstall Preferential
+is to uninstall Mozilla, delete the 'chrome' directory if it remains, and
+reinstall Mozilla again.</p>
+<p>If you don't do this, Mozilla may behave erratically, and produce strange
+errors.  You have been warned!</p>
+
+<p><a name="faq7"></a><strong>7. Preferential works as super-user, but not as a regular user under Linux?</strong><br/>
+<i>Thanks to Rick Alther for this solution.</i></p>
+<p>This appears to be because the preferential.jar file is installed with
+read/write permissions ONLY for root, thus a normal user is unable to read the
+jar file. Change the file to mode 644 (chmod 644 preferential.jar), and it works
+correctly as a normal user.</p>
+<p>FIX:<br/>
+The preferential.jar file needs to be installed with mode 644 (rw-r--r--).</p>
+
+<p><a name="faq8"></a><strong>8. [insert preference here] doesn't do what you say it does!</strong><br/>
+Where no documentation can be found about the preference, we guess :-)</p>
+<p>Seriously, although we do our best to get all preference descriptions accurate,
+we will sometimes get things wrong.  Just drop me a line at <a href="mailto:GuruJ@mbox.com.au">GuruJ@mbox.com.au</a>, and
+I'll update the description files.</p>
+
+<p><a name="faq9"></a><strong>9. [insert feature here] doesn't work!</strong><br/>
+Well, Preferential isn't complete yet (being pre-1.0), although it's pretty stable and
+does its basic tasks well.  File a <a href="bugs.html">bug report</a> about it, and
+we'll try to fix it for the next release.</p>
+
+<p><a name="faq10"></a><strong>10. Which preferences have been documented?</strong><br/>
+You can view the current status of the various preference trees <a href="pref-desc-status.txt">here</a>.
+Although I attempt to keep this list as up to date as possible, check the date at the top to see how current
+it is.</p>
+
+<p><a name="faq11"></a><strong>11. Can I help?</strong><br/>
+Yes, Preferential can always do with volunteers.  One of the biggest jobs is simply
+documenting the various preferences found in Mozilla and associated products.</p>
+<p>This doesn't require any programming skills, just the ability to use a text editor.
+If you would like to assist, please contact <a href="mailto:GuruJ@mbox.com.au">GuruJ@mbox.com.au</a>
+and I'll assign you to a preference section.</p>
+
+</body>
+</html>

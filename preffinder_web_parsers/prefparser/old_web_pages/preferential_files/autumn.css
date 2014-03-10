@@ -1,0 +1,122 @@
+@import url(../../reorg/b-i-f.css);
+@import url(../../reorg/position.css);
+@import url(../default/notes.css);
+@import url(../default/contact_top50.css);
+
+del,
+:link,
+a:link {
+  background-color: transparent;
+  color: #910;
+  font-weight: bold;
+}
+
+:visited {
+  background-color: transparent;
+  color: rgb(85, 26, 139);
+}
+
+:link:active {
+  background-color: inherit;
+  color:#f60;
+}
+
+h4 a:link {
+  background-color: transparent;
+  color: #333;
+}
+
+h1#mozdev-logo {
+  background-color: #d6c14f;
+  background-image: url(//www.mozdev.org/skin/autumn/back-900-128.png);
+  background-repeat: repeat-x;
+  color: inherit;
+  height: 69px;
+  margin: 0;
+  padding: 0;
+}
+
+h1#mozdev-logo a {
+/* LIR */
+/*The image*/
+  background-image: url(//www.mozdev.org/sharedimages/mozdev-noir.png);
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0;
+/*Size of the image*/
+  padding-top: 69px;
+  width: 148px;
+/*Hide the original item*/
+  overflow: hidden;
+/* WIN IE5 hack */
+  height: 69px; font-family: "\"}\""; font-family:inherit;
+  height: 0;
+}
+
+#infoTabs h4,
+#mozdev-navigation h4 {
+  background-image: url(//www.mozdev.org/sharedimages/nav_arrow.gif);
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  border-color: #000;
+  border-style: solid;
+  border-width: 1px 0px;
+  height: 20px;
+  line-height: 19px;
+  margin: 0.2em 0 0 0;
+  min-height: 19px;
+  padding: 0 0 0 27px;
+  width: 121px;
+}
+
+.mozdev-searchbutton {
+  background-color: #eee;
+  border: #000 1px solid;
+  color: #111;
+  margin-left: 0.05em;
+  padding: 0;
+}
+
+#main-content h1:after {
+  content: url(//www.mozdev.org/sharedimages/boxes.gif);
+  padding-left: 1.1em;
+}
+
+#featured {
+  border-color: #900;
+}
+
+div#mozdev-date {
+  background-image: url(//www.mozdev.org/skin/autumn/back.png);
+  background-repeat: repeat-x;
+}
+
+ul#community-links li a {
+  background-color: inherit;
+  border-bottom: 1px dotted #000;
+  color: #000;
+  text-decoration: none;
+}
+
+ul#community-links li a:hover {
+  border-bottom: 1px solid #000;
+}
+
+#community-links .mozlink {
+  border-left: none;
+}
+
+#infoTabs:before {
+  background-color: inherit;
+  color: #000;
+}
+
+.BZ-th-bug, .BZ-th-bug a {
+  background: #900;
+  color: #fff;
+}
+
+.BZ-th-desc {
+  background: #f90;
+  color: inherit;
+}

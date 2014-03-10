@@ -1,0 +1,64 @@
+#include<iostream> 
+#include<fstream> 
+#include<stdlib.h>
+#include<string>
+#include<cassert>
+#include<cstring>
+
+#define CMD "text_similarity.pl --type=Text::Similarity::Overlaps --string "
+
+using namespace std; 
+
+int main(int argc, char* argv[]){
+
+	//assert(argc >= 3);  // ensure num of params
+    //char * userText = argv[1]; // get user text
+    //int num = atoi(argv[2]);  // get number to suggest
+    char userText[] = "hello"; 
+    int num = 2; 
+    
+	// file streams
+	ifstream infile("prefDesc.txt"); 
+	ofstream outfile("rank.txt");
+    FILE * fp; // file pointer 
+	string line; 
+	
+	if(infile.is_open()){ // successfully open the input file 
+		while(infile.good()){ // scan through each line 
+			getline(infile, line); // get current line 
+			if(line.compare(0, 5, "NAME:") == 0){ // a pref line
+			    int index = line.find("HINT:"); 
+			    // get name-hint pair
+			    string name = line.substr(6, index - 6);
+			    string hint = line.substr(index + 6, line.length() - index - 6); 
+			    // form command  
+			    string cmdstr = ""; 
+			    cmdstr += CMD; // base command
+			    cmdstr += '\"';
+			    cmdstr += name; // from file
+			    cmdstr += '\"';
+			    cmdstr += ' '; 
+                cmdstr += '\"';
+			    cmdstr += userText;  // user input
+			    cmdstr += '\"';
+			    
+			    // execute the command 
+			    fp = popen(cmdstr.c_str(), "r"); 
+			    // get output
+			    int len; 
+			    char buf[99]; // buffer to store output
+	            while(fgets(buf, 99, fp) != NULL ){
+	                len = strlen(buf);
+	                if(buf[len - 1] == '\n') buf[len - 1] = 0; 
+		            outfile << buf << ',' << name << ',' << hint << endl; // send buf to outfile
+	            }
+			} 
+		}
+	}
+ 	 
+
+	pclose(fp); // close pipe
+	infile.close(); // close input file
+	outfile.close(); // close output file 
+	return 0; 
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<!--
+// Module Author: Biju G.C. 2003.0708  ( http://quicktools.mozdev.org/ )
+// License: The Mozilla Public License ( http://www.mozilla.org/MPL/ )
+// Homepage: http://quicktools.mozdev.org/ 
+// Original Preferential Homepage: http://preferential.mozdev.org/
+//                                 Stephen Bounds < GuruJ@mbox.com.au >
+-->
+
+<!DOCTYPE window SYSTEM "chrome://preferential/locale/preferential.dtd">
+
+<overlay id="quicktools_preferential" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <menu id="menu_Edit">
+      <!-- wont go here -->
+  </menu>
+
+  <menupopup id="menu_View_Popup">
+      <!-- can go here -->
+  </menupopup>
+
+  <menupopup id="taskPopup">
+    <menuitem id="menu_overlay_preferential" label="&menuOverlayPreferential.label;" oncommand="window.open('chrome://preferential/content/preferential.xul','preferential','chrome,resizable')" />
+  </menupopup>
+
+
+</overlay>

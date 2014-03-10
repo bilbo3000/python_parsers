@@ -1,0 +1,1791 @@
+<?xml version="1.0"?> <!-- -*- Mode: SGML -*- -->
+<!-- 
+   - The contents of this file are subject to the Mozilla Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/MPL/
+   - 
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   - 
+   - The Original Code is Mozilla Communicator.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corp. Portions created by Netscape Communications
+   - Corp. are Copyright (C) 1999 Netscape Communications Corp. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): Stephen Bounds <guruj@mbox.com.au>
+   - 			   Stephen Lamm <slamm@netscape.com>
+   -                 Chris Waterson <waterson@netscape.com>
+  --> 
+
+<!DOCTYPE RDF SYSTEM "chrome://preferential/locale/preferential-rdf.dtd" >
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:enum="http://preferential.mozdev.org/ENUM-rdf#">
+
+  <rdf:Description about="urn:preferential:master-enum-list">
+    <rdf:Seq>
+      <rdf:li resource="urn:preferential:enum:accessibility.tabfocus"/>
+      <rdf:li resource="urn:preferential:enum:accessibility.typeaheadfind.soundURL"/>
+      <rdf:li resource="urn:preferential:enum:bidi.characterset"/>
+      <rdf:li resource="urn:preferential:enum:bidi.clipboardtextmode"/>
+      <rdf:li resource="urn:preferential:enum:bidi.controlstextmode"/>
+      <rdf:li resource="urn:preferential:enum:bidi.direction"/>
+      <rdf:li resource="urn:preferential:enum:bidi.numeral"/>
+      <rdf:li resource="urn:preferential:enum:bidi.support"/>
+      <rdf:li resource="urn:preferential:enum:bidi.texttype"/>
+      <rdf:li resource="urn:preferential:enum:browser.cache.check_doc_frequency"/>
+      <rdf:li resource="urn:preferential:enum:browser.chrome.load_toolbar_icons"/>
+      <rdf:li resource="urn:preferential:enum:browser.chrome.toolbar_style"/>
+      <rdf:li resource="urn:preferential:enum:browser.download.save_converter_index"/>
+      <rdf:li resource="urn:preferential:enum:browser.downloadmanager.behavior"/>
+      <rdf:li resource="urn:preferential:enum:browser.drag_out_of_frame_style"/>
+      <rdf:li resource="urn:preferential:enum:browser.history.grouping"/>
+      <rdf:li resource="urn:preferential:enum:browser.search.mode"/>
+      <rdf:li resource="urn:preferential:enum:browser.search.powermode"/>
+      <rdf:li resource="urn:preferential:enum:browser.startup.page"/>
+      <rdf:li resource="urn:preferential:enum:browser.tabs.loadOnNewTab"/>
+      <rdf:li resource="urn:preferential:enum:browser.windows.loadOnNewWindow"/>
+      <rdf:li resource="urn:preferential:enum:calendar.date.format"/>
+      <rdf:li resource="urn:preferential:enum:calendar.week.start"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.DOMException"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.DOMParser"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.HTMLDocument"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.History"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.Location"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.Navigator"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.SOAPCall"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.Window"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.XMLHttpRequest"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.*"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.DOMException"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromStream"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromString"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.HTMLAnchor"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.HTMLDocument"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.Location"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.Range"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPCall"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPEncoding"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPFault"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPHeaderBlock"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPParameter"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPPropertyBagMutator"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPResponse"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SchemaLoader"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.Window"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.XMLHttpRequest"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.XMLSerializer"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.document"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.sites"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.popupsites.windowinternal.open"/>
+      <rdf:li resource="urn:preferential:enum:converter.html2txt.header_strategy"/>
+      <rdf:li resource="urn:preferential:enum:editor.css.default_length_unit"/>
+      <rdf:li resource="urn:preferential:enum:editor.hrule.align"/>
+      <rdf:li resource="urn:preferential:enum:editor.use_html_editor"/>
+      <rdf:li resource="urn:preferential:enum:editor.use_image_editor"/>
+      <rdf:li resource="urn:preferential:enum:extensions.venkman.lastErrorMode"/>
+      <rdf:li resource="urn:preferential:enum:extensions.venkman.lastThrowMode"/>
+      <rdf:li resource="urn:preferential:enum:font.default"/>
+      <rdf:li resource="urn:preferential:enum:general.open_location.last_window_choice"/>
+      <rdf:li resource="urn:preferential:enum:image.animation_mode"/>
+      <rdf:li resource="urn:preferential:enum:images.dither"/>
+      <rdf:li resource="urn:preferential:enum:ldap_1.directoryFOO.dirType"/>
+      <rdf:li resource="urn:preferential:enum:ldap_2.servers.FOO.dirType"/>
+      <rdf:li resource="urn:preferential:enum:ldap_2.version"/>
+      <rdf:li resource="urn:preferential:enum:mail.addr_book.lastnamefirst"/>
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_header_type"/>
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_on_top"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withaltkey.action"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withcontrolkey.action"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withnokey.action"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withshiftkey.action"/>
+      <rdf:li resource="urn:preferential:enum:network.cookie.cookieBehavior"/>
+      <rdf:li resource="urn:preferential:enum:network.cookie.lifetime.behavior"/>
+      <rdf:li resource="urn:preferential:enum:network.cookie.p3plevel"/>
+      <rdf:li resource="urn:preferential:enum:network.dir.format"/>
+      <rdf:li resource="urn:preferential:enum:network.proxy.type"/>
+      <rdf:li resource="urn:preferential:enum:network.http.proxy.version"/>
+      <rdf:li resource="urn:preferential:enum:network.http.sendRefererHeader"/>
+      <rdf:li resource="urn:preferential:enum:network.http.version"/>
+      <rdf:li resource="urn:preferential:enum:network.image.imageBehavior"/>
+      <rdf:li resource="urn:preferential:enum:nglayout.widget.mode"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footercenter"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footerleft"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footerright"/>
+      <rdf:li resource="urn:preferential:enum:print.print_headercenter"/>
+      <rdf:li resource="urn:preferential:enum:print.printheaderleft"/>
+      <rdf:li resource="urn:preferential:enum:print.printheaderight"/>
+      <rdf:li resource="urn:preferential:enum:security.ask_for_password"/>
+      <rdf:li resource="urn:preferential:enum:security.default_personal_cert"/>
+      <rdf:li resource="urn:preferential:enum:slider.snapMultiplier"/>
+      <rdf:li resource="urn:preferential:enum:ui.key.accelKey"/>
+      <rdf:li resource="urn:preferential:enum:ui.key.generalAccessKey"/>
+      <rdf:li resource="urn:preferential:enum:ui.key.menuAccessKey"/>
+      <rdf:li resource="urn:preferential:enum:update_notifications.provider.0.frequency"/>
+    </rdf:Seq>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:accessibility.tabfocus">
+      <rdf:li resource="urn:preferential:enum:accessibility.tabfocus:_1"/>
+      <rdf:li resource="urn:preferential:enum:accessibility.tabfocus:_2"/>
+      <rdf:li resource="urn:preferential:enum:accessibility.tabfocus:_3"/>
+      <rdf:li resource="urn:preferential:enum:accessibility.tabfocus:_4"/>
+      <rdf:li resource="urn:preferential:enum:accessibility.tabfocus:_5"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:accessibility.tabfocus:_1">
+    <enum:hint>Text field form controls only</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:accessibility.tabfocus:_2">
+    <enum:hint>All form controls except text fields</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:accessibility.tabfocus:_3">
+    <enum:hint>All form controls</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:accessibility.tabfocus:_4">
+    <enum:hint>Hyperlinks and hyperlinked images</enum:hint>
+    <enum:value>4</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:accessibility.tabfocus:_5">
+    <enum:hint>All form controls and hyperlinks</enum:hint>
+    <enum:value>7</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:accessibility.typeaheadfind.soundURL">
+      <rdf:li resource="urn:preferential:enum:accessibility.typeaheadfind.soundURL:_1"/>
+      <rdf:li resource="urn:preferential:enum:accessibility.typeaheadfind.soundURL:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:accessibility.typeaheadfind.soundURL:_1">
+    <enum:hint>Default sound</enum:hint>
+    <enum:value>default</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:accessibility.typeaheadfind.soundURL:_2">
+    <enum:hint>System beep</enum:hint>
+    <enum:value>beep</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:bidi.characterset">
+      <rdf:li resource="urn:preferential:enum:bidi.characterset:_1"/>
+      <rdf:li resource="urn:preferential:enum:bidi.characterset:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:bidi.characterset:_1">
+    <enum:hint>Document-specified character set</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.characterset:_2">
+    <enum:hint>Default character set</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:bidi.clipboardtextmode">
+      <rdf:li resource="urn:preferential:enum:bidi.clipboardtextmode:_1"/>
+      <rdf:li resource="urn:preferential:enum:bidi.clipboardtextmode:_2"/>
+      <rdf:li resource="urn:preferential:enum:bidi.clipboardtextmode:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:bidi.clipboardtextmode:_1">
+    <enum:hint>Logical</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.clipboardtextmode:_2">
+    <enum:hint>Visual</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.clipboardtextmode:_3">
+    <enum:hint>Source</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:bidi.controlstextmode">
+      <rdf:li resource="urn:preferential:enum:bidi.controlstextmode:_1"/>
+      <rdf:li resource="urn:preferential:enum:bidi.controlstextmode:_2"/>
+      <rdf:li resource="urn:preferential:enum:bidi.controlstextmode:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:bidi.controlstextmode:_1">
+    <enum:hint>Logical</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.controlstextmode:_2">
+    <enum:hint>Visual</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.controlstextmode:_3">
+    <enum:hint>Container</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:bidi.direction">
+      <rdf:li resource="urn:preferential:enum:bidi.direction:_1"/>
+      <rdf:li resource="urn:preferential:enum:bidi.direction:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:bidi.direction:_1">
+    <enum:hint>Left-to-right</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.direction:_2">
+    <enum:hint>Right-to-left</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:bidi.numeral">
+      <rdf:li resource="urn:preferential:enum:bidi.numeral:_1"/>
+      <rdf:li resource="urn:preferential:enum:bidi.numeral:_2"/>
+      <rdf:li resource="urn:preferential:enum:bidi.numeral:_3"/>
+      <rdf:li resource="urn:preferential:enum:bidi.numeral:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:bidi.numeral:_1">
+    <enum:hint>Regular context numerals</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.numeral:_2">
+    <enum:hint>Hindi context numerals</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.numeral:_3">
+    <enum:hint>Arabic numerals</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.numeral:_4">
+    <enum:hint>Hindi numerals</enum:hint>
+    <enum:value>4</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:bidi.support">
+      <rdf:li resource="urn:preferential:enum:bidi.support:_1"/>
+      <rdf:li resource="urn:preferential:enum:bidi.support:_2"/>
+      <rdf:li resource="urn:preferential:enum:bidi.support:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:bidi.support:_1">
+    <enum:hint>Mozilla</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.support:_2">
+    <enum:hint>OS</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.support:_3">
+    <enum:hint>Disable</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:bidi.texttype">
+      <rdf:li resource="urn:preferential:enum:bidi.texttype:_1"/>
+      <rdf:li resource="urn:preferential:enum:bidi.texttype:_2"/>
+      <rdf:li resource="urn:preferential:enum:bidi.texttype:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:bidi.texttype:_1">
+    <enum:hint>Charset</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.texttype:_2">
+    <enum:hint>Logical</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:bidi.texttype:_3">
+    <enum:hint>Visual</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.cache.check_doc_frequency">
+      <rdf:li resource="urn:preferential:enum:browser.cache.check_doc_frequency:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.cache.check_doc_frequency:_2"/>
+      <rdf:li resource="urn:preferential:enum:browser.cache.check_doc_frequency:_3"/>
+      <rdf:li resource="urn:preferential:enum:browser.cache.check_doc_frequency:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.cache.check_doc_frequency:_1">
+    <enum:hint>Once per session</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.cache.check_doc_frequency:_2">
+    <enum:hint>Each time</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.cache.check_doc_frequency:_3">
+    <enum:hint>Never</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.cache.check_doc_frequency:_4">
+    <enum:hint>When appropriate/automatically</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.chrome.load_toolbar_icons">
+      <rdf:li resource="urn:preferential:enum:browser.chrome.load_toolbar_icons:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.chrome.load_toolbar_icons:_2"/>
+      <rdf:li resource="urn:preferential:enum:browser.chrome.load_toolbar_icons:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.chrome.load_toolbar_icons:_1">
+    <enum:hint>Never load (default)</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.chrome.load_toolbar_icons:_2">
+    <enum:hint>Load cached icons only</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.chrome.load_toolbar_icons:_3">
+    <enum:hint>Always load</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.chrome.toolbar_style">
+      <rdf:li resource="urn:preferential:enum:browser.chrome.toolbar_style:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.chrome.toolbar_style:_2"/>
+      <rdf:li resource="urn:preferential:enum:browser.chrome.toolbar_style:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.chrome.toolbar_style:_1">
+    <enum:hint>Pictures Only</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.chrome.toolbar_style:_2">
+    <enum:hint>Text Only</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.chrome.toolbar_style:_3">
+    <enum:hint>Pictures and Text (default)</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.download.save_converter_index">
+      <rdf:li resource="urn:preferential:enum:browser.download.save_converter_index:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.download.save_converter_index:_2"/>
+      <rdf:li resource="urn:preferential:enum:browser.download.save_converter_index:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.download.save_converter_index:_1">
+    <enum:hint>Web Page (Complete)</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.download.save_converter_index:_2">
+    <enum:hint>Web Page (HTML only)</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.download.save_converter_index:_3">
+    <enum:hint>Text</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.downloadmanager.behavior">
+      <rdf:li resource="urn:preferential:enum:browser.downloadmanager.behavior:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.downloadmanager.behavior:_2"/>
+      <rdf:li resource="urn:preferential:enum:browser.downloadmanager.behavior:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.downloadmanager.behavior:_1">
+    <enum:hint>Open the download manager</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.downloadmanager.behavior:_2">
+    <enum:hint>Open a progress dialog</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.downloadmanager.behavior:_3">
+    <enum:hint>Don't open anything</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.drag_out_of_frame_style">
+      <rdf:li resource="urn:preferential:enum:browser.drag_out_of_frame_style:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.drag_out_of_frame_style:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.drag_out_of_frame_style:_1">
+    <enum:hint>(Default) Select normally</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.drag_out_of_frame_style:_2">
+    <enum:hint>Jump to beginning/end</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.history.grouping">
+      <rdf:li resource="urn:preferential:enum:browser.history.grouping:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.history.grouping:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.history.grouping:_1">
+    <enum:hint>Group by day</enum:hint>
+    <enum:value>day</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.history.grouping:_2">
+    <enum:hint>No grouping</enum:hint>
+    <enum:value>none</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.search.mode">
+      <rdf:li resource="urn:preferential:enum:browser.search.mode:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.search.mode:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.search.mode:_1">
+    <enum:hint>Basic</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.search.mode:_2">
+    <enum:hint>Advanced</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.search.powermode">
+      <rdf:li resource="urn:preferential:enum:browser.search.powermode:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.search.powermode:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.search.powermode:_1">
+    <enum:hint>Use simple search</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.search.powermode:_2">
+    <enum:hint>Use advanced search</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.startup.page">
+      <rdf:li resource="urn:preferential:enum:browser.startup.page:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.startup.page:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.startup.page:_1">
+    <enum:hint>Your homepage</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.startup.page:_2">
+    <enum:hint>Last visited page</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.tabs.loadOnNewTab">
+      <rdf:li resource="urn:preferential:enum:browser.tabs.loadOnNewTab:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.tabs.loadOnNewTab:_2"/>
+      <rdf:li resource="urn:preferential:enum:browser.tabs.loadOnNewTab:_3"/>
+      <rdf:li resource="urn:preferential:enum:browser.tabs.loadOnNewTab:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.tabs.loadOnNewTab:_1">
+    <enum:hint>Browser startup page</enum:hint>
+    <enum:value>-1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.tabs.loadOnNewTab:_2">
+    <enum:hint>Blank page</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.tabs.loadOnNewTab:_3">
+    <enum:hint>Your homepage</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.tabs.loadOnNewTab:_4">
+    <enum:hint>Last visited page</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:browser.windows.loadOnNewWindow">
+      <rdf:li resource="urn:preferential:enum:browser.windows.loadOnNewWindow:_1"/>
+      <rdf:li resource="urn:preferential:enum:browser.windows.loadOnNewWindow:_2"/>
+      <rdf:li resource="urn:preferential:enum:browser.windows.loadOnNewWindow:_3"/>
+      <rdf:li resource="urn:preferential:enum:browser.windows.loadOnNewWindow:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:browser.windows.loadOnNewWindow:_1">
+    <enum:hint>Browser startup page</enum:hint>
+    <enum:value>-1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.windows.loadOnNewWindow:_2">
+    <enum:hint>Blank page</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.windows.loadOnNewWindow:_3">
+    <enum:hint>Your homepage</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:browser.windows.loadOnNewWindow:_4">
+    <enum:hint>Last visited</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:calendar.date.format">
+      <rdf:li resource="urn:preferential:enum:calendar.date.format:_1"/>
+      <rdf:li resource="urn:preferential:enum:calendar.date.format:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:calendar.date.format:_1">
+    <enum:hint>Long</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:calendar.date.format:_2">
+    <enum:hint>Short</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:calendar.week.start">
+      <rdf:li resource="urn:preferential:enum:calendar.week.start:_1"/>
+      <rdf:li resource="urn:preferential:enum:calendar.week.start:_2"/>
+      <rdf:li resource="urn:preferential:enum:calendar.week.start:_3"/>
+      <rdf:li resource="urn:preferential:enum:calendar.week.start:_4"/>
+      <rdf:li resource="urn:preferential:enum:calendar.week.start:_5"/>
+      <rdf:li resource="urn:preferential:enum:calendar.week.start:_6"/>
+      <rdf:li resource="urn:preferential:enum:calendar.week.start:_7"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:calendar.week.start:_1">
+    <enum:hint>Sunday</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:calendar.week.start:_2">
+    <enum:hint>Monday</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:calendar.week.start:_3">
+    <enum:hint>Tuesday</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:calendar.week.start:_4">
+    <enum:hint>Wednesday</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:calendar.week.start:_5">
+    <enum:hint>Thursday</enum:hint>
+    <enum:value>4</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:calendar.week.start:_6">
+    <enum:hint>Friday</enum:hint>
+    <enum:value>5</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:calendar.week.start:_7">
+    <enum:hint>Saturday</enum:hint>
+    <enum:value>6</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.default.DOMException">
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.DOMException:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.DOMException:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.DOMException:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.DOMException:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.default.DOMParser">
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.DOMParser:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.DOMParser:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.DOMParser:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.DOMParser:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.default.HTMLDocument">
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.HTMLDocument:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.HTMLDocument:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.HTMLDocument:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.HTMLDocument:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.default.History">
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.History:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.History:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.History:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.History:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.default.Location">
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.Location:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.Location:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.Location:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.Location:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.default.Navigator">
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.Navigator:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.Navigator:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.Navigator:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.Navigator:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.default.SOAPCall">
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.SOAPCall:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.SOAPCall:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.SOAPCall:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.SOAPCall:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.default.Window">
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.Window:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.Window:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.Window:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.Window:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.default.XMLHttpRequest">
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.XMLHttpRequest:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.default.XMLHttpRequest:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.XMLHttpRequest:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.default.XMLHttpRequest:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.*">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.*:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.*:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.*:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.*:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.DOMException">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.DOMException:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.DOMException:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.DOMException:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.DOMException:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromStream">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromStream:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromStream:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromStream:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromStream:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromString">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromString:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromString:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromString:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.DOMParser,parseFromString:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.HTMLAnchor">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.HTMLAnchor:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.HTMLAnchor:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.HTMLAnchor:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.HTMLAnchor:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.HTMLDocument">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.HTMLDocument:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.HTMLDocument:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.HTMLDocument:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.HTMLDocument:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.Location">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.Location:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.Location:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.Location:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.Location:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.Range">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.Range:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.Range:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.Range:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.Range:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.SOAPCall">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPCall:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPCall:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPCall:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPCall:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.SOAPEncoding">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPEncoding:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPEncoding:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPEncoding:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPEncoding:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.SOAPFault">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPFault:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPFault:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPFault:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPFault:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.SOAPHeaderBlock">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPHeaderBlock:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPHeaderBlock:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPHeaderBlock:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPHeaderBlock:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.SOAPParameter">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPParameter:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPParameter:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPParameter:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPParameter:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.SOAPPropertyBagMutator">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPPropertyBagMutator:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPPropertyBagMutator:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPPropertyBagMutator:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPPropertyBagMutator:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.SOAPResponse">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPResponse:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SOAPResponse:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPResponse:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SOAPResponse:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.SchemaLoader">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SchemaLoader:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.SchemaLoader:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SchemaLoader:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.SchemaLoader:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.Window">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.Window:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.Window:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.Window:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.Window:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.XMLHttpRequest">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.XMLHttpRequest:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.XMLHttpRequest:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.XMLHttpRequest:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.XMLHttpRequest:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.XMLSerializer">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.XMLSerializer:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.XMLSerializer:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.XMLSerializer:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.XMLSerializer:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.document">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.document:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.document:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.document:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.document:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.mailnews.sites">
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.sites:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.mailnews.sites:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.sites:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.mailnews.sites:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:capability.policy.popupsites.windowinternal.open">
+      <rdf:li resource="urn:preferential:enum:capability.policy.popupsites.windowinternal.open:_1"/>
+      <rdf:li resource="urn:preferential:enum:capability.policy.popupsites.windowinternal.open:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:capability.policy.popupsites.windowinternal.open:_1">
+    <enum:hint>All Access</enum:hint>
+    <enum:value>allAccess</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:capability.policy.popupsites.windowinternal.open:_2">
+    <enum:hint>No Access</enum:hint>
+    <enum:value>noAccess</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:converter.html2txt.header_strategy">
+      <rdf:li resource="urn:preferential:enum:converter.html2txt.header_strategy:_1"/>
+      <rdf:li resource="urn:preferential:enum:converter.html2txt.header_strategy:_2"/>
+      <rdf:li resource="urn:preferential:enum:converter.html2txt.header_strategy:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:converter.html2txt.header_strategy:_1">
+    <enum:hint>No Identation</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:converter.html2txt.header_strategy:_2">
+    <enum:hint>Indentation, increased with header level</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:converter.html2txt.header_strategy:_3">
+    <enum:hint>Numbering and slight indentation</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:editor.css.default_length_unit">
+      <rdf:li resource="urn:preferential:enum:editor.css.default_length_unit:_1"/>
+      <rdf:li resource="urn:preferential:enum:editor.css.default_length_unit:_2"/>
+      <rdf:li resource="urn:preferential:enum:editor.css.default_length_unit:_3"/>
+      <rdf:li resource="urn:preferential:enum:editor.css.default_length_unit:_4"/>
+      <rdf:li resource="urn:preferential:enum:editor.css.default_length_unit:_5"/>
+      <rdf:li resource="urn:preferential:enum:editor.css.default_length_unit:_6"/>
+      <rdf:li resource="urn:preferential:enum:editor.css.default_length_unit:_7"/>
+      <rdf:li resource="urn:preferential:enum:editor.css.default_length_unit:_8"/>
+      <rdf:li resource="urn:preferential:enum:editor.css.default_length_unit:_9"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:editor.css.default_length_unit:_1">
+    <enum:hint>Centimetres</enum:hint>
+    <enum:value>cm</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.css.default_length_unit:_2">
+    <enum:hint>Em space</enum:hint>
+    <enum:value>em</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.css.default_length_unit:_3">
+    <enum:hint>Ex space</enum:hint>
+    <enum:value>ex</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.css.default_length_unit:_4">
+    <enum:hint>Inches</enum:hint>
+    <enum:value>in</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.css.default_length_unit:_5">
+    <enum:hint>Millimetres</enum:hint>
+    <enum:value>mm</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.css.default_length_unit:_6">
+    <enum:hint>Percentage of parent element</enum:hint>
+    <enum:value>%</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.css.default_length_unit:_7">
+    <enum:hint>Picas</enum:hint>
+    <enum:value>pc</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.css.default_length_unit:_8">
+    <enum:hint>Pixels</enum:hint>
+    <enum:value>px</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.css.default_length_unit:_9">
+    <enum:hint>Point</enum:hint>
+    <enum:value>pt</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:editor.hrule.align">
+      <rdf:li resource="urn:preferential:enum:editor.hrule.align:_1"/>
+      <rdf:li resource="urn:preferential:enum:editor.hrule.align:_2"/>
+      <rdf:li resource="urn:preferential:enum:editor.hrule.align:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:editor.hrule.align:_1">
+    <enum:hint>Left</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.hrule.align:_2">
+    <enum:hint>Center</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.hrule.align:_3">
+    <enum:hint>Right</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:editor.use_html_editor">
+      <rdf:li resource="urn:preferential:enum:editor.use_html_editor:_1"/>
+      <rdf:li resource="urn:preferential:enum:editor.use_html_editor:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:editor.use_html_editor:_1">
+    <enum:hint>No</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.use_html_editor:_2">
+    <enum:hint>Yes</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:editor.use_image_editor">
+      <rdf:li resource="urn:preferential:enum:editor.use_image_editor:_1"/>
+      <rdf:li resource="urn:preferential:enum:editor.use_image_editor:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:editor.use_image_editor:_1">
+    <enum:hint>No</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:editor.use_image_editor:_2">
+    <enum:hint>Yes</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:extensions.venkman.lastErrorMode">
+      <rdf:li resource="urn:preferential:enum:extensions.venkman.lastErrorMode:_1"/>
+      <rdf:li resource="urn:preferential:enum:extensions.venkman.lastErrorMode:_2"/>
+      <rdf:li resource="urn:preferential:enum:extensions.venkman.lastErrorMode:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:extensions.venkman.lastErrorMode:_1">
+    <enum:hint>Ignore Errors</enum:hint>
+    <enum:value>ignore</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:extensions.venkman.lastErrorMode:_2">
+    <enum:hint>Trace Errors</enum:hint>
+    <enum:value>trace</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:extensions.venkman.lastErrorMode:_3">
+    <enum:hint>Stop for Errors</enum:hint>
+    <enum:value>break</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:extensions.venkman.lastThrowMode">
+      <rdf:li resource="urn:preferential:enum:extensions.venkman.lastThrowMode:_1"/>
+      <rdf:li resource="urn:preferential:enum:extensions.venkman.lastThrowMode:_2"/>
+      <rdf:li resource="urn:preferential:enum:extensions.venkman.lastThrowMode:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:extensions.venkman.lastThrowMode:_1">
+    <enum:hint>Ignore Exceptions</enum:hint>
+    <enum:value>ignore</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:extensions.venkman.lastThrowMode:_2">
+    <enum:hint>Trace Exceptions</enum:hint>
+    <enum:value>trace</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:extensions.venkman.lastThrowMode:_3">
+    <enum:hint>Stop for Exceptions</enum:hint>
+    <enum:value>break</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:font.default">
+      <rdf:li resource="urn:preferential:enum:font.default:_1"/>
+      <rdf:li resource="urn:preferential:enum:font.default:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:font.default:_1">
+    <enum:hint>Serif</enum:hint>
+    <enum:value>serif</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:font.default:_2">
+    <enum:hint>Sans Serif</enum:hint>
+    <enum:value>sans serif</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:general.open_location.last_window_choice">
+      <rdf:li resource="urn:preferential:enum:general.open_location.last_window_choice:_1"/>
+      <rdf:li resource="urn:preferential:enum:general.open_location.last_window_choice:_2"/>
+      <rdf:li resource="urn:preferential:enum:general.open_location.last_window_choice:_3"/>
+      <rdf:li resource="urn:preferential:enum:general.open_location.last_window_choice:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:general.open_location.last_window_choice:_1">
+    <enum:hint>Current Nav Window</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:general.open_location.last_window_choice:_2">
+    <enum:hint>New Nav Window</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:general.open_location.last_window_choice:_3">
+    <enum:hint>New Nav Tab</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:general.open_location.last_window_choice:_4">
+    <enum:hint>New Editor Window</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:image.animation_mode">
+      <rdf:li resource="urn:preferential:enum:image.animation_mode:_1"/>
+      <rdf:li resource="urn:preferential:enum:image.animation_mode:_2"/>
+      <rdf:li resource="urn:preferential:enum:image.animation_mode:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:image.animation_mode:_1">
+    <enum:hint>As many times as the image specifies</enum:hint>
+    <enum:value>normal</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:image.animation_mode:_2">
+    <enum:hint>Once</enum:hint>
+    <enum:value>once</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:image.animation_mode:_3">
+    <enum:hint>Never</enum:hint>
+    <enum:value>none</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:images.dither">
+      <rdf:li resource="urn:preferential:enum:images.dither:_1"/>
+      <rdf:li resource="urn:preferential:enum:images.dither:_2"/>
+      <rdf:li resource="urn:preferential:enum:images.dither:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:images.dither:_1">
+    <enum:hint>Automatic</enum:hint>
+    <enum:value>auto</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:images.dither:_2">
+    <enum:hint>True</enum:hint>
+    <enum:value>true</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:images.dither:_3">
+    <enum:hint>False</enum:hint>
+    <enum:value>false</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:ldap_1.directoryFOO.dirType">
+      <rdf:li resource="urn:preferential:enum:ldap_1.directoryFOO.dirType:_1"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:ldap_1.directoryFOO.dirType:_1">
+    <enum:hint>Local</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:ldap_2.servers.FOO.dirType">
+      <rdf:li resource="urn:preferential:enum:ldap_2.servers.FOO.dirType:_1"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:ldap_2.servers.FOO.dirType:_1">
+    <enum:hint>Local</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:ldap_2.version">
+      <rdf:li resource="urn:preferential:enum:ldap_2.version:_1"/>
+      <rdf:li resource="urn:preferential:enum:ldap_2.version:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:ldap_2.version:_1">
+    <enum:hint>LDAP v3</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:ldap_2.version:_2">
+    <enum:hint>LDAP v2</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:mail.addr_book.lastnamefirst">
+      <rdf:li resource="urn:preferential:enum:mail.addr_book.lastnamefirst:_1"/>
+      <rdf:li resource="urn:preferential:enum:mail.addr_book.lastnamefirst:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:mail.addr_book.lastnamefirst:_1">
+    <enum:hint>Firstname Lastname</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mail.addr_book.lastnamefirst:_2">
+    <enum:hint>Lastname, Firstname</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:mailnews.reply_header_type">
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_header_type:_1"/>
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_header_type:_2"/>
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_header_type:_3"/>
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_header_type:_4"/>
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_header_type:_5"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:mailnews.reply_header_type:_1">
+    <enum:hint>No Header</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mailnews.reply_header_type:_2">
+    <enum:hint>(author)(colon)</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mailnews.reply_header_type:_3">
+    <enum:hint>(date)(separator)(author)(colon)</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mailnews.reply_header_type:_4">
+    <enum:hint>(author)(date)(colon)</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mailnews.reply_header_type:_5">
+    <enum:hint>User Specified</enum:hint>
+    <enum:value>4</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:mailnews.reply_on_top">
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_on_top:_1"/>
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_on_top:_2"/>
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_on_top:_3"/>
+      <rdf:li resource="urn:preferential:enum:mailnews.reply_on_top:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:mailnews.reply_on_top:_1">
+    <enum:hint>Start reply above the quoted text</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mailnews.reply_on_top:_2">
+    <enum:hint>Start reply below the quoted text</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mailnews.reply_on_top:_3">
+    <enum:hint>Select the quoted text and start above</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mailnews.reply_on_top:_4">
+    <enum:hint>Select the quoted text and start below</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:mousewheel.withaltkey.action">
+      <rdf:li resource="urn:preferential:enum:mousewheel.withaltkey.action:_1"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withaltkey.action:_2"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withaltkey.action:_3"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withaltkey.action:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withaltkey.action:_1">
+    <enum:hint>Scroll document by X lines</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withaltkey.action:_2">
+    <enum:hint>Scroll document by one page</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withaltkey.action:_3">
+    <enum:hint>Move back/forward in history</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withaltkey.action:_4">
+    <enum:hint>Make text larger/smaller</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:mousewheel.withcontrolkey.action">
+      <rdf:li resource="urn:preferential:enum:mousewheel.withcontrolkey.action:_1"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withcontrolkey.action:_2"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withcontrolkey.action:_3"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withcontrolkey.action:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withcontrolkey.action:_1">
+    <enum:hint>Scroll document by X lines</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withcontrolkey.action:_2">
+    <enum:hint>Scroll document by one page</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withcontrolkey.action:_3">
+    <enum:hint>Move back/forward in history</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withcontrolkey.action:_4">
+    <enum:hint>Make text larger/smaller</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:mousewheel.withnokey.action">
+      <rdf:li resource="urn:preferential:enum:mousewheel.withnokey.action:_1"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withnokey.action:_2"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withnokey.action:_3"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withnokey.action:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withnokey.action:_1">
+    <enum:hint>Scroll document by X lines</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withnokey.action:_2">
+    <enum:hint>Scroll document by one page</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withnokey.action:_3">
+    <enum:hint>Move back/forward in history</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withnokey.action:_4">
+    <enum:hint>Make text larger/smaller</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:mousewheel.withshiftkey.action">
+      <rdf:li resource="urn:preferential:enum:mousewheel.withshiftkey.action:_1"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withshiftkey.action:_2"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withshiftkey.action:_3"/>
+      <rdf:li resource="urn:preferential:enum:mousewheel.withshiftkey.action:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withshiftkey.action:_1">
+    <enum:hint>Scroll document by X lines</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withshiftkey.action:_2">
+    <enum:hint>Scroll document by one page</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withshiftkey.action:_3">
+    <enum:hint>Move back/forward in history</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:mousewheel.withshiftkey.action:_4">
+    <enum:hint>Make text larger/smaller</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:network.cookie.cookieBehavior">
+      <rdf:li resource="urn:preferential:enum:network.cookie.cookieBehavior:_1"/>
+      <rdf:li resource="urn:preferential:enum:network.cookie.cookieBehavior:_2"/>
+      <rdf:li resource="urn:preferential:enum:network.cookie.cookieBehavior:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:network.cookie.cookieBehavior:_1">
+    <enum:hint>Enable all cookies</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.cookie.cookieBehavior:_2">
+    <enum:hint>Allow cookies from originating server only</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.cookie.cookieBehavior:_3">
+    <enum:hint>Disable all cookies</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:network.cookie.lifetime.behavior">
+      <rdf:li resource="urn:preferential:enum:network.cookie.lifetime.behavior:_1"/>
+      <rdf:li resource="urn:preferential:enum:network.cookie.lifetime.behavior:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:network.cookie.lifetime.behavior:_1">
+    <enum:hint>Cookies expire at end of current session</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.cookie.lifetime.behavior:_2">
+    <enum:hint>Cookies expire after X days</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:network.cookie.p3plevel">
+      <rdf:li resource="urn:preferential:enum:network.cookie.p3plevel:_1"/>
+      <rdf:li resource="urn:preferential:enum:network.cookie.p3plevel:_2"/>
+      <rdf:li resource="urn:preferential:enum:network.cookie.p3plevel:_3"/>
+      <rdf:li resource="urn:preferential:enum:network.cookie.p3plevel:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:network.cookie.p3plevel:_1">
+    <enum:hint>Low</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.cookie.p3plevel:_2">
+    <enum:hint>Medium</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.cookie.p3plevel:_3">
+    <enum:hint>High</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.cookie.p3plevel:_4">
+    <enum:hint>Custom</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:network.dir.format">
+      <rdf:li resource="urn:preferential:enum:network.dir.format:_1"/>
+      <rdf:li resource="urn:preferential:enum:network.dir.format:_2"/>
+      <rdf:li resource="urn:preferential:enum:network.dir.format:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:network.dir.format:_1">
+    <enum:hint>Raw</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.dir.format:_2">
+    <enum:hint>HTML</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.dir.format:_3">
+    <enum:hint>HTTP Index</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:network.proxy.type">
+      <rdf:li resource="urn:preferential:enum:network.proxy.type:_1"/>
+      <rdf:li resource="urn:preferential:enum:network.proxy.type:_2"/>
+      <rdf:li resource="urn:preferential:enum:network.proxy.type:_3"/>
+      <rdf:li resource="urn:preferential:enum:network.proxy.type:_4"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:network.proxy.type:_1">
+    <enum:hint>Unused/Unset</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.proxy.type:_2">
+    <enum:hint>Manual</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.proxy.type:_3">
+    <enum:hint>Automatic</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.proxy.type:_4">
+    <enum:hint>None</enum:hint>
+    <enum:value>3</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:network.http.proxy.version">
+      <rdf:li resource="urn:preferential:enum:network.http.proxy.version:_1"/>
+      <rdf:li resource="urn:preferential:enum:network.http.proxy.version:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:network.http.proxy.version:_1">
+    <enum:hint>HTTP 1.0</enum:hint>
+    <enum:value>1.0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.http.proxy.version:_2">
+    <enum:hint>HTTP 1.1</enum:hint>
+    <enum:value>1.1</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:network.http.sendRefererHeader">
+      <rdf:li resource="urn:preferential:enum:network.http.sendRefererHeader:_1"/>
+      <rdf:li resource="urn:preferential:enum:network.http.sendRefererHeader:_2"/>
+      <rdf:li resource="urn:preferential:enum:network.http.sendRefererHeader:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:network.http.sendRefererHeader:_1">
+    <enum:hint>Do not send referer header</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.http.sendRefererHeader:_2">
+    <enum:hint>Send partial header</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.http.sendRefererHeader:_3">
+    <enum:hint>Send all of header</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:network.http.version">
+      <rdf:li resource="urn:preferential:enum:network.http.version:_1"/>
+      <rdf:li resource="urn:preferential:enum:network.http.version:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:network.http.version:_1">
+    <enum:hint>HTTP 1.0</enum:hint>
+    <enum:value>1.0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.http.version:_2">
+    <enum:hint>HTTP 1.1</enum:hint>
+    <enum:value>1.1</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:network.image.imageBehavior">
+      <rdf:li resource="urn:preferential:enum:network.image.imageBehavior:_1"/>
+      <rdf:li resource="urn:preferential:enum:network.image.imageBehavior:_2"/>
+      <rdf:li resource="urn:preferential:enum:network.image.imageBehavior:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:network.image.imageBehavior:_1">
+    <enum:hint>Accept all images</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.image.imageBehavior:_2">
+    <enum:hint>Originating server only</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:network.image.imageBehavior:_3">
+    <enum:hint>No images</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:nglayout.widget.mode">
+      <rdf:li resource="urn:preferential:enum:nglayout.widget.mode:_1"/>
+      <rdf:li resource="urn:preferential:enum:nglayout.widget.mode:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:nglayout.widget.mode:_1">
+    <enum:hint>Native</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:nglayout.widget.mode:_2">
+    <enum:hint>GFX-based</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:print.print_footercenter">
+      <rdf:li resource="urn:preferential:enum:print.print_footercenter:_1"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footercenter:_2"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footercenter:_3"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footercenter:_4"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footercenter:_5"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:print.print_footercenter:_1">
+    <enum:hint>Title</enum:hint>
+    <enum:value>&amp;T</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footercenter:_2">
+    <enum:hint>Document URL</enum:hint>
+    <enum:value>&amp;U</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footercenter:_3">
+    <enum:hint>Date/Time</enum:hint>
+    <enum:value>&amp;D</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footercenter:_4">
+    <enum:hint>Page Number</enum:hint>
+    <enum:value>&amp;P</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footercenter:_5">
+    <enum:hint>Page Number "of" Page Total</enum:hint>
+    <enum:value>&amp;PT</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:print.print_footerleft">
+      <rdf:li resource="urn:preferential:enum:print.print_footerleft:_1"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footerleft:_2"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footerleft:_3"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footerleft:_4"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footerleft:_5"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:print.print_footerleft:_1">
+    <enum:hint>Title</enum:hint>
+    <enum:value>&amp;T</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footerleft:_2">
+    <enum:hint>Document URL</enum:hint>
+    <enum:value>&amp;U</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footerleft:_3">
+    <enum:hint>Date/Time</enum:hint>
+    <enum:value>&amp;D</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footerleft:_4">
+    <enum:hint>Page Number</enum:hint>
+    <enum:value>&amp;P</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footerleft:_5">
+    <enum:hint>Page Number "of" Page Total</enum:hint>
+    <enum:value>&amp;PT</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:print.print_footerright">
+      <rdf:li resource="urn:preferential:enum:print.print_footerright:_1"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footerright:_2"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footerright:_3"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footerright:_4"/>
+      <rdf:li resource="urn:preferential:enum:print.print_footerright:_5"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:print.print_footerright:_1">
+    <enum:hint>Title</enum:hint>
+    <enum:value>&amp;T</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footerright:_2">
+    <enum:hint>Document URL</enum:hint>
+    <enum:value>&amp;U</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footerright:_3">
+    <enum:hint>Date/Time</enum:hint>
+    <enum:value>&amp;D</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footerright:_4">
+    <enum:hint>Page Number</enum:hint>
+    <enum:value>&amp;P</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_footerright:_5">
+    <enum:hint>Page Number "of" Page Total</enum:hint>
+    <enum:value>&amp;PT</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:print.print_headercenter">
+      <rdf:li resource="urn:preferential:enum:print.print_headercenter:_1"/>
+      <rdf:li resource="urn:preferential:enum:print.print_headercenter:_2"/>
+      <rdf:li resource="urn:preferential:enum:print.print_headercenter:_3"/>
+      <rdf:li resource="urn:preferential:enum:print.print_headercenter:_4"/>
+      <rdf:li resource="urn:preferential:enum:print.print_headercenter:_5"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:print.print_headercenter:_1">
+    <enum:hint>Title</enum:hint>
+    <enum:value>&amp;T</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_headercenter:_2">
+    <enum:hint>Document URL</enum:hint>
+    <enum:value>&amp;U</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_headercenter:_3">
+    <enum:hint>Date/Time</enum:hint>
+    <enum:value>&amp;D</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_headercenter:_4">
+    <enum:hint>Page Number</enum:hint>
+    <enum:value>&amp;P</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.print_headercenter:_5">
+    <enum:hint>Page Number "of" Page Total</enum:hint>
+    <enum:value>&amp;PT</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:print.printheaderleft">
+      <rdf:li resource="urn:preferential:enum:print.printheaderleft:_1"/>
+      <rdf:li resource="urn:preferential:enum:print.printheaderleft:_2"/>
+      <rdf:li resource="urn:preferential:enum:print.printheaderleft:_3"/>
+      <rdf:li resource="urn:preferential:enum:print.printheaderleft:_4"/>
+      <rdf:li resource="urn:preferential:enum:print.printheaderleft:_5"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:print.printheaderleft:_1">
+    <enum:hint>Title</enum:hint>
+    <enum:value>&amp;T</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.printheaderleft:_2">
+    <enum:hint>Document URL</enum:hint>
+    <enum:value>&amp;U</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.printheaderleft:_3">
+    <enum:hint>Date/Time</enum:hint>
+    <enum:value>&amp;D</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.printheaderleft:_4">
+    <enum:hint>Page Number</enum:hint>
+    <enum:value>&amp;P</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.printheaderleft:_5">
+    <enum:hint>Page Number "of" Page Total</enum:hint>
+    <enum:value>&amp;PT</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:print.printheaderight">
+      <rdf:li resource="urn:preferential:enum:print.printheaderight:_1"/>
+      <rdf:li resource="urn:preferential:enum:print.printheaderight:_2"/>
+      <rdf:li resource="urn:preferential:enum:print.printheaderight:_3"/>
+      <rdf:li resource="urn:preferential:enum:print.printheaderight:_4"/>
+      <rdf:li resource="urn:preferential:enum:print.printheaderight:_5"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:print.printheaderight:_1">
+    <enum:hint>Title</enum:hint>
+    <enum:value>&amp;T</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.printheaderight:_2">
+    <enum:hint>Document URL</enum:hint>
+    <enum:value>&amp;U</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.printheaderight:_3">
+    <enum:hint>Date/Time</enum:hint>
+    <enum:value>&amp;D</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.printheaderight:_4">
+    <enum:hint>Page Number</enum:hint>
+    <enum:value>&amp;P</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:print.printheaderight:_5">
+    <enum:hint>Page Number "of" Page Total</enum:hint>
+    <enum:value>&amp;PT</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:security.ask_for_password">
+      <rdf:li resource="urn:preferential:enum:security.ask_for_password:_1"/>
+      <rdf:li resource="urn:preferential:enum:security.ask_for_password:_2"/>
+      <rdf:li resource="urn:preferential:enum:security.ask_for_password:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:security.ask_for_password:_1">
+    <enum:hint>Only the first time is needed</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:security.ask_for_password:_2">
+    <enum:hint>Every time it is needed</enum:hint>
+    <enum:value>1</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:security.ask_for_password:_3">
+    <enum:hint>Ask after X minutes</enum:hint>
+    <enum:value>2</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:security.default_personal_cert">
+      <rdf:li resource="urn:preferential:enum:security.default_personal_cert:_1"/>
+      <rdf:li resource="urn:preferential:enum:security.default_personal_cert:_2"/>
+      <rdf:li resource="urn:preferential:enum:security.default_personal_cert:_3"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:security.default_personal_cert:_1">
+    <enum:hint>Let Navigator choose automatically</enum:hint>
+    <enum:value>Let Navigator choose automatically</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:security.default_personal_cert:_2">
+    <enum:hint>Select Automatically</enum:hint>
+    <enum:value>Select Automatically</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:security.default_personal_cert:_3">
+    <enum:hint>Ask Every Time</enum:hint>
+    <enum:value>Ask Every Time</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:slider.snapMultiplier">
+      <rdf:li resource="urn:preferential:enum:slider.snapMultiplier:_1"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:slider.snapMultiplier:_1">
+    <enum:hint>Disable snapback</enum:hint>
+    <enum:value>0</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:ui.key.accelKey">
+      <rdf:li resource="urn:preferential:enum:ui.key.accelKey:_1"/>
+      <rdf:li resource="urn:preferential:enum:ui.key.accelKey:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:ui.key.accelKey:_1">
+    <enum:hint>Control</enum:hint>
+    <enum:value>17</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:ui.key.accelKey:_2">
+    <enum:hint>Alt</enum:hint>
+    <enum:value>18</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:ui.key.generalAccessKey">
+      <rdf:li resource="urn:preferential:enum:ui.key.generalAccessKey:_1"/>
+      <rdf:li resource="urn:preferential:enum:ui.key.generalAccessKey:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:ui.key.generalAccessKey:_1">
+    <enum:hint>Control</enum:hint>
+    <enum:value>17</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:ui.key.generalAccessKey:_2">
+    <enum:hint>Alt</enum:hint>
+    <enum:value>18</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:ui.key.menuAccessKey">
+      <rdf:li resource="urn:preferential:enum:ui.key.menuAccessKey:_1"/>
+      <rdf:li resource="urn:preferential:enum:ui.key.menuAccessKey:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:ui.key.menuAccessKey:_1">
+    <enum:hint>Control</enum:hint>
+    <enum:value>17</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:ui.key.menuAccessKey:_2">
+    <enum:hint>Alt</enum:hint>
+    <enum:value>18</enum:value>
+  </rdf:Description>
+
+  <rdf:Seq about="urn:preferential:enum:update_notifications.provider.0.frequency">
+      <rdf:li resource="urn:preferential:enum:update_notifications.provider.0.frequency:_1"/>
+      <rdf:li resource="urn:preferential:enum:update_notifications.provider.0.frequency:_2"/>
+  </rdf:Seq>
+  <rdf:Description about="urn:preferential:enum:update_notifications.provider.0.frequency:_1">
+    <enum:hint>Weekly</enum:hint>
+    <enum:value>7</enum:value>
+  </rdf:Description>
+  <rdf:Description about="urn:preferential:enum:update_notifications.provider.0.frequency:_2">
+    <enum:hint>Monthly</enum:hint>
+    <enum:value>30</enum:value>
+  </rdf:Description>
+
+</rdf:RDF>

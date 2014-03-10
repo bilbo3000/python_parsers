@@ -1,0 +1,79 @@
+Preference Branches - Documentation
+===================================
+Status as at 17/07/2003
+
+KEY
+
+[ ] = Not done
+[I] = Incomplete
+[X] = Completed
+[A] = Assigned
+[S] = Submitted (pending grammar checks, etc)
+
+
+STATUS
+
+[X] accessibility (SB)
+[X] addressbook (SB)
+[X] advanced (SB)
+[X] aim (SB)
+[X] autoadmin (SB)
+[X] autocomplete (WK)
+[X] alerts (SB)
+[X] application (SB)
+[X] autoupdate (SB)
+[X] backups (SB)
+[X] bidi (SB)
+[X] browser (SB)
+[X] capability (SB)
+[X] clipboard (SB)
+[A] compose (JR)
+[X] converter (SB)
+[X] custtoolbar (SB)
+[X] dom (MK)
+[X] editor (MK)
+[X] extensions (SB)
+[X] font (MK)
+[X] general (MK)
+[X] image (SB)
+[X] imageblocker (SB)
+[X] images (SB)
+[X] inspector (SB)
+[X] intl (SB)
+[X] javascript (SB)
+[X] keyword (SB)
+[X] layout (SB)
+[ ] ldap_1
+[ ] ldap_2
+[A] mail (JK)
+[A] mailnews (JK)
+[A] messenger (JK)
+[X] middlemouse (SB)
+[X] mousewheel (SB)
+[X] mozilla (WK)
+[ ] netinst
+[X] network (MK)
+[X] news (MK)
+[X] nglayout (MK)
+[A] offline (JR)
+[X] plugin (MK)
+[X] prefs (MK)
+[X] print (MK)
+[ ] privacy
+[X] profile (SB)
+[X] security (MK)
+[X] sidebar (SB)
+[ ] signed
+[ ] signon
+[ ] slider
+[ ] spellchecker
+[X] startup (WK)
+[ ] system
+[X] timebomb (SB)
+[X] ui (SB)
+[X] update_notifications (SB)
+[X] view_source (SB)
+[X] viewmanager (SB)
+[X] wallet (SB)
+[X] xpinstall (SB)
+[ ] xul

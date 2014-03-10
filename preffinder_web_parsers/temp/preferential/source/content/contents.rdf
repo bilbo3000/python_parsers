@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+
+  <!-- list all the packages being supplied by this jar -->
+  <RDF:Seq about="urn:mozilla:package:root">
+    <RDF:li resource="urn:mozilla:package:preferential"/>
+  </RDF:Seq>
+
+  <!-- package information -->
+  <RDF:Description about="urn:mozilla:package:preferential"
+        chrome:displayName="Preferential"
+        chrome:author="Stephen Bounds"
+        chrome:authorURL="http://preferential.mozdev.org"
+        chrome:name="preferential"
+        chrome:description="Advanced preferences editing for Mozilla and related packages"
+        chrome:extension="true"
+        chrome:packageVersion="0.8.2">
+  </RDF:Description>
+
+  <!-- load up overlays -->
+  <RDF:Seq about="urn:mozilla:overlays">
+    <RDF:li resource="chrome://navigator/content/navigator.xul"/>
+    <RDF:li resource="chrome://browser/content/browser.xul"/>
+    <RDF:li resource="chrome://messenger/content/mailWindowOverlay.xul"/>
+  </RDF:Seq>
+
+  <!-- Standard Mozilla overlay -->
+  <RDF:Seq about="chrome://navigator/content/navigator.xul">
+    <RDF:li>chrome://preferential/content/preferential-nav-overlay.xul</RDF:li>
+  </RDF:Seq>
+
+  <!-- Phoenix overlay -->
+  <RDF:Seq about="chrome://browser/content/browser.xul">
+    <RDF:li>chrome://preferential/content/preferential-phn-overlay.xul</RDF:li>
+  </RDF:Seq>
+
+  <!-- Thunderbird overlay -->
+  <RDF:Seq about="chrome://messenger/content/mailWindowOverlay.xul">
+    <RDF:li>chrome://preferential/content/preferential-thn-overlay.xul</RDF:li>
+  </RDF:Seq>
+
+</RDF:RDF>

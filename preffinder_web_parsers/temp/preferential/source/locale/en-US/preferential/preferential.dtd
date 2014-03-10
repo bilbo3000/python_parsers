@@ -1,0 +1,184 @@
+<!--
+The contents of this file are subject to the Netscape Public
+License Version 1.1 (the "License"); you may not use this file
+except in compliance with the License. You may obtain a copy of
+the License at http://www.mozilla.org/NPL/
+
+Software distributed under the License is distributed on an "AS
+IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+implied. See the License for the specific language governing
+rights and limitations under the License.
+
+The Original Code is Mozilla Communicator client code, released
+March 31, 1998.
+
+The Initial Developer of the Original Code is Netscape
+Communications Corporation. Portions created by Netscape are 
+Copyright (C) 1998-1999 Netscape Communications Corporation. All
+Rights Reserved.
+
+Contributors:
+Stephen Bounds <guruj@mbox.com.au>
+--> 
+
+<!-- Credits here -->
+<!ENTITY creditsTitle.value "Preferential">
+<!ENTITY creditsVersion.value "Version 0.8.2">
+<!ENTITY creditsProjectManager.value "Project Manager:">
+<!ENTITY creditsCoders.value "Code Contributors:">
+<!ENTITY creditsDocumenters.value "Preference Documentation:">
+
+<!-- Window titles -->
+<!ENTITY windowPreferential.title "Preferential - Advanced Preferences Configuration">
+<!ENTITY windowPreferentialNew.title "Create New Preference">
+<!ENTITY windowPreferentialEdit.title "Edit Preference">
+<!ENTITY windowPreferentialDelete.title "Confirm Preference Delete?">
+<!ENTITY windowPreferentialPrefsJS.title "Show Equivalent prefs.js Entry">
+<!ENTITY windowPreferentialHelpAbout.title "About - Preferential">
+<!ENTITY windowPreferentialInProgress.title "Building Tree...">
+
+<!-- Menu entries -->
+<!ENTITY menuMain.label "Preference">
+<!ENTITY menuMain.access "P">
+
+<!ENTITY menuMainNew.label "New">
+<!ENTITY menuMainNew.access "N">
+<!ENTITY menuMainNew.keycode "VK_INSERT">
+<!ENTITY menuMainNew.modifier "">
+
+<!ENTITY menuMainEdit.label "Edit">
+<!ENTITY menuMainEdit.access "E">
+<!ENTITY menuMainEdit.keycode "VK_RETURN">
+<!ENTITY menuMainEdit.modifier "accel">
+
+<!ENTITY menuMainDelete.label "Delete">
+<!ENTITY menuMainDelete.access "D">
+<!ENTITY menuMainDelete.keycode "VK_DELETE">
+<!ENTITY menuMainDelete.modifier "">
+
+<!ENTITY menuMainReload.label "Reload">
+<!ENTITY menuMainReload.access "R">
+<!ENTITY menuMainReload.key "R">
+<!ENTITY menuMainReload.modifier "accel">
+
+<!ENTITY menuMainPrefsJS.label "user.js Entry">
+<!ENTITY menuMainPrefsJS.access "J">
+<!ENTITY menuMainPrefsJS.key "J">
+<!ENTITY menuMainPrefsJS.modifier "accel">
+
+<!ENTITY menuMainClose.label "Close">
+<!ENTITY menuMainClose.access "C">
+<!ENTITY menuMainClose.key "Q">
+<!ENTITY menuMainClose.modifier "accel">
+
+<!ENTITY menuTree.label "Tree">
+<!ENTITY menuTree.access "T">
+
+<!ENTITY menuTreeExpand.label "Expand">
+<!ENTITY menuTreeExpand.access "E">
+<!ENTITY menuTreeExpand.keycode "VK_RIGHT">
+<!ENTITY menuTreeExpand.modifier "">
+
+<!ENTITY menuTreeExpandAll.label "Expand All">
+<!ENTITY menuTreeExpandAll.access "X">
+<!ENTITY menuTreeExpandAll.keycode "VK_RIGHT">
+<!ENTITY menuTreeExpandAll.modifier "accel">
+
+<!ENTITY menuTreeCollapse.label "Collapse">
+<!ENTITY menuTreeCollapse.access "C">
+<!ENTITY menuTreeCollapse.keycode "VK_LEFT">
+<!ENTITY menuTreeCollapse.modifier "">
+
+<!ENTITY menuTreeCollapseAll.label "Collapse All">
+<!ENTITY menuTreeCollapseAll.access "O">
+<!ENTITY menuTreeCollapseAll.keycode "VK_LEFT">
+<!ENTITY menuTreeCollapseAll.modifier "accel">
+
+<!ENTITY menuSearch.label "Search">
+<!ENTITY menuSearch.access "S">
+
+<!ENTITY menuSearchFind.label "Find">
+<!ENTITY menuSearchFind.access "F">
+<!ENTITY menuSearchFind.key "F">
+<!ENTITY menuSearchFind.modifier "accel">
+
+<!ENTITY menuSearchFindNext.label "Find Next">
+<!ENTITY menuSearchFindNext.access "N">
+<!ENTITY menuSearchFindNext.keycode "VK_F3">
+<!ENTITY menuSearchFindNext.modifier "">
+
+<!ENTITY menuSearchFilter.label "Filter">
+<!ENTITY menuSearchFilter.access "I">
+<!ENTITY menuSearchFilter.key "I">
+<!ENTITY menuSearchFilter.modifier "accel">
+
+<!ENTITY menuSearchUnfilter.label "Unfilter">
+<!ENTITY menuSearchUnfilter.access "U">
+<!ENTITY menuSearchUnfilter.key "U">
+<!ENTITY menuSearchUnfilter.modifier "accel">
+
+<!ENTITY menuBookmark.label "Bookmarks">
+<!ENTITY menuBookmark.access "B">
+
+<!ENTITY menuBookmarkAdd.label "Add Bookmark">
+<!ENTITY menuBookmarkAdd.access "A">
+<!ENTITY menuBookmarkAdd.key "D">
+<!ENTITY menuBookmarkAdd.modifier "accel">
+
+<!ENTITY menuBookmarkRemove.label "Remove Bookmark">
+<!ENTITY menuBookmarkRemove.access "E">
+<!ENTITY menuBookmarkRemove.key "E">
+<!ENTITY menuBookmarkRemove.modifier "accel">
+
+<!ENTITY menuHelp.label "Help">
+<!ENTITY menuHelp.access "H">
+
+<!ENTITY menuHelpAbout.label "About">
+<!ENTITY menuHelpAbout.access "About">
+<!ENTITY menuHelpAbout.keycode "VK_F1">
+<!ENTITY menuHelpAbout.modifier "">
+
+<!-- Context menu entries -->
+<!ENTITY menuContextNew.label "Create New">
+<!ENTITY menuContextEdit.label "Edit Selected">
+<!ENTITY menuContextDelete.label "Delete Selected">
+<!ENTITY menuContextExpand.label "Expand">
+<!ENTITY menuContextCollapse.label "Collapse">
+<!ENTITY menuContextExpandAll.label "Expand All">
+<!ENTITY menuContextCollapseAll.label "Collapse All">
+<!ENTITY menuContextPrefsJS.label "user.js Entry">
+
+<!-- Menu Overlay entries -->
+<!ENTITY menuOverlayPreferential.label "Advanced Preferences...">
+
+<!-- Button labels -->
+<!ENTITY buttonOK.label "OK">
+
+<!-- Preference tree column headers -->
+<!ENTITY prefColumn.label "Preference Name">
+<!ENTITY lockColumn.label "Status">
+<!ENTITY typeColumn.label "Type">
+<!ENTITY valueColumn.label "Value">
+<!ENTITY hintColumn.label "Description">
+
+<!-- Tooltips -->
+<!ENTITY prefColumnHeader.tooltip "Click to sort"> 
+<!ENTITY columnChooser.tooltip "Click to select columns to display"> 
+
+<!-- Labels etc -->
+<!ENTITY prefKey.label "Preference Key:">
+<!ENTITY prefValue.label "Preference Value:">
+<!ENTITY prefHint.label "Description:">
+<!ENTITY prefNewText.label "Text Value">
+<!ENTITY prefNewInt.label "Integer Value">
+<!ENTITY prefNewBool.label "Boolean Value">
+<!ENTITY prefDefault.label "Reset to Default Value">
+<!ENTITY prefDelete.label "Delete Preference &amp; All Children">
+<!ENTITY prefDeleteWarning.label "CAUTION: This action cannot be undone.">
+<!ENTITY prefPrefsJSExplain.label "Paste the following text into your user.js:">
+
+<!-- Combo box labels -->
+<!ENTITY prefCombo.default "Choose Value">
+<!ENTITY prefComboEditable.default "Choose Value or Type Here:">
+<!ENTITY prefComboTrue.label "True">
+<!ENTITY prefComboFalse.label "False">

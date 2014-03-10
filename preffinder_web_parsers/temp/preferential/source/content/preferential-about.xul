@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://preferential/content/preferential.css" type="text/css"?>
+
+<!--
+The contents of this file are subject to the Netscape Public
+License Version 1.1 (the "License"); you may not use this file
+except in compliance with the License. You may obtain a copy of
+the License at http://www.mozilla.org/NPL/
+
+Software distributed under the License is distributed on an "AS
+IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+implied. See the License for the specific language governing
+rights and limitations under the License.
+
+The Original Code is Mozilla Communicator client code, released
+March 31, 1998.
+
+The Initial Developer of the Original Code is Netscape
+Communications Corporation. Portions created by Netscape are
+ Copyright (C) 1998-1999 Netscape Communications Corporation. All
+Rights Reserved.
+
+Contributors:
+Stephen Bounds <guruj@mbox.com.au>
+-->
+
+<!DOCTYPE window SYSTEM "chrome://preferential/locale/preferential.dtd">
+
+<dialog id="preferential-edit-enum"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        title="&windowPreferentialHelpAbout.title;"
+        screenX="35%" screenY="35%"
+        minwidth="400px"
+        buttonalign="center" buttons="accept">
+
+<!-- Main layout -->
+<vbox>
+  <label style="font-weight: bold" value="&creditsTitle.value;" />
+  <label value="&creditsVersion.value;" />
+  <groupbox><caption style="font-weight: bold" label="&creditsProjectManager.value;" />
+  <label value="Stephen Bounds [GuruJ@mbox.com.au]" />
+  </groupbox>
+  <groupbox><caption style="font-weight: bold" label="&creditsCoders.value;" />
+  <listbox id="pref-about-coders" rows="4" width="100%" flex="3">
+  	<listitem label="Stephen Bounds [GuruJ@mbox.com.au]"/>
+    <listitem label="Chip Clark [chipc@netscape.com]"/>
+    <listitem label="Seth Spitzer [sspitzer@netscape.com]"/>
+    <listitem label="Robert Ginda [rginda@netscape.com]"/>
+    <listitem label="Matthew Buckett [buckett@bumph.org]"/>
+    <listitem label="Biju G C [bijumaillist@yahoo.com]"/>
+  </listbox>
+  </groupbox>
+  <groupbox><caption style="font-weight: bold" label="&creditsDocumenters.value;" />
+  <listbox id="pref-about-coders" rows="6" width="100%" flex="3">
+  	<listitem label="Stephen Bounds [GuruJ@mbox.com.au]"/>
+  	<listitem label="Mike K [mikeweezer@interair.com.br]"/>
+  	<listitem label="Brant Langer Gurganus [brantgurganus2001@cherokeescouting.org]"/>
+  	<listitem label="Xial A. Lunashine [xial-sqm@pixelechoes.net]"/>
+  	<listitem label="S. Sokolow [ssokolow@ssokolow.com]"/>
+  	<listitem label="Hans-Hermann Schwab [HHschwab@t-online.de]"/>
+  	<listitem label="Jerry Baker [jerry@bakerweb.biz]"/>
+  	<listitem label="Rick Alther [alther@acm.org]"/>
+  	<listitem label="Graeme Merrall [graeme@inetix.com.au]"/>
+  	<listitem label="Duncan Hill [dhill@cricalix.net]"/>
+  	<listitem label="Birl [sbirl@temple.edu]"/>
+  	<listitem label="Stephen Clavering [mozilla@clav.co.uk]"/>
+  	<listitem label="Mike C [mike@mike-c.com]"/>
+  	<listitem label="Dick Miller [TheMillers@millermicro.com]"/>
+  	<listitem label="green_man [green_man@bluefrog.biz]"/>
+  	<listitem label="alanjstr [7ka7a2s02@sneakemail.com]"/>
+  	<listitem label="Bill Phillips [wfp@shoestringprojects.com]"/>
+  	<listitem label="David E. Ross [david@rossde.com]"/>
+  	<listitem label="Marc-Jano Kopp [mjk64.2@gmx.de]"/>
+  	<listitem label="Nathan Schiffer [edge12@dreamscape.com]"/>
+  	<listitem label="Christian Eyrich [ch.ey@gmx.net]"/>
+  	<listitem label="Tim Powell [theuiguy@gmail.com]"/>
+  	<listitem label="Matthias Cramer [cramer@freestone.net]"/>
+  	<listitem label="Robert Sack [robert.sack@gmx.at]"/>
+  	<listitem label="Doug Hays [haysfamily@hotmail.com]"/>
+  	<listitem label="Jay [crowkeep@imag.net]"/>
+  	<listitem label="Damon Overboe [dto1@hypertextinc.com]"/>
+  	<listitem label="Tacvek [unknown_kev_cat@hotmail.com]"/>
+  	<listitem label="Adam Guthrie [ispiked@gmail.com]"/>  	
+  	<listitem label="Kevin Fuller [smstarrant@yahoo.com]"/>  	
+  	<listitem label="Casey Parker [kotetsurain@gmail.com]"/>  	
+  </listbox>
+  </groupbox>
+</vbox>
+
+</dialog>
+

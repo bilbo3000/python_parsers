@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <!-- Unique ID for extension. Can be in e-mail address format or GUID format -->
+    <em:id>djin@cse.unl.edu</em:id>
+    <!-- Indicates that this add-on is an extension -->
+    <em:type>2</em:type>
+    <!-- Extension name displayed in Add-on Manager -->
+    <em:name>Prefs Suggest Tool</em:name>
+    <!-- Extension version number. There is a version numbering scheme you must follow -->
+    <em:version>0.1</em:version>
+    <!-- Brief description displayed in Add-on Manager -->
+    <em:description>This Firefox extension serves as a preferences suggestion tool that allows users to search for a particular preference not only by name, keywords, but also by descriptions. </em:description>
+    <!-- Name of extension's primary developer. Change to your name -->
+    <em:creator>Dongpu Jin</em:creator>
+    <!-- Web page address through which extension is distributed -->
+    <em:homepageURL>http://www.cse.unl.edu/~djin</em:homepageURL>
+    <!-- This section gives details of the target application for the extension (in this case: Firefox 2) -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>4.0.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+	<em:optionsURL>chrome://suggesttool/content/prefs.xul</em:optionsURL>
+  </Description>
+</RDF>
+
