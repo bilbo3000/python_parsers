@@ -17,7 +17,8 @@ class MyHTMLParser(HTMLParser):
         global istbody; 
         global isGoodTable;  # whether the table contains pref 
         global istr;
-        global istd;  
+        global istd;
+        global cnt;   
         
         # start a tbody tag
         if tag == "tbody": 
@@ -34,6 +35,8 @@ class MyHTMLParser(HTMLParser):
        	# found a preference data	
        	if tag == "td" and istr and isGoodTable:
        		istd = True;  
+       		cnt = cnt + 1; 
+       		cnt = cnt % 3;  
         	 
     # encounter a end tag
     def handle_endtag(self, tag):
@@ -57,9 +60,10 @@ class MyHTMLParser(HTMLParser):
         global istbody; 
         global outfile;  
         global istd; 
+        global cnt; 
         
-        if istd: 
-        	print data;   
+        if istd and len(re.sub(r'\s+', "", data)) != 0 and (cnt == 0 or cnt == 2): 
+        	print re.sub(r'\s+$', "", data);  
  
   
 # instantiate a parser instance       
@@ -70,7 +74,7 @@ isGoodTable = False;
 istbody = False;  
 istr = False; 
 istd = False; 
-cnt = 0;  
+cnt = -1;  
 
 # open file for parsing
 filepath = "MozillaZine.html";
