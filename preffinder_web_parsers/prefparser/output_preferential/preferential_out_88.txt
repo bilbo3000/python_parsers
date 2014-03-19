@@ -1,0 +1,2 @@
+browser.download.dir
+Last directory selected for downloading files

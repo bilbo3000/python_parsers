@@ -1,0 +1,2 @@
+extensions.irc.newTabLimit
+Limit the number of tabs able to be created within Chatzilla window.

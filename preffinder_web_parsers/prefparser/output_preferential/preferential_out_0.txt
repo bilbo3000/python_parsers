@@ -1,0 +1,2 @@
+accessibility.accesskeycausesactivation
+Pressing access key follows link, instead of just highlighting it?

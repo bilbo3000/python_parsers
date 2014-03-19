@@ -9,6 +9,7 @@ Dongpu Jin
 '''
 
 import re; 
+import os; 
 from HTMLParser import HTMLParser; 
     
 class MyHTMLParser(HTMLParser): 
@@ -54,18 +55,28 @@ class MyHTMLParser(HTMLParser):
         global isSpan; 
         global isName; 
         global isHint;
-        global outfile; 
+        global fileid; 
+        global filePath; 
  		
         if isDiv and isSpan:  
             if isName:  # name span field 
-				outfile.write(data + '\n'); 
+				fileid = fileid + 1; 
+				filePath = os.path.join("output_preferential", "preferential_out_" + str(fileid) + ".txt");
+				with open(filePath, 'w') as f:
+					f.write(data + '\n');  
 
             if isHint:  # hint span field
-				outfile.write(data + '\n');  
+				if os.path.exists(filePath): 
+					with open(filePath, 'a') as f: 
+						f.write(data + '\n'); 
  
   
 # instantiate a parser instance       
-parser = MyHTMLParser();  
+parser = MyHTMLParser(); 
+
+# Create output directory 
+if not os.path.exists("output_preferential"):
+	os.makedirs("output_preferential"); 
 
 # open file for parsing
 filepath = "preferential.html";
@@ -77,8 +88,7 @@ isDiv= 0;
 isSpan = 0;
 isName = 0; 
 isHint = 0; 
-outfile = open("./pref_desc_preferential.txt", 'w'); 
-parser.feed(html); 
+fileid = -1; 
 
+parser.feed(html); 
 parser.close(); 
-outfile.close(); # close output file

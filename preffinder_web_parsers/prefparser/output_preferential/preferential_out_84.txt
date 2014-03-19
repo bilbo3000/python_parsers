@@ -1,0 +1,2 @@
+browser.display.use_focus_colors
+Use focus colors specified by Windows?

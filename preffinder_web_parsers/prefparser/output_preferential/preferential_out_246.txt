@@ -1,0 +1,2 @@
+editor.auto_save_delay
+If auto_save enabled, how many minutes between saves

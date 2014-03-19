@@ -1,0 +1,2 @@
+browser.turbo.showDialog
+Show dialog about Quick Launch when last Mozilla window closes?

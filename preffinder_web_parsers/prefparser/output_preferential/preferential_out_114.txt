@@ -1,0 +1,2 @@
+browser.prefWindowModal
+Make preferences window modal?

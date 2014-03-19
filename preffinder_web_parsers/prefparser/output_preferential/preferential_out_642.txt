@@ -1,0 +1,2 @@
+security.disable_buttonchangePassword
+Disable the password change button?

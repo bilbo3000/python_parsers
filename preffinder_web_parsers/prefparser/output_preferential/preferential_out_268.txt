@@ -1,0 +1,2 @@
+editor.prettyprint
+Color-code/format HTML for readability

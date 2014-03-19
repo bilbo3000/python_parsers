@@ -1,0 +1,2 @@
+mail.compose.dontWarnMail2Newsgroup
+Do not warn user if attempting to send news with a mail identity?

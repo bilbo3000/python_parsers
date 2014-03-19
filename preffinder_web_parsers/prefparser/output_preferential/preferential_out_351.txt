@@ -1,0 +1,2 @@
+font.name.FOO.ar
+Default Arabic FOO font

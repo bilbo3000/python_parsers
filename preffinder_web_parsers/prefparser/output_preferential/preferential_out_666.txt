@@ -1,0 +1,2 @@
+ui.key.saveLink.shift
+Use SHIFT key + click to save target link?

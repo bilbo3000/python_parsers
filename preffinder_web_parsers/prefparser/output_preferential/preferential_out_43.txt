@@ -1,0 +1,2 @@
+browser.PICS.pages_must_be_rated
+Only allow viewing of PICS-rated pages?

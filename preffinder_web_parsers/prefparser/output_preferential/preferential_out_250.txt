@@ -1,0 +1,2 @@
+editor.default_background_image
+Set default background image to use when creating new web pages

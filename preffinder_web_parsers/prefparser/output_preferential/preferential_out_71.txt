@@ -1,0 +1,2 @@
+browser.display.base_font_scaler
+Set to an integer value to scale base font sizes on websites which do not override defaults (eg. via CSS).

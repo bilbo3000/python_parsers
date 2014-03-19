@@ -1,0 +1,2 @@
+ui.key.menuAccessKeyFocuses
+Do menus gain focus when Access Key is tapped?

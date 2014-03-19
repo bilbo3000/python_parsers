@@ -1,0 +1,2 @@
+font.name.FOO.he
+Default Hebrew FOO font

@@ -1,0 +1,2 @@
+extensions.irc.munger.ear
+Convert 'ear' ASCII art to graphics?

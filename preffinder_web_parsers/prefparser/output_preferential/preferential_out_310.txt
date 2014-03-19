@@ -1,0 +1,2 @@
+extensions.irc.munger.underline
+Mark _text_ as underlined?

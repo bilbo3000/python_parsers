@@ -1,0 +1,2 @@
+editor.hrule.shading
+3D Shading on?

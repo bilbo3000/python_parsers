@@ -1,0 +1,2 @@
+font.name.FOO.x-central-euro
+Default Central European FOO font

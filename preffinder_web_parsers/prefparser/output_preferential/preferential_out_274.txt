@@ -1,0 +1,2 @@
+editor.save_associated_files
+Save associated files (images, etc.) when saving web page

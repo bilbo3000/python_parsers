@@ -1,0 +1,2 @@
+editor.followed_link_color
+Default custom hex color (#RRGGBB) for visited links

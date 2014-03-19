@@ -1,0 +1,2 @@
+browser.enable_automatic_image_resizing
+Enable automatic image scaling if too big for the screen

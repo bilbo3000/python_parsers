@@ -1,0 +1,2 @@
+editor.lastFileLocation.image
+Location of last image file opened

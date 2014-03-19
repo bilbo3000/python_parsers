@@ -1,0 +1,2 @@
+extensions.irc.queryBeep
+Beep pattern to use when query is received

@@ -1,0 +1,2 @@
+editor.publish.site_name.FOO
+Site name FOO (look up this value's entry in editor.publish.site_data for more information)

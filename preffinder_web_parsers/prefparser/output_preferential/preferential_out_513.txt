@@ -1,0 +1,2 @@
+network.cookie.lifetime.enabled
+Do cookies expire automatically?

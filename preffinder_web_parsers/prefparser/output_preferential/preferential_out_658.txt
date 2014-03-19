@@ -1,0 +1,2 @@
+sidebar.customize.more_panels.url
+URL directing user to where they can get more Sidebar panels

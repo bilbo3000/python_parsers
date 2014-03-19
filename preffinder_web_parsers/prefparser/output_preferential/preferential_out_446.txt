@@ -1,0 +1,2 @@
+ldap_2.servers.FOO.dirType
+Type of LDAP directory

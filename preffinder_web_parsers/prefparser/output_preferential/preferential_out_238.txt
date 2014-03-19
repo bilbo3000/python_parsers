@@ -1,0 +1,2 @@
+dom.disable_window_flip
+Allow Javascript to max/min windows?

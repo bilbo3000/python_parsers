@@ -1,0 +1,2 @@
+wallet.crypto.autocompleteoverride
+Use Autocomplete even on encrypted pages?

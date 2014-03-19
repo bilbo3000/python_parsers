@@ -1,0 +1,2 @@
+extensions.venkman.sessionView.currentCSS
+URI of current session view for Venkman

@@ -1,0 +1,2 @@
+browser.throbber.url
+Specifies URI to load when browser throbber is clicked

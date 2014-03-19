@@ -1,0 +1,2 @@
+plugin.allow_alien_star_handler
+Allow plugins to take over handling of "*" plugin type?

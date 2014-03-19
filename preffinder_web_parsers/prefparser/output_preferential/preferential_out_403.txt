@@ -1,0 +1,2 @@
+inspector.dom.showWhitespaceNodes
+Show nodes that just contain whitespace?

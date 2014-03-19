@@ -1,0 +1,2 @@
+javascript.options.showInConsole
+Show JavaScript in console?

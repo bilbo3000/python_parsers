@@ -1,0 +1,2 @@
+editor.use_custom_default_colors
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **

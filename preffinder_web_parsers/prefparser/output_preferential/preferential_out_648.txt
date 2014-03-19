@@ -1,0 +1,2 @@
+security.password_lifetime
+How long before asking for password (in minutes)

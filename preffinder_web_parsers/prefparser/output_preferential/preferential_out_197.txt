@@ -1,0 +1,2 @@
+capability.policy.mailnews.*
+Default access policy for all aspects of mailnews policy

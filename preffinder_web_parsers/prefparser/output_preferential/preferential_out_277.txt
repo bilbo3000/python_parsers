@@ -1,0 +1,2 @@
+editor.table.maintain_structure
+Maintain table layout when inserting/deleting cells?

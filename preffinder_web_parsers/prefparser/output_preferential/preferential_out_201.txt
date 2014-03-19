@@ -1,0 +1,2 @@
+capability.policy.mailnews.HTMLAnchor
+Allow access to HTML Anchor elements?

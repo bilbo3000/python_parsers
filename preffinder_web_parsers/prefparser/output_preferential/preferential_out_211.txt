@@ -1,0 +1,2 @@
+capability.policy.mailnews.SOAPResponse
+Allow access to SOAP responses?

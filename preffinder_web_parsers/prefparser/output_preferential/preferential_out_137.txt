@@ -1,0 +1,2 @@
+browser.startup.page
+Blank page=0

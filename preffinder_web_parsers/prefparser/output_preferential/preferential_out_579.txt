@@ -1,0 +1,2 @@
+news.default_fcc
+Default FCC address

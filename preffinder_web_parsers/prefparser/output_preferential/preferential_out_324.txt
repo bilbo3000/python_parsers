@@ -1,0 +1,2 @@
+extensions.irc.views.channel
+Maximum size of scroll back history for Channel windows

@@ -1,0 +1,2 @@
+editor.html_editor
+Location of outside HTML editor (blank for none)

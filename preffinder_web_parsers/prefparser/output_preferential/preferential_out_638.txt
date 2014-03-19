@@ -1,0 +1,2 @@
+security.ask_for_password
+Ask for certificate password (eg. for Mail).  If option 2 is selected, length is set via security.password_lifetime.

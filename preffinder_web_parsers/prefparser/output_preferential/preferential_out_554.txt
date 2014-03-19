@@ -1,0 +1,2 @@
+network.proxy.wais
+WAIS proxy server name

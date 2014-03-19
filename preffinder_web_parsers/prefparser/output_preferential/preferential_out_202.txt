@@ -1,0 +1,2 @@
+capability.policy.mailnews.HTMLDocument
+Allow access to HTML DOM elements?

@@ -1,0 +1,2 @@
+wallet.Server
+Locale URI specifying where to locate Form Manager server

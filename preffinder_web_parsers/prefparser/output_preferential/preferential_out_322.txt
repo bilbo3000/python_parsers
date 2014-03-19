@@ -1,0 +1,2 @@
+extensions.irc.style.default
+URI of default CSS stylesheet

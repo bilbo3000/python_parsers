@@ -1,0 +1,2 @@
+browser.display.focus_background_color
+Set background color for focussed text (eg. for type-ahead find)

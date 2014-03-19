@@ -1,0 +1,2 @@
+xpinstall.notifications.lastDate
+Last date that XPI packages were checked for updates

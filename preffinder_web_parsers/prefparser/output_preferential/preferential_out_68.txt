@@ -1,0 +1,2 @@
+browser.chrome.toolbar_style
+Set toolbar style for browser

@@ -1,0 +1,2 @@
+dom.disable_image_src_set
+Allow Javascript to change images?

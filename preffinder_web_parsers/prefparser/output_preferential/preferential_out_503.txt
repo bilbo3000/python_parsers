@@ -1,0 +1,2 @@
+mozilla.widget.raise-on-setfocus
+Specifies if a window should be raised to top when it recieves focus. The default value is true. Setting this preference dynamically takes effect when a window is created.

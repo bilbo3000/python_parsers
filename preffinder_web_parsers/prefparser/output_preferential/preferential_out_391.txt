@@ -1,0 +1,2 @@
+general.useragent.security
+Mozilla security version

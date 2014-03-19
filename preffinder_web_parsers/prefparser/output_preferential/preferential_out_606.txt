@@ -1,0 +1,2 @@
+plugin.override_internal_types
+Allow plugins to override MIME types normally handled by browser?

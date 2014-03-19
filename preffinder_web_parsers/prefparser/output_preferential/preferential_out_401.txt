@@ -1,0 +1,2 @@
+inspector.blink.speed
+Blink rate (ms/frame)

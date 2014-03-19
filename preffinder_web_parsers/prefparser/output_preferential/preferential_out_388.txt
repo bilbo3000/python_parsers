@@ -1,0 +1,2 @@
+general.useragent.contentlocale
+Specifies which locale URI should retrieve content locale information

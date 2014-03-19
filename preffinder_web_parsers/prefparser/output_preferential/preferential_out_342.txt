@@ -1,0 +1,2 @@
+font.FreeType2.unhinted
+Render FreeType fonts as unhinted?

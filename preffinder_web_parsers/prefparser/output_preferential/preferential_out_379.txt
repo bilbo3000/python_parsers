@@ -1,0 +1,2 @@
+font.size.FOO.x-unicode
+Default FOO Unicode font size

@@ -1,0 +1,2 @@
+browser.toolbars.showbutton.home
+Show Home button on toolbar?

@@ -1,0 +1,2 @@
+network.proxy.autoconfig_url
+URL specifying where to find the autoproxy config file

@@ -1,0 +1,2 @@
+dom.disable_cookie_set
+Allow Javascript to create/change cookies?

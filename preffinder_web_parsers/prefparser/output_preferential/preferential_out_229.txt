@@ -1,0 +1,2 @@
+converter.html2txt.header_strategy
+Set how headers are used when converting HTML to Text

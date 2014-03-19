@@ -1,0 +1,2 @@
+intl.charset.default
+Default character set

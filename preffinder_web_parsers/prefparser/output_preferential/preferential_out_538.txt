@@ -1,0 +1,2 @@
+network.http.pipelining.maxrequests
+Maximum number of pipelining requests

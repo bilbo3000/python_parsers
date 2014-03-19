@@ -1,0 +1,2 @@
+plugin.skip_real_player_hack
+Skip looking for RealPlayer plugin in components folder (Netscape behavior)?

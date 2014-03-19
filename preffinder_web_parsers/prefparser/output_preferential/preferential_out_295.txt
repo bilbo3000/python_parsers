@@ -1,0 +1,2 @@
+extensions.irc.initialURLs
+Initial URLs to open when ChatZilla! is started

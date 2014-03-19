@@ -1,0 +1,2 @@
+msgcompose.text_color
+Default text color to use when composing messages (HTML only)? 

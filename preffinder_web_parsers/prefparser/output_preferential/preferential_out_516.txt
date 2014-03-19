@@ -1,0 +1,2 @@
+network.cookie.warnAboutCookies
+Ask user before storing any cookies?

@@ -1,0 +1,2 @@
+browser.tabs.loadInBackground
+Load new tabs in background before they are displayed?

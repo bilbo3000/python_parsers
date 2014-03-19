@@ -1,0 +1,2 @@
+network.cookie.lifetime.days
+Cookies expire in X days

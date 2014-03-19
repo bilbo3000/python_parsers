@@ -1,0 +1,2 @@
+browser.display.focus_text_color
+Set foreground color for focussed text (#RRGGBB)

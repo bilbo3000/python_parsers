@@ -1,0 +1,2 @@
+browser.startup.homepage_override.mstone
+The last browser version this profile was loaded with.  If the browser version is different, on next launch you will be taken to the page specified in startup.homepage_override_url

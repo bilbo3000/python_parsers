@@ -1,0 +1,2 @@
+browser.urlbar.autoFill
+Autocomplete best match as you type?

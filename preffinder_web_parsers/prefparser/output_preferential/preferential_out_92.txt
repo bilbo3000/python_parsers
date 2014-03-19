@@ -1,0 +1,2 @@
+browser.download.save_converter_index
+Choose how webpages are saved (Default=0)

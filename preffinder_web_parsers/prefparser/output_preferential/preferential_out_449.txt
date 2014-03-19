@@ -1,0 +1,2 @@
+ldap_2.servers.FOO.position
+Position in the address book list

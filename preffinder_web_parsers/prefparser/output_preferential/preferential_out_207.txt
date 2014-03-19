@@ -1,0 +1,2 @@
+capability.policy.mailnews.SOAPFault
+Allow access to SOAP fault functions?

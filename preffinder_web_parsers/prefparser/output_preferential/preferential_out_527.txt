@@ -1,0 +1,2 @@
+network.hosts.socks_serverport
+Port for SOCKS server above (default: 1080)

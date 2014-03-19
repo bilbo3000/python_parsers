@@ -1,0 +1,2 @@
+browser.search.last_search_category
+RDF query that specifies last categorisation used for search

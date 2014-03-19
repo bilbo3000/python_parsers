@@ -1,0 +1,2 @@
+browser.PICS.disable_for_this_session
+Turn off PICS until next session?

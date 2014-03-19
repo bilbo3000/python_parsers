@@ -1,0 +1,2 @@
+browser.search.mode
+Use basic or advanced search mode?

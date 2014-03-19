@@ -1,0 +1,2 @@
+editor.history_title_FOO
+Recently edited document FOO

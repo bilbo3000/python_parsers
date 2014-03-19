@@ -1,0 +1,2 @@
+capability.policy.mailnews.SOAPHeaderBlock
+Allow access to SOAP Header Block functions?

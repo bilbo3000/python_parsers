@@ -1,0 +1,2 @@
+browser.urlbar.autocomplete.showPopup
+Show drop-down box showing all matching Autocomplete entries?

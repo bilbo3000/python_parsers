@@ -1,0 +1,2 @@
+security.warn_viewing_mixed
+Warn when viewing a page with both secure/insecure elements?

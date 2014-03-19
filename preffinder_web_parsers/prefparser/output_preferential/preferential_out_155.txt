@@ -1,0 +1,2 @@
+browser.triple_click_selects_paragraph
+Enable triple-clicking?

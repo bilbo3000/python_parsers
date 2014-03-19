@@ -1,0 +1,2 @@
+nglayout.debug.enable_xbl_forms
+Enable XBL Forms?

@@ -1,0 +1,2 @@
+accessibility.typeaheadfind.timeout
+Time (in ms) before type-ahead find automatically deactivates

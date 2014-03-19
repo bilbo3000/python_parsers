@@ -1,0 +1,2 @@
+capability.policy.default_policynames
+Comma-separated list of defined policies that are to be applied by default.

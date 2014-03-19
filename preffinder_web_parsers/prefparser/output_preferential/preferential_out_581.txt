@@ -1,0 +1,2 @@
+news.fcc_folder
+Folder location of FCC (file carbon copy)

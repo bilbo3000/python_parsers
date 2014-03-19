@@ -1,0 +1,2 @@
+sidebar.customize.directory.url
+URL of Directory listing all available Sidebars

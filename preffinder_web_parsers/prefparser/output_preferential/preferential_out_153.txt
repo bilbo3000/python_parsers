@@ -1,0 +1,2 @@
+browser.translation.service
+Translation service URL used in older browsers for Translate feature

@@ -1,0 +1,2 @@
+wallet.version
+Form Manager version

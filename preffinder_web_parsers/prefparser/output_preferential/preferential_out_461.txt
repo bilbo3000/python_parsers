@@ -1,0 +1,2 @@
+mail.addr_book.displayName.lastnamefirst
+When generating a display name, use format "Lastname, Firstname"? (If false, format of "Firstname Lastname" is used.)

@@ -1,0 +1,2 @@
+editor.hrule.width_percent
+Width measured in % of window? (If false, use absolute pixels)

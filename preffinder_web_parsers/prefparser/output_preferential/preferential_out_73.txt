@@ -1,0 +1,2 @@
+browser.display.focus_ring_on_anything
+Draw a dotted focus ring around objects when selected?

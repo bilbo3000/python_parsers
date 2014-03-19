@@ -1,0 +1,2 @@
+calendar.publish.username
+Username when logging on to calendar server

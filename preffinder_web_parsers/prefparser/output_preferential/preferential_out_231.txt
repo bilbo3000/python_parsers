@@ -1,0 +1,2 @@
+custtoolbar.personal_toolbar_folder
+Override name of the Personal Toolbar Folder

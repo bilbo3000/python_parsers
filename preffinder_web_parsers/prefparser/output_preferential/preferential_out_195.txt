@@ -1,0 +1,2 @@
+capability.policy.default.XMLHttpRequest
+Allow XML/HTTP requests?

@@ -1,0 +1,2 @@
+editor.hrule.align
+Alignment of new horizontal line (HRULE)

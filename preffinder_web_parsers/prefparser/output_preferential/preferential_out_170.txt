@@ -1,0 +1,2 @@
+browser.visited_color
+Set visited hyperlink color (#RRGGBB)

@@ -1,0 +1,3 @@
+browser.show_about_as_stupid_modal_window
+Show Help -
+ About in a modal dialog rather than as a web page

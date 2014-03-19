@@ -1,0 +1,2 @@
+security.ui.enable
+Enable the Security UI?

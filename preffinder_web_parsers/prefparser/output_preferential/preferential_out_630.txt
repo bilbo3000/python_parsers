@@ -1,0 +1,2 @@
+print.use_global_printsettings
+Each window maintains individual print settings?

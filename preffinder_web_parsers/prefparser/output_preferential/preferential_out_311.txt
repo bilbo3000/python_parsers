@@ -1,0 +1,2 @@
+extensions.irc.munger.word-hyphenator
+Hyphenate words in ChatZilla!?

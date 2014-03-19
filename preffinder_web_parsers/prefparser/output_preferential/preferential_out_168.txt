@@ -1,0 +1,2 @@
+browser.urlbar.showPopup
+Show a list of matching addresses as you enter text in the location bar

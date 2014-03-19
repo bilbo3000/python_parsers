@@ -1,0 +1,2 @@
+converter.html2txt.structs
+Output structured phrases (based on strong, em, code, sub, sup, b, i, u tags)?

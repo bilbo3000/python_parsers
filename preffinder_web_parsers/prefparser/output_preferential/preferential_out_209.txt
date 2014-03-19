@@ -1,0 +1,2 @@
+capability.policy.mailnews.SOAPParameter
+Allow access to SOAP parameters?

@@ -1,0 +1,2 @@
+network.ftp.anonymous_password
+Set FTP anonymous password

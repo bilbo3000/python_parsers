@@ -1,0 +1,2 @@
+wallet.captureForms
+Capture data entered into forms on web pages?

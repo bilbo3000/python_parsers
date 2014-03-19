@@ -1,0 +1,2 @@
+font.name.FOO.ja
+Default Japanese FOO font

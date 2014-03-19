@@ -1,0 +1,2 @@
+images.dither
+Dither displayed images?

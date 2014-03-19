@@ -1,0 +1,2 @@
+plugin.expose_full_path
+Allow full path of plugins to be listed in about:plugins?

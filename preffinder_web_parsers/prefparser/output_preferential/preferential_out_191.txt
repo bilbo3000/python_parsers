@@ -1,0 +1,2 @@
+capability.policy.default.Location
+Allow access to Location properties and methods?

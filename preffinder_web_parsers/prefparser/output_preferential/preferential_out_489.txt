@@ -1,0 +1,2 @@
+middlemouse.paste
+Clicking middle mouse button pastes text stored in clipboard?

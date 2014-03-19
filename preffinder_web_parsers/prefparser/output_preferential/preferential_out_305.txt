@@ -1,0 +1,2 @@
+extensions.irc.munger.link
+Mark up URLs as links?

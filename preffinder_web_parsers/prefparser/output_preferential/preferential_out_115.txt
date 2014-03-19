@@ -1,0 +1,2 @@
+browser.quartz.enable
+(OS X only) Specifies whether to use Quartz rendering if it is available.  The default value is true.

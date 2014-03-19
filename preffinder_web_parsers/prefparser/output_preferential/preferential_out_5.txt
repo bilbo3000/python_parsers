@@ -1,0 +1,2 @@
+accessibility.typeaheadfind
+Enables type-ahead find (see http://www.mozilla.org/projects/ui/accessibility/typeaheadfind.html)

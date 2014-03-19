@@ -1,0 +1,2 @@
+browser.history.last_page_visited
+Last page visited in history

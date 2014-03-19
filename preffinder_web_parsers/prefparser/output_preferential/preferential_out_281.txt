@@ -1,0 +1,2 @@
+editor.use_background_image
+Composer uses background image (seems to have no effect)?

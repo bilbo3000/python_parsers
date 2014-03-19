@@ -1,0 +1,2 @@
+font.name-list.FOO.ja
+Default Japanese FOO font (comma separated, in order of preference)

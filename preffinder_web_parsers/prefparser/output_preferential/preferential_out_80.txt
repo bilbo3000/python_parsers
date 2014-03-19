@@ -1,0 +1,2 @@
+browser.display.screen_resolution
+Screen resolution (in DPI)

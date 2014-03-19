@@ -1,0 +1,2 @@
+intl.accept_languages
+Specifies which locale URI determines languages allowed in Mozilla

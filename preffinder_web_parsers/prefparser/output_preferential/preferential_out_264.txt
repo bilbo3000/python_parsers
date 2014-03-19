@@ -1,0 +1,2 @@
+editor.image_editor
+Location of outside graphics editor (blank for none)

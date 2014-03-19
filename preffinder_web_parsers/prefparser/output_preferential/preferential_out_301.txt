@@ -1,0 +1,2 @@
+extensions.irc.munger.ctrl-char
+Enable mIRC input compatibility?

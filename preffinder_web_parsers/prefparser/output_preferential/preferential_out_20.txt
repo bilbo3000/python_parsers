@@ -1,0 +1,2 @@
+aim.session.screenname
+AIM user handle

@@ -1,0 +1,2 @@
+intl.charsetmenu.browser.cache
+Comma-separated list of cached character sets

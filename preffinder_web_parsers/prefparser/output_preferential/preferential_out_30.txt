@@ -1,0 +1,2 @@
+autoadmin.refresh_interval
+Time in minutes between fetching the configuration file specified in autoadmin.global_config_url

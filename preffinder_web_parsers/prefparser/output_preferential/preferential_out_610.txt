@@ -1,0 +1,2 @@
+plugin.enable_double_buffer
+Enable double buffering on pages when there are plugins in layout? [Default: false]

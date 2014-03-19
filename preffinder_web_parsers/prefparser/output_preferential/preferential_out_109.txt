@@ -1,0 +1,2 @@
+browser.history_expire_days
+Number of days pages are kept in history before being discarded

@@ -1,0 +1,2 @@
+ldap_1.number_of_directories
+Total number of configured directories

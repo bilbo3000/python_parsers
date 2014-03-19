@@ -1,0 +1,2 @@
+browser.personal_toolbar_button.max_chars
+Maximum characters displayed for each button (default is 15)

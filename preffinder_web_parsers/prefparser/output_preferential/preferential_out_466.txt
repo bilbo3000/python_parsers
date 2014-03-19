@@ -1,0 +1,2 @@
+mail.attach_vcard
+Automatically attach a vCard to all new email messages?

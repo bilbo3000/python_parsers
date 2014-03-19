@@ -1,0 +1,2 @@
+browser.startup.autoload_homepage
+Automatically load Home page at startup?

@@ -1,0 +1,2 @@
+plugin.dont_try_safe_call
+Turn off exception handling for plugins? (Mainly a debugging tool for plugin developers)

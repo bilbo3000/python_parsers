@@ -1,0 +1,2 @@
+extensions.venkman.prettyprint
+Use pretty print when printing in Venkman?

@@ -1,0 +1,2 @@
+nglayout.initialpaint.delay
+Time (in ms) before starting to render a page (Default: 250ms)

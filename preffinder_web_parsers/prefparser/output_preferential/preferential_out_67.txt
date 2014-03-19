@@ -1,0 +1,2 @@
+browser.chrome.toolbar_tips
+Show tooltips for toolbars and bookmarks, displaying the bookmark name and URL?

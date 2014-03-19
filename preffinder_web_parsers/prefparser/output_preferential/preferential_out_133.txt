@@ -1,0 +1,2 @@
+browser.startup.homepage
+URL of home page to load at start up

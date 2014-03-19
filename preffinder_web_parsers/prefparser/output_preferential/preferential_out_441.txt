@@ -1,0 +1,2 @@
+ldap_2.autoComplete.skipDirectoryIfLocalMatchFound
+Skip directory search if a local match is found?

@@ -1,0 +1,2 @@
+network.http.max-persistent-connections-per-server
+Maximum persistent connections per server (normally only relevant for large file downloads)

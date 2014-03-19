@@ -1,0 +1,2 @@
+extensions.venkman.layoutState.default
+URI of default layout state for Venkman

@@ -1,0 +1,2 @@
+browser.tabs.forceHide
+Reserved for internal use.  Not reliably settable as an end user preference.

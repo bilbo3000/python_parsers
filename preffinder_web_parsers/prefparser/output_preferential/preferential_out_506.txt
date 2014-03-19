@@ -1,0 +1,2 @@
+msgcompose.font_size
+Default font size to use when composing messages (HTML only)?

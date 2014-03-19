@@ -1,0 +1,2 @@
+extensions.irc.initialScripts
+Initial scripts to run when Chatzilla! is started

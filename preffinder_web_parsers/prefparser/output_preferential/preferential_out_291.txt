@@ -1,0 +1,2 @@
+extensions.irc.debug.tracer
+Debugger tracing on?

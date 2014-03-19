@@ -1,0 +1,2 @@
+network.http.pipelining.firstrequest
+Always pipeline the first (SYN) request? (If servers do not support pipelining, this may break sites)

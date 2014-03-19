@@ -1,0 +1,2 @@
+capability.policy.mailnews.SchemaLoader
+Allow access to Schema Loader properties and methods?

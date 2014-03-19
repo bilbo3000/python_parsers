@@ -1,0 +1,2 @@
+view_source.syntax_highlight
+Pretty print HTML syntax when viewing source?

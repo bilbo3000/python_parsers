@@ -1,0 +1,2 @@
+network.http.redirection-limit
+Max number of redirections in a row

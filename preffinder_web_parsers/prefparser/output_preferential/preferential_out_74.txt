@@ -1,0 +1,2 @@
+browser.display.focus_ring_width
+Set width (in pixels) of the dotted focus ring?

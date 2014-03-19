@@ -1,0 +1,2 @@
+editor.lastFileLocation.html
+Location of last HTML file opened

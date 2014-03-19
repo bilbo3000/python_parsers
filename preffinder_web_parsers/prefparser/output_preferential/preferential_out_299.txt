@@ -1,0 +1,2 @@
+extensions.irc.munger.channel-link
+Display URL links to IRC channels on startup?

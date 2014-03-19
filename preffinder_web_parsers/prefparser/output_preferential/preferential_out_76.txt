@@ -1,0 +1,2 @@
+browser.display.force_inline_alttext
+Force display of ALT text inline with browser text?

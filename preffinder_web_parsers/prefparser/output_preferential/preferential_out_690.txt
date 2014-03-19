@@ -1,0 +1,2 @@
+wallet.phonePanel.hide
+Hide Phone panel?

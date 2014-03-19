@@ -1,0 +1,2 @@
+dom.disable_window_status_change
+Allow Javascript to change status bar text?

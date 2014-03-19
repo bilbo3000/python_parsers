@@ -1,0 +1,2 @@
+network.ftp.idleConnectionTimeout
+FTP Idle Connection Timeout (in seconds)

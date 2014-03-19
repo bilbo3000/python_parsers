@@ -1,0 +1,2 @@
+wallet.Samples
+Locale URI specifying where to retrieve Form Manager samples

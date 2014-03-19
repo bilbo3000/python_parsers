@@ -1,0 +1,2 @@
+bidi.texttype
+Type of text

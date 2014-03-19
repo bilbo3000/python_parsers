@@ -1,0 +1,2 @@
+accessibility.usetexttospeech
+Enter command-line for the text-to-speech program to use with Mozilla (blank for none)

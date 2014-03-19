@@ -1,0 +1,2 @@
+mail.identity.idFOO.header.BAR
+Add header to mail message specified in SMTP-compatible format (eg: "X-Bar: sample value")

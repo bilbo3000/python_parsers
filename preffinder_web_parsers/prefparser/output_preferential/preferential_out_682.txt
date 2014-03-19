@@ -1,0 +1,2 @@
+wallet.crypto
+Enable use of password manager?

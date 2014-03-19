@@ -1,0 +1,2 @@
+inspector.blink.border-color
+Border color when blinking

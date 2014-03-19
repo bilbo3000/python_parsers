@@ -1,0 +1,2 @@
+intl.collationOption
+** unknown preference -- please inform GuruJ@mbox.com.au with updates **

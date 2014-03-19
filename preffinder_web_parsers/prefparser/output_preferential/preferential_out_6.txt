@@ -1,0 +1,2 @@
+accessibility.typeaheadfind.autostart
+Start type-ahead find without having to press / (find text) or ' (find links) first?

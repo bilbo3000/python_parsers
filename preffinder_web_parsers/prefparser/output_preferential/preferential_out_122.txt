@@ -1,0 +1,2 @@
+browser.search.defaultengine
+URI specifying default search engine plugin details

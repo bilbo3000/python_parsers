@@ -1,0 +1,2 @@
+browser.toolbars.showbutton.print
+Show Print button on toolbar?

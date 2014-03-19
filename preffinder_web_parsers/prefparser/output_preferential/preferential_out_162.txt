@@ -1,0 +1,2 @@
+browser.urlbar.clickAtEndSelects
+Clicking past the end of the text in the location bar still selects all if browser.urlbar.clickSelectsAll is true

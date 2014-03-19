@@ -1,0 +1,2 @@
+calendar.event.defaultendhour
+Default end hour of day

@@ -1,0 +1,2 @@
+network.autodial-helper.enabled
+Automatically dial a connection if one is not available?

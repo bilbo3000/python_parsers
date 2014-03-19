@@ -1,0 +1,2 @@
+network.proxy.gopher_port
+Gopher proxy server port

@@ -1,0 +1,2 @@
+extensions.irc.raiseNewTab
+Raise new tabs when they are created?

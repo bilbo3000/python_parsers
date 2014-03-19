@@ -1,0 +1,2 @@
+mailnews.reply_header_locale
+Text string used when locale is required in reply header

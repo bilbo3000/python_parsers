@@ -1,0 +1,2 @@
+mousewheel.withcontrolkey.sysnumlines
+Scroll by a number of lines equal to system default?

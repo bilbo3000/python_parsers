@@ -1,0 +1,2 @@
+application.use_ns_plugin_finder
+Use Netscape plug-in finder?

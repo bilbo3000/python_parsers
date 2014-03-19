@@ -1,0 +1,2 @@
+accessibility.tabfocus
+Determines which web page elements can gain focus when TAB key is pressed

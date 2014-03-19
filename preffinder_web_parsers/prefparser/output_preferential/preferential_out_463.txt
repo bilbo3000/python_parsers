@@ -1,0 +1,6 @@
+mail.addr_book.mapit_url.format
+Custom URL query to locate address from address book using custom parameters.  Default value is "http://www.mapquest.com/maps/map.adp?country=@CO
+address=@A1%20@A2
+city=@CI
+state=@ST
+zipcode=@ZI"

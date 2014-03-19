@@ -1,0 +1,2 @@
+browser.tabs.opentabfor.urlbar
+Open new tab for each URL typed into Location Bar?

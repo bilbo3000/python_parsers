@@ -1,0 +1,2 @@
+font.allow_double_byte_special_chars
+Allow display of double byte special characters in languages that need it (eg. non-simplified Chinese)?

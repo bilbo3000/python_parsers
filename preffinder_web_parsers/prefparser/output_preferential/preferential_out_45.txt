@@ -1,0 +1,2 @@
+browser.PICS.reenable_for_this_session
+Turn PICS back on for the remainer of this session?

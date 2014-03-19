@@ -1,0 +1,2 @@
+extensions.irc.focusNewTab
+Focus switches to new tabs when opened?

@@ -1,0 +1,2 @@
+browser.display.use_document_fonts
+Allow current document to specify fonts to use?

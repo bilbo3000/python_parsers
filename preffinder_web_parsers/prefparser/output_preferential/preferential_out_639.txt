@@ -1,0 +1,2 @@
+security.checkloaduri
+Check the originating server before granting permissions?

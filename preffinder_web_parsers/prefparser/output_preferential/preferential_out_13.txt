@@ -1,0 +1,2 @@
+accessibility.usebrailledisplay
+Enter command-line for the braille display program to use with Mozilla (blank for none)

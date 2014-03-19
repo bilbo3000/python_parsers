@@ -1,0 +1,2 @@
+browser.PICS.service.http___home_netscape_com_default_rating.s
+Internal PICS rating, do not alter.

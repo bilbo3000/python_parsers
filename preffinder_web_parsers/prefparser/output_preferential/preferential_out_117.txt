@@ -1,0 +1,2 @@
+browser.related.disabledForDomains
+Comma-separated list of domains that are excluded from What's Related

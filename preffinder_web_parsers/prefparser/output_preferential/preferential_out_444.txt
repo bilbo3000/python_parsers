@@ -1,0 +1,2 @@
+ldap_2.prefs_migrated
+Have preferences been migrated from Netscape 4.x?

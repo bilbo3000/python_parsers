@@ -1,0 +1,2 @@
+font.name.FOO.x-baltic
+Default Baltic FOO font

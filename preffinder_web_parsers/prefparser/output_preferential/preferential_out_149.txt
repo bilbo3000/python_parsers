@@ -1,0 +1,2 @@
+browser.toolbars.showbutton.go
+Show Go button on toolbar?

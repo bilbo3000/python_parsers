@@ -1,0 +1,2 @@
+network.http.default-socket-type
+Default socket type (apparently unused)

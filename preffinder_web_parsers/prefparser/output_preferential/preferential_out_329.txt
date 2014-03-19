@@ -1,0 +1,2 @@
+extensions.venkman.lastThrowMode
+Set action Venkman takes when an exception is detected

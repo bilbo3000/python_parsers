@@ -1,0 +1,2 @@
+browser.fixup.alternate.enabled
+Enable the use of alternate URLs?

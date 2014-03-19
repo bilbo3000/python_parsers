@@ -1,0 +1,2 @@
+print.save_print_settings
+Save print settings?

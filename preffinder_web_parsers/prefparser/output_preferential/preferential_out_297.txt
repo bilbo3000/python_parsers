@@ -1,0 +1,2 @@
+extensions.irc.munger.bold
+Mark *text* as bold?

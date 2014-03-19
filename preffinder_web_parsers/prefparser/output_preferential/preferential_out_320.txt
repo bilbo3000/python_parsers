@@ -1,0 +1,2 @@
+extensions.irc.stalkBeep
+Beep pattern to use when stalk pattern is detected

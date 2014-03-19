@@ -1,0 +1,2 @@
+intl.charsetmenu.browser.moreFOO
+Comma-separated list of character sets to display in "More" menu FOO

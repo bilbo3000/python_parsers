@@ -1,0 +1,2 @@
+font.name.FOO.x-unicode
+Default Unicode FOO font

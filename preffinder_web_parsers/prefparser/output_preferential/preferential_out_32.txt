@@ -1,0 +1,6 @@
+autocomplete.ungrab_during_mode_switch
+(X11 only) This option complements autocomplete.grab_during_popup. If both preferences are true, then during an autocomplete session the application will release/grab keyboard when a mode-switch key is pressed/released.
+If either of these two preferences is false, then the application will not release keyboard grab during an autocomplete session.
+The default value is true.
+Setting this preference dynamically takes effect in the next autocomplete session.
+See also: autocomplete.grab_during_popup

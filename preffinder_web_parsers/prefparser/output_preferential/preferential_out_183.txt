@@ -1,0 +1,2 @@
+calendar.publish.path
+URL to calendar server

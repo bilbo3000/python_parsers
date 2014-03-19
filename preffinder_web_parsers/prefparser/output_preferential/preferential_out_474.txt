@@ -1,0 +1,2 @@
+mail.server.FOO.useSecAuth
+Only use secure mechanisms (e.g. CRAM-MD5, NTLM) for server login?  If false, only insecure methods (USER/PASS, PLAIN, LOGIN) are used.

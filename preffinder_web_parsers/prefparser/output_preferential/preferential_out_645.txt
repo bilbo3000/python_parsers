@@ -1,0 +1,2 @@
+security.enable_ssl2
+Enable Secure Sockets Layer 2 (SSL2)?

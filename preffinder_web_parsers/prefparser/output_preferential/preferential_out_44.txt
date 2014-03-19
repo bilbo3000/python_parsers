@@ -1,0 +1,2 @@
+browser.PICS.ratings_enabled
+Enables PICS ratings?

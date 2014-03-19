@@ -1,0 +1,2 @@
+editor.use_image_editor
+Whether to use an outside graphics editor (defined in editor.image_editor)

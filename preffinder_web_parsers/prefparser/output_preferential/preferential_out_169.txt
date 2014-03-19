@@ -1,0 +1,2 @@
+browser.urlbar.showSearch
+Show 'Search on [Search Engine] for [Text]' in location bar popup list

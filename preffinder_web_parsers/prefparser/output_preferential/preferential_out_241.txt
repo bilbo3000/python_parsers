@@ -1,0 +1,2 @@
+dom.max_script_run_time
+Specify how long (in seconds) Mozilla should wait for a script to run before it displays a warning dialog

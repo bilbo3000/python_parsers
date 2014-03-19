@@ -1,0 +1,2 @@
+ldap_2.autoComplete.directoryServer
+Use the following comma-separated list of directory servers for address autocompletion

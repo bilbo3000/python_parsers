@@ -1,0 +1,2 @@
+print.print_margin_right
+Specify right margin in half-inch units (e.g. 2 units = 1"). If the value is not specified, the system default is used. This option has no default value.

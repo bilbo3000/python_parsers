@@ -1,0 +1,2 @@
+browser.tabs.opentabfor.middleclick
+Open new tab when middle-click used?

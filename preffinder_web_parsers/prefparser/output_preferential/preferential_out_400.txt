@@ -1,0 +1,2 @@
+inspector.blink.on
+Should DOM elements blink when selected?

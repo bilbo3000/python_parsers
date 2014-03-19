@@ -1,0 +1,2 @@
+editor.author
+Default author for Composer documents

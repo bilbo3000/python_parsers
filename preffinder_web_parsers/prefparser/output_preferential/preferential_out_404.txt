@@ -1,0 +1,2 @@
+intl.accept_charsets
+Character sets allowed in Mozilla

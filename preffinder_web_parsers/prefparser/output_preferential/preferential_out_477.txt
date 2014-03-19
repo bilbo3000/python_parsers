@@ -1,0 +1,2 @@
+mailnews.display.original_date
+Display date string from mail headers without interpretation (will show time zone information)?

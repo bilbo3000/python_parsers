@@ -1,0 +1,2 @@
+network.image.warnAboutImages
+Warn when receiving images?

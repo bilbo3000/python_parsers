@@ -1,0 +1,2 @@
+middlemouse.contentLoadURL
+Allow paste of URI stored in clipboard into browser location text box? (Linux only)

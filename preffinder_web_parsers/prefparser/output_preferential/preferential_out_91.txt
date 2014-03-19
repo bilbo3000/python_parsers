@@ -1,0 +1,2 @@
+browser.download.progressDnlgDialog.dontAskForLaunch
+Don't ask for confirmation on launching a file from download dialog every time

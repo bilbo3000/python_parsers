@@ -1,0 +1,2 @@
+font.size.FOO.zh-TW
+Default FOO Traditional Chinese (Taiwan) font size

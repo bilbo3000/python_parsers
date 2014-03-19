@@ -1,0 +1,2 @@
+browser.tabs.opentabfor.windowopen
+Open new tab in all cases when a new window would have been opened?

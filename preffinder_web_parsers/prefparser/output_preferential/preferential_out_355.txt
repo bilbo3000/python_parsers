@@ -1,0 +1,2 @@
+font.name.FOO.ko
+Default Korean FOO font

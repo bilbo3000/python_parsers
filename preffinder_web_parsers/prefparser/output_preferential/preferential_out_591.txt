@@ -1,0 +1,2 @@
+nglayout.debug.event_dumping
+Dump event information?  The default value is false.

@@ -1,0 +1,2 @@
+capability.policy.policynames
+Comma-separated list of defined policies.  For example, if the value of this field is 'popupsites', Mozilla will look for and apply policies under 'capability.policy.popupsites.*' as for the 'default' scheme.

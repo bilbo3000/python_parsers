@@ -1,0 +1,2 @@
+view_source.wrap_long_lines
+Wrap long lines when viewing source?

@@ -1,0 +1,2 @@
+mousewheel.withshiftkey.numlines
+Number of lines to scroll by (if relevant)

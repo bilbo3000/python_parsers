@@ -1,0 +1,2 @@
+security.warn_entering_secure
+Warn before entering a secure area?

@@ -1,0 +1,2 @@
+network.http.proxy.pipelining
+Enable pipelining in proxy

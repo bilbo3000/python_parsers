@@ -1,0 +1,2 @@
+editor.link_color
+Default custom hex color value (#RRGGBB) for unvisited link

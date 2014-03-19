@@ -1,0 +1,2 @@
+extensions.irc.collapseMsgs
+If true, collapse consecutive messages from the same source (don't show nickname against second and subsequent messages).

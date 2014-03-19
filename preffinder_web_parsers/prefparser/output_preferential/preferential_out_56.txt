@@ -1,0 +1,2 @@
+browser.cache.check_doc_frequency
+Set how often to check accuracy of cached documents

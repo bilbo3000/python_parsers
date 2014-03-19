@@ -1,0 +1,2 @@
+capability.policy.mailnews.DOMParser,parseFromString
+Allow access to DOM Parser using a stream?

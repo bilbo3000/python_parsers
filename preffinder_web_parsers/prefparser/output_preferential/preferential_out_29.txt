@@ -1,0 +1,2 @@
+autoadmin.offline_failover
+Automatically change to offline browsing if online browsing fails?

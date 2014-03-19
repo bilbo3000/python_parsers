@@ -1,0 +1,2 @@
+browser.display_very_small_fonts
+Enable display of very small fonts in browser?

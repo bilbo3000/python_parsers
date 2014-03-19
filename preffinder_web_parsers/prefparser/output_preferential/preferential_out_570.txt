@@ -1,0 +1,4 @@
+network.prefetch-next
+Enable pre-fetching of documents (those specified by 
+link rel="next"
+ in HTML documents)?

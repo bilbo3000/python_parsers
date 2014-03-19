@@ -1,0 +1,2 @@
+editor.use_custom_colors
+Use customs colors defined above in New Page Settings?

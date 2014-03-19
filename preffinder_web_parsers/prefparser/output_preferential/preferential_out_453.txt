@@ -1,0 +1,2 @@
+ldap_2.version
+Version of LDAP used for queries

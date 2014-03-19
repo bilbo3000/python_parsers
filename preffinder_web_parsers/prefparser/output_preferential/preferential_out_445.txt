@@ -1,0 +1,2 @@
+ldap_2.servers.FOO.description
+User-friendly description of LDAP directory

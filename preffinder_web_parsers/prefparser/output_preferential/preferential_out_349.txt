@@ -1,0 +1,2 @@
+font.name-list.FOO.zh-CN
+Default Simplified Chinese (China) FOO font (comma separated, in order of preference)

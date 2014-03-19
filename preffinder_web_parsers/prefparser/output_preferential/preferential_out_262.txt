@@ -1,0 +1,2 @@
+editor.htmlWrapColumn
+Value after which Composer will wrap HTML

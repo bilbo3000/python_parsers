@@ -1,0 +1,2 @@
+browser.downloadmanager.behavior
+Set how download manager operates

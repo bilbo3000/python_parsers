@@ -1,0 +1,2 @@
+font.name.FOO.x-cyrillic
+Default Cyrillic FOO font

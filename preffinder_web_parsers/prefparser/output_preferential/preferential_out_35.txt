@@ -1,0 +1,2 @@
+bidi.characterset
+How browser determines character set to use

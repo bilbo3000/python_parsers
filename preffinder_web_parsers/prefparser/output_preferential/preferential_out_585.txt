@@ -1,0 +1,2 @@
+news.persist_server_open_state_in_folderpane
+Persist open state on restart (see Bug #103010)?

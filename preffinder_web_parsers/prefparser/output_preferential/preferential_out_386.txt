@@ -1,0 +1,2 @@
+general.open_location.last_url
+Last URL opened

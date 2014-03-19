@@ -1,0 +1,2 @@
+network.http.connect.timeout
+How long to wait before timeout in HTTP (in seconds)

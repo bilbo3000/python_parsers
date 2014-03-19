@@ -1,0 +1,2 @@
+calendar.categories.names
+A comma-separated list of categories

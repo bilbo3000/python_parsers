@@ -1,0 +1,2 @@
+browser.toolbars.showbutton.bookmarks
+Show Bookmarks button on toolbar?

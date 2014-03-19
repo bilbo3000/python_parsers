@@ -1,0 +1,2 @@
+ldap_2.servers.FOO.isOffline
+Has an offline copy been made of this directory? (Always false for local LDAP directories.)

@@ -1,0 +1,2 @@
+mail.imap.confirm_emptyTrashFolderDeletion
+Pop up confirmation dialog box before deleting all sub folders under trash folder?

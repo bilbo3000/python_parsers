@@ -1,0 +1,2 @@
+ldap_2.servers.FOO.serverName
+DNS or IP address of LDAP directory

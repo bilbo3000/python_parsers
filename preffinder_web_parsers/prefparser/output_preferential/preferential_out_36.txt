@@ -1,0 +1,2 @@
+bidi.clipboardtextmode
+Type of clipboard to use

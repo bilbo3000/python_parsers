@@ -1,0 +1,2 @@
+intl.charset.detector
+Specifies which locale URI sets how character set are detected in Mozilla

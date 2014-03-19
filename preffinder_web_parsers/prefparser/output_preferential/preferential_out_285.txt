@@ -1,0 +1,2 @@
+editor.use_html_editor
+Use an outside HTML editor (defined in editor.html_editor)

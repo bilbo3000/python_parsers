@@ -1,0 +1,2 @@
+bidi.direction
+Select direction of text

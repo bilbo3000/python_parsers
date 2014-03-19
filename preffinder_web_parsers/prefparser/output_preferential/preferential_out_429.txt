@@ -1,0 +1,2 @@
+layout.word_select.stop_at_punctuation
+Treat punctuation as 'pseudo-space' when a word is double-clicked?

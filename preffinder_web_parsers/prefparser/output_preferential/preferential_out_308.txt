@@ -1,0 +1,2 @@
+extensions.irc.munger.smileyText
+Convert smiley text to graphics?

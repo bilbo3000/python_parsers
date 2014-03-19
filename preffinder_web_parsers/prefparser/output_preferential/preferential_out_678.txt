@@ -1,0 +1,2 @@
+wallet.addressPanel.hide
+Hide Wallet address panel?

@@ -1,0 +1,2 @@
+network.http.proxy.keep-alive
+Enable keep-alive in proxy connection

@@ -1,0 +1,2 @@
+font.size.FOO.x-central-euro
+Default FOO Central European font size

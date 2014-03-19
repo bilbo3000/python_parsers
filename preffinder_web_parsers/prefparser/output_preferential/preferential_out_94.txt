@@ -1,0 +1,2 @@
+browser.drag_out_of_frame_style
+Change how selecting text is handled when your mouse is outside of the text's bounding box.

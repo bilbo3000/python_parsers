@@ -1,0 +1,2 @@
+browser.frames.enabled
+Enable display of frames on this browser?

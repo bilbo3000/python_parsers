@@ -1,0 +1,2 @@
+browser.helperApps.neverAsk.openFile
+Set MIME types which browser will always open automatically

@@ -1,0 +1,2 @@
+advanced.mailftp
+Send user's email address as password for anonymous FTP?

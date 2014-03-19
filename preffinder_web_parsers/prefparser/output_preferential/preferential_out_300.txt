@@ -1,0 +1,2 @@
+extensions.irc.munger.colorCodes
+Allow use of color codes?

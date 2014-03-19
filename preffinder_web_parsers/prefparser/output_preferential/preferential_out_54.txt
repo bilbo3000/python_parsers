@@ -1,0 +1,2 @@
+browser.bookmarks.confirm_sorting
+Enable the bookmark sorting confirmation prompt?

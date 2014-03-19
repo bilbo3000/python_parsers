@@ -1,0 +1,2 @@
+browser.helperApps.alwaysAsk.force
+Force browser to always ask user what they want to do?

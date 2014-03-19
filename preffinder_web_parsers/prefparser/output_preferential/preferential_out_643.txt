@@ -1,0 +1,2 @@
+security.disable_buttonresetPassword
+Disable the reset password button?

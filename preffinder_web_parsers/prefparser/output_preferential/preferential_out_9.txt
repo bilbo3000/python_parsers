@@ -1,0 +1,2 @@
+accessibility.typeaheadfind.linksonly
+Only allow type-ahead find for links?

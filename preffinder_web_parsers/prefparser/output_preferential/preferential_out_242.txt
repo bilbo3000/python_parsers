@@ -1,0 +1,2 @@
+editor.active_link_color
+Hex value (#RRGGBB) for a link that has just been clicked on

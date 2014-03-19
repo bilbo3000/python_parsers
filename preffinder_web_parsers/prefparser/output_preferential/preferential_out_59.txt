@@ -1,0 +1,2 @@
+browser.cache.disk.parent_directory
+Directory in which to store cache files

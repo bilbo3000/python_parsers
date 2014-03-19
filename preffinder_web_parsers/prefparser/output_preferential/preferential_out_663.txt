@@ -1,0 +1,2 @@
+ui.key.generalAccessKey
+Set generic key used for Mozilla shortcuts

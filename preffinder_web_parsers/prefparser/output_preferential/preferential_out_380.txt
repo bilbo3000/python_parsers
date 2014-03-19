@@ -1,0 +1,2 @@
+font.size.FOO.x-western
+Default FOO Western font size

@@ -1,0 +1,2 @@
+content.notify.interval
+Sets the allowed time between reflows in microseconds

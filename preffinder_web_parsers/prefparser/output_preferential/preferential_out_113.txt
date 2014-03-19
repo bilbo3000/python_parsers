@@ -1,0 +1,2 @@
+browser.popups.showPopupBlocker
+Display icon when a popup window is blocked?

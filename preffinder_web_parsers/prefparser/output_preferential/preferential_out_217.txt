@@ -1,0 +1,2 @@
+capability.policy.mailnews.sites
+Whitespace-separated regexp specifying URLS which are to be handled by mailnews policy

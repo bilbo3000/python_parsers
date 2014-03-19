@@ -1,0 +1,2 @@
+intl.content.langcode
+Default content language code

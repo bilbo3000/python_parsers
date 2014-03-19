@@ -1,0 +1,2 @@
+security.xpconnect.plugin.unrestricted
+Allow unrestricted access for XPConnect plugins?

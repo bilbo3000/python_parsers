@@ -1,0 +1,2 @@
+dom.allow_scripts_to_close_windows
+Allow Javascript to close windows?

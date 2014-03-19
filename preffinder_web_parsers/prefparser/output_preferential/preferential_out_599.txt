@@ -1,0 +1,2 @@
+nglayout.widget.gfxscrollbars
+Force system-style scrollbars?

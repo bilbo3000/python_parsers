@@ -1,0 +1,2 @@
+mail.addr_book.displayName.autoGeneration
+Automatically generate a Display Name based on "Firstname" and "Lastname" fields?

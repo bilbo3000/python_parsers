@@ -1,0 +1,2 @@
+extensions.venkman.lastErrorMode
+Set action Venkman takes when an error is detected

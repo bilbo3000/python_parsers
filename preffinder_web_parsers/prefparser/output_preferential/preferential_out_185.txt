@@ -1,0 +1,2 @@
+calendar.servers.reloadonlaunch
+Reload remote calendar when Calendar app is launched

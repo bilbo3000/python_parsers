@@ -1,0 +1,2 @@
+browser.cache.enable
+Enable caching of documents retrieved by browser?

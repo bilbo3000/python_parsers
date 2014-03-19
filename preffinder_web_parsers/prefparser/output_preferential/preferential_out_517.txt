@@ -1,0 +1,2 @@
+network.dir.format
+Set output format for any directory listing.  (Do not set this value to 0!)

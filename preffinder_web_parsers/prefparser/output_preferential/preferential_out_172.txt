@@ -1,0 +1,2 @@
+browser.xul.error_pages.enabled
+Load error pages (aka IE) instead of showing a dialog box?

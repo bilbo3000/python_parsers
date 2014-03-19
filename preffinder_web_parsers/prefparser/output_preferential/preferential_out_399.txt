@@ -1,0 +1,2 @@
+inspector.blink.invert
+Invert colors of DOM element when blinking?

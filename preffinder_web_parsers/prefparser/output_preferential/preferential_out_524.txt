@@ -1,0 +1,2 @@
+network.hosts.smtp_server
+Proxy SMTP server (default: mail)

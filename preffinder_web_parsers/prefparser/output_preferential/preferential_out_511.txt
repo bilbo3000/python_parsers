@@ -1,0 +1,2 @@
+network.cookie.lifetime.behavior
+(Only applies if network.cookie.lifetime.enabled is true) Determine when cookies will expire.  If set to 1, number of days is determined by network.cookie.lifetime.days.

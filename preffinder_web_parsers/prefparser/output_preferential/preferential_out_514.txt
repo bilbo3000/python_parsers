@@ -1,0 +1,2 @@
+network.cookie.p3p
+Look at the p3p field in the server's response header to determine the privacy policy, and then processes the cookie accordingly.  'f' means 'flag', 'd' means 'downgrade to session', 'a' means 'accept', and 'r' means 'reject'.  The letters in the 1st, 3rd, 5th, and 7th position are for first parties, and those in the even-numbered positions are for third parties.  The four situations are: no policy, collects personal info without permission, collects personal info only with permission, and collects no personal info.

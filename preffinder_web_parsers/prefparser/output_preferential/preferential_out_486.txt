@@ -1,0 +1,2 @@
+mailnews.reuse_message_window
+Do message replies have their own window or reuse the existing window?

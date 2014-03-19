@@ -1,0 +1,2 @@
+browser.urlbar.autocomplete.showSearch
+Show Internet search engine query?

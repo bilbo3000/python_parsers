@@ -1,0 +1,2 @@
+games.cards.FOO.game-difficulty
+FOO difficulty level

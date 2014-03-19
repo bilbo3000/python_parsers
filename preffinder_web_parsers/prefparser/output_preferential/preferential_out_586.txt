@@ -1,0 +1,2 @@
+news.show_size_in_lines
+If true, show the message size in lines.  Otherwise, show message size in KB.

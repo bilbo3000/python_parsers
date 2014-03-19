@@ -1,0 +1,2 @@
+wallet.crypto.autocompleteoverride
+Enable use of password manager on sites that would normally override this behavior, such as banking sites? (NOT RECOMMENDED)

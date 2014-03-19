@@ -1,0 +1,2 @@
+browser.display.internaluse.graphics_changed
+RESERVED: for internal use only

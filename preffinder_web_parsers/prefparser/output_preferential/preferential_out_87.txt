@@ -1,0 +1,2 @@
+browser.dom.window.dump.enabled
+Allow dump of DOM window?

@@ -1,0 +1,2 @@
+browser.cache.memory.capacity
+Size of memory cache (in KB)

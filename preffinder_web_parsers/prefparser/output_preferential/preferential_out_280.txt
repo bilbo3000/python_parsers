@@ -1,0 +1,2 @@
+editor.toolbars.showbutton.FOO
+Show button FOO?

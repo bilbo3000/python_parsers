@@ -1,0 +1,2 @@
+capability.policy.mailnews.Window
+Allow access to Window properties and methods?

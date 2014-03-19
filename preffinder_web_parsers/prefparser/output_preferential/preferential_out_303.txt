@@ -1,0 +1,2 @@
+extensions.irc.munger.face
+Convert 'face' ASCII art to graphics?

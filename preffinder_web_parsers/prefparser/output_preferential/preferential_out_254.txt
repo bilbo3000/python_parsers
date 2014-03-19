@@ -1,0 +1,2 @@
+editor.history_url_FOO
+Recently edited document URL FOO

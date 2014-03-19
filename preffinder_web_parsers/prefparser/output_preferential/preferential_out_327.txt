@@ -1,0 +1,2 @@
+extensions.irc.views.network
+Maximum size of scroll back history for Network windows

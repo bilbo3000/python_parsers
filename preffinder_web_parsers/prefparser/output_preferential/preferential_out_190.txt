@@ -1,0 +1,2 @@
+capability.policy.default.History
+Allow access to History properties and methods?

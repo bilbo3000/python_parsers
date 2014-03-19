@@ -1,0 +1,2 @@
+capability.policy.mailnews.SOAPCall
+Allow access to SOAP calls?

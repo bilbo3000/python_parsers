@@ -1,0 +1,2 @@
+font.antialias.min
+Set minimum font size (in pt) at which to enable anti-aliasing.

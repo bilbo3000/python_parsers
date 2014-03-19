@@ -1,0 +1,2 @@
+browser.tabs.loadOnNewTab
+What should be displayed in a newly created tab

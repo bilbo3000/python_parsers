@@ -1,0 +1,5 @@
+autocomplete.grab_during_popup
+(X11 only) Specify if the autocomplete pop-up control should grab the keyboard. This option can be set to false to work around the bug where XKB does not set mode switching properly.
+The default value is true.
+Setting this preference dynamically takes effect in the next autocomplete session.
+See also: autocomplete.ungrab_during_mode_switch

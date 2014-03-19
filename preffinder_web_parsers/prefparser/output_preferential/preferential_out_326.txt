@@ -1,0 +1,2 @@
+extensions.irc.views.client
+Maximum size of scroll back history for Client windows

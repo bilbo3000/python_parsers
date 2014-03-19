@@ -1,0 +1,2 @@
+mail.account.FOO.identities
+Identity for mail account FOO 

@@ -1,0 +1,2 @@
+compose.throbber.url
+Specifies URI to load when composer throbber is clicked

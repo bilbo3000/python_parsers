@@ -1,0 +1,2 @@
+browser.download.progressDnldDialog.keepAlive
+Keep download progress dialog open after download is complete

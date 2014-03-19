@@ -1,0 +1,2 @@
+wallet.caveat
+Use a master password to control access to saved username/password pairs?

@@ -1,0 +1,2 @@
+extensions.irc.desc
+Default description used when chatting (/desc [name])

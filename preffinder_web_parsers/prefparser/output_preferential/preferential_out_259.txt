@@ -1,0 +1,2 @@
+editor.hrule.width
+Default HRULE width

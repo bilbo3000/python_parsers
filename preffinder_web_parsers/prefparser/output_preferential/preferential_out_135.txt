@@ -1,0 +1,2 @@
+browser.startup.homepage_override.1
+This appears to be a dummy variable for the nsIPrefBranch interface test, and does not affect the running of the browser

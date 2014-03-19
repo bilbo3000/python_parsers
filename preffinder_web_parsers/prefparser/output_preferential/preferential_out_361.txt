@@ -1,0 +1,2 @@
+font.name.FOO.x-devanagari
+Default Devanagari (Hindu/Sanskrit) FOO font

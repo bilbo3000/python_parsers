@@ -1,0 +1,2 @@
+middlemouse.scrollbarPosition
+Clicking middle mouse button allows scroll bar position adjustment?

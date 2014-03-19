@@ -1,0 +1,2 @@
+update_notifications.provider.0.datasource
+Specifies which locale URI determines where update notifications are retrieved from

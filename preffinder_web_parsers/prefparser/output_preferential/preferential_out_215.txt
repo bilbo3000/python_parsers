@@ -1,0 +1,2 @@
+capability.policy.mailnews.XMLSerializer
+Allow access to XML serializer?

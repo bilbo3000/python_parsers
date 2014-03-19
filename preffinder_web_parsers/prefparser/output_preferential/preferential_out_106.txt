@@ -1,0 +1,2 @@
+browser.helperApps.neverAsk.saveToDisk
+Set MIME types which browser will always save to disk

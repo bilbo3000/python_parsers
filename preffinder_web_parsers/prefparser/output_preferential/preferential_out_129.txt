@@ -1,0 +1,2 @@
+browser.session.savesessionhistory
+Save session history?

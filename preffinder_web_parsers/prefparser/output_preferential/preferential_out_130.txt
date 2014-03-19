@@ -1,0 +1,2 @@
+browser.sessionhistory.max_entries
+Maximum number of entries stored in the Location Bar

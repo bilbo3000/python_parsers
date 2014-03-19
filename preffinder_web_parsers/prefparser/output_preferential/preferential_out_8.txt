@@ -1,0 +1,2 @@
+accessibility.typeaheadfind.enabletimeout
+Enable error sound for type-ahead find? (Currently off by default for Linux/Unix, on by default for other platforms)

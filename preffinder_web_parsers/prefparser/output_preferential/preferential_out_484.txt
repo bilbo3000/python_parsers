@@ -1,0 +1,2 @@
+mailnews.reply_header_type
+Format of reply header.  Use other reply_header preferences to customize this further, in particular 'author_wrote' and 'ondate'.

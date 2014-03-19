@@ -1,0 +1,2 @@
+browser.fixup.alternate.prefix
+Text to put before the URL domain name

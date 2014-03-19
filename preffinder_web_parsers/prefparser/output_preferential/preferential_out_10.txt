@@ -1,0 +1,2 @@
+accessibility.typeaheadfind.soundURL
+Specify filename (.wav) for the error sound, or use "default" for default sound or "beep" for system beep

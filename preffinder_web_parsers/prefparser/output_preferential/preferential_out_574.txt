@@ -1,0 +1,2 @@
+network.security.ports.banned.override
+(WARNING: Potential security risk) Allow Mozilla to retrieve web pages from non-standard ports below 1024 (ie. anything other than port 80).  Provide a comma-separated list of ports to override and allow (eg. "78,79").

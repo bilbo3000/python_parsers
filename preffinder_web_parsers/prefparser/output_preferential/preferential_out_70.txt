@@ -1,0 +1,2 @@
+browser.display.background_color
+Set default browser background color (#RRGGBB)

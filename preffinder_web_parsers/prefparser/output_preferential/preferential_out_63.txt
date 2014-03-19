@@ -1,0 +1,2 @@
+browser.cache.memory.enable
+Use memory cache?

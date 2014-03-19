@@ -1,0 +1,2 @@
+extensions.irc.username
+Default username used in ChatZilla!

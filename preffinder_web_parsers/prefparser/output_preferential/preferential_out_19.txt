@@ -1,0 +1,2 @@
+advanced.system.supportDDEExec
+(Windows only) Support execution of DDE commands?  In some cases, setting this to false may allow external links to open in a new window (see bug 155402 comment 10 - see also browser.always_reuse_window).

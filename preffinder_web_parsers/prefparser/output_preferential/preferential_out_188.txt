@@ -1,0 +1,2 @@
+capability.policy.default.DOMParser
+Allow access to DOM Parser?

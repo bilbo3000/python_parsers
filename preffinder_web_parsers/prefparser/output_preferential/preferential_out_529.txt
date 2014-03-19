@@ -1,0 +1,2 @@
+network.http.accept.default
+Default set of comma-separated list of HTTP formats to accept from servers

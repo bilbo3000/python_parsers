@@ -1,0 +1,2 @@
+intl.fallbackCharsetList.FOO
+Display listed character set if FOO is not available

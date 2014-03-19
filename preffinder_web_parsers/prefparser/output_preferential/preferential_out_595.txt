@@ -1,0 +1,2 @@
+nglayout.debug.paint_flashing
+The default value is false.

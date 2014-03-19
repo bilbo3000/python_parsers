@@ -1,0 +1,2 @@
+browser.chromeURL
+Specifies URL used to launch browser XUL

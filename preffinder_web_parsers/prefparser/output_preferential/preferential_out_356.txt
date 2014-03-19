@@ -1,0 +1,2 @@
+font.name.FOO.th
+Default Thai FOO font

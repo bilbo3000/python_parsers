@@ -1,0 +1,2 @@
+browser.search.defaulturl
+Specifies locale URI which determines default search URL

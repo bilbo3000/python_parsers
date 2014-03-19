@@ -1,0 +1,2 @@
+editor.publish.default_site
+Default site to publish to

@@ -1,0 +1,2 @@
+advanced.always_load_images
+Always load all images when visiting a web page?

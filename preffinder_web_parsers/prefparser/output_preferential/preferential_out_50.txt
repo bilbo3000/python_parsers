@@ -1,0 +1,2 @@
+browser.anchor_color
+Default color of hyperlinks (#RRGGBB)

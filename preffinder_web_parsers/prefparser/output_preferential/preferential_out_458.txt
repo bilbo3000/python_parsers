@@ -1,0 +1,2 @@
+mail.accountmanager.defaultaccount
+Default account to use

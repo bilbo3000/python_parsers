@@ -1,0 +1,2 @@
+font.name-list.FOO.he
+Default Hebrew FOO font (comma separated, in order of preference)

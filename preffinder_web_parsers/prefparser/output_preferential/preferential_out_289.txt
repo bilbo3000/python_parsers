@@ -1,0 +1,2 @@
+extensions.irc.colorCodes
+Allow IRC color codes?

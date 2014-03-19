@@ -1,0 +1,2 @@
+nglayout.events.dispatchLeftClickOnly
+Dispatch left click only to content in browser?

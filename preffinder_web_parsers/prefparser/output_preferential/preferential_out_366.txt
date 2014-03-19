@@ -1,0 +1,2 @@
+font.name.FOO.zh-TW
+Default Traditional Chinese (Taiwan) FOO font

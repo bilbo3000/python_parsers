@@ -1,0 +1,2 @@
+profile.seconds_until_defunct
+Time in seconds before an unused profile is considered defunct, and removed from the profiles list

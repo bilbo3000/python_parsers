@@ -1,0 +1,2 @@
+wallet.enabled
+Form Manager enabled?

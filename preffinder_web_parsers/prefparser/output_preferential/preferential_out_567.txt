@@ -1,0 +1,2 @@
+network.image.imageBehavior
+Behavior when handling retrieval of images

@@ -1,0 +1,2 @@
+browser.urlbar.autocomplete.enabled
+Enable Autocomplete?

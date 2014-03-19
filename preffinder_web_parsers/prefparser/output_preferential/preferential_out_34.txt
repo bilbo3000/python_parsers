@@ -1,0 +1,2 @@
+backups.number_of_prefs_copies
+Number of copies to make of the preference file

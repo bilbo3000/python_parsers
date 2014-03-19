@@ -1,0 +1,2 @@
+intl.charsetmenu.mailview.cache
+Comma-separated list of cached character sets in Mozilla Mail/News (main view)

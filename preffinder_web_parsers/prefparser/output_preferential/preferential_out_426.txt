@@ -1,0 +1,2 @@
+keyword.enabled
+Use Internet Keywords? (In Firefox, uses the Google 'I'm feeling lucky' function.)

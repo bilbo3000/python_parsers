@@ -1,0 +1,2 @@
+network.http.accept-encoding
+Comma-separated list of compressed encodings to accept from server

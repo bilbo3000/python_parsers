@@ -1,0 +1,2 @@
+browser.always_reuse_window
+Always reuse existing Mozilla windows when OS requests opening of a URL?

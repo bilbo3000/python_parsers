@@ -1,0 +1,2 @@
+autoadmin.global_config_url
+URL from which to retrieve all configuration settings

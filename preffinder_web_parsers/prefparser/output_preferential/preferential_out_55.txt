@@ -1,0 +1,2 @@
+browser.bookmarks.import_system_favourites
+Import system (usually IE) URL favourites into Mozilla?

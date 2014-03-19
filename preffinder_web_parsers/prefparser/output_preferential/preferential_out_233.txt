@@ -1,0 +1,2 @@
+dom.disable_cookie_get
+Allow Javascript to read cookies?

@@ -1,0 +1,2 @@
+capability.policy.mailnews.document
+Allow access to document properties and methods?

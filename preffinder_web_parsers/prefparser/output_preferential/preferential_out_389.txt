@@ -1,0 +1,2 @@
+general.useragent.locale
+Specifies which locale URI should retrieve locale information

@@ -1,0 +1,2 @@
+inspector.dom.showAnon
+Show anonymous elements (ie. those with no id)?

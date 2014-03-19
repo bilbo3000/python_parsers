@@ -1,0 +1,2 @@
+font.size.FOO.el
+Default FOO Greek font size

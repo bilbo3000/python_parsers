@@ -1,0 +1,2 @@
+editor.css.default_length_unit
+Determines default units for measurement in CSS 

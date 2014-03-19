@@ -1,0 +1,2 @@
+browser.download.progressDnldDialog.enable_launch_reveal_buttons
+Enable 'Launch' and 'Show File Location' buttons when download completes?

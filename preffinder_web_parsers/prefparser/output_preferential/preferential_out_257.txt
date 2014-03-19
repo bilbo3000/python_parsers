@@ -1,0 +1,2 @@
+editor.hrule.height
+Default horizontal line height (HRULE)

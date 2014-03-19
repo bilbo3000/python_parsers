@@ -1,0 +1,2 @@
+browser.urlbar.clickSelectsAll
+Clicking in the location bar select the contents

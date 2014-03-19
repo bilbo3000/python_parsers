@@ -1,0 +1,2 @@
+browser.search.basic.min_ver
+The minimum version of Sherlock Plugins to accept (see http://mycroft.mozdev.org)

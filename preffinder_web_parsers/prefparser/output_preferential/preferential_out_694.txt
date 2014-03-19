@@ -1,0 +1,2 @@
+xpinstall.notifications.enabled
+Notify user when an updated version of an XPI is available?

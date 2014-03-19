@@ -1,0 +1,2 @@
+browser.related.autoload
+AutoLoad behavior for What's Related

@@ -1,0 +1,2 @@
+network.search.url
+URL to send search text in location field

@@ -1,0 +1,2 @@
+capability.policy.default.SOAPCall
+Allow access to SOAP calls?

@@ -1,0 +1,2 @@
+calendar.alarms.defaultsnoozelength
+Default snooze time (in minutes)

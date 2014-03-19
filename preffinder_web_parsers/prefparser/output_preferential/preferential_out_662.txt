@@ -1,0 +1,2 @@
+ui.key.accelKey
+Set 'accelerator' key used for keyboard shortcuts

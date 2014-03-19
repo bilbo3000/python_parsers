@@ -1,0 +1,2 @@
+mail.smtpserver.FOO.trySecAuth
+Attempt login using secure mechanisms (e.g. CRAM-MD5, NTLM)?  Insecure methods will be tried as well even if this value is true.

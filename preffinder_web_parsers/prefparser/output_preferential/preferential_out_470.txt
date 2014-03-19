@@ -1,0 +1,2 @@
+mail.identity.idFOO.headers
+Comma-separated list of headers to add to mail messages.  Each header identity listed must have a corresponce preference mail.identity.FOO.header.BAR.  For example, if mail.identity.id1.headers = "extra1,extra2", mail.identity.id1.header.extra1 and mail.identity.id1.header.extra2 must be set.

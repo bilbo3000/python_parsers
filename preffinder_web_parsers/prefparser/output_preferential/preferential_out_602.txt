@@ -1,0 +1,2 @@
+plugin.display_plugin_downloader_dialog
+If no plugin is registered for the "*" mime type (i.e. no default plugin), display a dialog showing where to get it?

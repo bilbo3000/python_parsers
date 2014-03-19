@@ -1,0 +1,2 @@
+editor.always_show_publish_dialog
+Always show the Publish dialog when saving pages?

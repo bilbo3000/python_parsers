@@ -1,0 +1,2 @@
+mail.account.FOO.server
+Server identity for mail account FOO

@@ -1,0 +1,2 @@
+network.cookie.disableCookieForMailNews
+Disable cookies in Mail and Newsgroups?

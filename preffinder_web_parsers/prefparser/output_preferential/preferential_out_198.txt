@@ -1,0 +1,2 @@
+capability.policy.mailnews.DOMException
+Allow access to DOM Exceptions?

@@ -1,0 +1,2 @@
+browser.display.use_document_colors
+Allow current document to specify colors to use? (If false, background images will also not be loaded)

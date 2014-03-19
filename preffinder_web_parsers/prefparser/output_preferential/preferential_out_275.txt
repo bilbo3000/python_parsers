@@ -1,0 +1,2 @@
+editor.singleLine.pasteNewlines
+Convert up to X lines into a URL (good for copying URLs split over multiple lines)

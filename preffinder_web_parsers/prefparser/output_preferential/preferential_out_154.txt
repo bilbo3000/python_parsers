@@ -1,0 +1,2 @@
+browser.translation.serviceDomain
+Translation service label used in older browsers for Translate feature

@@ -1,0 +1,2 @@
+mail.addr_book.show_phonetic_fields
+Display fields for phonetic equivalents of Firstname and Lastname in Address Book?

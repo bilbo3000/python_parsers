@@ -1,0 +1,2 @@
+editor.publish.site_data.FOO
+FOO site data

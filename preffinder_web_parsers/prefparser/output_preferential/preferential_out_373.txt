@@ -1,0 +1,2 @@
+font.size.FOO.tr
+Default FOO Turkish font size

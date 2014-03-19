@@ -1,0 +1,2 @@
+slider.snapMultiplier
+Distance (in pixels) away from scrollbar mouse can move before scrollbar thumb snaps back to its original position.  (Default on Unix: 0; on Windows: 6).

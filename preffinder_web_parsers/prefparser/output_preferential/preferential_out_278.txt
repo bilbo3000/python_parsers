@@ -1,0 +1,2 @@
+editor.text_color
+Default custom hex text color (#RRGGBB) for new pages

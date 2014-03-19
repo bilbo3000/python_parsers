@@ -1,0 +1,2 @@
+nglayout.debug.paint_dumping
+Dump debug information for paint event? This preference can be overridden at run-time by turning on the CAPS lock key. The default value is false.

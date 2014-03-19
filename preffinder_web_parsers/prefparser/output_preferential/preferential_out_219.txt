@@ -1,0 +1,2 @@
+capability.policy.popupsites.windowinternal.open
+Allow access to opening windows?

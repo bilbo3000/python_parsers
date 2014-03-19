@@ -1,0 +1,2 @@
+browser.cache.disk_cache_ssl
+Cache documents retrieved via HTTPS/SSL?

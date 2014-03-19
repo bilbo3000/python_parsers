@@ -1,0 +1,2 @@
+wallet.TutorialFromMenu
+Locale URI specifying where to locate Form Manager Tutorials

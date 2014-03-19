@@ -1,0 +1,2 @@
+extensions.irc.reconnect
+Automatically attempt to reconnect if connection is broken?

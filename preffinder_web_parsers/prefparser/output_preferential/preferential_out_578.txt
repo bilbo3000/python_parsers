@@ -1,0 +1,2 @@
+news.default_cc
+Default CC address

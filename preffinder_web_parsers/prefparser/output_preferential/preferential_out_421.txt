@@ -1,0 +1,3 @@
+javascript.allow.mailnews
+JavaScript is allowed to execute in Mail 
+ News?

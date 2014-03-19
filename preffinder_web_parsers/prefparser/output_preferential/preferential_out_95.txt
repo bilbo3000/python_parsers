@@ -1,0 +1,2 @@
+browser.editor.disabled
+Should the 'Edit Page' option appear?

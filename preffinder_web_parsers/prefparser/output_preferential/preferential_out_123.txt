@@ -1,0 +1,2 @@
+browser.search.defaultenginename
+Specifies locale URI which determines default engine name

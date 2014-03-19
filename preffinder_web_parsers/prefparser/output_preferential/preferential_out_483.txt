@@ -1,0 +1,2 @@
+mailnews.reply_header_separator
+Text string used to separate parts of the reply header

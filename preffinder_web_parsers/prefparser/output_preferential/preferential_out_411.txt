@@ -1,0 +1,2 @@
+intl.charsetmenu.browser.static
+Always display this character set in list

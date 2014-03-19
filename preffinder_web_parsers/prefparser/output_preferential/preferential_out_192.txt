@@ -1,0 +1,2 @@
+capability.policy.default.Navigator
+Allow access to Navigator properties and methods?

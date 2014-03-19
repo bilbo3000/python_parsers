@@ -1,0 +1,7 @@
+print.print_footerleft
+Left-aligned footer text. This may use up to ONE of the special string constants 
+T, 
+U, 
+D, 
+P or 
+PT (see drop-down box).

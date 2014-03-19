@@ -1,0 +1,2 @@
+network.http.sendSecureXSiteReferrer
+** purpose not known - please advise by mailing GuruJ@mbox.com.au **

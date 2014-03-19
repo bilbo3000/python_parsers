@@ -1,0 +1,2 @@
+alerts.totalOpenTime
+Total time (in ms) that alert remains open

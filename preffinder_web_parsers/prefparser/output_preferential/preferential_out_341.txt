@@ -1,0 +1,2 @@
+font.FreeType2.shared-library
+Path to FreeType2 fonts shared directory on your system

@@ -1,0 +1,2 @@
+viewmanager.do_doublebuffering
+Should viewmanager code do double-buffering?  (See http://bugzilla.mozilla.org/show_bug.cgi?id=169483 for further details)

@@ -1,0 +1,2 @@
+browser.forms.submit.backwards_compatible
+Use backwards compatible method of submitting forms?

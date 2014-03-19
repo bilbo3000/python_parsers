@@ -1,0 +1,2 @@
+update_notifications.enabled
+Should this program check for updated versions of itself?

@@ -1,0 +1,2 @@
+network.proxy.http
+HTTP Proxy server name

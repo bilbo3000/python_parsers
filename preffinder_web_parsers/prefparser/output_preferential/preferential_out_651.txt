@@ -1,0 +1,2 @@
+security.warn_entering_weak
+Warn before entering an insecure area?

@@ -1,0 +1,2 @@
+extensions.irc.munger.mailto
+Mark up e-mail addresses as links?

@@ -1,0 +1,2 @@
+network.proxy.socks_version
+Socks version (default: 5)

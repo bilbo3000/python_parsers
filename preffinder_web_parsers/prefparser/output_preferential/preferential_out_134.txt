@@ -1,0 +1,2 @@
+browser.startup.homepage.count
+The number of pages in your homepage startup group

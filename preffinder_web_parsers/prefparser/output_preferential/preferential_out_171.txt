@@ -1,0 +1,2 @@
+browser.windows.loadOnNewWindow
+Set what should be displayed in a newly created window

@@ -1,0 +1,2 @@
+sidebar.num_tabs_in_view
+Number of tabs visible before scroll arrows appear at bottom of sidebar panel (Default: 8)

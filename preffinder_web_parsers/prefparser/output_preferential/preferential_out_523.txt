@@ -1,0 +1,2 @@
+network.hosts.pop_server
+Proxy POP server (default: mail)

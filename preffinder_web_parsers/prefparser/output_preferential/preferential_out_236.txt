@@ -1,0 +1,2 @@
+dom.disable_open_click_delay
+Disable ability to open popups after a specified delay?

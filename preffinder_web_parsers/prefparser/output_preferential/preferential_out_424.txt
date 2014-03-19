@@ -1,0 +1,2 @@
+javascript.options.strict
+Report strict JavaScript warnings?

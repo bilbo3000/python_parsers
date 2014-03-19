@@ -1,0 +1,2 @@
+nglayout.widget.mode
+NGLayout widget mode

@@ -1,0 +1,2 @@
+xpinstall.manual_confirm
+Require user to manually confirm installation of all XPI packages?

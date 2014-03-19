@@ -1,0 +1,2 @@
+autoadmin.failover_to_cached
+Automatically load cached web page if 'live' one cannot be located?

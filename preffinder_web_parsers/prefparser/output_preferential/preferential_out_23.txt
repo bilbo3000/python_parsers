@@ -1,0 +1,2 @@
+alerts.slideIncrementTime
+Time (in ms) taken to perform a slide

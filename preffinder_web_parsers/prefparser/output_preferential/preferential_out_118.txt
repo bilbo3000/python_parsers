@@ -1,0 +1,2 @@
+browser.related.enabled
+Enable What's Related?

@@ -1,0 +1,2 @@
+editor.auto_save
+Enable/Disable automatic saving

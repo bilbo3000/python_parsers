@@ -58,8 +58,7 @@ class MyHTMLParser(HTMLParser):
         	
     # encounter a data field
     def handle_data(self, data): 
-        global istbody; 
-        global outfile;  
+        global istbody;  
         global istd; 
         global cnt; 
         global fileid; 
@@ -77,8 +76,7 @@ class MyHTMLParser(HTMLParser):
 		    	data = re.sub(r'\.\s+', ".", data);
 		    	fout.write(data + '\n');  
 		    	fout.close();
-	    	if (cnt == 2): 
-	    		print filePath;
+	    	if (cnt == 2):  # Pref desc 
 	    		if os.path.exists(filePath): 
 	    			with open(filePath, 'a') as f:
 	    				f.write(data + '\n'); 
@@ -95,6 +93,7 @@ istd = False;
 cnt = -1;  
 fileid = -1; 
 
+# Create output directory 
 if not os.path.exists("output_zine"):
 	os.makedirs("output_zine");  
 
@@ -102,9 +101,5 @@ if not os.path.exists("output_zine"):
 filepath = "MozillaZine.html";
 inputfile = open(filepath);
 html = inputfile.read(); # read input file
-
-outfile = open("./prefDesc_Zine.txt", 'w'); 
 parser.feed(html); 
-
 parser.close(); 
-outfile.close(); # close output file

@@ -1,0 +1,2 @@
+wallet.creditPanel.hide
+Hide Credit Card information?

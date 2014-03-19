@@ -1,0 +1,2 @@
+sidebar.customize.all_panels.url
+URL for location of RDF file listing Sidebars that can be added

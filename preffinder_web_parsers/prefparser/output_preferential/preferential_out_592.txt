@@ -1,0 +1,2 @@
+nglayout.debug.invalidate_dumping
+The default value is false.

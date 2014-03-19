@@ -1,0 +1,2 @@
+mail.server.FOO.auth_login
+Does mail server 'FOO' require authentication at logon?

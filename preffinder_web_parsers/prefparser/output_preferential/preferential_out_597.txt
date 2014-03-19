@@ -1,0 +1,2 @@
+nglayout.events.showHierarchicalHover
+Relates to CSS2 Hover pref

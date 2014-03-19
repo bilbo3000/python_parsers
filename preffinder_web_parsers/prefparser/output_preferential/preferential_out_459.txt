@@ -1,0 +1,2 @@
+mail.accountmanager.localfoldersserver
+ID of server that represents the Local Folders

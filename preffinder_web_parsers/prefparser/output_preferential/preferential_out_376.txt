@@ -1,0 +1,2 @@
+font.size.FOO.x-cyrillic
+Default FOO Cyrillic font size

@@ -1,0 +1,2 @@
+browser.chrome.site_icons
+Display 'favourite icons' in Bookmarks?

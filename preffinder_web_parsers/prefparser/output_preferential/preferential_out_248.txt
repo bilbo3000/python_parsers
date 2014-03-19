@@ -1,0 +1,2 @@
+editor.background_image
+Default location for background image

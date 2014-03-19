@@ -1,0 +1,2 @@
+dom.disable_open_during_load
+Allow Javascript to open unrequested windows?

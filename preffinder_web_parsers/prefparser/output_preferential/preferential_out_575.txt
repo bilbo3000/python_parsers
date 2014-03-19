@@ -1,0 +1,2 @@
+news.cancel.alert_on_success
+Alert if cancelled successfully?

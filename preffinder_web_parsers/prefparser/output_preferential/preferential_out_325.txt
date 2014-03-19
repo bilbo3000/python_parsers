@@ -1,0 +1,2 @@
+extensions.irc.views.chanuser
+Maximum size of scroll back history for Private Message windows

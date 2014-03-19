@@ -1,0 +1,2 @@
+layout.frames.force_resizability
+Force frames to be always resizable?

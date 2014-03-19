@@ -1,0 +1,2 @@
+extensions.irc.munger.bugzilla-link
+Display URL link to BugZilla on startup?

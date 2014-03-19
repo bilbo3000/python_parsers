@@ -1,0 +1,2 @@
+browser.frame.validate_origin
+Validate origin of frames before allowing display?

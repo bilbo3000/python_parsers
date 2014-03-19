@@ -1,0 +1,2 @@
+wallet.namePanel.hide
+Hide Name panel?

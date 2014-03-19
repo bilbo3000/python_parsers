@@ -1,0 +1,2 @@
+mail.SpellCheckBeforeSend
+Check messages for spelling errors before sending?

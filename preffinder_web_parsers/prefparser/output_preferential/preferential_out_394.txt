@@ -1,0 +1,2 @@
+imageblocker.enabled
+Allow blocking of images?

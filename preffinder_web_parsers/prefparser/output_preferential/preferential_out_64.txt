@@ -1,0 +1,2 @@
+browser.chrome.favicons
+Display 'favourite icons' in location bar? 

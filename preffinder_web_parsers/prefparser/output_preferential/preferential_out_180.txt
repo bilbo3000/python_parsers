@@ -1,0 +1,2 @@
+calendar.event.defaultlength
+Default event length

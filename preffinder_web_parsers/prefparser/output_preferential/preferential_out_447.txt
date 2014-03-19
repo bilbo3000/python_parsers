@@ -1,0 +1,2 @@
+ldap_2.servers.FOO.filename
+If local LDAP server, filename where LDAP entries are stored

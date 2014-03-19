@@ -1,0 +1,2 @@
+extensions.irc.copyMessages
+Copy important messages to the IRC network window as well as the window they appear in.

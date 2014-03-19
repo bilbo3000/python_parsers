@@ -1,0 +1,2 @@
+inspector.blink.duration
+How long elements blinks for (in ms)

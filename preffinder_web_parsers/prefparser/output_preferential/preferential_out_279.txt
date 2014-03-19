@@ -1,0 +1,2 @@
+editor.throbber.url
+URL throbber points to when clicked

@@ -1,0 +1,2 @@
+browser.tabs.warnOnClose
+Warn when closing window if more than one tab open

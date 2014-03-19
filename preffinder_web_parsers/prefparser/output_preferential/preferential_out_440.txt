@@ -1,0 +1,2 @@
+ldap_2.autoComplete.interval
+Time delay after keystroke (in ms) before displaying autocomplete options

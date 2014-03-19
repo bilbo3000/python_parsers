@@ -1,0 +1,3 @@
+extensions.irc.stalkWords
+String pattern to 'stalk' for (sound alert 
+ activate/flash ChatZilla! window when string is received via IRC)

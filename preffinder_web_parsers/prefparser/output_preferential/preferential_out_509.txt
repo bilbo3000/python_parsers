@@ -1,0 +1,2 @@
+network.cookie.cookieBehavior
+Set which cookies are allowed to be stored on local computer

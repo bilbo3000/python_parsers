@@ -1,0 +1,2 @@
+font.name.FOO.zh-CN
+Default Simplified Chinese (China) FOO font

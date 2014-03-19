@@ -1,0 +1,2 @@
+extensions.irc.munger.teletype
+Enable display of text in teletype format?

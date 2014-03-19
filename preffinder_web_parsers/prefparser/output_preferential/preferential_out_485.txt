@@ -1,0 +1,2 @@
+mailnews.reply_on_top
+How to reply to messages

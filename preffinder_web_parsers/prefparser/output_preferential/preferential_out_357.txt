@@ -1,0 +1,2 @@
+font.name.FOO.tr
+Default Turkish FOO font

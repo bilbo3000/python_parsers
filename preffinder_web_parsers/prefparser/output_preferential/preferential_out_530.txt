@@ -1,0 +1,2 @@
+network.http.defensive-auth-prompting
+Confirm user intent whenever URL of the form http://user:pass@my.site.com is accessed?

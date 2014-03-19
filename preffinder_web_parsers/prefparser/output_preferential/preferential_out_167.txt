@@ -1,0 +1,2 @@
+browser.urlbar.matchOnlyTyped
+Restrict the popup list items to addresses you have previously typed

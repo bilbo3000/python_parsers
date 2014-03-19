@@ -1,0 +1,2 @@
+capability.policy.mailnews.Range
+Allow access to Range properties and methods?

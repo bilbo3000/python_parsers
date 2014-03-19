@@ -1,0 +1,2 @@
+browser.display.show_image_placeholders
+Show image placeholders while images are loading/broken?

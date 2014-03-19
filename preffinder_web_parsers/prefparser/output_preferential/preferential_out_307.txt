@@ -1,0 +1,2 @@
+extensions.irc.munger.rheet
+Activate the rheet easter egg?  If activated, typing "rheeeeeet" (any number of e's greater than 2 will work) will play a sound.

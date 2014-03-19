@@ -1,0 +1,2 @@
+browser.cache.disk.capacity
+Size of disk cache (in KB)

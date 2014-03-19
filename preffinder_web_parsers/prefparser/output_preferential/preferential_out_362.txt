@@ -1,0 +1,2 @@
+font.name.FOO.x-tamil
+Default Tamil (Sri Lankan) FOO font

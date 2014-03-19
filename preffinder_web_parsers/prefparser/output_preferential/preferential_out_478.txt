@@ -1,0 +1,2 @@
+mailnews.reply_header_authorwrote
+Text string used when an author string is required in reply header (%s will be replaced by your name)

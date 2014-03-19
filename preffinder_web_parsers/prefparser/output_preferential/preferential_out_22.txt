@@ -1,0 +1,2 @@
+alerts.slideIncrement
+Amount to 'slide' by

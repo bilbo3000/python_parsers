@@ -1,0 +1,2 @@
+editor.history.url_maximum
+Number of URLs Composer will store for recent pages

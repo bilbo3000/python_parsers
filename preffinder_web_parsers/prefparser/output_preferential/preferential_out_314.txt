@@ -1,0 +1,2 @@
+extensions.irc.nickCompleteStr
+Type these character(s) to autocomplete nickname

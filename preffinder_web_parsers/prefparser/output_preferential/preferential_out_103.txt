@@ -1,0 +1,2 @@
+browser.goBrowsing.enabled
+Display 'Go' button in browser?

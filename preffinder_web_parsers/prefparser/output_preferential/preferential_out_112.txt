@@ -1,0 +1,2 @@
+browser.plugins.max_num_cached_plugins
+Number of plugins held around when plugin wants to be cached (default: 10)

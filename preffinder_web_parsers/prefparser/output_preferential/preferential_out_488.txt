@@ -1,0 +1,2 @@
+middlemouse.openNewWindow
+Clicking middle mouse button on a hyperlink opens a new window?

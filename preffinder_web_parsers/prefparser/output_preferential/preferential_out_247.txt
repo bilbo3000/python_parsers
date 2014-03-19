@@ -1,0 +1,2 @@
+editor.background_color
+Default custom hex value (#RRGGBB) for background color

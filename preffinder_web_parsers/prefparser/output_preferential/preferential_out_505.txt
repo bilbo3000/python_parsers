@@ -1,0 +1,2 @@
+msgcompose.font_face
+Default font typeface to use when composing messages (HTML only)?

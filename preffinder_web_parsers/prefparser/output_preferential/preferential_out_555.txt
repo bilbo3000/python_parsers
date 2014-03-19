@@ -1,0 +1,2 @@
+network.proxy.wais_port
+WAIS proxy server port

@@ -1,0 +1,2 @@
+browser.allowpopups
+Allow unrequested popups in browser?

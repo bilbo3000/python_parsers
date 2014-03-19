@@ -1,0 +1,2 @@
+ui.textSelectBackgroundAttention
+Select hex color value (#RRGGBB) for found link

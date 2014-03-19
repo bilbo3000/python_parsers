@@ -1,0 +1,2 @@
+browser.tabs.autoHide
+Automatically hide tabs when only one tab is open?

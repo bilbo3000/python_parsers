@@ -1,0 +1,2 @@
+browser.toolbars.showbutton.search
+Show Search button on toolbar?

@@ -1,0 +1,2 @@
+browser.bookmarks.added_static_root
+Has Mozilla already imported the system bookmarks?  (This will only happen once for each profile.)

@@ -1,0 +1,2 @@
+calendar.publish.password
+Password for server

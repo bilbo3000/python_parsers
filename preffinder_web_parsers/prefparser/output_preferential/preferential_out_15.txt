@@ -1,0 +1,2 @@
+accessibility.warn_on_browsewithcaret
+Warn user before turning on caret browsing?

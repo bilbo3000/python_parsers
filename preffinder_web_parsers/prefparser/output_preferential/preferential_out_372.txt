@@ -1,0 +1,2 @@
+font.size.FOO.th
+Default FOO Thai font size

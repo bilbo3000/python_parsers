@@ -1,0 +1,2 @@
+extensions.irc.notify.aggressive
+Use aggressive notification for new IRC events?

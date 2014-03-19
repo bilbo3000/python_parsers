@@ -1,0 +1,2 @@
+network.hosts.nntp_server
+Proxy News server

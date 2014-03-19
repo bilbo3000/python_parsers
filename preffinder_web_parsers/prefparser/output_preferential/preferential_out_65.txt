@@ -1,0 +1,2 @@
+browser.chrome.load_toolbar_icons
+Sets behavior when loading toolbar icons

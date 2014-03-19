@@ -1,0 +1,2 @@
+games.cards.current-game
+Name of current card game being played

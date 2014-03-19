@@ -1,0 +1,2 @@
+startup.homepage_override_url
+Specifies the application startup home page.\u000aThe default value is 'chrome://navigator-region/locale/region.properties', which points to the default home page specified by the active regional pack.

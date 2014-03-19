@@ -1,0 +1,2 @@
+browser.urlbar.autocomplete.matchOnlyTyped
+Match only URLs already typed into Location Bar?

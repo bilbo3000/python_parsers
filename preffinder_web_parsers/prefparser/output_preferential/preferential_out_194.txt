@@ -1,0 +1,2 @@
+capability.policy.default.Window
+Allow access to Window properties and methods?

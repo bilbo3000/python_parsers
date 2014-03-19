@@ -1,0 +1,2 @@
+network.proxy.no_proxies_on
+Comma-separated list of site or IP ranges where proxy server should be bypassed

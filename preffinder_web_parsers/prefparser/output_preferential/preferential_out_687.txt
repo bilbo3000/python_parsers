@@ -1,0 +1,2 @@
+wallet.miscPanel.hide
+Hide Miscellaneous panel?

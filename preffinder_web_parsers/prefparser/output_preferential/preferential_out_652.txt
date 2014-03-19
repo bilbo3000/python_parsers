@@ -1,0 +1,2 @@
+security.warn_leaving_secure
+Warn before leaving a secure area?

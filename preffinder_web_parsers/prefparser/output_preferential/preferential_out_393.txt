@@ -1,0 +1,2 @@
+image.animation_mode
+Override settings for animated images

@@ -1,0 +1,2 @@
+update_notifications.provider.0.frequency
+Number of days between checks for updates

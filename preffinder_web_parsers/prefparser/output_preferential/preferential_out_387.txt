@@ -1,0 +1,2 @@
+general.open_location.last_window_choice
+Last "Open in..." setting

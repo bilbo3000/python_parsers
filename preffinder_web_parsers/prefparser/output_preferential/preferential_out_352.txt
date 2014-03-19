@@ -1,0 +1,2 @@
+font.name.FOO.el
+Default Greek FOO font

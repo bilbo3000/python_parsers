@@ -1,0 +1,2 @@
+network.proxy.type
+Proxy type

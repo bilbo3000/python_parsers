@@ -1,0 +1,2 @@
+network.protocol-handler.external.mailto
+(Windows only) Use the external E-mail client identified via Start - Settings - Control Panel - Internet Options - Programs tab when selecting a "mailto:" URL?

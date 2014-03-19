@@ -1,0 +1,2 @@
+browser.tabs.opentabfor.bookmarks
+Open new tab when clicking on Bookmarks?
