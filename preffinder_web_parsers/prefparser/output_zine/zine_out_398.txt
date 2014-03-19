@@ -1,0 +1,9 @@
+nglayout.debug.motion_event_dumping
+True
+: In debug-enabled builds, output information about
+NS_MOUSE_MOVE
+-related events to stdout when Caps Lock is on and
+nglayout.debug.event_dumping
+is true
+False
+(default): Opposite of the above

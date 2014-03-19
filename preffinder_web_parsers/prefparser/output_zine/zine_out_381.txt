@@ -1,0 +1,7 @@
+network.proxy.no_proxies_on
+A comma-and-space-delimited list of hosts for which the specified proxies should not be used. (See
+No proxy for
+for syntax.)
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ General (Firefox 2.0+: Advanced → Network) → Connection Settings... → Manual proxy configuration → No Proxy for"

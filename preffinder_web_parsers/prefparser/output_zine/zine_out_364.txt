@@ -1,0 +1,5 @@
+network.negotiate-auth.gsslib
+Path to a specific GSSAPI library. Allows the browser (e.g.) to load different Kerberos implementations at the user's request. Default value is an empty string.
+Note: See
+bug 295109
+for more information.

@@ -1,0 +1,5 @@
+security.ssl3.rsa_null_sha
+True
+: Enable "No encryption with RSA authentication and an SHA-1 MAC" as a cipher suite
+False
+(default): Opposite of the above

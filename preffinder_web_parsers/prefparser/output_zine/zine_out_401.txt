@@ -1,0 +1,6 @@
+nglayout.events.dispatchLeftClickOnly
+Determines whether to dispatch left-click events only to content in the browser (chrome/XUL is exempt from the effects)
+True
+(default): Dispatch only left-click events to browser content
+False
+: Dispatch both left- and middle-click events

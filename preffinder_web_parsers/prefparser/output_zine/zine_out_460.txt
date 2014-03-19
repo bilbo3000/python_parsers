@@ -1,0 +1,5 @@
+security.ssl3.rsa_null_md5
+True
+: Enable "No encryption with RSA authentication and an MD5 MAC" as a cipher suite
+False
+(default): Opposite of the above

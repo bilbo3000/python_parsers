@@ -1,0 +1,9 @@
+browser.blink_allowed
+True
+(default): Use of the blink tag or
+CSS
+'s
+text-decoration: blink
+will result in blinking elements.
+False
+: Blinking is disabled.

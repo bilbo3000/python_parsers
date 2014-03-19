@@ -1,0 +1,11 @@
+network.standard-url.encode-utf8
+Determines how URLs are encoded and sent
+True
+: Always encode and send URLs as UTF-8
+False
+(default in Firefox 1.0.x): Opposite of the above
+Note: This was
+True
+for a short time before Firefox 1.5, causing trouble with some international websites (see
+bug 284474
+)

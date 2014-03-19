@@ -1,0 +1,2 @@
+toolkit.scrollbox.scrollIncrement
+Determines how many pixels to scroll at a time when scrolling the tab strip’s scrollbox. (Default: 20)

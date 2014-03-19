@@ -1,0 +1,6 @@
+network.http.pipelining.maxrequests
+Determines the maximum number of HTTP requests in the pipeline (sent sequentially without waiting for a response). Values greater than 8 are assumed to be
+8
+; values less than 1 are assumed to be 1. Default value is
+4
+.

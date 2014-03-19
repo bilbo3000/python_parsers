@@ -1,0 +1,6 @@
+bidi.direction
+Select direction of text
+1
+(default): Left-to-right
+2
+: Right-to-left

@@ -1,0 +1,7 @@
+nglayout.debug.disable_xul_cache
+True
+:
+Prevent Mozilla from caching any chrome-level XUL components
+(XUL, JavaScript, CSS).
+False
+(default): Cache XUL components for better performance.

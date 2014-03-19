@@ -1,0 +1,8 @@
+privacy.item.sessions
+True
+(default): Clear all authenticated SSL sessions when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+: Opposite of above
+Note: This can be changed via "
+Tools → Options
+→ Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).

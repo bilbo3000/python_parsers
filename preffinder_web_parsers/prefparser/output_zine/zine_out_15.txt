@@ -1,0 +1,11 @@
+browser.bookmarks.file
+The full path and filename of your bookmarks file (
+bookmarks.html
+). In Windows, the path separator must be two backslashes (e.g. "
+C:\\Path\\To\\bookmarks.html
+") if the value is being set in
+user.js
+or
+prefs.js
+instead of within
+about:config

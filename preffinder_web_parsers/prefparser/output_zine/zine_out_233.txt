@@ -1,0 +1,6 @@
+editor.resizing.preserve_ratio
+Determines the behavior of resizing images in Composer.
+True
+(default): Preserve ratio of image while resizing
+False
+: Allow free resizing of height and width

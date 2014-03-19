@@ -1,0 +1,8 @@
+browser.sessionhistory.cache_subframes
+True
+: Cache the content viewer (when
+browser.sessionhistory.max_total_viewers
+is greater than 0) for subframes
+False
+(default): Opposite of the above
+Note: Firefox 1.5 and above only.

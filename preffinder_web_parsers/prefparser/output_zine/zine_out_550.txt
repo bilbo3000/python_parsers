@@ -1,0 +1,7 @@
+svg.enabled
+True
+(default): On SVG-enabled builds, enables internal SVG renderer, disables externals
+False
+: Opposite of the above (see
+bug 258511
+)

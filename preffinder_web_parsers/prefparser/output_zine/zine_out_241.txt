@@ -1,0 +1,2 @@
+extensions.disabledObsolete
+Indicates whether obsolete extensions have been disabled as a result of a change in the browser version.

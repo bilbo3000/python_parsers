@@ -1,0 +1,3 @@
+intl.charsetmenu.browser.static
+A comma-and-space-delimited list of character sets to always display in the character encoding menu.
+Note: In Firefox, this can be changed via "View → Character Encoding → Customize List"

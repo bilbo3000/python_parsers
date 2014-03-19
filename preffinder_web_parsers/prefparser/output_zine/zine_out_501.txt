@@ -1,0 +1,2 @@
+ui.submenuDelay
+Determines the delay in milliseconds between hovering over a menu option with a submenu and the submenu appearing. If this preference is not set, the OS's value is used.

@@ -1,0 +1,10 @@
+network.http.sendRefererHeader
+Determines when to send the
+Referer
+HTTP header.
+0
+: Never send the referring URL
+1
+: Send only on clicked links
+2
+(default): Send for links and images

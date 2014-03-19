@@ -1,0 +1,8 @@
+browser.feedview.showMenu
+Pref removed.
+Previously:
+True
+(default): Display a menu alongside rendered feeds with relevant functions
+False
+: Opposite of the above.
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.

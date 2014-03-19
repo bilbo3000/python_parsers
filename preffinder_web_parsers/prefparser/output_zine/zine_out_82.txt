@@ -1,0 +1,6 @@
+browser.fixup.alternate.prefix
+The prefix to prepend when attempting to fix an entered URL. Default is "
+www.
+" (includes full stop). Requires
+browser.fixup.alternate.enabled
+be true.

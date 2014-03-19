@@ -1,0 +1,7 @@
+network.proxy.socks_remote_dns
+True
+: Perform all DNS lookups on remote proxy server (see
+bug 134105
+)
+False
+(default): Perform all DNS lookups client-side

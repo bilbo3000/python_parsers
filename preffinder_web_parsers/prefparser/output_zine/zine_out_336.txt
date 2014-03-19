@@ -1,0 +1,12 @@
+network.http.keep-alive
+Determines whether to use HTTP Keep-Alive connections. If more than one request is made, the browser attempts to reuse open connections that have been kept alive.
+True
+(default): Send
+Connection: keep-alive
+header and
+Keep-Alive
+header based on contents of
+network.http.keep-alive.timeout
+False
+: Opposite of the above (recommended in case of problems)
+Note: This preference is effectively obsolete, as all connections are considered keep-alive in HTTP/1.1.

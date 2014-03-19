@@ -1,0 +1,6 @@
+intl.collationOption
+A workaround to get correct column sorting in Mozilla Mail in Japanese builds of Linux. Default value is an empty string. Setting it to
+useCodePointOrder
+enables the workaround (see
+bug 18338
+).

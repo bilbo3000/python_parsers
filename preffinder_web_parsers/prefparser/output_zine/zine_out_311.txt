@@ -1,0 +1,8 @@
+network.cookie.disableCookieForMailNews
+Determines how Mozilla Mail/News should handle
+cookies
+.
+True
+(default): Reject all cookies in Mozilla Mail/News
+False
+: Accept cookies normally

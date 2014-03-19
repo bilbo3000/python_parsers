@@ -1,0 +1,4 @@
+browser.urlbar.autocomplete.enabled
+True
+(default)
+False

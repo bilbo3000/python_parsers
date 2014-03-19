@@ -1,0 +1,3 @@
+backups.number_of_prefs_copies
+Unused (obsolete)
+. Previously: number of backup copies of prefs.js to keep.

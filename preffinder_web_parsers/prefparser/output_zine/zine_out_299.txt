@@ -1,0 +1,7 @@
+intl.keyboard.per_window_layout
+True
+: Allow different windows to retain their own keyboard locale settings (see
+bug 186549
+)
+False
+(default): Opposite of the above

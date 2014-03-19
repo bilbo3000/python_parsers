@@ -1,0 +1,10 @@
+general.useragent.security
+Security level of the browser in the
+User-Agent
+string
+N
+: No security
+U
+(default): Strong security
+I
+: Weak security

@@ -1,0 +1,5 @@
+browser.tabs.opentabfor.searchdialog
+Determines whether to create a new tab for the search results from queries entered in the search dialog (used when the
+Search Bar
+is hidden)
+Note: Firefox 1.5 and above only.

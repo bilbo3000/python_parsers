@@ -1,0 +1,4 @@
+general.useragent.override
+A complete
+User-Agent
+string to use in place of the default.

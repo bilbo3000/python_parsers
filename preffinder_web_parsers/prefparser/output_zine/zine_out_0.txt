@@ -1,0 +1,5 @@
+bidi.browser.ui
+True
+: Activates bidi interface and keyboard unconditionally
+False
+: Only activates bidi interface and keyboard in bidi locales. (Default)

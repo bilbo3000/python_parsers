@@ -1,0 +1,11 @@
+nglayout.debug.disable_xul_fastload
+True
+: Disable XUL Fastload caching the in-memory compiled XUL to file (
+xul.mfl
+,
+xul.mfasl
+)
+False
+(default): Enable XUL Fastload (see
+bug 112064
+)

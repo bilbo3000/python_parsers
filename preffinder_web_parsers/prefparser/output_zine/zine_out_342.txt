@@ -1,0 +1,6 @@
+network.http.phishy-userpass-length
+A number between 0 and 255. Warn the user if we load an URL containing a userpass field (e.g.,
+http://user:pass@example.com/
+) unless its length is less than this threshold. Default value is
+1
+.

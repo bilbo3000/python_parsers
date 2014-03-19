@@ -1,0 +1,4 @@
+browser.history.grouping
+How to group entries in the history window (not applicable for Firefox's History sidebar). Default value is
+day
+.

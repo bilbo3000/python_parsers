@@ -1,0 +1,12 @@
+browser.startup.homepage
+URL of homepage, or pipe (
+|
+)-separated list of URLs to open in tabs when going to the homepage
+In SeaMonkey (or at least in SeaMonkey 2 and above), this is the URL of your first or only homepage tab. If you have a multitab homepage, additional URLs are in
+browser.startup.homepage.1, browser.startup.homepage.2,
+etc.
+Note: This can be changed in Firefox via "
+Tools → Options
+→ Main (Firefox 1.5 and 1.0.x: General) → Homepage" and in SeaMonkey via "
+Edit → Preferences
+→ Browser → Home Page".

@@ -1,0 +1,14 @@
+network.cookie.enableForCurrentSessionOnly
+True
+: Delete all
+cookies
+at the end of the browser session
+False
+(default): Opposite of the above
+Note: This setting is deprecated in favor of
+network.cookies.lifetimePolicy
+(setting that to
+2
+is the equivalent of this preference set to
+True
+)

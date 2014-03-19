@@ -1,0 +1,27 @@
+network.cookie.cookieBehavior
+Determines how the browser should handle
+cookies
+.
+0
+: Enable all cookies (default)
+1
+: Allow cookies from originating server only
+2
+: Disable all cookies
+3
+: Use P3P policy to decide (Mozilla Suite/SeaMonkey only)
+Note:  In Firefox,  this can be changed via "
+Tools → Options
+→ Privacy → Cookies → Allow sites to set cookies / for the originating web site only" (
+Firefox 1.5 and below
+) or "
+Tools → Options
+→ Privacy / Cookies → Accept cookies from sites" (
+Firefox 2
+); or, in Mozilla Suite/SeaMonkey, via
+Edit -
+Preferences
+-
+Privacy
+Security -
+Cookies / Cookie Acceptance Policy.   Note: The option to limit cookies to the originating server was removed from the UI in Firefox 2.

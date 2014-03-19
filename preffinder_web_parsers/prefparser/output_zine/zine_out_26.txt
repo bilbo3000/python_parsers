@@ -1,0 +1,12 @@
+browser.cache.memory.capacity
+Determines how the browser uses RAM for cache.
+-1
+(default):
+Automatically set size of capacity
+as a percentage of physical RAM
+0
+: disables the memory cache device entirely
+(n)
+: Set the maximum RAM used to
+n
+KB.

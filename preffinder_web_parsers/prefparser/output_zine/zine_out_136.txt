@@ -1,0 +1,4 @@
+browser.search.param.(name).(digit).("custom" or "default")
+Used for adding arbitrary variables to the search query of the
+(name)
+search plugin.

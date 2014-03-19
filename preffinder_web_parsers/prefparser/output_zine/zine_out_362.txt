@@ -1,0 +1,9 @@
+network.negotiate-auth.allow-proxies
+True
+(default): Allow SPNEGO by default when challenged by a proxy server. (See
+Integrated Authentication
+and
+bug 266485
+for more information.)
+False
+: Opposite of the above

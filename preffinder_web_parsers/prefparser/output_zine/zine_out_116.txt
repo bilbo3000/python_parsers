@@ -1,0 +1,8 @@
+browser.preferences.instantApply
+True
+(default in all platforms but Windows): Changes to preferences are active immediately. The preferences window is not modal. Instead of "OK" and "Cancel" buttons, there is only a "Close" button.
+False
+: Changes to preferences occur after clicking "OK" button. The preference window is modal.
+Applies to:
+Firefox 1.5 and above
+SeaMonkey 2 dated 20071028 and later, for preferences migrated to "new toolkit".

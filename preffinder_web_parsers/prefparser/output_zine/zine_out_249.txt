@@ -1,0 +1,6 @@
+extensions.logging.enabled
+True
+: Enables some extra extension system logging (can reduce performance)
+False
+(default): Opposite of the above
+Note: Nightlies only

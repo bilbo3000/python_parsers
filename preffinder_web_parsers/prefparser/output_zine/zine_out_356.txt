@@ -1,0 +1,11 @@
+network.IDN_show_punycode
+Determines how to display IDN hostnames in the
+Location Bar
+(see
+bug 282270
+).
+True
+(default): All IDN (UTF-8) domain names will be normalized to punycode.
+False
+: Display IDN domain names in UTF-8
+Note: Addresses may be input as UTF-8 regardless of this setting.

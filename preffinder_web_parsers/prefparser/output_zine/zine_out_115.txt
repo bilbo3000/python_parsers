@@ -1,0 +1,6 @@
+browser.preferences.animateFadeIn
+True
+(default in Mac OS X): When switching prefs panels, change the height of the window and fade the new panel in over about a second.
+False
+(default everywhere else): Do not animate switching pref panels
+Note: Firefox 1.5 and above only.

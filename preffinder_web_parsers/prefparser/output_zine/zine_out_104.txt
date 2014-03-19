@@ -1,0 +1,10 @@
+browser.link.open_newwindow.restriction
+Firefox and SeaMonkey only. Source:
+The Burning Edge
+.
+0
+(Default in Firefox 1.0.x and SeaMonkey): Force all new windows opened by JavaScript into tabs.
+1
+: Let all windows opened by JavaScript open in new windows. (Default behavior in IE.)
+2
+(Default in Firefox 1.5 and above): Catch new windows opened by JavaScript that do not have specific values set (how large the window should be, whether it should have a status bar, etc.) This is useful because some popups are legitimate — it really is useful to be able to see both the popup and the original window at the same time. However, most advertising popups also open in new windows with values set, so beware.

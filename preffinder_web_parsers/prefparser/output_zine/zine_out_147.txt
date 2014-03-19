@@ -1,0 +1,2 @@
+browser.startup.homepage.count
+In SeaMonkey, the number of tabs of your multitab homepage, or 1 if you use a single-tab homepage.

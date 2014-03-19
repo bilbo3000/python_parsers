@@ -1,0 +1,12 @@
+browser.block.target_new_window
+True
+: Links with target set to
+_blank
+will open in the current tab instead of a new window.
+False
+: Links with target set to
+_blank
+will open in a new window.
+Note: No longer in use. Use
+browser.link.open_newwindow
+instead.

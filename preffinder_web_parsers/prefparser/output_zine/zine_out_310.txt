@@ -1,0 +1,2 @@
+network.cookie.denyRemovedCookies
+Seemingly unused.

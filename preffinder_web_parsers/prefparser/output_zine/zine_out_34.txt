@@ -1,0 +1,3 @@
+browser.chromeURL
+Location of browser's UI chrome; launched at browser startup. Default value is
+chrome://browser/content/

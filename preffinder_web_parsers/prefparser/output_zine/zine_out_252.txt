@@ -1,0 +1,5 @@
+extensions.update.autoUpdateEnabled
+True
+(default): Allow automatic checking for updates at the specified interval
+False
+: Opposite of the above

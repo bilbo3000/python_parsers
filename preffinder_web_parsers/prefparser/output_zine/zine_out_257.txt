@@ -1,0 +1,5 @@
+extensions.update.notifyUser
+A flag for whether to show the software update dialog for extensions on startup.  The application sets this pref to true after it checks for extension updates in the background and finds one or more updates available.  On the next startup, the dialog is shown and the pref is immediately set to false.  You would not normally change this pref manually, unless debugging startup and updates. Setting it to true will cause the dialog to open on next startup, but the dialog will close immediately if there is no update pending.  Unset by default (until first background check).  Introduced by the patch for
+bug 307358
+.
+Firefox / Thunderbird 2.x and later.

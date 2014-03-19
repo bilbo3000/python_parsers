@@ -1,0 +1,8 @@
+privacy.item.offlineApps
+True
+: Clear the offline website data when using the Clear Private Data feature (Firefox 3 and above only)
+False
+(default): Opposite of the above
+Note: This can be changed via "
+Tools → Options
+→ Privacy /  Private Data → Settings...".

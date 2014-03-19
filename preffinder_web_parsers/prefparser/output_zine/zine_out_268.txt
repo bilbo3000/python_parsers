@@ -1,0 +1,3 @@
+geo.wifi.url
+Which geolocation service provider to use. Default is
+https://www.google.com/loc/json

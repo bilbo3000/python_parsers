@@ -1,0 +1,9 @@
+general.skins.selectedSkin
+The current skin used by the browser. Default value is
+classic/1.0
+.
+Note: In Firefox, this can be changed via "Tools → Add-ons → Themes" (
+Firefox 2
+) or "Tools → Themes" (
+Firefox 1.5 and below
+)

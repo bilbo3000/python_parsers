@@ -1,0 +1,18 @@
+browser.tabs.loadDivertedInBackground
+Determines behavior of pages normally meant to open in a new window (such as
+target="_blank"
+or from an external program), but that have instead been loaded in a new tab.
+True
+: Load the new tab in the background, leaving focus on the current tab
+False
+(default): Load the new tab in the foreground, taking the focus from the current tab.
+Note: Setting this preference to
+True
+will still bring the browser to the front when opening links from outside the browser.
+Note:
+target="_new"
+creates/reuses a window named "_new" and is frequently used by Google.
+target="_blank"
+loads the designated document in a new, unnamed window [
+[1]
+].

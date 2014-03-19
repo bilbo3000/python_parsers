@@ -1,0 +1,5 @@
+prefs.converted-to-utf8
+True
+: The preferences have been converted to UTF-8; decode as appropriate
+False
+(default): Opposite of the above

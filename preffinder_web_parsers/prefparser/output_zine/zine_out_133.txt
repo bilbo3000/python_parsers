@@ -1,0 +1,6 @@
+browser.search.openintab
+True
+: When performing a search from the Search Bar, open the results in a new tab.
+False
+(default): Open search results in the current tab/window.
+Note: Firefox nightly trunk builds only.

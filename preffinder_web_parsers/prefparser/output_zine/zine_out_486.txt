@@ -1,0 +1,7 @@
+snav.keyCode.up
+Determines the key code corresponding to upwards spatial navigation. Default value is
+DOM_VK_LEFT
+.
+(A complete listing of possible key codes is available in
+nsIDOMKeyEvent.idl
+.)

@@ -1,0 +1,10 @@
+browser.tabs.closeButtons
+(Firefox 2.0 and above) This preference controls how close buttons can be displayed on tabs.
+0:
+Display a close button on the active tab only
+1:
+(default) Display a close button on each tab
+2:
+Don't display any close buttons
+3:
+Display a single close button at the end of the tab bar (Firefox 1.x behavior)

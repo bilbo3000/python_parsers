@@ -1,0 +1,10 @@
+browser.display.foreground_color
+The default color for the foreground of browser content as a hex code. This affects web pages whose text colors are not explicity set and XUL error pages. Default value is
+#000000
+.
+Note: In Firefox, this can be changed via  "
+Tools → Options
+→ Content / Fonts
+Colors → Colors... → Text and Background → Text" (
+Firefox 1.5 and above
+).

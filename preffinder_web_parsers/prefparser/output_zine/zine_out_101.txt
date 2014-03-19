@@ -1,0 +1,19 @@
+browser.jsannoyances.disabled
+The collective state of several other preferences; namely,
+dom.event.contextmenu.enabled
+,
+dom.disable_window_move_resize
+,
+dom.disable_window_flip
+,
+dom.disable_window_open_feature.status
+, and
+dom.disable_window_status_change
+. Used by the preferences dialog for tracking; changing the value of this preference manually does not change the tracked preferences.
+True
+: Consider all of the above preferences to be true (except
+dom.event.contextmenu.enabled
+, which is considered to be false)
+False
+(default): Opposite of the above
+Note: Firefox 1.5 and above only.

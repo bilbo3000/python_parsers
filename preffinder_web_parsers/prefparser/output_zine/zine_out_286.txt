@@ -1,0 +1,2 @@
+intl.charset.detector
+Determines which locale URI sets how character set are detected in the browser

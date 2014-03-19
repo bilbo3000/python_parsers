@@ -1,0 +1,8 @@
+browser.search.update
+True
+(default): Automatically check for updates to
+search plugins
+.
+False
+: Opposite of the above.
+Note: Firefox 1.5 and above only.

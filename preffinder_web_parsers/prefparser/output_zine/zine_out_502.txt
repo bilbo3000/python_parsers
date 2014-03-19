@@ -1,0 +1,2 @@
+ui.textSelectBackground
+Determines the background color to use for text selections as a hex code or named color. If this preference is not set, the OS's value is used.

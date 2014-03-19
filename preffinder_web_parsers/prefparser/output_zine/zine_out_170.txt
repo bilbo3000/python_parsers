@@ -1,0 +1,10 @@
+browser.tabs.warnOnClose
+True
+(default): The browser will prompt for confirmation when closing the browser when more than one tab is open.
+False
+: No warnings will be given when closing the browser with more than one tab.
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Tabs → Warn (me) when closing multiple tabs" (
+Firefox 1.5 and above
+).

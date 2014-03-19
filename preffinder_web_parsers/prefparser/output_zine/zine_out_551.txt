@@ -1,0 +1,9 @@
+urlclassifier.keyupdatetime.*
+Time stamps used by Safe Browsing in Firefox to record the latest updates downloaded and stored in
+urlclassifier2.sqlite
+.  Downloading is controlled by
+browser.safebrowsing.remoteLookups
+.
+See
+Phishing Protection
+in the Mozilla Wiki.

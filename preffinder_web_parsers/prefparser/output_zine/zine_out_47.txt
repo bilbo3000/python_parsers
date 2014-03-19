@@ -1,0 +1,5 @@
+browser.display.use_focus_colors
+True
+: Set colors on focused items according to preferences
+False
+(default): Do not set colors on focused items

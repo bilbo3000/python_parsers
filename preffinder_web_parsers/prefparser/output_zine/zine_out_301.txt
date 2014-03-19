@@ -1,0 +1,2 @@
+intl.menuitems.alwaysappendaccesskeys
+Specifies URI to determine if access keys are appended to menu items

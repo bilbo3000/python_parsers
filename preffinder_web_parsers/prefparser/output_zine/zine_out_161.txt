@@ -1,0 +1,18 @@
+browser.tabs.loadInBackground
+Focus behavior for new tabs from links
+True
+(default): Do not focus new tabs opened from links (load in background)
+False
+: Opposite of above
+Note:
+bookmarks
+history can be opened similarly with browser.tabs.loadBookmarksInBackground
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Tabs → When I open a link in a new tab, switch to it immediately" (
+Firefox 2 and above
+) or "
+Tools → Options
+→ Tabs → Select new tabs opened from links" (
+Firefox 1.5
+).

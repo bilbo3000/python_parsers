@@ -1,0 +1,4 @@
+view_source.editor.path
+Path to the external editor to use for View Source when
+view_source. editor. external
+is True. If the path doesn't exist or isn't a program, the internal viewer will always be used.

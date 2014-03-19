@@ -1,0 +1,4 @@
+xpinstall.dialog.confirm
+Determines the chrome location of the XPInstall dialog. Default value is
+chrome://mozapps/content/xpinstall/xpinstallConfirm.xul
+.

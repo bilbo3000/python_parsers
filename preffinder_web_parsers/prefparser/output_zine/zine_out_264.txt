@@ -1,0 +1,8 @@
+font.size.nav4rounding
+Unused (obsolete)
+. Previously:
+True
+: In Windows,
+adjust rounding of some pixel font sizes to match Netscape 4.x's (incorrect) rounding
+False
+(default): Display fonts normally

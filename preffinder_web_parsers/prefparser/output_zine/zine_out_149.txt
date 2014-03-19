@@ -1,0 +1,2 @@
+browser.startup.homepage_override.mstone
+The last browser version (milestone) this profile was loaded with. If it differs from the current version, pref is changed to current version.

@@ -1,0 +1,12 @@
+network.cookie.alwaysAcceptSessionCookies
+Determines whether to accept session
+cookies
+(kept for the duration of the browser session, then removed) if
+network.cookie.lifetimePolicy
+is
+1
+.
+True
+: Accept session cookies without prompting
+False
+(default): Prompt before accepting session cookies

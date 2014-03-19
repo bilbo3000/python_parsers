@@ -1,0 +1,3 @@
+browser.safebrowsing.provider.*
+Tree containing provider information used in the safe browsing process.
+Note: There is currently only one default provider (Google); however, more may be added.

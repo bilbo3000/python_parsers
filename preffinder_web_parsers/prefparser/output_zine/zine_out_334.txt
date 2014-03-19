@@ -1,0 +1,5 @@
+network.http.connect.timeout
+Pref removed (unused)
+. Previously: determines how long to wait for a response until registering a timeout. Default value is
+30
+.

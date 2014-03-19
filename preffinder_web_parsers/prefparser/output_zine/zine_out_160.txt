@@ -1,0 +1,6 @@
+browser.tabs.loadGroup
+0
+: Append group to current tab set
+1
+(default): Replace current tab set with group
+Note: Mozilla Suite/SeaMonkey only.

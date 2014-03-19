@@ -1,0 +1,11 @@
+browser.tabs.opentabfor.urlbar
+Pref removed (unused)
+. Previously:
+Determines the behavior of pressing Enter in the address bar or clicking the Go button.
+True
+(default): Open URL in new tab
+False
+: Open URL in current tab
+Note:
+Functionality proposed as enhancement request
+.

@@ -1,0 +1,8 @@
+network.automatic-ntlm-auth.allow-proxies
+Enable automatic use of the operating system's NTLM implementation to silently authenticate the user with their Windows domain logon with proxy servers. (See
+Integrated Authentication
+for more information)
+True
+(default): Automatically authenticate with proxy servers
+False
+: Prompt for authentication

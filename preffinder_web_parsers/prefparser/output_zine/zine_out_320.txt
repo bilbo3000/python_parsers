@@ -1,0 +1,10 @@
+network.dir.format
+How to format directory listings (e.g., from FTP servers)
+1
+: Raw — exactly what comes off the network
+2
+(default): HTML
+3
+:
+application/http-index-format
+(requires code to parse/display that is not present by default in Firefox; it is present in the Mozilla application suite)

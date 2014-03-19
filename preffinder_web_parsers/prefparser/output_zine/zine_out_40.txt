@@ -1,0 +1,9 @@
+browser.display.force_inline_alttext
+True
+: Force broken images'
+alt
+text to be displayed inline
+False
+(default): Show an icon if rendering in Quirks Mode and there is no
+alt
+text, or if rendering in Quirks Mode and the image has a size specified.

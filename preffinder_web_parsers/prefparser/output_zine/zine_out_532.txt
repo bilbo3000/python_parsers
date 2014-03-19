@@ -1,0 +1,8 @@
+image.animation_mode
+Determines how to animate multi-frame GIF images
+none
+: animated images will never play.
+once
+: animated images will play once.
+normal
+(default): animated images will play as normal.

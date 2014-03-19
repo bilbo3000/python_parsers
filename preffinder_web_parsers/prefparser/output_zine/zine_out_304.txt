@@ -1,0 +1,6 @@
+network.autodial-helper.enabled
+Help Windows NT, 2000, and XP dialup a RAS connection when a network address is unreachable.
+True
+(default): Launch dialer (if one is configured) when address is unreachable
+False
+: Display error message

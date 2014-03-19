@@ -1,0 +1,36 @@
+dom.popup_allowed_events
+A space-separated list of the events that are allowed to create popups.  Default value is "
+change click dblclick mouseup reset submit
+". A presumably complete list of events from
+mozilla/content/events/src/nsDOMEvent.cpp
+:
+Form events
+:
+select
+:
+change
+:
+input
+:
+submit
+:
+reset
+:
+Other events
+:
+keydown
+:
+keypress
+:
+keyup
+:
+mousedown
+:
+mouseup
+:
+click
+:
+dblclick
+:
+error
+:

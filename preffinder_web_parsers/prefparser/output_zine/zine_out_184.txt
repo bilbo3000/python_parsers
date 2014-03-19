@@ -1,0 +1,5 @@
+browser.urlbar.filter.javascript
+True
+(default): Filter out “javascript:” URLs from appearing in the Location Bar autocomplete dropdown.
+False
+: Allow “javascript:” URLs to appear in the dropdown.

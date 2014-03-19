@@ -1,0 +1,9 @@
+browser.chrome.image_icons.max_size
+If an image's height or width is greater than this number (in pixels), the image will not have a thumbnail placed in its tab (or the
+Location Bar
+). Setting it to
+0
+will prevent thumbnails from being used altogether. The default value is
+1024
+pixels.
+Note: Firefox 1.5 and above and SeaMonkey only.

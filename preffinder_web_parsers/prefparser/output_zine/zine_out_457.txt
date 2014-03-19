@@ -1,0 +1,8 @@
+security.password_lifetime
+Determines how long (in minutes) to go without asking for the master password in Mozilla Mail when
+security.ask_for_password
+is
+2
+.  Default value is
+30
+.

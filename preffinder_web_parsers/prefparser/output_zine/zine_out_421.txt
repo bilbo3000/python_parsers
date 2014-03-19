@@ -1,0 +1,6 @@
+print.use_native_print_dialog
+True
+(default): Use the native print dialog
+False
+: Use the OS print dialog
+Note: Windows-only

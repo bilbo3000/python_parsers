@@ -1,0 +1,8 @@
+network.prefetch-next
+Determines whether to use
+link prefetching
+.
+True
+(default): Silently prefetch hinted documents and store in the cache
+False
+: Disable all link prefetching

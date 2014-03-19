@@ -1,0 +1,8 @@
+privacy.sanitize.promptOnSanitize
+True
+(default): Prompt before performing the Clear Private Data operation (Firefox 1.5 and above only)
+False
+: Clear Private Data without confirmation
+Note: In Firefox 1.5 and above, this can be changed via "
+Tools → Options
+→ Privacy → Settings..."

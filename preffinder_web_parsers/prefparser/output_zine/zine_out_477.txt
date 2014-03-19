@@ -1,0 +1,6 @@
+signon.rememberSignons
+True
+: (default): Enable the
+Password Manager
+False
+Opposite of the above

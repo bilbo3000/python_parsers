@@ -1,0 +1,5 @@
+browser.urlbar.doubleClickSelectsAll
+True
+: Select the contents of the address bar when it is double clicked
+False
+(default): Opposite of above

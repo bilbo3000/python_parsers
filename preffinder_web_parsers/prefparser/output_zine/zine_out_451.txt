@@ -1,0 +1,4 @@
+security.dialog_enable_delay
+Amount of time in milliseconds to disable buttons on security-sensitive dialog boxes. Default value is
+2000
+.

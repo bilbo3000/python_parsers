@@ -1,0 +1,16 @@
+dom.ipc.plugins.enabled.timeoutSecs
+Number of seconds before an
+out-of-process plugin
+is terminated, when the browser detects that the plugin or plugin script has stopped responding.
+[5]
+Default is
+45
+in Firefox 3.6.6 (increased from
+10
+).   Set the value to
+-1
+to disable plugin hang detection, so that the browser does not terminate plugins that stop responding
+[6]
+[7]
+[8]
+Note: First shipped in Firefox 3.6.4 for Windows and Linux.

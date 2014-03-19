@@ -1,0 +1,4 @@
+browser.active_color
+The default color for active links as a hex code. Default is
+#EE0000
+.

@@ -1,0 +1,2 @@
+browser.microsummary.requestTimeout
+Determines how long to wait for a response until the connection is cancelled. A positive integer determining the number of seconds to wait until cancelling microsummary loads that take too long. Default value is 300.

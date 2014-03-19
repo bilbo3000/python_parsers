@@ -1,0 +1,4 @@
+network.hosts.smtp_server
+SMTP (outgoing mail) server for Mozilla Mail/News. Default value is
+mail
+.

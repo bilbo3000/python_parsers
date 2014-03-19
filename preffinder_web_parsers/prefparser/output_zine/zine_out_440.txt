@@ -1,0 +1,5 @@
+profile.confirm_automigration
+True
+(default): Ask user before performing an automigration
+False
+: Opposite of the above

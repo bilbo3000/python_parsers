@@ -1,0 +1,5 @@
+gfx.color_management.enabled
+True
+: Enable color management for rendered graphics.
+False
+(default): Disable color management.

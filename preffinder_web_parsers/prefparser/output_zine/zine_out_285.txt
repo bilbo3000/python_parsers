@@ -1,0 +1,3 @@
+intl.charset.default
+Determines the default character set. Default value is
+chrome://global-platform/locale/intl.properties

@@ -1,0 +1,4 @@
+roaming.default.files
+A comma-separated list of files that will be selected for roaming by default.  Default value is
+bookmarks.html,abook.mab,cookies.txt
+.

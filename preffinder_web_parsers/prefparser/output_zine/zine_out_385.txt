@@ -1,0 +1,20 @@
+network.proxy.type
+Determines how the browser uses proxies.
+0
+(default): Direct connection to the Internet (no proxy used)
+1
+: Manual proxy configuration (use values in
+network.proxy.*
+)
+2
+: Autoconfiguration by URL (use value in
+network.proxy.autoconfig_url
+)
+3
+: Same as
+0
+for compatibility reasons (see
+bug 115720
+) and will be reset to 0
+4
+: Auto-detect proxy settings for this network

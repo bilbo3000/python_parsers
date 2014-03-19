@@ -1,0 +1,6 @@
+print.extend_native_print_dialog
+True
+(default): Extend the native dialog with information on printing frames.
+False
+: Opposite of the above
+Note: Firefox 1.5 and above only.

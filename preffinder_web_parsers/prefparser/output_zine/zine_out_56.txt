@@ -1,0 +1,5 @@
+browser.download.hide_plugins_without_extensions
+True
+(default): In the Download Actions dialog, remove entries where no file extensions are associated with a plugin.
+False
+: Opposite of the above.

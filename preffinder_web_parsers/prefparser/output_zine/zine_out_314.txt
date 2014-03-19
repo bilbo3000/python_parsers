@@ -1,0 +1,22 @@
+network.cookie.lifetimePolicy
+Determines how browser sets
+cookie
+lifetimes.
+0
+(default): Use supplied lifetime
+1
+: Ask before accepting
+2
+: Accept for session only
+3
+: Cookies last for the number of days specified in
+network.cookie.lifetime.days
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Privacy → Cookies → Keep Cookies:" (
+Firefox 1.5 and below
+) or via "
+Tools → Options
+→ Privacy / Cookies → Keep until:" (
+Firefox 2
+).

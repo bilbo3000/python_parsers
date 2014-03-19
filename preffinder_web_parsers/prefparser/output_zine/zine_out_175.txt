@@ -1,0 +1,8 @@
+browser.turbo.enabled
+Pref removed (obsolete)
+. Previously:
+Determined whether to load browser in "Turbo Mode" (aka "quick launch") (Windows/Mozilla Suite only)
+True
+: Load some Mozilla code into memory on Windows boot
+False
+(default): Load browser normally on program execution

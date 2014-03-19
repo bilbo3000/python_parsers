@@ -1,0 +1,4 @@
+print.print_extra_margin
+Determines an extra gap or margin in twips (90 twips is 1/8 of an inch) around the content of the page for Print Preview only. Default value is
+90
+(1/8").

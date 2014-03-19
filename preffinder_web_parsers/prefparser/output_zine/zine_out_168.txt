@@ -1,0 +1,3 @@
+browser.tabs.opentabfor.windowopen
+Pref removed (obsolete)
+.

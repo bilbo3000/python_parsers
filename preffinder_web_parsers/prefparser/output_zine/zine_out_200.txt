@@ -1,0 +1,5 @@
+browser.urlbar.trimURLs
+True
+(default): Trim "http://" prefix from url address displayed in location bar  .
+False
+: Don't trim url in location bar.

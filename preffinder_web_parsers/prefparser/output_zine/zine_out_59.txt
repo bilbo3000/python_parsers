@@ -1,0 +1,8 @@
+browser.download.manager.closeWhenDone
+True
+: Close the Download Manager when all downloads are complete
+False
+(default): Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Main / Downloads → Close it when all downloads are finished" (Firefox 2 and above) or  Downloads / Download Manager → Close the Download Manager when all downloads are complete" (Firefox 1.5).

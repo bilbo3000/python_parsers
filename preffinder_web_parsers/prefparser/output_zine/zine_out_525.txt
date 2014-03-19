@@ -1,0 +1,8 @@
+clipboard.autocopy
+True
+: Selecting text automatically copies it to the clipboard
+False
+(default): Opposite of the above
+Note:
+*nix only
+.

@@ -1,0 +1,9 @@
+keyword.enabled
+Determines whether to use keywords
+True
+(default): Send non-URLs entered in the
+Location Bar
+to the URL specified in
+keyword.URL
+False
+: Disable keywords

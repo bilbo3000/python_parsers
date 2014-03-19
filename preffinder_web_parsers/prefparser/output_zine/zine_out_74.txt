@@ -1,0 +1,7 @@
+browser.feedview.articleLength
+Pref removed.
+Previously:
+The number of words per feed item to display. Default value is
+50
+.
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.

@@ -1,0 +1,9 @@
+browser.safebrowsing.enabled
+Whether to determine if a site is a web forgery or not.
+True
+(default): Check visited sites
+False
+: Do not check any sites
+Note: This can be changed in Firefox via "
+Tools → Options
+→ Security / Tell me if the site I'm visiting is a suspected forgery".

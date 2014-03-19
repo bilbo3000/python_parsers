@@ -1,0 +1,4 @@
+editor.positioning.offset
+The default offset, both X and Y, of absolutely positioned elements. Default value is
+0
+.

@@ -1,0 +1,4 @@
+browser.search.order.(name) (.digit)
+Used for weighting search engine entry sorting. Points to
+.properties
+file.

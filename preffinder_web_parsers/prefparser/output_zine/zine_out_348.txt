@@ -1,0 +1,6 @@
+network.http.proxy.version
+Determines which HTTP version to use when a proxy server is configured. Default value is
+1.1
+, though
+1.0
+is recommended for some finnicky proxies (such as the Junkbuster proxy).

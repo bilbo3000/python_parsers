@@ -1,0 +1,5 @@
+browser.places.createdDefaultQueries
+True
+: A "Most Viewed" folder in the Bookmarks Toolbar Folder has been created already; do not create a new one.
+False
+(default): Create a "Most Viewed" folder in the Bookmarks Toolbar Folder, then toggle this preference to True.

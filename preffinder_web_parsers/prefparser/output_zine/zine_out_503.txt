@@ -1,0 +1,6 @@
+ui.textSelectBackgroundAttention
+Determines the background color used for
+Find As You Type
+as a hex code or named color. If this preference is not set, the inverse of
+ui.textSelectBackground
+is used.

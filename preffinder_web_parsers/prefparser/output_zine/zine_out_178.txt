@@ -1,0 +1,7 @@
+browser.urlbar.autoFill
+True
+: Enables
+inline autocomplete
+.
+False
+(default): Opposite of above.

@@ -1,0 +1,10 @@
+browser.display.normal_lineheight_calc_control
+Determine method of calculating line-height (leading) in layout
+-1
+: Uninitialized
+0
+: Don't include external leading
+1
+: Use what the font vendor provides
+2
+(default): Compensate leading if vendor's leading is insufficient

@@ -1,0 +1,9 @@
+general.smoothScroll
+Status of ths smooth scrolling option (scrolling on a web page moves page content pixelwise rather than line-by-line)
+True
+: Activate smooth scrolling
+False
+(default): Opposite of the above
+Note: In Firefox,  this can be changed via "
+Tools → Options
+→ Advanced → General → Browsing → Use smooth scrolling"

@@ -1,0 +1,22 @@
+browser.display.screen_resolution
+Firefox 1.5 only
+DPI of display device. Affects
+CSS
+absolute length units (e.g. pt, mm).
+-1
+(default): Use the operating system's logical resolution or 96 DPI, whichever is greater
+0
+: Force use of operating system's logical resolution
+(n)
+: Assume screen DPI of
+n
+. Default DPI is
+96
+.
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content → Advanced → Display Resolution".  See
+browser. screen_resolution
+for Firefox 1.0.x or
+layout. css. dpi
+for Firefox 2.0+.

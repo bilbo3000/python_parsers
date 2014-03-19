@@ -1,0 +1,5 @@
+print.always_cache_old_pres
+True
+: Cache old presentation when going into Print Preview
+False
+(default): Opposite of the above

@@ -1,0 +1,7 @@
+browser.update.resetHomepage
+Determine whether to reset homepage during browser installation
+True
+: Reset homepage in browser.startup.homepage to value in
+browser.startup.homepage_reset
+False
+(default): Do not reset homepage

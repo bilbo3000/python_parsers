@@ -1,0 +1,6 @@
+network.protocol-handler.warn-external-default
+Determines whether to warn the user before loading an unlisted external handler
+True
+(default): Warn the user
+False
+: Opposite of the above

@@ -1,0 +1,11 @@
+network.enableIDN
+Determines whether to use
+IDN (International Domain Name) support
+in the browser
+True
+(default): Enable IDN support
+False
+: Opposite of the above
+Note: In Firefox 1.0, this preference did not "stick" (see
+bug 261934
+). Fixed in 1.0.1.

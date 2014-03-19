@@ -1,0 +1,7 @@
+browser.sessionhistory.max_total_viewers
+Determines the maximum number of content viewers to cache for "bfcache" (fast back/forward navigation). Default value is
+-1
+(calculate based on available memory). All values less than 0 are equivalent.
+Note: Firefox 1.5 and above only. Supersedes
+browser.sessionhistory.max_viewers
+.

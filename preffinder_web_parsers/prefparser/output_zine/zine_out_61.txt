@@ -1,0 +1,5 @@
+browser.download.manager.focusWhenStarting
+True
+: Set the Download Manager window as active when starting a download
+False
+(default): Leave the window in the background when starting a download

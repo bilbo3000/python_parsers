@@ -1,0 +1,4 @@
+network.security.ports.banned.override
+A comma-separated list of port numbers to enable, overriding the default port blocking. (See
+Mozilla Port Blocking
+for more information.)

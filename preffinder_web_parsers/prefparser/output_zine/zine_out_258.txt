@@ -1,0 +1,4 @@
+extensions.update.severity.threshold
+The number of pending Extension/Theme updates you can have before the update notifier goes from low to medium severity. Default value is
+5
+.

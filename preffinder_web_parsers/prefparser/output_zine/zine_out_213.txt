@@ -1,0 +1,14 @@
+dom.disable_window_flip
+Determines whether windows can be
+focus()
+ed via non-chrome
+JavaScript
+.
+True
+(default in Mozilla Suite): Windows may not be set as active via JavaScript
+False
+(default in Firefox): Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content (Web Features in Firefox 1.0.x) → Enable JavaScript / Advanced → Allow scripts to: Raise or lower windows" and, in Mozilla Suite, via "Edit → Preferences → Advanced → Scripts
+Plug-ins → Allow scripts to: Raise or lower windows".

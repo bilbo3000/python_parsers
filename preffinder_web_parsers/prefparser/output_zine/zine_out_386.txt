@@ -1,0 +1,4 @@
+network.security.ports.banned
+A comma-separated list of port numbers to disable in addition to the ports already disabled by default. (See
+Mozilla Port Blocking
+for more information.)

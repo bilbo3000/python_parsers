@@ -1,0 +1,8 @@
+privacy.item.cookies
+True
+: Delete all cookies when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+(default): Opposite of the above
+Note: This can be changed via "
+Tools → Options
+→ Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).

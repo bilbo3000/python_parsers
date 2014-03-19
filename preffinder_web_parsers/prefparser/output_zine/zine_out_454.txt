@@ -1,0 +1,8 @@
+security.enable_ssl2
+True
+(default in Firefox 1.5 and below): SSL 2.0 is enabled
+False
+(default in Firefox 2): Opposite of the above
+Note: In Firefox 1.5 and below, this can be changed via "
+Tools → Options
+→ Advanced → Security → Use SSL 2.0" (removed from the UI in Firefox 2).

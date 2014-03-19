@@ -1,0 +1,4 @@
+network.hosts.pop_server
+POP (incoming mail) server for Mozilla Mail/News. Default value is
+mail
+.

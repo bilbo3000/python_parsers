@@ -1,0 +1,5 @@
+browser.download.show_plugins_in_list
+True
+(default): In the Download Actions dialog, display actions and filetypes associated with installed plugins.
+False
+: Opposite of the above.

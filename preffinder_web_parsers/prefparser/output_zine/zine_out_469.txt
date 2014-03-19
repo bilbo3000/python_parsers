@@ -1,0 +1,5 @@
+security.warn_submit_insecure.show_once
+True
+(default): Leave the "Alert me whenever..." box unchecked on the security warning dialog
+False
+: Opposite of the above

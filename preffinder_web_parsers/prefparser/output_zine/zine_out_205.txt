@@ -1,0 +1,5 @@
+browser.zoom.siteSpecific
+True
+(Default): Remember the zoom level on a per-site basis.
+False
+: The zoom level should be applied on the current tab only.

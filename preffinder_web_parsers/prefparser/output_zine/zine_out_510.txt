@@ -1,0 +1,4 @@
+update_notifications.provider.0.frequency
+Number of days between update checks. Default value is
+7
+.

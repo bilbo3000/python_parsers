@@ -1,0 +1,8 @@
+privacy.popups.policy
+Determines the popup blocker behavior.
+1
+: Allow popups
+2
+: Reject popups
+Note: Seems to be deprecated in favor of
+dom.disable_open_during_load

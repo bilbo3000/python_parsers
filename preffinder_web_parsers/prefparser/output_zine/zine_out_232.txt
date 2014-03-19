@@ -1,0 +1,12 @@
+editor.quotesPreformatted
+Originally meant to be a
+temporary preference
+to control the behavior of plaintext quotations inserted into email.
+True
+: Wrap quoted email text in a
+pre
+element
+False
+(default): Wrap quoted email text in a
+span
+element

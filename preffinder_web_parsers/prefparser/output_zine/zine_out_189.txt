@@ -1,0 +1,14 @@
+browser.urlbar.matchOnlyTyped
+Determines behavior of autocomplete in
+Location Bar
+.  No longer used in Firefox 3.5 - replaced by
+browser.urlbar.default.behavior
+(see bugs
+463483
+and
+463558
+)
+True
+: Only matches typing against URLs specifically typed into Location Bar
+False
+(default): Match against history

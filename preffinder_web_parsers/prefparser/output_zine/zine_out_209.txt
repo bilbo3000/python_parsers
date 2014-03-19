@@ -1,0 +1,10 @@
+dom.allow_scripts_to_close_windows
+Determines which
+close()
+operations are legal.
+True
+: Any script may close any window
+False
+(default): Only windows opened via script may be closed via
+close()
+.

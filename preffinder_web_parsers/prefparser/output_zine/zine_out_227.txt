@@ -1,0 +1,4 @@
+dom.popup_maximum
+The maximum number of simultaneously open popup windows. Default value is
+20
+.

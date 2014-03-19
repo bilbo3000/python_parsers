@@ -1,0 +1,5 @@
+browser.related.provider
+The URL to retrieve "What's Related" data from. Default value is
+http://www-rl.netscape.com/wtgn
+?
+Note: This is not used in Firefox (there is no "What's Related").

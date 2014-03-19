@@ -1,0 +1,4 @@
+browser.urlbar.maxRichResults
+Determines how many entries should appear (at most) in the dropdown in
+Location Bar
+.

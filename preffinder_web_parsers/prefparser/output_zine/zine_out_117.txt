@@ -1,0 +1,15 @@
+browser.preferences.lastpanel
+Which part of the preferences window was displayed the last time it was closed. In Firefox:
+0
+: General
+1
+: Privacy
+2
+: Web Features
+3
+: Downloads
+4
+: Advanced
+Note: In Firefox, this is determined by the section of "
+Tools → Options
+" you are viewing when you close the dialog.

@@ -1,0 +1,2 @@
+plugin.disable_full_page_plugin_for_types
+MIME types that would normally be opened with a plugin, except that the action has been changed in the Firefox Download Actions window.  Resetting this preference changes the download action back to the plugin.

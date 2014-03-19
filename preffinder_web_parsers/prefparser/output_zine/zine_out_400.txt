@@ -1,0 +1,5 @@
+nglayout.debug.paint_flashing
+True
+: In debug-enabled builds, flash painted elements/objects when Caps Lock is on
+False
+(default): Opposite of the above

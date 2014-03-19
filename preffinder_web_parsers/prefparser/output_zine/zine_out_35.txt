@@ -1,0 +1,10 @@
+browser.display.background_color
+The default color for the background of browser content as a hex code. This affects blank tabs, web pages whose backgrounds are not explicitly set, and XUL error pages. Default value is
+#FFFFFF
+.
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content / Fonts
+Colors → Colors... → Text and Background → Background " (
+Firefox 1.5 and above
+).

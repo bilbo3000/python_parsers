@@ -1,0 +1,6 @@
+browser.goBrowsing.enabled
+True
+(default): If a normal DNS lookup times out, try hitting Google
+False
+: Opposite of the above
+Note: No longer used

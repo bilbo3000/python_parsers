@@ -1,0 +1,3 @@
+startup.homepage_welcome_url
+The URL that Firefox goes to when the user starts up the browser after the initial installation, or with a new profile. In Firefox, defaults to
+http://%LOCALE%.www.mozilla.com/ %LOCALE%/%APP%/%VERSION%/firstrun/.

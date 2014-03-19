@@ -1,0 +1,5 @@
+plugin.override_internal_types
+True
+: Allow plugins to override internal imglib decoder MIME types in full-page mode
+False
+(default): Opposite of the above

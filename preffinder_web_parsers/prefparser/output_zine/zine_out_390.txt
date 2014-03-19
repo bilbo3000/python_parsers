@@ -1,0 +1,8 @@
+nglayout.compatibility.mode
+Force a compatibility mode instead of autodetecting.
+0
+(default): Use supplied DTD
+1
+: Standards compliance mode
+2
+: Quirks mode

@@ -1,0 +1,32 @@
+network.cookie.p3p
+Determines the browser's P3P handling. An 8-character string. Default value is
+ffffaaaa
+. Each position in the string may be one of the following:
+f
+: Flag the cookie
+d
+: Accept the cookie, but downgrade it to a session-only lifetime
+a
+: Accept the cookie
+r
+: Reject the cookie
+The character positions are as follows:
+1st position
+: First party cookies from sites with no policy
+2nd position
+: Third party cookies from sites with no policy
+3rd position
+: First party cookies from sites that collect personal information without permission
+4th position
+: Third party cookies from sites that collect personal information without permission
+5th position
+: First party cookies from sites that collect personal information only with permission
+6th position
+: Third party cookies from sites that collect personal information only with permission
+7th position
+: First party cookies from sites that don't collect personal information
+8th position
+: Third party cookies from sites that don't collect personal information
+Note: P3P functionality is not present in Firefox and will probably be removed from Mozilla Suite (see
+bug 225287
+).

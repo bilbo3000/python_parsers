@@ -1,0 +1,5 @@
+update.showSlidingNotification
+True
+(default): Display the sliding alert when updates are available
+False
+: Opposite of the above

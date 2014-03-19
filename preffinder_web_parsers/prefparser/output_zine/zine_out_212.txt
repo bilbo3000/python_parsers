@@ -1,0 +1,10 @@
+dom.disable_open_during_load
+Determines popup blocker behavior
+True
+(default in Firefox): Block popup windows created while the page is loading
+False
+(default in Mozilla Suite): Allow popup windows
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content (Web Features in Firefox 1.0.x) → Block Popup Windows" and, in Mozilla Suite, via "Edit → Preferences → Privacy
+Security → Popup Windows → Block unrequested popup windows.

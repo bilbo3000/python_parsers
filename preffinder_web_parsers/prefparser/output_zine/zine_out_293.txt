@@ -1,0 +1,2 @@
+intl.charsetmenu.mailedit
+Determines the layout of the Character Coding menu in Mozilla Mail/News (message editor)

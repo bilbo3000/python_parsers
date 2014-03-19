@@ -1,0 +1,13 @@
+browser.tabs.loadBookmarksInBackground
+Focus behavior of new tabs from bookmarks
+history
+True
+: When you open a bookmark in a new tab then that tab will load in the background without taking focus from the current tab.
+False
+(default): When you open a bookmark in a new tab then that tab will become the current tab.
+Note:
+you likely want to set this  to the same setting value as used in browser.tabs.loadInBackground
+(
+Bug 469456
+)
+Note: Firefox 1.0.x had a Tabs option for  "Select New Tabs from Bookmarks or History"

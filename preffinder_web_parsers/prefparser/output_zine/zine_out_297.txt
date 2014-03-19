@@ -1,0 +1,2 @@
+intl.fallbackCharsetList.(character set)
+Determines the substitute character set if (character set) is unavailable.

@@ -1,0 +1,21 @@
+security.OCSP.URL
+Determines the URL to query for
+OCSP
+certificate verification/validation if
+security.OCSP.enabled
+is
+2
+. Default value is an empty string.
+Notes
+:
+In
+Firefox,
+this can be changed via "
+Tools → Options
+→ Advanced → Validation → OCSP → Service URL".
+In
+SeaMonkey 2,
+this can be changed via "
+Edit → Preferences
+→ Privacy
+Security → Validation → OCSP → Validate all certificates using the following OCSP server → Service URL".

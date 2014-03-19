@@ -1,0 +1,8 @@
+browser.fixup.alternate.enabled
+True
+(default): Try to fix up
+http://foo
+to
+http://(prefix)foo(suffix)
+False
+: Do not second-guess the user

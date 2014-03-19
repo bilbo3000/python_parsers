@@ -1,0 +1,12 @@
+browser.urlbar.matchBehavior
+Determines how to use word boundaries when searching for items in the
+Location Bar
+.
+0
+Search anywhere within available text, irrespective of word boundaries.
+1
+(default): Use word boundaries first when searching, then try matching anywhere
+2
+: Use only word boundaries when searching for typed text
+3
+: Match only the beginning of page URLs and titles

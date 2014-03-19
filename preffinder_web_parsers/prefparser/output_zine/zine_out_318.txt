@@ -1,0 +1,22 @@
+network.cookie.p3plevel
+Security level of filtering for
+cookies
+0
+: Low (use
+afafaaaa
+)
+1
+(default): Medium (use
+ffffaaaa
+)
+2
+: High (use
+frfradaa
+)
+3
+: Custom (use value in
+network.cookies.p3p
+)
+Note: P3P functionality is not present in Firefox and will probably be removed from Mozilla Suite (see
+bug 225287
+).

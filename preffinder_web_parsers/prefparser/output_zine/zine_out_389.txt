@@ -1,0 +1,6 @@
+network.standard-url.escape-utf8
+Determines whether URLs with UTF-8 characters are escaped per the spec
+True
+(default): Escape UTF-8 characters
+False
+: Send URLs as they are

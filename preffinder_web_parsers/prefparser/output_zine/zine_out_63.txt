@@ -1,0 +1,11 @@
+browser.download.manager.retention
+When to remove downloaded files' entries from the Download Manager
+0
+: Upon successful download
+1
+: When the browser exits
+2
+(default): Manually
+Note: In Firefox, this can be changed via "
+Tools → Options
+→  Privacy / History → Remember what I've downloaded" (Firefox 2 and above) or "Privacy → Download History → Remove files from the Download Manager" (Firefox 1.5).

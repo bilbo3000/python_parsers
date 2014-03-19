@@ -1,0 +1,29 @@
+security.OCSP.enabled
+Determines behavior of
+OCSP
+-based certificate verification/validation.
+0
+(default in Firefox 2 and below): Do not use OCSP for certificate validation
+1
+(default in Firefox 3 and above): Use OCSP to validate only certificates that specify an OCSP service URL (see
+bug 110161
+).
+2
+: Enable and use values in
+security.OCSP.URL
+and
+security.OCSP.signingCA
+for validation.
+Notes
+:
+In
+Firefox,
+this can be changed via "
+Tools → Options
+→ Advanced → Validation → OCSP".
+In
+SeaMonkey 2,
+this can be changed via the first checkbox and the radio buttons under "
+Edit → Preferences
+→ Privacy
+Security → Validation → OCSP".

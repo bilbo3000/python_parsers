@@ -1,0 +1,5 @@
+browser.popups.showPopupBlocker
+True
+(default): Show an icon in the status bar when a popup has been blocked.
+False
+: Do not show an icon in the status bar when a popup has been blocked.

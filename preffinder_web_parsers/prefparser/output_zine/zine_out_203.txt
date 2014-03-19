@@ -1,0 +1,5 @@
+browser.xul.error_pages.enabled
+True
+(default in Firefox 1.5 and above and SeaMonkey): The browser will use error pages.
+False
+(default in Firefox 1.0.x and below): The browser will use error alert boxes.

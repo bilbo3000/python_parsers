@@ -1,0 +1,8 @@
+browser.chrome.toolbar_style
+Set toolbar style for browser
+0
+: Pictures Only
+1
+: Text Only
+2
+(default): Pictures and Text

@@ -1,0 +1,6 @@
+config.use_system_prefs.accessibility
+True
+: The system is configured with accessibility features; use them
+False
+(default): Opposite of the above
+Note: Seems to be unused in Firefox 1.0

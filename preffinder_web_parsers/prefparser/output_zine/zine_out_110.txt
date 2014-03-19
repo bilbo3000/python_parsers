@@ -1,0 +1,2 @@
+browser.microsummary.updateInterval
+Determines how often microsummaries’ target pages are re-fetched for new information. Number of minutes between microsummary updates for microsummaries that do not specify an update interval. Default is 30.

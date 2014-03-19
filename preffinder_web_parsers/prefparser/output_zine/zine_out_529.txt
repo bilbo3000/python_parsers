@@ -1,0 +1,2 @@
+gfx.color_management.display_profile
+Full path to an ICM profile for output. Default is an empty string in which case the systems global profile is used. If no global profile can be found a default sRGB profile is used.

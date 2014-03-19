@@ -1,0 +1,16 @@
+security.checkloaduri
+Pref removed
+(
+use CAPS instead
+). Previously:
+Determines how to handle access across schemes (e.g.,
+loading
+file:
+URLs from
+http:
+URLs
+)
+True
+(default): Perform security checks and block access for insecure access
+False
+: Opposite of the above

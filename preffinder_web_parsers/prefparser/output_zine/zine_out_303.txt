@@ -1,0 +1,11 @@
+network.auth.use-sspi
+True
+(default in Windows): Use
+SSPI
+instead of
+GSSAPI
+for
+Kerberos-based authentication
+False
+: Opposite of the above
+Note: Firefox 1.5 and above only.

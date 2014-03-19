@@ -1,0 +1,10 @@
+network.http.request.max-start-delay
+Determines amount of time (in seconds) to suspend pending requests, before spawning a new connection, once the limit on the number of persistent connections per host (
+network.http.max-persistent-connections-per-server
+) has been reached. However, a new connection will not be created if max-connections (
+network.http.max-connections
+) or max-connections-per-server (
+network.http.max-connections-per-server
+) has also been reached. Default value is
+10
+.

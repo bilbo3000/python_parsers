@@ -1,0 +1,6 @@
+browser.fixup.alternate.suffix
+The suffix to append when attempting to fix an entered URL. Default is "
+.com
+". Requires
+browser.fixup.alternate.enabled
+be true.

@@ -1,0 +1,5 @@
+general.useragent.locale
+ISO 639-2 value
+representing the user's language for the
+User-Agent
+string

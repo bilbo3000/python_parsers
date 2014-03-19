@@ -1,0 +1,17 @@
+browser.bookmarks.sort.resource
+The RDF source to use when sorting the bookmarks in the Bookmarks Manager
+rdf:http://home.netscape.com/NC-rdf#Name
+(default) - by bookmark name
+rdf:http://home.netscape.com/NC-rdf#URL
+- by URL
+rdf:http://home.netscape.com/NC-rdf#ShortcutURL
+- by bookmark keyword
+rdf:http://home.netscape.com/NC-rdf#Description
+- by description
+rdf:http://home.netscape.com/NC-rdf#BookmarkAddDate
+- by bookmark creation date
+rdf:http://home.netscape.com/WEB-rdf#LastModifiedDate
+- by bookmark modification date
+rdf:http://home.netscape.com/WEB-rdf#LastVisitDate
+- by date of last visit
+Note: In Firefox, this can be changed via "Bookmarks → Organize (or Manage) Bookmarks... → View"

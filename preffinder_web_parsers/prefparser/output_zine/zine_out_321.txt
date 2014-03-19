@@ -1,0 +1,8 @@
+network.dns.disableIPv6
+Determines whether to perform IPv6 name lookups (see
+bug 68796
+)
+True
+(default in OS X): Do not perform lookups
+False
+(default in all others): Opposite of the above

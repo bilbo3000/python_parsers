@@ -1,0 +1,6 @@
+network.http.use-cache
+Determines whether to enable caching of HTTP documents.
+True
+(default): Enable caching
+False
+: Opposite of the above

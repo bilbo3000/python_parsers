@@ -1,0 +1,7 @@
+browser.helperApps.deleteTempFileOnExit
+True
+: Delete temporary files on exit. See
+comment 19 on bug 238789
+(especially Mac)
+False
+(same as default unset): Opposite of above (keep the files)

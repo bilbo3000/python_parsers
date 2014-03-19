@@ -1,0 +1,2 @@
+browser.download.lastDir
+Path to the last directory used for a download via "Save As."

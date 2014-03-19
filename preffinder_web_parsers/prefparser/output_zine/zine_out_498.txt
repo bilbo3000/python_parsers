@@ -1,0 +1,8 @@
+ui.key.menuAccessKey
+Determines the key code corresponding to Mozilla menu access
+0
+(default in Mac OS X): none
+17
+(default in BeOS): Ctrl
+18
+(default in Windows): Alt

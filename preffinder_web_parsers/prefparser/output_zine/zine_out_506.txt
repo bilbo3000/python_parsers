@@ -1,0 +1,8 @@
+update.severity
+Used by the update system to determines when to display the icon for pending updates.
+0
+(default): Low severity update(s) available (extension/theme updates)
+1
+: Medium severity update(s) available (numerous extension/theme updates)
+2
+: High severity updates available (new version of Firefox/security patch)

@@ -1,0 +1,20 @@
+browser.link.open_external
+Where to open links sent to the browser from an external application
+2
+(default in SeaMonkey): Opens external links in a new window
+3
+(default in Firefox): Opens external links in a new tab in the most recent window
+1
+(or anything else): Opens external links in current window
+Note: In Firefox 1.5, this can be changed via "
+Tools → Options
+→ Tabs → Open links from other applications in:"; in Firefox 2 and above, via “Tools → Options → Tabs → New pages should be opened in:” (same as
+browser.link. open_newwindow
+) and in SeaMonkey, via "
+Edit -
+Preferences
+-
+Navigator -
+Tabbed browsing / Links from other applications -
+Open links passed from another applications in".
+Pref removed from Firefox 3.5

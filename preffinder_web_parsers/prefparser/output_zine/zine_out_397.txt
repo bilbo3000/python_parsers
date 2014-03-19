@@ -1,0 +1,5 @@
+nglayout.debug.invalidate_dumping
+True
+: In debug-enabled builds, output information about invalidated objects/elements to stdout when Caps Lock is on
+False
+(default): Opposite of the above

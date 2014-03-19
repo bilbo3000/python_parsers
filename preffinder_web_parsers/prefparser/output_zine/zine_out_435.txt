@@ -1,0 +1,5 @@
+privacy.popups.showBrowserMessage
+True
+(default): Display a message at the top of the browser window when a popup has been blocked
+False
+: Display a status bar icon to indicate when a popup has been blocked

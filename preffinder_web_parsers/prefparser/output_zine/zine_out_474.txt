@@ -1,0 +1,5 @@
+signon.SignonFileName
+Determines the filename that the
+Password Manager
+uses for storing signon data. Default value is
+signons.txt

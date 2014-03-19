@@ -1,0 +1,4 @@
+editor.htmlWrapColumn
+The column at which HTML source wraps. Default value is
+72
+.

@@ -1,0 +1,14 @@
+dom.event.contextmenu.enabled
+Determines whether the
+oncontextmenu
+event can be caught by non-chrome
+JavaScript
+(e.g., in an anti-right-click script).
+True
+(default): the opposite of below.
+False
+: Webpages will not be able to affect the context menu event, thus allowing to access the context menu all the time.
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content (Web Features in Firefox 1.0.x) → Advanced → Allow scripts to: Disable or replace context menus" and, in Mozilla Suite, via "Edit → Preferences → Advanced → Scripts
+Plug-ins → Allow scripts to: Disable or replace context menus".

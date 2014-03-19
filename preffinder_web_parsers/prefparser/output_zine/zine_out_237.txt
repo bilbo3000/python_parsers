@@ -1,0 +1,4 @@
+extensions.{GUID}.description
+Specify a custom description for the extension whose GUID is specified (see
+Localize extension descriptions
+for application).

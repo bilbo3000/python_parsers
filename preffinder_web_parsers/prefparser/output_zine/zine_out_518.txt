@@ -1,0 +1,4 @@
+xpinstall.dialog.progress.skin
+Determines the chrome location of the themes dialog. Default value is
+chrome://mozapps/content/extensions/extensions.xul?type=themes
+.

@@ -1,0 +1,19 @@
+extensions.checkCompatibility
+Undefined (default) or
+True
+: Check extension for browser compatibility on upgrade/install.
+False
+: Disable extension compatibility checking.
+Available in Firefox and Thunderbird 2.0, SeaMonkey 2.0, Sunbird 1.0b1. Note: Use with caution (see
+bug 330895
+).
+Note:
+In applications based on Gecko 1.9.2a and later, this preference is replaced by
+extensions.checkCompatibility.x.yy
+where
+x.yy
+should be replaced by the major and minor version numbers of the application, including the letter (a, b, pre) if present but not the 3rd and further numbers: e.g.
+extensions.checkCompatibility.2.1a
+for SeaMonkey 2.1a2pre or
+extensions.checkCompatibility.3.6
+for Firefox 3.6.6.

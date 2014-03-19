@@ -1,0 +1,5 @@
+network.http.request.timeout
+Pref removed (unused)
+. Previously: HTTP-specific network timeout. Default value is
+120
+.

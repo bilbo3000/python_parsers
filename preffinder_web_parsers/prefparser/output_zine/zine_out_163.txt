@@ -1,0 +1,11 @@
+browser.tabs.onTop
+(Firefox 4.0 and above) Determines position of the Tabs Bar relative to the Location Bar.
+True
+(default): Tabs Bar above Location Bar
+False
+: Restores old behavior of Tabs Bar
+below
+Location Bar
+Note:
+bug 755593
+will soon remove tabs-on-bottom mode. Once it is RESOLVED FIXED, this pref will no longer be effective.

@@ -1,0 +1,2 @@
+network.http.default-socket-type
+Determines the socket type to be used for normal HTTP traffic. Default value is an empty string, indicating a normal TCP/IP socket type.

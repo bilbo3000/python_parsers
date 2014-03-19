@@ -1,0 +1,7 @@
+browser.offline
+Status of the "Work Offline" option
+True
+: Attempt to retrieve pages from cache. Do not make external connections to retrieve resources.
+False
+(default): Assume a connection is present and retrieve resources where necessary.
+Note: In Firefox, this can be changed via "File → Work Offline"

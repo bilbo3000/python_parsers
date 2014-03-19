@@ -1,0 +1,7 @@
+signon.SignonFileName2
+Determines the filename that the
+Password Manager
+uses for storing signon data starting in Firefox 1.5.0.10 and Firefox 2.0.0.2 (
+bug 360493
+). Default value is
+signons2.txt

@@ -1,0 +1,6 @@
+extensions.ignoreMTimeChanges
+True
+: Prevent extensions system from using last-modified file metadata when determining whether an extension is new (and should therefore be registered)
+False
+(default): Opposite of the above
+Note: Nightlies only.

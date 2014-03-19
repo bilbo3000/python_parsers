@@ -1,0 +1,5 @@
+browser.sessionstore.max_concurrent_tabs
+?
+Firefox 4.0b7 and above
+See
+http://twitter.com/limi/status/2489319692435456

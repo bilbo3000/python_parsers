@@ -1,0 +1,8 @@
+network.image.warnAboutImages
+Pref unused (feature disabled).
+Previously:
+Determines whether to prompt the user before loading an image.
+True
+: Load no images until user confirms
+False
+(default): Load images normally

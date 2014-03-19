@@ -1,0 +1,7 @@
+browser.related.enabled
+Setting for "What's Related"
+True
+(default): Enable
+False
+: Disable
+Note: This is not used in Firefox (there is no "What's Related").

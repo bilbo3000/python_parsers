@@ -1,0 +1,6 @@
+slider.snapMultiplier
+Determines the size of the scrollbar snapping region. Default value is
+6
+in Windows;
+0
+(disabled) in *nix.

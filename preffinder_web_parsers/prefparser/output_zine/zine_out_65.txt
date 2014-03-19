@@ -1,0 +1,5 @@
+browser.download.manager.showAlertOnComplete
+True
+(default): popup window at bottom right corner of the screen will appear once all downloads are finished.
+False
+: the popup window will not appear.

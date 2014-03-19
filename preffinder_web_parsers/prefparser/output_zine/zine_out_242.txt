@@ -1,0 +1,8 @@
+extensions.dss.enabled
+True
+: Enable dynamic skin (theme) switching.
+False
+(default): Require a browser restart when switching themes.
+Note: Switching themes dynamically is buggy (see
+bug 226791
+).

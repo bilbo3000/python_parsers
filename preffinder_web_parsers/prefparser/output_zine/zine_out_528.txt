@@ -1,0 +1,2 @@
+custtoolbar.personal_toolbar_folder
+Custom name for the Personal Toolbar Folder.  If empty (default), name is determined by string bundle or the hard-coded value "Personal Toolbar Folder".

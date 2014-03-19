@@ -1,0 +1,9 @@
+security.default_personal_cert
+Determines the selection of a security certificate to present to web sites that require one.
+Select Automatically
+(default): Automatically choose the certificate
+Ask Every Time
+: Prompt user with a choice of certificate options every time
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Advanced → Certificates → Client Certificate Selection"

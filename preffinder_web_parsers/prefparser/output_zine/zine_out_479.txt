@@ -1,0 +1,9 @@
+snav.disableJS
+True
+(default): Disable
+onFocus
+event that an element may recieve during spatial navigation.  On some pages the page decides to move the focus as if the targeted content was clicked.  This may lead to an undesirable behavior.
+False
+: Honor
+onFocus
+handlers triggered by spatial navigation

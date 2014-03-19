@@ -1,0 +1,11 @@
+browser.display.use_document_colors
+True
+(default): Allow documents to specify colors to use
+False
+: Opposite of above
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content / Fonts
+Colors → Colors → Allow pages to chose their own colors, instead of my selections above" (
+Firefox 1.5 and above
+).

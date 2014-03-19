@@ -1,0 +1,11 @@
+browser.cache.memory.enable
+True
+(default): Use memory cache, up to capacity specified in
+browser.cache.memory.capacity
+(if set); otherwise, use a percentage of physical RAM (see
+bug 105344
+)
+False
+: Disable memory cache (same effect as setting
+browser.cache.memory.capacity
+to 0)

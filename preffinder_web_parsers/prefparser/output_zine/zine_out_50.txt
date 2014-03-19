@@ -1,0 +1,7 @@
+browser.dom.global_scope_pollution.disabled
+True
+: Disable the more aggressive emulation of IE's "IDs directly accessible in the global scope" behavior.
+False
+(default): Automatically add IDs to the global (
+window
+) scope in quirks mode.

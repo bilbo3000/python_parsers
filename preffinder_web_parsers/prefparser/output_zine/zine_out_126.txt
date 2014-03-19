@@ -1,0 +1,12 @@
+browser.safebrowsing.remoteLookups
+Method to determine if a site is a web forgery.
+True
+: Ask provider by sending a request
+False
+(default): Use internal list
+Note: This can be changed in Firefox via "
+Tools → Options
+→ Security" radio buttons:
+* "Check using a downloaded list of suspected sites" (False)
+* "Check by asking ____ about each site I visit" (True).
+Note: When an internal list is used, it is updated about once an hour from the provider.

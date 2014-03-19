@@ -1,0 +1,12 @@
+browser.download.manager.skipWinSecurityPolicyChecks
+True
+:  Bypass the Windows security check  (ignore system security settings for executable file downloads).
+False:
+(default) Use Windows' security setting for executable file downloads ("Launching applications and unsafe files" setting in Internet Options).  This
+blocks executable file downloads
+if the Windows setting is set to "Disable".
+Note: Added in
+bug 445158
+for Firefox 3 (3.0.6, 3.1b2 and above).  No longer used in Firefox 3.6 and above (removed in
+bug 504804
+).

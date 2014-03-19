@@ -1,0 +1,3 @@
+browser.urlbar.restrict.history
+See
+Location Bar search

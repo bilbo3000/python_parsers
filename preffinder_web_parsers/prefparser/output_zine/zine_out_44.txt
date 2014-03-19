@@ -1,0 +1,5 @@
+browser.display.show_image_placeholders
+True
+(default): Show placeholders while image is loading
+False
+: Opposite of above

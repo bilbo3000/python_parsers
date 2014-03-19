@@ -1,0 +1,8 @@
+browser.download.downloadDir
+Determines the directory to download to when
+browser.download.useDownloadDir
+is
+false
+. Appears to mirror
+browser.download.dir
+.

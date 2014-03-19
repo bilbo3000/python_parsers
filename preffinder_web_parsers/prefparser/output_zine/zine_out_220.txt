@@ -1,0 +1,24 @@
+filename
+Overrides
+dom.ipc.plugins.enabled
+(see above) for plugins specified by filename (plugin filenames can be found in
+about:plugins
+and must be specified in lowercase).
+True
+: Run the specified plugin in a separate "plugin-container" process.
+False
+:  Do not run the specified plugin out-of-process (run within the browser process).
+Windows examples:
+Microsoft Silverlight:  dom.ipc.plugins.enabled.npctrl.dll
+Apple QuickTime:  dom.ipc.plugins.enabled.npqtplugin.dll
+Adobe Flash (listed as "Shockwave Flash"): dom.ipc.plugins.enabled.npswf32.dll
+NPAPI
+test plugin: dom.ipc.plugins.enabled.nptest.dll
+Linux examples:
+Adobe Flash (listed as "Shockwave Flash"): dom.ipc.plugins.enabled.libflashplayer.so
+NPAPI test plugin: dom.ipc.plugins.enabled.libnptest.so
+Mac examples:
+(Firefox 4)
+[4]
+Adobe Flash (listed as "Shockwave Flash"):dom.ipc.plugins.enabled.flash player.plugin
+Java: dom.ipc.plugins.enabled.javaplugin2_npapi.plugin

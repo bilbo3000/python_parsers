@@ -1,0 +1,4 @@
+network.http.version
+Determines which HTTP version to use. Default value is
+1.1
+.

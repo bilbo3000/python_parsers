@@ -1,0 +1,2 @@
+toolkit.scrollbox.clickToScroll.scrollDelay
+Determines how many milliseconds to wait before scrolling the tab strip by another increment. (Default: 150)

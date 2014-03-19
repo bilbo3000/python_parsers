@@ -1,0 +1,10 @@
+bidi.controlstextmode
+How controls are used
+1
+(default): Logical
+2
+: Visual (this is no longer supported and leads to strange side-effects, see
+bug 373319
+)
+3
+: Container

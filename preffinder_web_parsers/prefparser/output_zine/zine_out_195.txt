@@ -1,0 +1,3 @@
+browser.urlbar.restrict.typed
+See
+Location Bar search

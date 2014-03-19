@@ -1,0 +1,7 @@
+signon.prefillForms
+True
+(default): Allows auto-filling of stored usernames and passwords on webpage forms
+False
+: Opposite of the above
+Added in Firefox 1.5.0.9 and 2.0.0.1; set to "False" as workaround for
+bug 360493

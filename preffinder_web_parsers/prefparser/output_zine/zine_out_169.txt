@@ -1,0 +1,15 @@
+browser.tabs.showSingleWindowModePrefs
+Determines whether to display "Single Window Mode" settings in preferences in Firefox 1.0.x (see
+bug 266759
+). Note:
+Preference is obsolete
+and
+has no effect in Firefox 1.5 and above
+True
+: Show "Force links that open in new windows to open in..." options under "
+Tools → Options
+→ Advanced → Tabbed Browsing" (
+Firefox 1.0.x
+)
+False
+(default): Opposite of above

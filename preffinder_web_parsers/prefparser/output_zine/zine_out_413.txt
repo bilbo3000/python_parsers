@@ -1,0 +1,7 @@
+print.postscript.cups.enabled
+True
+(default): Enable CUPS support within the
+Postscript
+printing system.
+False
+: Do not try to access CUPS.

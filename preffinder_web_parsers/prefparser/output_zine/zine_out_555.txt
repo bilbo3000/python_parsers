@@ -1,0 +1,2 @@
+wallet.crypto.autocompleteoverride
+Indicates whether browser should ignore the autocomplete="off" attribute in forms.}

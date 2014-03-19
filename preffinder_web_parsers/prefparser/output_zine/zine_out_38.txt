@@ -1,0 +1,10 @@
+browser.display.focus_ring_width
+Determines the display of the focus ring around focused elements.
+0
+: Hide focus ring
+1
+(default): Dots around focused elements will be displayed with a 1 pixel border
+(n)
+: Display dots with a width of
+n
+pixels around focused elements

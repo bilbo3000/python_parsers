@@ -1,0 +1,5 @@
+browser.urlbar.formatting.enabled
+True
+(default): Format url in location bar to emphasize domain name.
+False
+: Don't fade non domain portions of url in location bar.

@@ -1,0 +1,9 @@
+general.autoScroll
+Status of the autoscroll option (middle-clicking on a web page produces a scrolling icon and will automatically scroll the page based on the pointer's relative location to the icon)
+True
+(default): Activate autoscroll
+False
+(default in *nix): Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Advanced → General → Browsing → Use autoscrolling"

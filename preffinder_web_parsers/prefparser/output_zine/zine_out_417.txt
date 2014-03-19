@@ -1,0 +1,4 @@
+print.printer_list
+Manually supplied list of printers for the
+Postscript
+printing system on Linux, Unix, or VMS.

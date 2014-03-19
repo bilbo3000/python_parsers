@@ -1,0 +1,2 @@
+profile.migration_directory
+Path to directory for migration. Default value is an empty string.

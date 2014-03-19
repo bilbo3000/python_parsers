@@ -1,0 +1,11 @@
+browser.dom.document.all.disabled
+True
+: Disables emulation of IE's
+document.all
+collection
+False
+(default): Enable undetectable
+document.all
+support in quirks mode (see
+bug 248549
+)

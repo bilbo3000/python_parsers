@@ -1,0 +1,3 @@
+browser.related.disabledForDomains
+A comma-separated list of domains for which "What's Related" is disabled. Default value is an empty string.
+Note: This is not used in Firefox (there is no "What's Related").

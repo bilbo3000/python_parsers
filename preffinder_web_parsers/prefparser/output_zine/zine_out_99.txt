@@ -1,0 +1,7 @@
+browser.history_expire_days_min
+Number of minimum days to remember visited pages in history. Default value is
+90
+.
+Note: In Firefox 3, this can be changed via “Keep my history for at least ___ days” under “
+Tools → Options
+→ Privacy → History”

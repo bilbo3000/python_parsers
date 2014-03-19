@@ -1,0 +1,7 @@
+browser.visited_color
+The default color for visited links as a hex code. Default is
+#551A8B
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content → Fonts
+Colors → Visited Links"

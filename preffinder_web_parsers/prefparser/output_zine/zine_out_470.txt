@@ -1,0 +1,5 @@
+security.warn_viewing_mixed
+True
+(default): Display a dialog warning the user when a page has both encrypted and non-encrypted content
+False
+: Opposite of the above

@@ -1,0 +1,6 @@
+intl.jis0208.map
+Determines the map to use for JIS X 0208
+CP932
+(default in Windows): Use a CP932-compatible map
+IBM943
+(default in OS/2): Use an IBM943-compatible map

@@ -1,0 +1,8 @@
+browser.fullscreen.animateUp
+Controls toolbar and tab strip animation while in Full Screen.
+0
+: No toolbar and tab strip animation
+1
+(default): Animates only first collapse.
+2
+: Animates each collapse.

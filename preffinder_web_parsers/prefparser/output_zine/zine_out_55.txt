@@ -1,0 +1,11 @@
+browser.download.folderList
+Which of several internally-specified locations to use for the default download directory
+0
+: the desktop
+1
+(default): the downloads folder
+2
+: the last folder specified for a download
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Main / Downloads → Save files to...  (Firefox 2 and above)  or Downloads/Download Folder  → Save all files to this folder" (Firefox 1.5).

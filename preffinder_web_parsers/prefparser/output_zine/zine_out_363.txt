@@ -1,0 +1,4 @@
+network.negotiate-auth.delegation-uris
+A comma-and-space-delimited list of sites for which the browser may delegate user authorization to the server. (See
+Integrated Authentication
+for more information.) Default value is an empty string.

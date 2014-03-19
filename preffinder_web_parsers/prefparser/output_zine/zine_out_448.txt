@@ -1,0 +1,14 @@
+security.ask_for_password
+Determines when Mozilla Mail should ask for the master password.
+0
+(default): Only the first time it's needed
+1
+: Every time it's needed
+2
+: Every
+n
+minutes, where
+n
+is the value in
+security.password_lifetime
+.

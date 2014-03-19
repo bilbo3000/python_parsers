@@ -1,0 +1,2 @@
+browser.search.selectedEngine
+Name of currently selected search engine plugin

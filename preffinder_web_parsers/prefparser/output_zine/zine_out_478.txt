@@ -1,0 +1,6 @@
+snav.directionalBias
+When calculating distances between elements on the screen, elements may be given a bias if the elements are in the direction of navigation.  The bias is a given by a fraction such that:
+bias distance = true distance / directional bias
+. The default value is
+3
+.

@@ -1,0 +1,6 @@
+browser.display.focus_background_color
+The default color for the background of focused elements as a hex code. Default value is
+#117722
+. Requires that
+browser.display.use_focus_colors
+be true

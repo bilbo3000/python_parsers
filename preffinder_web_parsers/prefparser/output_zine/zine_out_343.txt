@@ -1,0 +1,10 @@
+network.http.pipelining
+Determines whether to use
+HTTP/1.1 pipelining
+.
+True
+: Enable pipelining
+False
+(default): Disable pipelining
+Note: Pipelining is not well-supported by some servers and proxies.
+Things may break — use with caution.

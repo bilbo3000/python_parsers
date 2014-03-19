@@ -1,0 +1,13 @@
+extensions.enabledScopes
+(Applies to Gecko 1.9.3 and later since 2010-04-07, see
+bug 555486
+)
+"Scopes" from which addons will be loaded (additive bit field):
+1 = addons found in this profile (cannot be disabled)
+2 = addons applying to all profiles of this user
+4 = addons applying to anyone using this application
+8 = addons (e.g. plug-ins) applying to anyone on this computer
+Default is Undefined, which means the same as 15 (addons from all scopes will be loaded unless disabled for some other reason)
+See also
+extensions. autoDisableScopes
+above.

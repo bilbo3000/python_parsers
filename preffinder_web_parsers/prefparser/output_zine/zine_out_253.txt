@@ -1,0 +1,4 @@
+extensions.update.count
+The number of extension/theme/etc. updates available. Default value is
+0
+.

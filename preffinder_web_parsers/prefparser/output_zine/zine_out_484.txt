@@ -1,0 +1,11 @@
+snav.keyCode.modifier
+Determines the key code corresponding to the required modifier keys. These values are given as follows:
+NONE: 0
+SHIFT: 0x00100000
+CONTROL: 0x00001100
+ALT: 0x00000012
+The default value is
+ALT
+|
+SHIFT
+.

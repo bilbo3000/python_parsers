@@ -1,0 +1,14 @@
+general.useragent.extra.(product name/version)
+Allows an arbitrary number of strings to be added to the end of the
+User-Agent
+string. By default,
+general.useragent.extra.
+product
+is defined and set to
+product
+/
+version
+. See
+bug 274928
+for more information.
+Note: Only Firefox 1.5 and above, Thunderbird 1.5 and above, SeaMonkey 1.1 and above.

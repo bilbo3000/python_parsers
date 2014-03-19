@@ -1,0 +1,6 @@
+nglayout.initialpaint.delay
+Determines time in milliseconds to wait before an initial reflow attempt during page rendering. Default value is
+250
+(PAINTLOCK_EVENT_DELAY). Synchronize with
+content.notify.interval
+for best performance.

@@ -1,0 +1,5 @@
+print.save_print_settings
+True
+(default): Save the print settings after each print job
+False
+: Opposite of the above

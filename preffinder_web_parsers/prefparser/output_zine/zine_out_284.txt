@@ -1,0 +1,5 @@
+intl.accept_languages
+ISO 639-2
+values of languages to accept. Default value is determined by localized information in
+chrome://navigator/locale/navigator.properties
+.

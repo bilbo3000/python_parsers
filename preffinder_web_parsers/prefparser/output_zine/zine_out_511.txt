@@ -1,0 +1,7 @@
+view_source.editor.external
+True
+: The program defined in
+view_source. editor. path
+should be used when View Source is requested.
+False
+(default): The internal viewer should be used when View Source is requested.

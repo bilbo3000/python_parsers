@@ -1,0 +1,6 @@
+browser.chrome.toolbar_tips
+Determines tooltip behavior for chrome elements.
+True
+(default): Show tooltips for toolbars and bookmarks. Display the name and URL for bookmarks
+False
+: Hide tooltips for chrome elements

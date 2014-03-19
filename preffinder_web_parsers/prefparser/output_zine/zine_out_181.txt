@@ -1,0 +1,5 @@
+browser.urlbar.clickSelectsAll
+True
+(default in non-Unix builds): Select the contents of the address bar when it is clicked
+False
+(default everywhere else): Opposite of above

@@ -1,0 +1,10 @@
+browser.fixup.hide_user_pass
+True
+(default): When attempting to fix an entered URL, do not fix an entered password along with it (i.e. do not turn
+http://user:password@foo
+into
+http://user:password@(prefix)foo(suffix)
+but instead
+http://user@(prefix)foo(suffix))
+False
+: Include entered password in fixed URL

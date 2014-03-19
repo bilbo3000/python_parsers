@@ -1,0 +1,6 @@
+browser.fullscreen.autohide
+Hides toolbar and tab strip when entering Full Screen.
+True
+(default): Shows toolbar and tab strip.
+False
+: Hides toolbar and tab strip

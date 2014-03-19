@@ -1,0 +1,8 @@
+intl.locale.matchOS
+Determines how to decide locale
+True
+: Use the locale the OS is using
+False
+(default): Use the value set in
+general.useragent.locale
+.

@@ -1,0 +1,21 @@
+security.OCSP.signingCA
+Determines the name of the
+OCSP
+signing certificate authority to use if
+security.OCSP.enabled
+is
+2
+. Default value is an empty string.
+Notes
+:
+In
+Firefox,
+this can be changed via "
+Tools → Options
+→ Advanced → Validation → OCSP → Response Signer".
+In
+SeaMonkey 2,
+this can be changed via "
+Edit → Preferences
+→ Privacy
+Security → Validation → OCSP → Validate all certificates using the following OCSP server → Response Signer".

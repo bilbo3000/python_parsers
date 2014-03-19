@@ -1,0 +1,10 @@
+browser.urlbar.matchOnWordBoundary
+Determines behavior of autocomplete in
+Location Bar
+True
+(default): Use word boundaries when searching for typed text in the Location Bar autocomplete.
+False
+: Search anywhere within available text, irrespective of word boundaries.
+Obsoleted by
+browser. urlbar. matchBehavior
+.

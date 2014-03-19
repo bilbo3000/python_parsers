@@ -1,0 +1,8 @@
+images.dither
+Whether to dither images
+auto
+(default): Automatically decide
+true
+: Dither images
+false
+: Disable image dithering

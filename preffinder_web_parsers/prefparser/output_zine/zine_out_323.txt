@@ -1,0 +1,4 @@
+network.dnsCacheEntries
+Determines the maximum number of entries to keep in the DNS cache. Default value is
+20
+.

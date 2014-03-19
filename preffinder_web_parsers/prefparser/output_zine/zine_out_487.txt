@@ -1,0 +1,4 @@
+snav.rectFudge
+To reduce the chance that a element overlaps with another element, we reduce the elements height and width by this value. Default value is
+20
+.

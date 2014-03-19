@@ -1,0 +1,6 @@
+browser.download.manager.alertOnEXEOpen
+True
+(default): warn the user attempting to open an executable from the Download Manager
+False
+: display no warning and allow executable to be run
+Note: In Firefox, this can be changed by checking the "Don't ask me this again" box when you encounter the alert.

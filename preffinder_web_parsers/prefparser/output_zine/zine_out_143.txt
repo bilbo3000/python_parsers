@@ -1,0 +1,7 @@
+browser.sessionhistory.max_viewers
+The number of content viewers to cache for "bfcache" (fast back/forward navigation). Default value is
+3
+.
+Note: Deer Park/Firefox 1.5b1 only. Functionality has been replaced by
+browser.sessionhistory.max_total_viewers
+.

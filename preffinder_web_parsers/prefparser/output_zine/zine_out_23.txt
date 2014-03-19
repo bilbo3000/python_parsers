@@ -1,0 +1,8 @@
+browser.cache.disk.enable
+True
+(default): Use disk cache, up to capacity specified in
+browser.cache.disk.capacity
+False
+: Disable disk cache (same effect as setting
+browser.cache.disk.capacity
+to 0)

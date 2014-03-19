@@ -1,0 +1,6 @@
+extensions.update.autoUpdate
+True
+: Automatically download and install available updates
+False
+(default): Opposite of the above
+Note: Not implemented

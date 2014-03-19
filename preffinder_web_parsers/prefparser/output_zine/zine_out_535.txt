@@ -1,0 +1,9 @@
+ime.password.onFocus.dontCare
+Determines how an IME editor window should react when password fields gain focus (see
+bug 16940
+).
+True
+: Leave the IME open
+False
+(default): Close the IME.
+Note: Firefox 1.5 and above only.

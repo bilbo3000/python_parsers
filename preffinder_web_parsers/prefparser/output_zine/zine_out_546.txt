@@ -1,0 +1,12 @@
+signed.applets.codebase_principal_support
+True
+: Give scripts using
+codebase principals
+access advanced scripting capabilities. Setting this preference to "true" is often used to allow IRC websites to gain access to the OS's clipboard at the expense of a security risk.
+False
+(default): Only trusted/signed scripts can access advanced scripting capabilities
+Note:
+file:
+and
+resource:
+schemes are considered "special" and may get extra capabilities regardless of this preference's setting.

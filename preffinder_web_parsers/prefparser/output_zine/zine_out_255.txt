@@ -1,0 +1,8 @@
+extensions.update.interval
+Determines how often to check the update URL for updates.
+In Firefox 1.0.x and below, default value is
+604800000
+(milliseconds in 1 week).
+In Firefox 1.5 and above, default value is
+86400
+(seconds in 1 day).

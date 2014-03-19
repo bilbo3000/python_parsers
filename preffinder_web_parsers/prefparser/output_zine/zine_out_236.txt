@@ -1,0 +1,6 @@
+editor.use_custom_colors
+Determines whether to use user-specified colors for content. No effect in Thunderbird.
+True
+: Use colors specified in editor.* preferences for content
+False
+(default): Use the default colors

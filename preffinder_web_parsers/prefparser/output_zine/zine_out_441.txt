@@ -1,0 +1,10 @@
+profile.manage_only_at_launch
+True
+: Only show the
+Profile Manager
+at program launch
+False
+(default): Show
+Profile Manager
+at any time via menus
+Note: In Firefox, there is no UI to access the Profile Manager from within the browser

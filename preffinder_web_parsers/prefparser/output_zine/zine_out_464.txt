@@ -1,0 +1,5 @@
+security.warn_entering_weak
+True
+(default): Display a dialog warning the user when entering an insecure site from a secure one
+False
+: Opposite of the above

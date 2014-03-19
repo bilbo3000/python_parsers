@@ -1,0 +1,7 @@
+snav.keyCode.down
+Determines the key code corresponding to downwards spatial navigation. Default value is
+DOM_VK_DOWN
+.
+(A complete listing of possible key codes is available in
+nsIDOMKeyEvent.idl
+.)

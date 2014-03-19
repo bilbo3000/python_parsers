@@ -1,0 +1,10 @@
+network.http.sendSecureXSiteReferrer
+Determines how to handle
+Referer
+HTTP header when navigating between secure (HTTPS) hosts.
+True
+(default): Send referring URL normally (default for compatibility reasons, see
+bug 141641
+)
+False
+: Send no referring URL

@@ -1,0 +1,14 @@
+print.print_(footer or header)(position)
+At the given position in the header or footer, print one of the following:
+T
+: Title of the document
+U
+: URL
+D
+: Date/time
+P
+: Page number
+PT
+: Page number "of" total pages
+(any string)
+: A literal string with the above substitutions made

@@ -1,0 +1,9 @@
+browser.anchor_color
+The default color for links as a hex code.  Default is
+#0000EE
+Note: This can be changed in Firefox via "
+Tools → Options
+→ Content / Fonts
+Colors  → Colors... → Link Colors →  Unvisited Links" (
+Firefox 1.5 and above
+) and via "Edit → Preferences → Appearance → Colors / Link Colors → Unvisited Links" in Mozilla Suite and SeaMonkey.

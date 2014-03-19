@@ -1,0 +1,5 @@
+browser.display.focus_ring_on_anything
+True
+: Display the focus ring (normally only shown on links) on anything
+False
+(default): Display the focus ring on links only

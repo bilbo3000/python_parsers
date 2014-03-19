@@ -1,0 +1,11 @@
+browser.shell.checkDefaultBrowser
+Check the system
+default browser
+on startup.
+True
+(default): Check to see if the browser is set as default; if not, ask if the user wants it set that way
+False
+: Do not perform the check
+Note:  In Firefox, this can be changed via "
+Tools → Options
+→ Main / System Defaults" (Firefox 2.0 and above) or "Tools → Options → General → Default Browser" (Firefox 1.5 and 1.0.x).

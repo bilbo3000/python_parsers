@@ -1,0 +1,4 @@
+browser.bookmarks.livemark_refresh_seconds
+The number of seconds between Live Bookmark checks. Values under 60 are assumed to be 60; the default is
+3600
+(1 hour).

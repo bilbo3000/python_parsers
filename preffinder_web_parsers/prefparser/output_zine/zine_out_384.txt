@@ -1,0 +1,8 @@
+network.proxy.socks_version
+Determines which version of SOCKS to use with the server specified in
+network.proxy.socks
+. Default value is
+5
+. (The only other valid version is
+4
+.)

@@ -1,0 +1,4 @@
+browser.download.manager.flashCount
+Number of times to flash the Download Manager's taskbar entry when the DM is not in the foreground. Set to 0 to disable flashing. Default value is
+2
+.

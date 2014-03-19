@@ -1,0 +1,10 @@
+browser.forms.submit.backwards_compatible
+True
+(default): Leave off mandatory
+Content-Transfer-Encoding
+header when submitting HTML forms
+False
+: Send header as the spec requires
+Note: Sending the header "used to cause Bad Things, including server crashes" according to comments in the Mozilla source (see
+bug 83065
+). Eventually this pref may disappear.

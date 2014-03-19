@@ -1,0 +1,4 @@
+browser.history_expire_sites
+Maximum number of websites to keep in history. Default value is
+40000
+.

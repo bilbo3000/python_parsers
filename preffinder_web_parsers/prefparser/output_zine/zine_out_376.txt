@@ -1,0 +1,6 @@
+network.protocol-handler.warn-external.(protocol)
+Determines whether to warn the user before loading this protocol's external handler
+True
+: Warn the user
+False
+(default): Opposite of the above

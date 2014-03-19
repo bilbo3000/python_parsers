@@ -1,0 +1,5 @@
+browser.search.selectedEngineInDialog
+Name of currently selected search engine plugin in the search dialog (used when the
+Search Bar
+is hidden)
+Note: Firefox 1.5 and above only.

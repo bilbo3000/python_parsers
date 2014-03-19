@@ -1,0 +1,9 @@
+dom.max_script_run_time
+Determines the maximum amount of time in seconds a script can run (with chrome or content privileges, respectively). Default values are
+20
+and
+10
+respectively. Zero or negative values mean "forever". See the details pages for former behaviour (prior to 2006-07-27).
+2012-08-21:
+New default for chrome is 0 (forever) on SeaMonkey and Thunderbird, except on Linux, see
+bug 482811

@@ -1,0 +1,4 @@
+browser.sessionhistory.max_entries
+The maximum number of pages in the browser's session history, i.e. the maximum number of URLs you can traverse purely through the Back/Forward buttons. Default value is
+50
+.

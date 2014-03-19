@@ -1,0 +1,4 @@
+network.ftp.anonymous_password
+Password to use when connecting to anonymous FTP servers. Sent instead of "mozilla@example.com" if
+advanced.mailftp
+is true. Not set by default.

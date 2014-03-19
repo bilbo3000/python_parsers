@@ -1,0 +1,4 @@
+browser.download.manager.openDelay
+If a download takes less than this number of milliseconds to complete, do not open the Download Manager window. Default value is
+0
+(always show Download Manager window).

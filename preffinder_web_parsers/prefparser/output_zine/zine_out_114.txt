@@ -1,0 +1,8 @@
+browser.preferences.advanced.selectedTabIndex
+Determines which tab in the Advanced section of the preferences is visible.
+0
+(default): General
+1
+: Update
+2
+: Security

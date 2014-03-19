@@ -1,0 +1,8 @@
+browser.tabs.insertRelatedAfterCurrent
+(Firefox 3.6 and above) This preference controls where new tabs will be located.
+True
+(default): Open new tabs to the right of the parent tab.
+False
+: Restores pre Firefox 3.6 behavior where new tabs are opened at the far right of the tabs bar.
+Note:
+Bug 465673 -- tabs opened from links should appear next to the current tab (instead of at the end of the tabstrip)

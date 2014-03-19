@@ -1,0 +1,7 @@
+ui.key.menuAccessKeyFocuses
+True
+(default in Windows): Menus gain focus when
+ui.key.menuAccessKey
+is pressed
+False
+: Opposite of the above

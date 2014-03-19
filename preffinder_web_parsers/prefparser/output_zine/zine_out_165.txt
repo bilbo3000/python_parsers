@@ -1,0 +1,6 @@
+browser.tabs.opentabfor.middleclick
+Determines the behavior of a link when middle-clicked.
+True
+(default): Opens link in new tab
+False
+: Opens link in new window

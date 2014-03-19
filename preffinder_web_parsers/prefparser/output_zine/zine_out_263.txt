@@ -1,0 +1,2 @@
+font.language.group
+The user's language group. Pulled from the localized data at chrome://global/locale/intl.properties by default on installation.

@@ -1,0 +1,14 @@
+ui.key.generalAccessKey
+Determines the key code corresponding to the generic key used for Mozilla shortcuts
+-1
+(default in recent builds) Use
+ui. key. chromeAccess
+for chrome and
+ui. key. contentAccess
+for content
+0
+Disable
+17
+(default in BeOS, Mac OS X): Ctrl
+18
+(default in Windows): Alt

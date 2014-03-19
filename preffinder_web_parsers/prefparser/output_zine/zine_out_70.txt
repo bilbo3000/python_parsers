@@ -1,0 +1,9 @@
+browser.download.save_converter_index
+The format to save web pages in
+0
+: Web Page (Complete)
+1
+: Web Page (HTML Only)
+2
+: Text
+Note: In Firefox, this setting is remembered from the option you choose in the Save As dialog.

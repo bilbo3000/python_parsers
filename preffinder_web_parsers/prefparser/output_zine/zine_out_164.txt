@@ -1,0 +1,7 @@
+browser.tabs.opentabfor.bookmarks
+Controls if a clicked bookmark will open in a new tab when middleclicked.
+Note:
+Pref removed (obsolete)
+.
+Functionality proposed as enhancement request
+.

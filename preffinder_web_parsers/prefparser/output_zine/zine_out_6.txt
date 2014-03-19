@@ -1,0 +1,8 @@
+bidi.texttype
+Type of text
+1
+(default): Charset
+2
+: Logical
+3
+: Visual

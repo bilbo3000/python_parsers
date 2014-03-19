@@ -1,0 +1,10 @@
+browser.underline_anchors
+Determines default text-decoration of anchor elements.
+True
+(default): Underlines links
+False
+: Opposite of above
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content → Fonts
+Colors → Underline links"

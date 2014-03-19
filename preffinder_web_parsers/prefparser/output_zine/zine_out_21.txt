@@ -1,0 +1,10 @@
+browser.cache.check_doc_frequency
+How often to check the remote page for a newer version than what might be in the cache
+0
+: Check once per browser session
+1
+: Check every time I view the page
+2
+: Never check (always use cached page)
+3
+(default): Check when the page is out of date (automatically determined)

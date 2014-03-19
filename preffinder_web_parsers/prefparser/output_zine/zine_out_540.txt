@@ -1,0 +1,11 @@
+permissions.default.image
+Determines when images should be loaded.
+1
+(default): Load all images
+2
+: Do not load any images
+3
+: Load images from same (originating) server only
+Note: This preference was previously known as
+network.image.imageBehavior
+prior to Firefox 1.5.

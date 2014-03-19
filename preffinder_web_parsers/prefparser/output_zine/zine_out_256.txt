@@ -1,0 +1,4 @@
+extensions.update.lastUpdateDate
+When the last extension update occurred, in UNIX epoch format (seconds since 1970-01-01). Default value is
+0
+.

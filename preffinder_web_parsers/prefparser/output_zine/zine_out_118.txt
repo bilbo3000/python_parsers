@@ -1,0 +1,14 @@
+browser.preferences.privacy.selectedTabIndex
+Determines which tab in the Privacy section of the preferences is visible.
+0
+(default): History
+1
+: Saved Forms
+2
+: Passwords
+3
+: Download History
+4
+: Cookies
+5
+: Cache

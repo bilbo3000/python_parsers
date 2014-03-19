@@ -1,0 +1,3 @@
+browser.throbber.url
+Indicates what URL to load when the throbber is clicked. Default value is
+http://www.mozilla.org/products/firefox/central.html

@@ -1,0 +1,17 @@
+converter.html2txt.header_strategy
+How to format HTML headers (
+H1
+-
+H6
+) when saving a web page as text-only
+0
+: No indentation
+1
+(default): Indent headers based on header level (i.e.
+H
+(n+1)
+is indented more than
+H
+(n))
+2
+: Number headings and indent slightly

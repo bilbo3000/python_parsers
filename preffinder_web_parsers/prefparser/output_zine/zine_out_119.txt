@@ -1,0 +1,9 @@
+browser.related.autoload
+Automatically load "What's Related" for a given URL
+0
+: Always
+1
+(default): After first use (default)
+2
+: Never
+Note: This is not used in Firefox (there is no "What's Related").

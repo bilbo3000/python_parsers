@@ -1,0 +1,2 @@
+plugin.scan.4xPluginFolder
+Controls the scanning of the Navigator 4.x directory for plugins. When this preference is missing, the default is to pickup popular plugins such as Flash, Shockwave, Acrobat, and Quicktime. If set to true, ALL plugins will be picked up and if set to false the scan will not happen at all.

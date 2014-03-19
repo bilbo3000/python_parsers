@@ -1,0 +1,6 @@
+config.use_system_prefs
+True
+: Use preferences set by operating system (e.g. proxies, accessibility)
+False
+(default): Opposite of the above
+Note: Seems to be unused in Firefox 1.0

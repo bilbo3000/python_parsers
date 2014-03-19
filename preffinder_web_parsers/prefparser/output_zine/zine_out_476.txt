@@ -1,0 +1,7 @@
+signon.expireMasterPassword
+True
+: The master password for the
+Password Manager
+will expire
+False
+(default): Opposite of the above

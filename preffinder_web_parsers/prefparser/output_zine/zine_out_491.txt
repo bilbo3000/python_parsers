@@ -1,0 +1,5 @@
+toolkit.scrollbox.smoothScroll
+True
+(default): Scroll the tab strip smoothly to a newly-selected tab.
+False
+: Move to the new tab immediately.

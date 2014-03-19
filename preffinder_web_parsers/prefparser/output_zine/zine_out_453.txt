@@ -1,0 +1,8 @@
+security.enable_java
+True
+(default): Java is enabled
+False
+: Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content (Web Features in Firefox 1.0.x) → Enable Java"

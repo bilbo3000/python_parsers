@@ -1,0 +1,4 @@
+browser.startup.homepage_override.1
+Stub for browser.startup.homepage_override (used in Netscape 4.x). No longer used. Default value is
+false
+.

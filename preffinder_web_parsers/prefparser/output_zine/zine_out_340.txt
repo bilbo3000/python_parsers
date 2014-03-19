@@ -1,0 +1,6 @@
+network.http.max-persistent-connections-per-proxy
+If
+network.http.keep-alive
+is true, and if a proxy server is configured, then a new connection will only be attempted if the number of active persistent connections to the server is less than this preference. Default value is
+8
+. Valid values are between 1 and 255 inclusive.

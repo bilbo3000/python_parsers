@@ -1,0 +1,4 @@
+network.ftp.idleConnectionTimeout
+Time in seconds until an idle FTP connection is dropped. Default value is
+300
+.

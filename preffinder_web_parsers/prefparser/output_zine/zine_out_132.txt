@@ -1,0 +1,10 @@
+browser.search.log
+True
+: Log debugging information about the search service to the
+JavaScript Console
+and
+stdout
+.
+False
+(default): Do not log debugging information.
+Note: Firefox 2.0 and above only.

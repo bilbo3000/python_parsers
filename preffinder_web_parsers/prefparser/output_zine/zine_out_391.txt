@@ -1,0 +1,5 @@
+nglayout.debug.checksum_xul_fastload_file
+True
+(default): Verify that the checksum of the XUL Fastload file hasn't changed since that file was last written to disk
+False
+: Don't bother verifying the checksum

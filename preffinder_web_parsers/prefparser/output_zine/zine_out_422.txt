@@ -1,0 +1,5 @@
+print.whileInPrintPreview
+True
+(default): Allow printing while in Print Preview screen
+False
+: Opposite of the above

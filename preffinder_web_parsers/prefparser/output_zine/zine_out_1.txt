@@ -1,0 +1,6 @@
+bidi.characterset
+How the browser determines the character set to use
+1
+(default): Document-specified character set
+2
+: Default character set

@@ -1,0 +1,5 @@
+browser.zoom.full
+True
+(Default): Full page zoom
+False
+: Text zoom

@@ -1,0 +1,5 @@
+extensions.reporter.hidePrivacyStatement
+True
+: The user has viewed and agreed to the privacy statement for the Report Broken Website tool, so don't show it again.
+False
+: Display the privacy statement when opening the Report Broken Website tool.

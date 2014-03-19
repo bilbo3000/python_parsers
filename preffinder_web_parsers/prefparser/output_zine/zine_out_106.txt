@@ -1,0 +1,7 @@
+browser.microsummary.enabled
+True
+(default): Allow the
+microsummary service
+to retrieve information for bookmarks with microsummaries.
+False
+: Prevent microsummary updates to bookmarks.

@@ -1,0 +1,9 @@
+browser.bookmarks.import_system_favorites
+Determine the system bookmark strategy.
+True
+: Enable a "live view" of system bookmarks which is read-only
+False
+(default): Opposite of above.
+Note: Setting this to "true" will prevent "Imported IE Favorites" folder from being deleted where applicable (see
+bug 22642
+).

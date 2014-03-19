@@ -1,0 +1,8 @@
+browser.chrome.favicons
+True
+(default): Load and display "favicons" residing in the current page's site root directory
+False
+: Opposite of the above
+Note: This should be set to the same value as
+browser.chrome.site_icons
+for legacy reasons.

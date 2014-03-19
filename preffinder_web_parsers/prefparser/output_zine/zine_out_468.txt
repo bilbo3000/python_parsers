@@ -1,0 +1,5 @@
+security.warn_submit_insecure
+True
+(default): Display a dialog warning the user when submitting a form to an insecure site
+False
+: Opposite of the above

@@ -1,0 +1,9 @@
+network.proxy.autoconfig_url
+The automatic proxy configuration URL used by the browser to determine a proxy server. Used when
+network.proxy.type
+is
+2
+. Default value is an empty string.
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Advanced → Network (Firefox 1.5 and 1.0.x: General) → Connection Settings... → Automatic proxy configuration URL"

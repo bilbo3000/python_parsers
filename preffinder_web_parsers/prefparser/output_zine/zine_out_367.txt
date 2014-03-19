@@ -1,0 +1,11 @@
+network.ntlm.send-lm-response
+Determines whether or not the LM hash will be included in response to a NTLM challenge. Servers should almost never need the LM hash, and the LM hash is what makes NTLM authentication less secure.
+True
+: Send the LM hash
+False
+(default): Opposite of the above
+Note: Does not affect
+network.automatic-ntlm-auth.*
+settings. See
+bug 250961
+for more information.

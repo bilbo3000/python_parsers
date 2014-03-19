@@ -1,0 +1,4 @@
+extensions.update.url
+Determines the URL queried when polling for extension updates. Can be overridden on a per-extension basis by setting
+extensions.{GUID}.update.url
+. Default value is pulled from chrome://mozapps/locale/update/update.properties.

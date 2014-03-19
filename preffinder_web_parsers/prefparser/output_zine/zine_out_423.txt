@@ -1,0 +1,8 @@
+privacy.item.cache
+True
+(default): Clear the cache when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+: Do not clear the cache
+Note: This can be changed via "
+Tools → Options
+→ Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).

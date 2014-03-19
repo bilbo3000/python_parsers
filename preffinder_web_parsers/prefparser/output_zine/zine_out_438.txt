@@ -1,0 +1,8 @@
+privacy.sanitize.sanitizeOnShutdown
+True
+: Perform the Clear Private Data operation when closing the browser (Firefox 1.5 and above only)
+False
+(default): Clear Private Data only when asked
+Note: In Firefox 1.5 and above, this can be changed via "
+Tools → Options
+→ Privacy → Settings..."

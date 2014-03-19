@@ -1,0 +1,6 @@
+nglayout.debug.enable_xbl_forms
+True
+: Use
+XBL form controls
+False
+(default): Opposite of the above

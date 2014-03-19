@@ -1,0 +1,2 @@
+urlclassifier.tableversion.*
+Version numbers used by Safe Browsing in Firefox to record the latest updates downloaded.

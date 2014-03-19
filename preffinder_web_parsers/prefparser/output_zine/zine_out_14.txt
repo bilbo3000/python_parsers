@@ -1,0 +1,10 @@
+browser.bookmarks.added_static_root
+Keeps track of whether a root folder for system (imported) bookmarks has been created in
+bookmarks.html
+.
+True
+: The root folder has been created
+False
+(default until import complete): Create the root folder (unless we're using dynamic bookmarks -
+browser.bookmarks.import_system_favorites
+), and then set this pref to true.

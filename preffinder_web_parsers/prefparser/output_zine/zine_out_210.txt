@@ -1,0 +1,17 @@
+dom.disable_image_src_set
+Determines whether scripts may change the
+.src
+member of image objects (effectively, whether images can be changed via
+JavaScript
+)
+True
+: Scripts may not modify
+.src
+of images
+False
+(default): Opposite of above
+Note: In Mozilla Suite,  this can be changed via "Edit → Preferences → Advanced → Scripts
+Plug-ins → Allow scripts to: Change images" and, in Firefox 1.0.x, via "
+Tools → Options
+→ Web Features → Enable JavaScript / Advanced → Allow scripts to: Change images".  This option has been removed from the UI in Firefox 1.5
+[2]

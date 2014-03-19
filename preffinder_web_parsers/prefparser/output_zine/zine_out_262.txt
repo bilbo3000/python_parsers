@@ -1,0 +1,8 @@
+)
+The default
+generic-family
+to use. If a language code is specified, the preference only applies to that language.
+serif
+(default): Serif
+sans-serif
+: Sans-serif

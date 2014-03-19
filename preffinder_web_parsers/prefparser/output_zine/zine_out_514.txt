@@ -1,0 +1,4 @@
+view_source.tab_size
+sets the width of a tab character in the view source window. Already open windows aren't updated (implemented in
+bug 295506
+in trunk builds (mozilla-1.9.3a1) starting 2010-02-03)

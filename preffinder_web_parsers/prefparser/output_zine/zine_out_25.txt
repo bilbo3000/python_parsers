@@ -1,0 +1,8 @@
+browser.cache.disk_cache_ssl
+True
+(default): Cache content received via SSL
+False
+: Do not cache content received via SSL
+Note: See
+bug 531801
+for more information

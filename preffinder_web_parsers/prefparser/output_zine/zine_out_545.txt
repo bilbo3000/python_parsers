@@ -1,0 +1,5 @@
+roaming.showInitialWarning
+True
+(default): Display a general warning to the user about making backups, security, etc.
+False
+: Opposite of the above

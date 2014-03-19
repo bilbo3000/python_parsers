@@ -1,0 +1,5 @@
+snav.enabled
+True
+(default): Enable spatial navigation
+False
+: Opposite of the above

@@ -1,0 +1,10 @@
+browser.chrome.site_icons
+True
+(default): Load and display site icons specified by
+link
+element(s) in the web page
+False
+: Opposite of the above
+Note: This should be set to the same value as
+browser.chrome.favicons
+for legacy reasons.

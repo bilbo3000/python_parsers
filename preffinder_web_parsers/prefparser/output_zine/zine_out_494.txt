@@ -1,0 +1,8 @@
+ui.key.accelKey
+Determines the key code corresponding to the accelerator key.
+17
+(default in Windows): Ctrl
+18
+(default in BeOS): Alt
+224
+(default in Mac OS X): Cmd

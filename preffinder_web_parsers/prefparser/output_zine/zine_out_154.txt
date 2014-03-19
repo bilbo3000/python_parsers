@@ -1,0 +1,7 @@
+browser.tabs.closeWindowWithLastTab
+(Firefox 3.5 and above) This preference controls whether closing the last tab, closes the window.
+True:
+Close window when closing last tab (default)
+False:
+Do not close the window when closing last tab (pre Firefox 3.5 behavior)
+Note: Changing to False prevents Firefox from closing the window when you close the last  tab such as with Ctrl+W, and subsequently from closing Firefox itself when closing the last tab of the last Firefox window.

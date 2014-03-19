@@ -1,0 +1,9 @@
+browser.bookmarks.sort.direction
+The order in which to sort bookmarks in the Bookmarks Manager
+descending
+(default): Unsorted
+natural
+: Alphabetically, A-Z
+ascending
+: Alphabetically, Z-A
+Note: In Firefox, this can be changed via "Bookmarks →  Organize (or Manage) Bookmarks... → View"

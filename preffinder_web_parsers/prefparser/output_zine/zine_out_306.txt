@@ -1,0 +1,4 @@
+network.automatic-ntlm-auth.trusted-uris
+A comma-and-space-delimited list of URIs with which to automatically authenticate via NTLM (Windows domain logon). Default value is an empty string. (See
+Integrated Authentication
+for more information)

@@ -1,0 +1,5 @@
+update_notifications.enabled
+True
+(default): Display a notification in the browser when updates are available
+False
+: Opposite of the above

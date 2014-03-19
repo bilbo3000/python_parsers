@@ -1,0 +1,5 @@
+network.cookie.blockFutureCookies
+True
+: Allow sites to set cookies unless the user has removed cookies set by the site
+False
+(default): Removed cookies do not affect future cookie acceptance.

@@ -1,0 +1,16 @@
+network.image.imageBehavior
+Determines when images should be loaded.
+0
+(default): Load all images
+1
+: Load images from same (originating) server only
+2
+: Do not load any images
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Web Features → Load Images / for the originating web site only"
+In Firefox 1.5 and above, this preference has been
+renamed
+to
+permissions.default.image
+.

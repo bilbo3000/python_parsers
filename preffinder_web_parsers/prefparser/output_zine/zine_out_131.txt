@@ -1,0 +1,6 @@
+browser.search.defaulturl
+URL to prepend to search terms. Default value is
+http://www.google.com/search?lr=
+ie=UTF-8
+oe=UTF-8
+q=

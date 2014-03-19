@@ -1,0 +1,13 @@
+browser.tabs.loadOnNewTab
+Determines what will be displayed in a new tab
+-1
+: Browser startup page
+0
+(default): Blank page
+1
+: Homepage
+2
+: Last visited page
+Note: Does not work in Firefox (see
+bug 269664
+).

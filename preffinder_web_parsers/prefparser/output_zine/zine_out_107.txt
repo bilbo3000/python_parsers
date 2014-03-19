@@ -1,0 +1,2 @@
+browser.microsummary.generatorUpdateInterval
+Determines how often to check for updates to microsummary generators when generator updates are enabled. A non-negative integer, in seconds, determining the amount of time between microsummary generator update checks. If unspecified, updates occur weekly (7 * 86400 seconds apart).

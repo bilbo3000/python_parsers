@@ -1,0 +1,6 @@
+general.startup.browser
+True
+(default): When launching Mozilla Suite or SeaMonkey, load the browser component
+False
+: Opposite of the above
+Note: This preference has little to no significance in Firefox as it is only a browser. It has no effect since Firefox 1.5.

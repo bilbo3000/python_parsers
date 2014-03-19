@@ -1,0 +1,9 @@
+browser.download.useDownloadDir
+True
+(default): Without asking a location, download files to the directory specified in
+browser.download.folderList
+False
+: Ask where to save every file
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Main / Downloads → Always ask me where to save files (Firefox 2 and above) or  Downloads / Download Folder → Ask me where to save every file" (Firefox 1.5)

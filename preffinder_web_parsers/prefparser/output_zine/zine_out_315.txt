@@ -1,0 +1,8 @@
+network.cookie.maxNumber
+Determines the maximum amount of cookies to be stored. Valid range is from 0-65535 (
+RFC 2109
+and
+RFC 2965
+require this to be at least 300). Default value is
+1000
+.

@@ -1,0 +1,10 @@
+browser.windows.loadOnNewWindow
+Set what should be displayed in a newly created window
+-1
+: Browser Startup Page
+0
+: Blank Page
+1
+(default): Your Homepage
+2
+: Last Visited

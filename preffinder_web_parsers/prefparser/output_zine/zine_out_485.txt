@@ -1,0 +1,7 @@
+snav.keyCode.right
+Determines the key code corresponding to right spatial navigation. Default value is
+DOM_VK_RIGHT
+.
+(A complete listing of possible key codes is available in
+nsIDOMKeyEvent.idl
+.)

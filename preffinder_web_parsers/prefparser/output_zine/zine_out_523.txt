@@ -1,0 +1,5 @@
+application.use_ns_plugin_finder
+True
+: When a plugin is not found, clicking on the puzzle piece will open a dialog telling the user what plugin is needed. Clicking on the "Get the Plugin" button brings the user to the plugins installation page.
+False
+(default): Clicking on the puzzle piece will send the user to that plugin's page on plugins.netscape.com which will have a link to that plugin's installation page.

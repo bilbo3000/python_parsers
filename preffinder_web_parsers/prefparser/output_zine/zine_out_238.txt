@@ -1,0 +1,13 @@
+extensions.autoDisableScopes
+"Extension scopes" where newly installed addons are disabled by default (Gecko 7 and later since 2011-06-28, see
+bug 666437
+). This is an additive bit field:
+1 = addons found in this profile (this bit is probably masked off)
+2 = addons applying to all profiles of this user
+4 = addons applying to all users of this application
+8 = addons (e.g. plug-ins) applying to anyone on this computer
+Default varies among versions: Undefined (no disabling, as with 0), 10 (all except app-global and user-profile), 15 (all, but does not apply to some specific locations such as IIUC
+installdir
+/extensions/ and
+profiledir
+/extensions/)

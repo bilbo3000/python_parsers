@@ -1,0 +1,11 @@
+browser.display.use_system_colors
+True
+: Use colors specified by OS to display documents
+False
+(default): Opposite of above
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content / Fonts
+Colors → Colors → Use system colors" (
+Firefox 1.5 and above
+).

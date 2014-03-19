@@ -1,0 +1,5 @@
+plugin.default_plugin_disabled
+True
+(default): When a plugin is needed, prompt the user
+False
+: Don't prompt the user to install needed plugins

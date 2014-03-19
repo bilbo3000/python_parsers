@@ -1,0 +1,4 @@
+xpinstall.whitelist.add
+A comma-separated list of sites to automatically add to the extensions whitelist. Default value is
+update.mozilla.org,addons.mozilla.org
+but is cleared as soon as the values are added to the whitelist

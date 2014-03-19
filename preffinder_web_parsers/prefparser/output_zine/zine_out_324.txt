@@ -1,0 +1,4 @@
+network.dnsCacheExpiration
+Determines the maximum number of seconds to cache resolved DNS entries. Default value is
+60
+.

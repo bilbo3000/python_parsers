@@ -1,0 +1,4 @@
+intl.charsetmenu.browser.cache.size
+Number of character sets to cache. Default value is
+5
+.

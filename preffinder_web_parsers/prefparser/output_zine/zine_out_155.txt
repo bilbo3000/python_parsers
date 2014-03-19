@@ -1,0 +1,7 @@
+browser.tabs.forceHide
+Display of the tab bar
+True
+: Hide the tab bar
+False
+: Show tab bar normally
+Note: This is not used to enable/disable the tab bar. It's used internally to decide whether or not to show the tabbed bar.

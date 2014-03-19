@@ -1,0 +1,9 @@
+browser.fixup.use-utf8
+Firefox 11 / SeaMonkey 2.8 and above only. See
+bug 647403
+.
+Default:
+false
+(but
+true
+on zh-TW localized builds).

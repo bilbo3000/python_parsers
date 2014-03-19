@@ -1,0 +1,4 @@
+dom.min_background_timeout_value
+See the
+"Inactive tabs" section of the window.setTimeout method's help
+.

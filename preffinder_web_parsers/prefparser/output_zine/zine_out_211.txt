@@ -1,0 +1,9 @@
+dom.disable_open_click_delay
+If a popup will be created as the result of a
+setTimeout()
+or
+setInterval()
+JavaScript
+call and the delay specified is smaller than this value (in milliseconds), handle the popup according to the current popup blocker settings. Default value is
+1000
+.

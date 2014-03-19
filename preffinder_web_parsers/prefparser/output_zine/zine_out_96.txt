@@ -1,0 +1,3 @@
+browser.hiddenWindowChromeURL
+The chrome:// URL for the hidden window. Used in Mac OS X for when the browser is running but has no windows open. Default value is
+chrome://browser/content/hiddenWindow.xul

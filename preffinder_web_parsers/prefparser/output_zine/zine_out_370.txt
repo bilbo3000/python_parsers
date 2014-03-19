@@ -1,0 +1,5 @@
+network.protocol-handler.app.(protocol)
+The path and program to run for the specified protocol.
+Note: To set up a new protocol, it must be registered. See
+here
+for more information.

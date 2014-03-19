@@ -1,0 +1,5 @@
+extensions.dss.switchPending
+True
+: Non-dynamic theme switch pending a browser restart
+False
+(default): Opposite of the above

@@ -1,0 +1,14 @@
+dom.disable_window_status_change
+Determines whether the text in the browser status bar may be set by non-chrome
+JavaScript
+.
+True
+(default in Firefox): JavaScript access to
+window.status
+is disabled
+False
+(default in Mozilla Suite): Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Content (Web Features in Firefox 1.0.x) → Enable JavaScript / Advanced → Allow scripts to: Change status bar text" and, in Mozilla Suite, via "Edit → Preferences → Advanced → Scripts
+Plug-ins → Allow scripts to: Change status bar text".

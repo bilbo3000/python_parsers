@@ -1,0 +1,9 @@
+network.http.redirection-limit
+Determines how many consecutive HTTP redirects the browser will follow. Default value is
+20
+. Setting it to
+0
+will stop all redirects from occuring.
+Note: These are header-based redirects, not (for example)
+meta http-equiv="refresh"
+HTML-based redirects.

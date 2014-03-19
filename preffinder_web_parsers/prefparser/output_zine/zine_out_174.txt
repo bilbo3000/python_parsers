@@ -1,0 +1,6 @@
+browser.triple_click_selects_paragraph
+True
+(default): Select the entire paragraph under the mouse cursor when triple-clicking.
+False
+: Select the line under the mouse cursor when triple-clicking
+Note: This feature is currently only stable on trunk (1.9).

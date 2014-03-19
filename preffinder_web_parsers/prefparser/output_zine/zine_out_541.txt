@@ -1,0 +1,2 @@
+pfs.datasource.url
+Determines where the plugin finder service should query for plugin information. Default value is pulled from chrome://mozapps/locale/plugins/plugins.properties

@@ -1,0 +1,14 @@
+ui.key.chromeAccess
+Determines the key accelerator for chrome shortcuts
+0
+Disable
+1
+Shift
+2
+Ctrl (default in Mac OS X)
+4
+Alt (default in Windows and Linux)
+8
+Meta or Cmd
+Other:
+Add the above for keychords

@@ -1,0 +1,5 @@
+browser.download.manager.scanWhenDone
+True
+(default): Scan files for viruses when they finish downloading
+False
+: Do not scan downloads for viruses

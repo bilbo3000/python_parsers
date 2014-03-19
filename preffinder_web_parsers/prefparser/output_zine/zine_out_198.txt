@@ -1,0 +1,4 @@
+browser.urlbar.showPopup
+True
+(default)
+False

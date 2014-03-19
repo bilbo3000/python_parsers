@@ -1,0 +1,4 @@
+browser.link.open_newwindow.ui
+Determine which new window open options are available from the UI. No longer used in Firefox 1.0. Default value is
+3
+.

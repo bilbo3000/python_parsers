@@ -1,0 +1,17 @@
+browser.formfill.enable
+True
+(default): Save information entered in web page forms and the
+Search Bar
+False
+: Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Privacy / History → Remember what I enter in forms and the search bar" (
+Firefox 2 and above
+) or "
+Tools → Options
+→ Privacy → Saved Forms → Save information I enter in forms and the
+Search Bar
+" (
+Firefox 1.5
+)

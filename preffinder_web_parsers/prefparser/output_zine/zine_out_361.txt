@@ -1,0 +1,13 @@
+network.manage-offline-status
+(Applies to Firefox 3.5 and above)
+Determines whether Firefox is allowed to automatically set itself to offline mode in response to certain Web sites, or if the network connection is interrupted.  (See
+bug 620472
+and
+this and following messages
+for more information.)
+True
+(implicit default in Firefox 3.5 and 3.6): Allows automatically setting offline mode.
+False
+(default in Firefox 4): Prevents automatically setting offline mode.
+True
+in SeaMonkey 2.0 and above but SeaMonkey and Thunderbird have a separate offline manager as part of MailNews.

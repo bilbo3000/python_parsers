@@ -1,0 +1,11 @@
+browser.backspace_action
+Determines the behavior of the backspace key
+0
+: Goes back in history
+1
+: Acts as Page Up
+2
+(and above): Does nothing
+Note: See
+bug 301248
+(Mozilla Suite)

@@ -1,0 +1,15 @@
+browser.startup.page
+Page to open on browser startup
+0
+: Blank
+1
+(default): Home (a.k.a.
+browser.startup.homepage
+)
+2
+: Last (works in Firefox 2 and above; experimental in the latest nightlies of SeaMonkey 2.0b1pre; probably doesn't work in earlier versions).
+Note: This can be changed in Firefox via "
+Tools → Options
+→ Main → Startup → When Firefox starts", and in SeaMonkey via "
+Edit → Preferences
+→ Browser → Display on → Browser startup".

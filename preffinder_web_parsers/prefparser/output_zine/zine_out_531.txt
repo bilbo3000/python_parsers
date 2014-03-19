@@ -1,0 +1,5 @@
+gfx.use_text_smoothing_setting
+True
+:
+False
+(default): .

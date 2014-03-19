@@ -1,0 +1,6 @@
+network.online
+Indicates whether the user is currently online. Used for enabling/disabling various options in the UI.
+True
+(default): User is online
+False
+: Opposite of the above

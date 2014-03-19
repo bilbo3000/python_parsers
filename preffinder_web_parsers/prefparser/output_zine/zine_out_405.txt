@@ -1,0 +1,7 @@
+plugin.expose_full_path
+True
+: In about:plugins and
+navigator.plugins
+, reveal the full path to plugin files
+False
+(default): Show only the plugin filename

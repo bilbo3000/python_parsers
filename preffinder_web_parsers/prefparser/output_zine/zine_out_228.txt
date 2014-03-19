@@ -1,0 +1,6 @@
+editor.background_color
+Determines background color for Thunderbird editor; other forks' behaviour unknown.
+#000000
+: Use black instead of white in editor. Works well in conjunction with .text_color, but if HTML mail is sent, it's odd to some folks.; an invert_display option would be more practical, but doesn't exist (yet).* preferences for content
+#FFFFFF
+(default)

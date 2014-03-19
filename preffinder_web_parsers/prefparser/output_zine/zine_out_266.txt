@@ -1,0 +1,4 @@
+font.FreeType2.printing
+Attempt to use FreeType fonts when printing using the
+PostScript
+printing system.

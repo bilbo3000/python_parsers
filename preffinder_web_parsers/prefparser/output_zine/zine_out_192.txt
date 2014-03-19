@@ -1,0 +1,3 @@
+browser.urlbar.restrict.bookmark
+See
+Location Bar search

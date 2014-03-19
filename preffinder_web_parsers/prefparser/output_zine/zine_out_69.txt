@@ -1,0 +1,11 @@
+browser.download.manager.useWindow
+True
+: Use the Download Manager window for downloads
+False
+: Opposite of the above
+Note: In Firefox, this is effectively the same as setting
+browser.download.manager.showWhenStarting
+to false; the Download Manager is used for downloads regardless of the setting.
+Note: This was removed in
+bug 439495
+for Firefox 3.1.

@@ -1,0 +1,2 @@
+general.config.vendor
+A vendor ID associated with the AutoConfig file.

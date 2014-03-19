@@ -1,0 +1,6 @@
+network.dns.ipv4OnlyDomains
+A comma-separated list of domains for which DNS lookups are for IPv4 addresses only (see
+bug 68796
+). Default value is
+.doubleclick.net
+.

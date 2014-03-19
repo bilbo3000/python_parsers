@@ -1,0 +1,5 @@
+browser.helperApps.alwaysAsk.force
+True
+: Always ask what to do with an unknown MIME type, and disable option to remember what to open it with
+False
+(default): Opposite of above

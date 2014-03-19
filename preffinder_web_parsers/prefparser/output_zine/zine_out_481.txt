@@ -1,0 +1,5 @@
+snav.ignoreTextFields
+True
+(default): Ensure that text fields and inputs retain focus even if spatial navigation was requested
+False
+: Opposite of the above

@@ -1,0 +1,2 @@
+extensions.lastAppVersion
+The last version of the browser to successfully load extensions. Used to determine whether or not to disable extensions due to possible incompatibilities.

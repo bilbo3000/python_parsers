@@ -1,0 +1,3 @@
+geo.enabled
+Is location aware browsing enabled. Default is true. See
+http://www.mozilla.com/en-US/firefox/geolocation/

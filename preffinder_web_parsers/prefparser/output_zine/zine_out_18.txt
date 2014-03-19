@@ -1,0 +1,8 @@
+browser.bookmarks.restore_default_bookmarks
+True
+: Overwrite the current
+bookmarks.html
+file with the default set of bookmarks.
+False
+(default): Do not reset bookmarks.
+Note: Firefox 1.5 and above only

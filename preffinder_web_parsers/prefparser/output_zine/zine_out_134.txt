@@ -1,0 +1,2 @@
+browser.search.order.(digit)
+(digit) is used to weight the search engine specified by the value for sorting in the list of search engines.

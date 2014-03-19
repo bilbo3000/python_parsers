@@ -1,0 +1,19 @@
+browser.link.open_newwindow
+Where to open links that would normally open in a new window
+2
+(default in SeaMonkey and Firefox 1.5): In a new window
+3
+(default in Firefox 2 and above): In a new tab
+1
+(or anything else): In the current tab or window
+Note: In Firefox 1.5, this can be changed via "
+Tools → Options
+→ Tabs → Force links that open new windows to open in:"; in Firefox 2 and above, via  “Tools → Options → Tabs → New pages should be opened in:” (same as
+browser.link.open_external
+) and, in SeaMonkey, via "
+Edit -
+Preferences
+-
+Navigator -
+Tabbed browsing / Link open behavior -
+Open links meant to open a new window in".

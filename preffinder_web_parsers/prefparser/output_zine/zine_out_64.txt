@@ -1,0 +1,4 @@
+browser.download.manager.showAlertInterval
+Number of milliseconds after downloads complete to show the "completed" alert. Default value is
+2000
+.

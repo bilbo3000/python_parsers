@@ -1,0 +1,5 @@
+print.show_print_progress
+True
+(default): Show the progress dialog when printing
+False
+: Opposite of the above

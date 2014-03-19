@@ -1,0 +1,2 @@
+browser.download.dir
+The last directory used for saving a file from the "What should (browser) do with this file?" dialog.

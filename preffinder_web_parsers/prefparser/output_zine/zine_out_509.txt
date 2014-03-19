@@ -1,0 +1,2 @@
+update_notifications.provider.0.datasource
+Determines where to get update notifications. Value is pulled from chrome://browser-region/locale/region.properties.

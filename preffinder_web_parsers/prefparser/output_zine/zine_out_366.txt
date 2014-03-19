@@ -1,0 +1,7 @@
+network.negotiate-auth.using-native-gsslib
+True
+(default): Use the GSS lib that comes standard with the host operating system
+False
+: Use the GSSAPI library specified in
+network.negotiate-auth.gsslib
+.

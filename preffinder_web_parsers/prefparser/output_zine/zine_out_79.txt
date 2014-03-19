@@ -1,0 +1,7 @@
+browser.feedview.timerInterval
+Pref removed.
+Previously:
+Determines how often to refresh the feed. Default value is
+0
+(no refresh).
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.

@@ -1,0 +1,6 @@
+browser.search.defaultenginename
+Default
+search engine plugin
+to use. Default value is
+Google
+.

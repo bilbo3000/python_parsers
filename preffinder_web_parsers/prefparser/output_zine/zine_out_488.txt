@@ -1,0 +1,2 @@
+toolkit.autocomplete.richBoundaryCutoff
+Determines how much of the text to search for matched text, specified as the number of characters from the beginning. Default is 200.

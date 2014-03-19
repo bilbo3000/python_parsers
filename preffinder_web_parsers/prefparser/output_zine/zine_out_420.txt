@@ -1,0 +1,5 @@
+print.use_global_printsettings
+True
+(default): Every browser window uses the same print settings
+False
+: Each browser window uses its own settings, and changes in one window don't affect the others

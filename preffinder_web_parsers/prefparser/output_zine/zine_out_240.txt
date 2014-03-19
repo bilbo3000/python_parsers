@@ -1,0 +1,9 @@
+extensions.checkUpdateSecurity
+Undefined (default) or
+True
+: Checks that extensions provide secure updates.
+False
+: Disable secure updates checking.
+Available in Firefox 3.0, Thunderbird 3.0, SeaMonkey 2.0. Note: Use with caution (see
+bug 378216
+).

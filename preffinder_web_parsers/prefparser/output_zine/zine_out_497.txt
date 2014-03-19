@@ -1,0 +1,16 @@
+ui.key.contentAccess
+Determines the key accelerator for shortcuts in content
+0
+Disable
+1
+Shift
+2
+Ctrl (default in Mac OS X)
+4
+Alt
+8
+Meta or Cmd
+Other:
+Add the above for keychords. E.g.
+5
+= Alt+Shift (default in Windows and Linux)

@@ -1,0 +1,5 @@
+nglayout.debug.event_dumping
+True
+: In debug-enabled builds, output event-related information to stdout when Caps Lock is on
+False
+(default): Opposite of the above

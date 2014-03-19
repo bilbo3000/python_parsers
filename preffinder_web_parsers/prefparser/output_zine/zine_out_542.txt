@@ -1,0 +1,4 @@
+places.frecency.*
+These prefs are used for the
+frecency calculation process
+.

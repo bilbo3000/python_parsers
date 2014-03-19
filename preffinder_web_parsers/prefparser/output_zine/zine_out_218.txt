@@ -1,0 +1,26 @@
+dom.ipc.plugins.enabled
+Determines whether plugins will run in a separate "plugin-container" process.  See
+Plugin-container and out-of-process plugins
+for details. Can be overridden for plugins specified by filename  (
+bug 539063
+).
+True
+(default in Firefox 4 on Windows and Linux): Run plugins out-of-process, except for "blacklisted" plugins set in
+dom.ipc.plugins.enabled.
+filename
+with value
+false
+(see below).
+False
+(default in Firefox 3.6.x on Windows and Linux, and in Firefox 4 on Mac OS): Do not run plugins out-of-process, except for "whitelisted" plugins set in
+dom.ipc.plugins.enabled.
+filename
+with value
+true
+(see below).
+Note: First shipped in Firefox 3.6.4 for Windows and Linux only, with the plugins Adobe
+Flash
+, Apple
+QuickTime
+(Windows) and Microsoft Silverlight (Windows) whitelisted by default
+[3]

@@ -1,0 +1,7 @@
+print.postscript.enabled
+True
+(default): Enable the the
+Postscript
+printing system on Linux, Unix, or VMS.
+False
+: Disable the system.

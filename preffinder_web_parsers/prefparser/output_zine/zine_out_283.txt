@@ -1,0 +1,4 @@
+intl.accept_charsets
+Currently unused. Previously: Character sets in which to accept data. Default value is
+iso-8859-1,*,utf-8
+.

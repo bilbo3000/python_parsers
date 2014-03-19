@@ -1,0 +1,12 @@
+privacy.popups.disable_from_plugins
+Sets limits on popups generated from plugins (e.g. Flash)
+0
+: lets all popups through
+1
+: limits their number to
+dom.popup_maximum
+(even with popup blocker disabled)
+2
+: (default in Firefox 1.5 and above and SeaMonkey) blocks popups from plugins.  Whitelisted sites will still be able to open popups, regardless of this setting.
+3
+:  Blocks all plugin-initiated popups, even those on whitelisted sites.

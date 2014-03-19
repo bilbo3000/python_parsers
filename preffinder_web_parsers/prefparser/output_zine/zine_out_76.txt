@@ -1,0 +1,8 @@
+browser.feedview.showBar
+Pref removed.
+Previously:
+True
+(default): Display the options settings in feed view.
+False
+: Opposite of the above
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.

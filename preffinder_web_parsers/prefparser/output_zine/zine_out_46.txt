@@ -1,0 +1,21 @@
+browser.display.use_document_fonts
+0
+: Never use document's fonts
+1
+: Allow documents to specify fonts to use
+2
+: Always use document's fonts (deprecated)
+Note:
+In Firefox, this can be changed (between
+0
+and
+1
+) via "
+Tools → Options
+→ Content / Fonts
+Colors → Advanced → Allow pages to chose their own fonts, instead of my selections above" (
+Firefox 1.5 and above
+).
+In SeaMonkey, the corresponding setting is
+Edit → Preferences
+→ Appearance → Fonts → [√] Allow documents to use other fonts

@@ -1,0 +1,2 @@
+browser.urlbar.default.behavior
+Customizes the search behavior of the location bar, starting in Firefox 3.5 and SeaMonkey 2.  See the linked article for values and UI.

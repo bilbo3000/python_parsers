@@ -1,0 +1,2 @@
+extensions.getMoreThemesURL
+Determines the URL used for the "Get More Themes" link in "Tools → Add-ons → Themes" dialog.

@@ -1,0 +1,6 @@
+browser.search.basic.min_ver
+Version number used to determine which
+search engine plugins
+should be installed/displayed. Default value is
+0.0
+.

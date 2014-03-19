@@ -1,0 +1,8 @@
+update.interval
+Determines how often to check
+extensions.update.interval
+and
+app.update.interval
+in milliseconds. Default value is
+3600000
+(1 hour).

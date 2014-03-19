@@ -1,0 +1,14 @@
+browser.cache.disk.parent_directory
+Full path to the
+parent
+directory of the
+Cache
+folder used for storing the browser's cache.  In Windows, the path separator must be two backslashes (e.g. "
+C:\\Path\\To\\Parent\\Folder
+") if the value is being set in the
+user.js
+or
+prefs.js
+instead of within
+about:config
+.

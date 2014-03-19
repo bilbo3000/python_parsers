@@ -1,0 +1,5 @@
+plugin.scan.plid.all
+True
+(default): Locate plugins by the directories specified in the Windows registry for PLIDs (currently HKLM\Software\MozillaPlugins\xxxPLIDxxx\Path)
+False
+: Opposite of the above

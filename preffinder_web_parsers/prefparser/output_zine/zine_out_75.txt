@@ -1,0 +1,7 @@
+browser.feedview.reloadInterval
+Pref removed.
+Previously:
+Determines how often in seconds to reload the currently rendered feed. Default value is
+0
+(never reload).
+Note: Feedview functionality was present for only a short while prior to Firefox 1.5 Beta.

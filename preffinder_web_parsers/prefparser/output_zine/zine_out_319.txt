@@ -1,0 +1,8 @@
+network.cookie.prefsMigrated
+Indicates whether some
+cookie
+preferences — previously stored in deprecated preferences — have been migrated to current preferences.
+True
+: Consult current preferences for cookie prefs
+False
+(default): Read deprecated preferences, update current preferences, then set this preference to true

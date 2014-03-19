@@ -1,0 +1,10 @@
+network.cookie.lifetime.days
+Determines the number of days to keep
+cookies
+if
+network.cookie.lifetimePolicy
+is
+3
+. Default value is
+90
+.

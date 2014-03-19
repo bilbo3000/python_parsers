@@ -1,0 +1,10 @@
+plugin.scan.(Plugin)
+Name of plugin to scan for, with a minimum version specified. By default, this preference exists for
+Acrobat
+(5.0),
+QuickTime
+(5.0),
+SunJRE
+(1.3), and
+WindowsMediaPlayer
+(7.0).

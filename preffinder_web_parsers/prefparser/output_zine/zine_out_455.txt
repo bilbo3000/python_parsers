@@ -1,0 +1,8 @@
+security.enable_ssl3
+True
+(default): SSL 3.0 is enabled
+False
+: Opposite of the above
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Advanced → Security → Use SSL 3.0"

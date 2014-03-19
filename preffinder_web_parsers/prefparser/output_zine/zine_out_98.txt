@@ -1,0 +1,9 @@
+browser.history_expire_days
+Number of maximum days to remember visited pages in history. Default value is
+9
+for SeaMonkey and Firefox 2,
+180
+for Firefox 3.
+Note: In Firefox 2, this can be changed via "
+Tools → Options
+→ Privacy → History → Remember visited pages for the last ___ days". No UI for Firefox 3.

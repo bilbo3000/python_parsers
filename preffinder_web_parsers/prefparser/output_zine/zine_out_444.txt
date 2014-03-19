@@ -1,0 +1,4 @@
+profile.seconds_until_defunct
+Number of seconds to wait until the profile is considered defunct. Default value is
+-1
+(never consider the profile defunct).

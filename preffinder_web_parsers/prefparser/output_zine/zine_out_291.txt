@@ -1,0 +1,3 @@
+intl.charsetmenu.browser.unicode
+A comma-and-space-delimited list of Unicode character sets to display in the character encoding menu
+Note: In Firefox, this menus is viewable via "View → Character Encoding → More Encodings → Unicode"

@@ -1,0 +1,7 @@
+general.useragent.vendor
+Vendor in the
+User-Agent
+string. Default value depends on browser (
+Firefox
+in Firefox 1.0).
+Note: No longer specified by default in Firefox 1.5.

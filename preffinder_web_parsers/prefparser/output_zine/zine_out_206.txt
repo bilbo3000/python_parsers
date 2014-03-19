@@ -1,0 +1,10 @@
+config.trim_on_minimize
+Windows-only. Determines how Windows handles memory for the browser when minimizing. Setting to
+False
+will often prevent delays when restoring the window (see
+bug 76831
+).
+True
+: Allow Windows to trim the working set when the browser is minimized
+False
+(default): Prevent Windows from trimming the working set

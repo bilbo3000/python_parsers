@@ -1,0 +1,9 @@
+browser.chrome.load_toolbar_icons
+0
+(default): Never load site icons/favicons when displaying bookmarks in menus (overrides
+browser.chrome.site_icons
+)
+1
+: Load site icons/favicons when they've been cached
+2
+: Always load site icons/favicons

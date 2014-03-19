@@ -1,0 +1,6 @@
+network.protocol-handler.external.(protocol)
+Determines whether to allow external protocol handlers to catch links with these protocols
+True
+: Allow external handler to handle link
+False
+(default): Prevent external handler from handling this link

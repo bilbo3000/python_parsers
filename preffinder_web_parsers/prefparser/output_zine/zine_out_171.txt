@@ -1,0 +1,5 @@
+browser.tabs.warnOnCloseOther
+True
+(default): The browser will prompt for confirmation when closing all other tabs from the tab context menu ("Close Other Tabs")
+False
+: Opposite of the above

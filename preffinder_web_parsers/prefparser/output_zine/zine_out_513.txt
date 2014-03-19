@@ -1,0 +1,6 @@
+view_source.syntax_highlight
+True
+(default): Enable syntax highlighting in the view source window.
+False
+: Opposite of the above
+Note: This can be changed via "View → Syntax Highlighting" in the view source window.

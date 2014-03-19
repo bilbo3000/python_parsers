@@ -1,0 +1,5 @@
+browser.microsummary.updateGenerators
+True
+(default): Periodically check for updates to microsummary generators.
+False
+: Do not update microsummary generators.

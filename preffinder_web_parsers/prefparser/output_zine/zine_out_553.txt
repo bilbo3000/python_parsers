@@ -1,0 +1,4 @@
+viewmanager.do_doublebuffering
+Determines whether the viewmanager should do double-buffering by default (see
+bug 169483
+).

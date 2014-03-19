@@ -1,0 +1,22 @@
+editor.css.default_length_unit
+Determines the default units for
+CSS
+rules.
+cm
+: centimeters
+em
+: ems (width of the capital letter "M" in typography, but line height in CSS)
+ex
+: ex (height of the lower-case "x")
+in
+: inches
+mm
+: milimeters
+%
+: percentage of parent element
+pc
+: picas (1/6th of an inch)
+px
+(default): pixels
+pt
+: points (1/72nd of an inch)

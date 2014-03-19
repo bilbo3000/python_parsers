@@ -1,0 +1,6 @@
+general.useragent.contentlocale
+The content locale
+ISO 639-2 value
+specified in the
+User-Agent
+string

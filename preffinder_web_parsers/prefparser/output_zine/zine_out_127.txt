@@ -1,0 +1,2 @@
+browser.safebrowsing.warning.infoURL
+The FAQ URL for the Safe Browsing feature.

@@ -1,0 +1,2 @@
+browser.helperApps.neverAsk.openFile
+A comma-separated list of MIME types to open directly without asking for confirmation. Default value is an empty string.

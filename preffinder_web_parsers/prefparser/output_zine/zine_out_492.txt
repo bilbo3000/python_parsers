@@ -1,0 +1,15 @@
+toolkit.storage.synchronous
+Specify the
+SQLite disk sync mode
+to use.
+0
+: risky sync mode. May cause database corruption if the OS crashes or the computer loses power.
+1
+(default): safe sync mode.
+2
+: extra-slow-extra-safe sync mode.
+This preference was added in
+bug 421482
+. At the same time, Firefox was modified to use mode 1 instead of mode 2 by default, to improve performance.
+[9]
+(Firefox 3)

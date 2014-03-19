@@ -1,0 +1,4 @@
+general.config.filename
+A
+.cfg
+file to parse and read for AutoConfig. Unset by default.

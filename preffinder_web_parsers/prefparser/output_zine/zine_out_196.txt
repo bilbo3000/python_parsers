@@ -1,0 +1,4 @@
+browser.urlbar.search.chunkSize
+Number of dropdowns to fetch at a time. Default is
+1000
+.

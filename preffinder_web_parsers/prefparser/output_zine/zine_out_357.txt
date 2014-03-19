@@ -1,0 +1,11 @@
+network.IDN.blacklist_chars
+If a domain name contains any of the characters in this preference's value, display the domain in punycode, overriding
+network.IDN_show_punycode
+and
+network.IDN.whitelist
+(see
+bug 301694
+). See
+here
+for a complete list of characters in the default preference.
+Note: Firefox 1.5 and above only.

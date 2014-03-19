@@ -1,0 +1,9 @@
+profile.allow_automigration
+Determines how the
+Profile Manager
+handles automigration of Netscape 4.x profiles
+True
+: Allow automigration
+False
+(default): Opposite of the above
+Note: Has no effect since Gecko 1.9.0 (Firefox 3.0, SeaMonkey 2.0, Thunderbird 3.0).

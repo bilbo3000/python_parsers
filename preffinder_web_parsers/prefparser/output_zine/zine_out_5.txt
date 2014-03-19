@@ -1,0 +1,8 @@
+bidi.support
+Select provider of bi-directional support
+1
+(default): Mozilla
+2
+: OS
+3
+: Disable

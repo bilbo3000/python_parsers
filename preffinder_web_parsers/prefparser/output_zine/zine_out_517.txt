@@ -1,0 +1,4 @@
+xpinstall.dialog.progress.chrome
+Determines the chrome location of the extensions dialog. Default value is
+chrome://mozapps/content/extensions/extensions.xul?type=extensions
+.

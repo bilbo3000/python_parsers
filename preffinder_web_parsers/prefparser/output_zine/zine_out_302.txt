@@ -1,0 +1,4 @@
+intl.menuitems.insertseparatorbeforeaccesskeys
+Specifies URI to determine if there is a space before the paranthesis of the accesskey in the menu's label (see
+bug 298712
+).

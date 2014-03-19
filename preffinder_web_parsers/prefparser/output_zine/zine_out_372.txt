@@ -1,0 +1,8 @@
+network.protocol-handler.expose.(protocol)
+Determines whether to expose (enable) the specified protocol handler. These preferences are overridden by
+network.protocol-handler.expose-all
+.
+True
+: Try to open link clicks in browser firsst, then fail over to system handlers
+False
+: Do not expose this protocol handler

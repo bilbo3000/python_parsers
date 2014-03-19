@@ -1,0 +1,9 @@
+browser.cache.disk.capacity
+Amount of disk space allowed for the browser's cache (in KB). Default is
+50000
+.
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Advanced → Network / Offline Storage" (Firefox3), Tools → Options → Advanced → Network / Cache" (Firefox 2)    or "Tools → Options → Privacy → Cache (Firefox 1.5 and earlier); in Mozilla Suite/SeaMonkey, via "
+Edit → Preferences
+→ Advanced  → Cache".

@@ -1,0 +1,6 @@
+network.protocol-handler.external-default
+Determines the default action for unlisted external protocol handlers
+True
+(default): Try to load
+False
+: Opposite of the above

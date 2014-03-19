@@ -1,0 +1,2 @@
+browser.helperApps.neverAsk.saveToDisk
+A comma-separated list of MIME types to save to disk without asking what to use to open the file. Default value is an empty string.

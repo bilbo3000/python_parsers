@@ -1,0 +1,5 @@
+security.(ssl2 or ssl3).(cipher suite)
+True
+(default in all except the two below): The SSL 2.0 encryption type (cipher suite) is enabled
+False
+: Opposite of the above

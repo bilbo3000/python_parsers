@@ -1,0 +1,4 @@
+allinonegest.*
+These preferences are set via the
+All in One Mouse Gestures
+extension.

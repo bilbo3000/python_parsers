@@ -1,0 +1,2 @@
+extensions.getMoreExtensionsURL
+Determines the URL used for the "Get More Extensions" link in "Tools → Add-ons → Extensions" dialog.

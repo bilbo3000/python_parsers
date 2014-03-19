@@ -1,0 +1,6 @@
+editor.use_css
+Determines the preferred method of formatting content.
+True
+(default): Use CSS styling where appropriate
+False
+: Use non-CSS methods of styling content

@@ -1,0 +1,11 @@
+network.http.accept-encoding
+Comma-separated list of encoding types to accept from server. Sent with HTTP requests in
+Accept-Encoding
+header. Default value is
+gzip, deflate
+.
+Note:
+compress
+is not a supported encoding (see
+bug 196406
+).

@@ -1,0 +1,4 @@
+network.negotiate-auth.trusted-uris
+A comma-and-space-delimited list of sites that are permitted to engage in SPNEGO authentication with the browser. (See
+Integrated Authentication
+for more information.) Default value is an empty string.

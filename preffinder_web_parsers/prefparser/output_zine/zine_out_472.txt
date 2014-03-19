@@ -1,0 +1,5 @@
+security.xpconnect.plugin.unrestricted
+True
+(default): Allow scripting of plugins by untrusted scripts
+False
+: Opposite of the above

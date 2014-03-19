@@ -1,0 +1,4 @@
+network.proxy.failover_timeout
+Determines how long to wait until re-contacting an unresponsive proxy server. Default value is
+1800
+(30 minutes).

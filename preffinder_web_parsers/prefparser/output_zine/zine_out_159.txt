@@ -1,0 +1,6 @@
+browser.tabs.loadFolderAndReplace
+True
+(default): When opening a folder of bookmarks in tabs, the existing tabs will be replaced by the new bookmark pages.
+False
+: Existing tabs will be preserved when loading a folder of bookmarks.  The bookmark pages will be loaded in tabs that are appended to the current tabs.
+Note: This option was removed in Firefox 3 alpha 8.

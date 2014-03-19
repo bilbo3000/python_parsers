@@ -9,6 +9,7 @@ Dongpu Jin
 '''
 
 import re; 
+import os; 
 from HTMLParser import HTMLParser; 
     
 class MyHTMLParser(HTMLParser): 
@@ -61,9 +62,26 @@ class MyHTMLParser(HTMLParser):
         global outfile;  
         global istd; 
         global cnt; 
+        global fileid; 
+        global filePath; 
         
-        if istd and len(re.sub(r'\s+', "", data)) != 0 and (cnt == 0 or cnt == 2): 
-        	print re.sub(r'\s+$', "", data);  
+        if istd and len(re.sub(r'\s+', "", data)) != 0: 
+        	data = re.sub(r'\s+$', "", data);
+        	data = re.sub(r'^\s+', "", data);
+        	
+        	# Pref name  
+        	if (cnt == 0): 
+        		fileid = fileid + 1; 
+        		filePath = os.path.join("output_zine", "zine_out_" + str(fileid) + ".txt"); 
+        		fout = open(filePath, 'w');    
+		    	data = re.sub(r'\.\s+', ".", data);
+		    	fout.write(data + '\n');  
+		    	fout.close();
+	    	if (cnt == 2): 
+	    		print filePath;
+	    		if os.path.exists(filePath): 
+	    			with open(filePath, 'a') as f:
+	    				f.write(data + '\n'); 
  
   
 # instantiate a parser instance       
@@ -75,6 +93,10 @@ istbody = False;
 istr = False; 
 istd = False; 
 cnt = -1;  
+fileid = -1; 
+
+if not os.path.exists("output_zine"):
+	os.makedirs("output_zine");  
 
 # open file for parsing
 filepath = "MozillaZine.html";

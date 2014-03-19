@@ -1,0 +1,7 @@
+browser.frames.enabled
+True
+(default): Enables the display of HTML frames
+False
+: Opposite of the above; displays
+noframes
+content instead

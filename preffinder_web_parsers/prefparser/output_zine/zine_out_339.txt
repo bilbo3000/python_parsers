@@ -1,0 +1,4 @@
+network.http.max-connections-per-server
+Determines the maximum number of simultaneous HTTP connections that can be established per host. If a proxy server is configured, then the server is the proxy server. Default value is
+15
+. Valid values are between 1 and 255 inclusive.

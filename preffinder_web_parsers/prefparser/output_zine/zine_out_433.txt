@@ -1,0 +1,5 @@
+privacy.popups.firstTime
+True
+(default): The user has never hidden the popup blocker notification bar before, so show a dialog explaining the status bar icon
+False
+: The user has been informed of the status bar icon

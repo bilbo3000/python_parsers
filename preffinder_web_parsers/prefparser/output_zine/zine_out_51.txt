@@ -1,0 +1,7 @@
+browser.dom.window.dump.enabled
+True
+: Enable
+JavaScript
+dump() output
+False
+: Opposite of the above

@@ -1,0 +1,8 @@
+privacy.item.history
+True
+(default): Clear the browsing history when using the Clear Private Data feature (Firefox 1.5 and above only)
+False
+: Opposite of the above
+Note: This can be changed via "
+Tools → Options
+→ Privacy → Settings..." (Firefox 1.5) or "Tools → Options → Privacy /  Private Data → Settings..." (Firefox 2.0 and above).

@@ -1,0 +1,12 @@
+bidi.numeral
+How numerals are displayed
+0
+(default): Nominal numerals
+1
+: Regular context numerals
+2
+: Hindi context numerals
+3
+: Arabic numerals
+4
+: Hindi numerals

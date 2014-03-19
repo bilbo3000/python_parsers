@@ -1,0 +1,5 @@
+xpinstall.whitelist.required
+True
+(default): When installing extensions from remote hosts, remote host must be on the whitelist
+False
+: Opposite of the above

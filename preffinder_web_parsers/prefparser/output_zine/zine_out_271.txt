@@ -1,0 +1,4 @@
+general.config.obscure_value
+An integer to use when obscuring the AutoConfig file saved to and read from disk. Default value is
+13
+(effectively, ROT-13 the content).

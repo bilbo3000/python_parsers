@@ -1,0 +1,5 @@
+security.warn_leaving_secure
+True
+(default): Display a dialog warning the user when leaving a secure site
+False
+: Opposite of the above

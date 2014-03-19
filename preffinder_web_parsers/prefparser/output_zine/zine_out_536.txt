@@ -1,0 +1,4 @@
+inspector.*
+These entries apply to the
+DOM Inspector
+and are only relevant if you have it installed.

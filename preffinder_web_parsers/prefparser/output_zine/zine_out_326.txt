@@ -1,0 +1,6 @@
+network.enablePad
+Determines whether the browser is allowed to perform proxy autodiscovery
+True
+: Autodiscovery enabled
+False
+(default): Opposite of the above

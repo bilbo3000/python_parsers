@@ -1,0 +1,4 @@
+network.http.max-connections
+Determines the maximum number of simultaneous HTTP connections. Default value is
+30
+. Valid values are between 1 and 65535 inclusive.

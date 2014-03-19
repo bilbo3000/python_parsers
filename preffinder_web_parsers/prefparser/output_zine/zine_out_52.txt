@@ -1,0 +1,4 @@
+browser.download.defaultFolder
+Holds the path of the default download directory determined from
+browser.download.folderList
+. Not set by default; set after the user configures their download options.

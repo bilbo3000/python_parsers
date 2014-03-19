@@ -1,0 +1,3 @@
+intl.charsetmenu.browser.more*
+A comma-and-space-delimited list of character sets to display in the character encoding menu
+Note: In Firefox, these menus are viewable via "View → Character Encoding → More Encodings"

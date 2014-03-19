@@ -1,0 +1,8 @@
+xpinstall.enabled
+True
+(default): Enables the XPInstall system (i.e., allows extensions to be installed)
+False
+: Opposite of the above
+Note: In Firefox 1.0.x, this can be changed in "
+Tools → Options
+→ Web Features → Allow web sites to install software" (UI removed in Firefox 1.5).

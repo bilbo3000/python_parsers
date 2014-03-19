@@ -1,0 +1,14 @@
+editor.singleLine.pasteNewlines
+Determines the behavior when pasting content containing newlines into single-line text boxes.
+0
+(default in Linux): Paste content intact (include newlines)
+1
+(default everywhere else): Paste the content only up to (but not including) the first newline
+2
+: Replace each newline with a space
+3
+: Remove all newlines from content
+4
+: Substitute commas for newlines in text box
+5
+: Remove all newlines and surrounding whitespace

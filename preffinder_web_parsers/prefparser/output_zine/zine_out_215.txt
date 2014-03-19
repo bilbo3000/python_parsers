@@ -1,0 +1,26 @@
+dom.disable_window_open_feature.*
+Webpage authors can disable many features of a popup window that they open. Setting these preferences to
+true
+will override the author's settings and ensure that that feature is enabled and present in any popup window.
+close
+: Prevents the close button from being disabled.
+directories
+: Prevents the bookmarks toolbar from being hidden.
+location
+: Prevents the address bar from being hidden
+menubar
+: Prevents the menubar from being hidden.
+minimizable
+: Prevents popup window minimization from being disabled.
+personalbar
+: Prevents the bookmarks toolbar from being hidden.
+resizable
+: Prevents popup window resizing from being disabled.
+scrollbars
+: Prevents the scrollbars on a popup from being disabled.
+status
+: Prevents the status bar from being hidden.
+titlebar
+: Prevents the title bar from being hidden.
+toolbar
+: Prevents the navigation toolbar from being hidden.

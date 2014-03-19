@@ -1,0 +1,10 @@
+browser.enable_automatic_image_resizing
+True
+(default): When viewing an image not in a web page, the image will be resized to fit in the browser window if it is too large for the browser window. The image can be shown in its real size by left clicking on it.
+False
+: Images are always shown in their real size.
+Note: In Firefox, this can be changed via "
+Tools → Options
+→ Advanced → General → Resize large images to fit in the browser window (
+Firefox 1.0.x and 1.5
+)". UI removed in Firefox 2.0+.

@@ -1,0 +1,8 @@
+network.protocol-handler.expose-all
+Determines whether to expose (enable) all protocol handlers. This preference overrides more specific preferences, e.g.
+network.protocol-handler.expose.mailto
+.
+True
+: Try to open link clicks in browser first, then fail over to system handlers
+False
+: Do not expose all protocol handlers

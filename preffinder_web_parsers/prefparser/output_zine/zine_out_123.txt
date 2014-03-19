@@ -1,0 +1,6 @@
+browser.safebrowsing.dataProvider
+The provider ID of the site used to get the web forgery list. Default value is
+0
+.
+Note: This references the pref tree
+browser.safebrowsing.provider.*

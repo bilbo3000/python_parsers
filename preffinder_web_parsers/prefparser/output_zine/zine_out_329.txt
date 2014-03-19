@@ -1,0 +1,5 @@
+network.hosts.nntp_server
+Pref to be removed (obsolete)
+. Previously: News server for Mozilla Mail/News. Default value is
+news.mozilla.org
+.
