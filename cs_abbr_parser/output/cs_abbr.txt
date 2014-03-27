@@ -1,0 +1,3277 @@
+DDCMP,Digital Data Communications Message Protocol [DEC]
+MBASIC,Microsoft BASIC [Microsoft]
+Z,Compressed file (file name extension - using Compress/Uncompress program)..upper case Z..[Unix]
+B2X,Binary To Hexadecimal [REXX]
+LIFO,Last In, First Out
+AGC,Automatic Gain Control
+NOC,Network Operations Center
+XBM,X-Windows Bitmaps (file name extension) (black and white)
+USRT,Universal Synchronous Receiver/Transmitter
+SIP,Single In-line Package
+AGU,Address-Generation Unit
+CMOV,Conditional Move
+ERIC,Educational Resources Information Center [Internet]
+CMOS,Complementary Metal-Oxide Semiconductor
+SPX,Sequenced Packet Exchange [Novell]
+VDMAD,Virtual Direct Memory Access Device [Microsoft]
+NDR,Network Data Representation
+OPAC,Online Public Access Catalog [Internet]
+POWER,Performance Optimization with Enhanced RISC [IBM]
+SPP,Sequenced Packet Protocol
+IOCS,Input/Output Control System
+ITUG,International Telecommunications User Group
+SPT,Sectors Per Track
+SCLM,Softwre Configuration and Library Management [IBM]
+SPI,Service Provider Interface,SCSI Parallel Interface
+SPL,Spooler,System Programming Language [HP],Spell Checker (file name extension)
+SPM,System Performance Monitor [IBM]
+BiDi,Bi-Directional
+SPA,Software Publishers Association
+IOCC,Input/Output Channel Converter,Input/Output Controller Chip
+SPC,Small Peripheral Controller,Statistical Process Control
+NEWS.,Current events [USENET Newsgroup Category]
+BWM,Block-Write Mode
+SPF,Shortest Path First,System Programming Facility
+ENDS,Ends Segment
+GS,Group Separator
+MSAV,Microsoft Anti Virus [Microsoft]
+MSAU,Multi-Station Access Unit
+GP,Gas Plasma,General Purpose
+IXC,Interchange Carrier
+PADS,Pen Application Development System [Slate Corporation]
+GB,Gigabyte (1,024 megabytes),(One Billion Characters of Information)
+GA,General Availability
+MAh,Milliampere-Hour
+GL,Graphics Language
+PCNFS,Personal Computer Network File System
+JNS,Jump if No Sign
+MAP,Maintenance Analysis Procedures,Manufacturing Automation Protocol,Memory Allocation Map,Linker Map (file name extension)
+SND,Sound
+JNP,Jump if No Parity
+MAU,Media Access Unit,Multistation Access Unit
+MAT,Maintenance Access Terminal
+SNA,Systems Network Architecture [IBM]
+JNZ,Jump if Not Zero
+JNB,Jump if Not Below
+JNA,Jump if Not Above
+COBOL,Common Business-oriented Language (See HLL)
+Gb,Gigabit (1,024 megabits),(One Billion Bits of Information)
+SNP,Serial Number/Password [Omen Technology]
+JNK,Junk (file name extension)
+MLAPI,Multilingual Application Programming Interface
+JNO,Jump if No Overflow
+MAN,Manual [Unix],Metropolitan Area Network
+CIAC,Computer Incident Advisory Capability
+BEL,Bell
+CRTC,CRT Controller
+EVE,Extensible VAX Editor
+VDU,Video Display Unit,Visual Display Unit
+RFP,Request for Proposal
+RTMP,Routing Table Maintenance Protocol
+USSA,User Supported Software Association (United Kingdom)
+RMON,Remote Monitor/Monitoring
+LSD,Least Significant Digit
+LSB,Least Significant Bit
+ABIOS,Advanced BIOS
+LSA,LAN and SCSI Adapter [IBM],Line Sharing Adapter
+TTS,Text-To-Speech,Transaction Tracking System
+LSL,Link Support Layer,Load Segment Limit
+TTP,Thermal-Transfer Printing
+VLD,Variable-Length Decoder
+LSI,Large Scale Integration
+CSE,Certified System Engineer
+LST,List,List (file name extension)
+OPCODE,Operational Code
+ISDN,Integrated Services Digital Network
+TTL,Transistor-Transistor Logic
+AT&T,American Telephone and Telegraph
+TTA,Transport-Triggered Architecture
+TTF,TrueType Font (file name extension)
+GRP,Group (file name extension)
+BDOS,Basic Disk Operating System
+DSEA,Display Station Emulation Adapter
+EDGAR,Electronic Data Gathering, Analysis and Retrieval
+GRF,Graph (file name extension)
+CSPDN,Circuit Switched Public Data Network
+GRE,Graphics Engine
+KEYBLA,Foreign language KEYBoard program - Latin America
+REGAL,Rigid Epoxy Glass Acrylic Laminate
+GENIE,General Electric Network for Information Exchange
+HPDJ,Hewlett-Packard Desk Jet
+WINSOCK,Windows Open Systems Architecture [Microsoft],Windows Sockets
+TDP,Telelocator Data Protocol
+IGES,Initial Graphics Exchange Standard
+HLT,Halt
+HLS,Hue, Luminance, Saturation (color model)
+HLQ,High Level Qualifier
+HLP,Help (file name extension)
+H/V,Horizontal/Vertical
+H/W,Hardware
+HLL,High Level Language
+HLCO,High Low Close Open
+PUSHF,Push Flags
+SVR#,System V Release Number [AT&T]
+NMI,Non-Maskable Interrupt
+NOP,No Operation
+SPR,Special Purpose Register,Statistical Pattern Recognition
+NOR,Not Or
+NOS,Network Operating System
+W/O,Without
+VBA,Visual Basic for Applications [Microsoft]
+SPS,Standby Power System
+VHDL,VHSIC Hardware Description Language
+CTS,Clear To Send
+GOSIP,Government Open Systems Interconnection Profile
+SYLK,Symbolic Link
+VBR,Variable Bit Rate
+CTB,Cipher Type Byte
+CTC,Channel To Channel
+RAVE,Rendering Acceleration Virtual Engine [Apple Computer]
+VBX,Visual Basic Extension (file name extension)
+CTI,Computer-Telephony Integration
+LOG,Logarithm (Base 10)
+ARTS,Asynchronous Remote Takeover Server
+ARTT,Asynchronous Remote Takeover Terminal
+WHC,Workstation Host Connection
+ARTA,Apple Real Time Architecture
+SPARC,Scalable Processor Architecture
+UNIVAC,Universal Automatic Computer
+is,Iceland
+B-CHANNEL,Bearer Channel
+mA,Milliampere
+PRTSC,Print Screen
+DIVE,Direct Interface Video Extension [OS/2 Warp]
+HGCP,Hercules Graphics Card Plus
+it,Italy
+SDSL,Single-Line Digital Subscriber Line
+EDC,Enhanced Data Correction,Error Detection and Correction
+EDA,Embedded Document Architecture [Go Corporation]
+NTAS,NT Advamced Server [Microsoft]
+IDMS,Integrated Data Base Management System
+RLE,Run Length Encoded
+WPK,Keyboard (file name extension) [WordPerfect]
+EDI,Electronic Data Interchange,Electronic Document Interchange [DEC]
+EDO,Extended Data Out
+EDL,Edit Decision List
+EDM,Electronic Document Management
+EDS,Electronic Data Systems (corporation)
+EDP,Electronic Data Processing
+CSMA/CA,Carrier Sense Multiple Access/with Collision Avoidance
+EDU,Education (organization Domain name) [Internet]
+ORG,Organization (organization Domain name) [Internet]
+LMB,Left Mouse Button
+ORB,Object Request Broker [Microsoft]
+mx,Mexico
+MIMD,Multiple Instruction Multiple Data Stream (processor)
+DPS,Document Processing System
+WRAM,Windows Random Access Memory
+THOR,Tandy High-Performance Optical Recording
+ACIAS,Automated Calibration Interval Analysis System
+SIFT,Stanford Information Filtering Tool
+DPC,Direct Program Control
+DPB,Drive Parameter Block
+DPA,Demand Protocol Architecture [3Com]
+JNBE,Jump if Not Below or Equal
+DPO,Data Phase Optimization
+DPM,Digital Panel Meter
+DPL,Descriptor Privilege Level
+CSSM,Client-Server Systems Management [IBM]
+JEIDA,Japanese Electronics Industry Development Association
+LE,Less or Equal
+LB,Left Button (of 2 or 3 button Mouse)
+XPM,X-Windows Pixelmaps (file name extension) (color)
+IIS,Internet Information Server [Microsoft]
+IIR,Immediate Impulse Response
+LN,Logarithm (Natural)
+ONC,Open Network Computing [Sun]
+AASP,ASCII Asynchronous Support Package
+LV,Logical Volume [IBM]
+LW,Lazy Write
+IIF,Immediate IF
+LR,Link Register
+LQ,Letter Quality
+AIA,Applications Integration Architecture [DEC]
+III,Interstate Identification Index [NCIC]
+SFQL,Structured Full-text Query Language
+ONU,Optical Network Unit
+EDSAC,* Electronic Delay Storage Automatic Computer
+FPGA,Field Programmable Gate-Array
+DMTF,Desktop Management Task Force
+TDtoDP,Tablet Coordinates to Display Coordinates (converting)
+br,Brazil
+SMART,Self-Monitoring Analysis and Reporting Technology
+CFM,Code Fragment Manager [Macintosh]
+NVRAM,Non-Volatile Random Access Memory
+BIND,Berkeley Internet Name Domain
+CFB,Cipher Feedback,Configurable Function Block
+CFV,Call For Votes [Bitnet]
+CFR,Computerized Facial Recognition
+CFS,Caching/Common File System
+PNG,Portable Network Graphics
+DDNS,Dynamic Domain Naming System
+RDTO,Receive Data Transfer Offset [IBM]
+CHGRP,Change Group
+MSBF,Mean Swaps Between Failures
+DB2,Database 2
+PRE,Preformatted [HTML]
+PRD,Printer Driver (file name extension) [Word]
+PRG,Program (file name extension)
+GAAP,Generally Accepted Accounting Principles
+SAM,Serial Access Memory,Sequential Access Method,Single Application Mode [Microsoft]
+SAL,Shift Arithmetic Left
+UART,Universal Asynchronous Receiver/Transmitter
+PRO,Profile (file name extension)
+D/A,Digital to Analog
+PRJ,Project (file name extension) [Borland]
+ACMS,Application Control Management System
+JOE,Java Objects Everywhere
+PRS,Printer (file name extension) [WordPerfect]
+D/R,Direct or Reverse
+D/S,Dhrystone Per Second
+SAP,Second Audio Program,Service Access Point [DEC],Service Advertising Protocol,* Symbolic Assembly Program
+SAV,Saved (file name extension)
+CVGA,Color Video Graphics Array
+CHFN,Change Finger [Unix]
+ZIP,Zigzag In-Line Package,Zone Improvement Plan (ZIPcode),Compressed File (file name extension) [PKWare]
+NPL,Nonprocedural Language
+MRT,Mean Repair Time
+MRU,Maximum Receive Unit
+CHK,CHKDSK (file name extension)
+MRP,Materials Requirement Planning
+MRS,Media Recognition System
+CHP,Chapter
+MRM,Most Recently-Used Master
+CHR,Character
+CHS,Cylinder Head Sector
+MRI,Magnetic Resonance Imaging
+JAD,Joint Application Design
+JAE,Jump if Above or Equal
+WPM,Words Per Minute,Macro (file name extension) [WordPerfect]
+PROFS,Professional Office System [IBM]
+SSCP,Systems Service Control Point [IBM]
+DBM,Data Base Manager
+T/R,Transmit/Receive
+APS,Advanced Photo System,Advanced Printing Service [IBM] Asynchronous Protocol Specification
+APP,Application (file name extension) [R:Base]
+PACS,Picture Archiving and Communication System
+JBE,Jump if Below or Equal
+APT,Address Pass Through,Advanced Parallel Technology,Automatically Programmed Tools
+CDOS,Concurrent Disk Operating System
+JIPS,JANET Internet Protocol Service
+API,Application Program Interface
+APL,A Programming Language (Mathematics)
+APM,Advanced Power Management [IBM OS2]
+T/B,Top and Bottom
+DBS,Data Base Server
+APA,Adaptive Packet Assembly,All Points Addressable,Arithmetic Processing Accelerator
+JUGHEAD,Jonzy's Universal Gopher Hierarchy Excavation and Display [Internet]
+EISA,Extended Industry Standard Architecture
+DSDD,Double Sided, Double Density (diskette)
+HRIS,Human Resource Information System
+LMS,Lotus Messaging Switch [Lotus]
+WKZ,Compressed Spreadsheet (file name extension) [BORQU]
+NLQ,Near Letter Quality
+NLP,Natural-Language Processing
+STRUDL,Structural Design Language (Programming Language)
+NLV,National Language Version [IBM]
+HACMP,High Availability Cluster Multi-Processing [IBM]
+HMP,Host Monitoring Protocol
+MAC,Media/Medium Access Control,MacPaint (file name extension),Macro (file name extension)
+HMM,Hidden Markov Model
+NLE,Not Less or Equal
+BOPS,Billion Operations Per Second
+VI,Visual Interactive (editor) [UNIX]
+HMD,Head Mounted Display
+JNG,Jump if Not Greater
+ISD,Image Section Descriptor,Instructional Systems Design
+NLM,NetWare Loadable Module [Netware]
+HMA,High Memory Area [Microsoft],Hub Management Architecture
+DLC,Data Link Control (protocol) [IBM]
+AFM,Adobe Font Metrics (file name extension) [Adobe Systems]
+GCC,GNU C-Compiler [Unix]
+DLE,Data Link Escape
+DLD,Display List Driver
+AFD,Automatic File Distribution
+SPOT,Shared Product Object Tree [IBM]
+LDAP,Lightweight Directory Access Protocol [IBM]
+AFA,Accelerated File Access
+DLM,Dynamic Link Module
+AFC,Automatic Font Change,Automatic Frequency Control
+DLR,DOS LAN Requester
+LIEP,Large Internet Exchange Packet [Novell]
+DLP,Digital Light Processing [TI]
+OOUI,Object Oriented User Interface
+DLT,Digital Linear Tape
+FRPI,Flux Reversals Per Inch
+EDPM,Electronic Data Processing Machine
+AFP,Appletalk Filing Protocol [Macintosh]
+AFS,Andrew File System (protocols)
+BSCS,Bachelor of Science (Degree) in Computer Science
+BTP,Batch Transfer Program
+BTS,Bit Test and Set
+BTR,Bit Test and Reset
+SST,Spread-Spectrum Technology,Systems Services and Technology
+SSL,Secure Sockets Layer
+PROM,Programmable Read Only Memory
+SSI,Single System Image,Small Scale Integration
+VxD,Virtual Extended Driver [Microsoft]
+BTC,Bit Test and Complement
+BTB,Branch Target Buffer
+PROG,Program,Programmer
+SSD,Solid State Disk
+PMMU,Paged Memory Management Unit
+PROC,Procedure
+RST,Reset,Restart
+EATA,Enhanced AT Bus Attachment
+APIS,Advanced Passenger Information System
+SOC.,Social Issues [USENET Newsgroup Category]
+ICLID,Incoming-Call Line Identification
+DR.BOND,Dial-up Router Bandwith On Demand [NEC]
+LVM,Logical Volume Management [IBM]
+ATDT,Attention Dial Tone
+GECOS,General Electric Comprehensive Operating System
+APIC,Advanced Programmable Interrupt Controller (bus) [Intel]
+RMS,Record Management Services,Root Mean Square
+LANE,Local Area Network Emulation
+ECD,Enhanced Color Display
+ECC,Error Check Code,Error Checking and Correction,Error Correction Code
+ECB,Electronic Codebook,Event Control Block
+ECM,Electronic Control Module
+ECL,Emitter Coupled Logic
+ECI,External Call Interface
+WPD,Windows Printer Description (file name extension)
+RMB,Right Mouse Button
+ECU,EISA Configuration Utility
+RMA,Return Material Authorization,Return to Manufacturer Authorization
+WKQ,Spreadsheet (file name extension) [BORQU]
+LNK,Link
+ECP,Enhanced/Extended Capabilities Port [Microsoft]
+EUI,End-User Interface
+VFAT,Virtual File Allocation Table [Microsoft]
+EUC,End User Computing,Extended Unix Code [IBM]
+LMI,Local Management Interface
+YAM,Yet Another Modem [Omen Technology]
+WAIS,Wide Area Information Server
+BBS,Bulletin Board System
+FFST,First Failure Support Technology [IBM]
+FDDI,Fiber Digital Device Interface,Fiber Distributed Data Interface
+DSVD,Digital Simultaneous Voice and Data
+VMM,Virtual Machine/Memory Manager
+LLDT,Load Local Descriptor Table
+SASI,Shugert Associates System Interface (SCSI originated from SASI)
+VME,Virtual Memory Environment
+TUT,Tutorial (file name extension)
+VMA,Virtual Memory Address
+TUI,Text-Based User Interface [WordPerfect]
+MSCDEX,Microsoft Compact Disc Extensions [Microsoft]
+DO-IT,Disabilities, Opportunities, Internetworking and Technology
+KEYBYU,Foreign language KEYBoard program - Yugoslavia
+VMT,Virtual Memory Technique
+VMS,Virtual Memory System,Voice Message System,Virtual Memory System,Voice Message System
+VMP,Virtual Modem Protocol
+EBI,Equivalent Background Input,Extended Background Investigation
+ANSI,American National Standards Institute
+PINE,Pine Is Not Elm [Unix]
+WK1,Worksheet (file name extension) [Lotus 1-2-3] [LDC]
+STDIO.H,Standard Input/Output Header [C Programming Language]
+NPTN,National Public Telecomputing Network
+PCMC,PCI, Cache, Memory Controller [Intel]
+FYI,For Your Information
+POR,Power-On-Reset
+POS,Point Of Sale,Positive,Programmable Object Select
+LOOPE,Loop while Equal
+RACF,Resource Access Control Facility
+LOOPZ,Loop while Zero
+OLAP,On-Line Analytical Processing
+POH,Power-On Hours
+POE,Power Open Environment
+THOMAS,The (U.S.) House (of Representatives) Open Multimedia Access System
+POC,Point Of Contact
+CYL,Cylinder
+CHDIR,Change Directory
+VCD,Virtual Communications Driver
+IMTC,International Multimedia Teleconferencing Consortium
+MMCD,MultiMedia Compact Disk
+VCL,Visual Component Library
+TTY,Teletype
+IMTV,Interactive Multimedia Television
+VCR,Video Cassette Recorder
+VLM,Virtual Loadable Module
+SIPC,Simply Interactive Personal Computer [Microsoft]
+PDP,Plasma Display Panel,Programmable Data Processor,(DEC Computer System Designation, i.e. PDP-8, PDP-11)
+CWD,Convert Word to Double Word,Change Working Directory [Internet]
+VAST,Variable Array Storage Technology
+LSC,Least Significant Character
+PDO,Portable Distributed Objects [Next]
+MFPI,Multifunction Peripheral Interface
+ABRS,Automated Book Request System [British Library]
+VL-BUS,Vesa Local-Bus [VESA]
+PDN,Public Data Network
+WKB,Workbook (file name extension) [WordPerfect]
+WKE,Worksheet (file name extension) [Lotus 1-2-3] [LDC]
+PDM,Product Data Management
+QA,Quality Assurance
+QC,Quality Control
+PDL,Page Description Language,Program Description Language,Program Design Language
+ORACLE,On-Line Inquiry and Report Generator (UNIX DB program)
+WKS,Worksheet (file name extension) [Lotus 1-2-3] [LDC]
+PAP,Packet-level Procedure,Password Authentication Protocol,Printer Access Protocol
+CKD,Count Key Data (device)
+PAR,Personal Animation Recorder,Parallel
+PAS,PASCAL source code (file name extension)
+PAT,Patch,Pattern (file name extensions)
+PAX,Portable Archive Exchange [Unix]
+IEMSI,Interactive Electronic Mail Standard Identification
+PAB,Personal Address Book
+PAD,Packet Assembler/Disassembler
+NRZI,Non Return to Zero Inverted
+PAL,Paradox Applications Language [Borland],Phase Alternating Line,Programmed Array Logic,Programming Assembly Language,Palette (file name extension)
+PAM,Pulse Amplitude Modulation
+CD-RDx,Compact Disk - Read Only Memory Data Exchange Standard
+HIFD,High-Density Floppy Disk
+REPNZ,Repeat while Not Zero
+DCL,Data Control Language,Declaration,DEC Command Language [DEC],Device Clear,Digital Control Logic,Digital Command Language [Digital]
+FeRAM,Ferroelectric RAM
+DCI,Display Control Interface
+DCF,Data Communication Facility [IBM],Data Compression Facility,Data Count Field [IBM],Driver Configuration File [Lotus]
+HASP,Houston Automatic Spooling Priority (System)
+DCD,Data Carrier Detect
+DCE,Data Circuit-Terminating Equipment,Data Communications Equipment,Distributed Computing Environment [OSF],Distributed Computing Equipment
+DCB,Device Control Block,Disk Coprocessor Board [Novell]
+DCC,Digital Command Control,Digital Compact Cassette,Direct Cable/Client Connection,Display Combination Code
+DCA,Digital Communications Associates,Document Content Architecture [IBM]
+INIT,Initialization,Initialize
+AWK,(Unix language named after its authors... Al Aho, Peter Weinberger and Brian Kernighan)
+my,Malaysia
+PERT,Program Evaluation and Review Technique
+AWG,American Wire Gage
+DCT,Discrete Cosine Transform,Dictionary (file name extension)
+PQFP,Plastic Quad Flat Pack
+DCS,Data Collection System,Data Control System,Desktop Color Separation,Distributed Control System
+DCP,Digital Light Processing [TI]
+REPNE,Repeat while Not Equal
+ZIF,Zero-Insertion Force (socket)
+BORPQU,Borland Pro Quattro
+dk,Denmark
+de,Germany
+PSDN,Packet-Switched Data Network
+DOMF,Distributed Object Management Facility
+PSDS,Packet-Switched Data Service
+SIPO,Serial In, Parallel Out
+OAI,Open Applications Interface
+DQL,DataEase Query Language [DataEase International]
+PLCC,Plastic Leadless Chip Carrier
+SLOSH,Sea, Lake and Overland Surge from Hurricane (program)
+CDPD,Cellular Digital Packet Data
+HIPPI,High Performance Parallel Interface
+dB,Decibel
+SKU#,Stock Keeping Unit Number
+VLT,Variable List Table
+WYSIWYG,What You See Is What You Get
+CD-MO,Compact Disk - Magneto Optical
+OAS,One-to-All Scatter
+GDLC,Generic Data Link Control [IBM]
+OIS,Office Information Systems
+MC-PGA,Metallized Ceramic - Pin Grid Array
+IHD,Integrated Help Desk [IBM]
+S/TK,Sectors Per Track
+DMA,Direct Memory Access/Addressing
+DMD,Digital Micromirror Device [TI]
+DME,Distributed Management Environment
+DMF,Distribution Media Format [Microsoft]
+dBA,Adjusted Decibel
+DMI,Desktop Mangement Interface
+TQFP,Thin Quad Flat Pack
+DML,Data Manipulation Language
+DMM,Digital Multimeter
+S/N,Signal-to-Noise (Ratio)
+DMP,Dot Matrix Printer
+DMS,Data Management Software,Data Management System
+DMT,Digital Multi-Tone
+S/W,Software
+CMIS,Common Management Information Services/System
+DMY,Day Month Year
+RFI,Radio Frequency Interference
+EDSI,Enhanced Small Device Interface
+XDF,Extended Density Format [IBM]
+C/S,Client/Server
+OMR,Optical Mark Recognition
+WELL,Whole Earth 'Lectronic Link (BBS)
+C/D,Control Data
+BUF,Buffer
+NetBIOS,Network Basic Input/Output System [IBM]
+SMIF,Standard Mechanical Interface
+C,C Programming Language,C source code (file name extension) [C]
+MCGA,Multicolor Graphics Array
+I-WAY,Information Highway
+DPAREN,Data Parity Enable [IBM]
+FOLDOC,Free On-Line Dictionary Of Computing
+XRT,Extensions for Real-Time
+PSN,Packet Switching Network
+SAPI,Speech Application Program Interface [Microsoft]
+EWAN,Emulator Without A Good Name [Internet]
+ALINK,Active Link [HTML]
+PSC,Personal Super Computer,Print Server Command,Product Service Center
+WWIS,World Wide Information System [Internet]
+MOP,Maintenance Operations Protocol
+PSF,Permanent Swap File
+MOV,Metal Ocide Varistor,Move
+JLE,Jump if Less than or Equal to
+MOO,MUD, Object Oriented [Internet]
+MOM,Microsoft Office Manager [Microsoft]
+MOB,Memory-Order Buffer
+PSP,Personal Software Products (group) [IBM],Program Segment Prefix
+PSW,Program Status Word
+MOD,Module,Modulus
+BCL,Batch Command Language
+ETS,Econometric Time Series
+BCN,Beacon
+BCD,Binary Coded Decimal
+ETX,End Of Text
+BCC,Block Check Character
+ETB,End of Transmission Block
+ETC,Electronic Toll Collection,Enhanced Throughput Cellular (modem protocol) [AT&T]
+DM,Distributed Memory
+EXE2BIN,Program used to convert an (.EXE) file to binary format (.COM) file
+KPI,Kernal Programming Interface
+MLID,Multi-Link Interface Driver
+XCMD,External Command
+HRTF,Head Related Transfer Function
+BCR,Byte Count Register
+BCS,Bar Code Sorter
+VRS,WordPerfect Graphics Driver (file name extension)
+RTTI,Runtime Type Information
+DSQD,Double Sided, Quad Density (diskette)
+VRU,Voice Response Unit
+VRT,Voltage Regulation Technology [Intel]
+REC.,Recreation [USENET Newsgroup Category]
+DF,Data Field,Destination Field,Device Flag,Double Flag
+TVI,Television Interference
+VRE,Voltage Regulated Extended
+OS/2,Operating System/2 [IBM]
+POSTNET,Postal Numeric Encoding Technique
+TVF,Table of contents Verbosely from File [UNIX]
+D2T2,Dye Diffusion Thermal Transfer (printing)
+KAM,Keep Alive Memory
+IIOP,Internet Inter-Operability Protocol
+SRB,Source-Route Bridge
+SRC,Source (file name extension)
+CI,Component Interface
+CO,Central Office,Command Output,Convert Out
+CM,Centimeter,Control Mark,Corrective Maintenance
+CC,Cluster Controller
+CA,Collision  Avoidance
+CG,Control Gate
+HPFS,High-Performance File System
+CE,Cache Enable,Chip Enable,Collision Elimination,Convert Enable
+BPL,Branch if Plus
+SRR,Serially Reusable Resource
+SRS,Sound Retrieval System
+SRP,Suggested Retail Price,Script (file name extension)
+SRQ,Service Request
+PRINTF,Print with Formatting [C Programming Language]
+CS,Chip Select,Clear to Send,Code Segment
+CR,Carriage Return
+BYTE,Binary Element String
+CP,Copy Protected
+KSPH,Keystrokes Per Hour
+TDI,Transport Device Interface
+NMS,Network Management System [Novell]
+NMP,Network Management Protocol [AT&T]
+TDSR,Transmitter Data Service Request
+QNX,Indexes to Data (file name extension) [Quicken]
+TDF,Trace Definition File (file name extension) [OS/2],Typeface Definition File (file name extension)
+TDE,Terminal Display Editor
+TDD,Telecommunications Device for the Deaf
+FTAM,File Transfer, Access and Management,File Transfer and Access Method
+TDR,Time Domain Reflectometry
+SIRDS,Single-Image Random Dot Stereogram
+NMM,NetWare Management Map [NetWare]
+NAWS,Negotiate About Window Size
+SI/SO,Serial In/Serial Out,Shift In/Shift Out
+LOC,Loop On-Line Control
+ESC/P,Epson Standard Code for Printers
+AFIS,Automated Fingerprint Identification System
+LOD,Level Of Detail
+CVW,CodeView for Windows
+CVT,Convert
+IMUL,Integer Multiply
+YAHOO,Yet Another Hierarchically Officious Oracle [Internet]
+IV&V,Independent Verification & Validation
+ULSI,Ultra Large Scale Integration
+MIME,Multipurpose Internet Mail Extension [Internet]
+LZW,Lempel-Ziv-Welch (algorithm)
+in,India
+CVF,Compressed Volume File
+VROOMM,Virtual Real-time Object Oriented Memory Manager [Borland]
+GUID,Global Universal ID
+ie,Ireland
+id,Indonesia
+AFII,Association for Font Information Interchange
+AISB,Association of Imaging Service Bureaus
+R-O,Read Only
+AISP,Association of Information Systems Professionals
+SMOBC,Solder Mask Over Bare Copper
+DBIS,Dun & Bradstreet Information Services
+VA,Virtual Address
+VB,Variable Block,Visual Basic [Microsoft]
+VF,Virtual Floppy
+WPOS,Workplace Operating System
+HPR,High Performance Routing [IBM]
+VJ,HEADER Van Jacobsen Header (compression) [Unix]
+HPW,High Performance Workstation [Sun]
+VM,Virtual Machine,Virtual Memory
+VP,Virtual Path
+VR,Virtual Reality,Voltage Regulated/Regulator
+VS,Virtual Storage
+VT,Vertical Tab
+SPAN,Space Physics Analysis Network
+HPG,Hewlett-Packard Graphics
+UNMA,Unified Network Management Architecture
+F/T,Full Time
+WNIC,Wide-Area Network Interface Co-Processor
+EBC,EISA Bus Controller
+ER/RC,Extended Result/Response Code
+FOCUS,Forum of Control Data Users
+EBT,Electronic Benefits Transfer
+RJE,Remote Job Entry
+SD_STB,Streaming Data Strobe [IBM]
+NIPS,Network I/Os Per Second
+ECMA,European Computer Manufacturers Association
+CONS,Connection-Oriented Network Service
+DRS,Document Registration System,Driver Resource (file name extension) [WordPerfect]
+WDL,Windows Driver Library [Microsoft]
+DRW,Draw,Drawing (file name extensions)
+DRV,Drive,Device Driver (file name extension) (Also see .DVR)
+DRI,Digital Research Incorporated
+COMSAT,Communications Satellite Corporation
+COND,Condition
+BARTS,Bell Atlantic Regional Timesharing
+DRO,Data Request Output,Destructive Read-Out
+MTBB,Mean Time Between Breakdowns
+MOVS,Move String
+MTBJ,Mean Time Between Jams
+RVA,Relative Virtual Address
+UID,User Identifier
+RVI,Reverse Interrupt
+EEMS,Enhanced Expanded Memory Specification
+DCED,Distributed Computing Environment Daemon
+REP,Repeat
+NDRO,Non-Destructive Read Out
+RXD,Receive Data
+WQ1,Spreadsheet (file name extension) [BORPQU]
+OODMS,Object-Oriented Database Management System (also see ODBMS)
+CNVT,Convert
+SMPC,Shared Memory Parallel Computer
+SLDT,Store Local Descriptor Table
+VADD,Value Added Disk Driver
+OH,Off Hook
+CWIS,Campus Wide Information Service/System [Internet],Community Wide Information Service/System [Internet]
+KEYBSG,Foreign language KEYBoard program - Swiss-German
+SMPS,Switching Mode Power Supply
+VCPI,Virtual Control Program Interface
+QDOS,Quick and Dirty Operating System
+SRPI,Server-Requester Programming Interface
+PAIH,Public-Access Internet Host [Internet]
+SPPS,Scalable Power Parallel System [IBM]
+CPI-C,Common Programming Interface for Communications [IBM]
+HS,High Speed
+HP,Hewlett-Packard (Company)
+VESA,Video Electronics Standards Association
+HCSS,High Capacity Storage System
+HH,Hour
+CD-XA,Compact Disk - Extended Architecture
+PAIS,Public-Access Internet Site [Internet]
+P-SRAM,Pseudo-Static Random Access Memory
+HD,Hard Disk,High Density
+LIAS,Library Information Access System
+Hz,Hertz
+SCO,Santa Cruz Operation (Software Company)
+MNP,Microcom Networking Protocol [Microcom]
+PTF,Problem Temporary/Trouble Fix [IBM]
+JMP,Jump
+PTD,Parallel Transfer Disk Drive
+MNU,Menu (fine name extension)
+SCC,Serial Communications Controllers,Serial Controller Chip,Synchronous Channel Check [IBM]
+SCB,Subsystem Control Block [IBM]
+FOSSIL,Fido/Opus/Seadog Standard Interface Layer
+SMDS,Switched Multimedia/Multi-Megabit Data Service
+SCP,Save Cursor Position,Subsystem Control Port,System Control Program
+SCR,Silicon Controlled Rectifier,Script (file name extension)
+IU,Integer Unit
+PBX,Private Branch Exchange
+CAPS,Capitals (Upper Case Letters),Cassette Programming System
+PBE,Prompt By Example
+ASAP,As Soon As Possible,Automatic Switching And Processing
+OV,Overflow
+CAPD,Computing To Assist Persons With Disabilities [Johns Hopkins University]
+TLI,Transport Layer Interface
+MOBO,Mother Board
+PSID,PostScript Image Data
+MPE,Multiple Programming Executive [HP]
+MPC,Multimedia Personal Computer,Multipath Channel
+MTTD,Mean Time To Diagnose
+SSAP,Source Service Access Point
+VPSC,Vault, Process, Structure, Configuration
+MPM,Message Passing Library [IBM]
+AVR,Automatic Voice Recognition
+MPI,Message Passing Interface,Multiprecision Integer
+MTTR,Mean Time To Repair
+KEFIR,Key Findings Reporter [GTE]
+MPU,Microprocessor Unit
+MPR,Multipart Repeater,Multi Protocol Router [Novell]
+AVI,Audio Visual Interleave [Microsoft]
+MPP,Massively Parallel Processing,Message Processing Program
+AMPS,Advanced Mobile Phone Service
+CDMA,Code Division Multiple Access
+CDMF,Commercial Data Masking Facility [IBM]
+AVA,Audio Visual Authoring [IBM]
+AVC,Audio Visual Connection [IBM]
+PRMD,Private Mangement Domain [X.400]
+HDSS,Holographic Data Storage System
+LFN,Long File Name
+REPZ,Repeat while Zero
+KEYBIT,Foreign language KEYBoard program - Italy
+PRML,Partial-Response Maximum-Likelihood
+HDSC,High Density Signal Carrier [DEC]
+HPGL,Hewlett-Packard Graphics Language
+SUP,Supplemental Dictionary (file name extension) [WordPerfect]
+REPE,Repeat while Equal
+R/T,Receive/Transmit
+HDSL,High-Data-Rate Digital Subscriber Line
+R/W,Read/Write
+ISIS,Integrated Systems and Information Services
+USOC,Universal Service Ordering Code
+EDDC,Extended Distance Data Cable
+NSAP,Network Service Access Point
+TEC,Tokyo Electronics Corporation
+TED,Tiny Editor
+QMT,Memorized List (file name extension) [Quicken]
+NBI,Nothing But Initials
+ODSI,Open Directory Service Interface [Microsoft]
+ATTN,Attention
+PIPO,Parallel In, Parallel Out
+KQML,Knowledge Query and Manipulation Language
+B/F,Background/Foreground
+IRLED,Infrared Light Emitting Diode
+ADT,Application Data Types
+ADU,Automatic Dialing Unit
+ADR,Address
+ADS,Application Development Solutions [AT&T],Application Development System,Automatic Distribution System
+DNC,Direct Numerical Control
+ADF,Automatic Document Feeder,Automatically Defined Function,Adapter Description File (file name extension)
+ADD,Automatic Document Detection [WordPerfect]
+UUCP,Unix-To-Unix Copy Program
+ADB,Apple Desktop Bus
+ADC,Adaptive Data Compression (protocol) [Hayes],Add with Carry,Analog to Digital Converter
+DNS,Domain Naming System
+ADA,Automatic Data Acquisitions,Programming Language named after Augusta Ada Lovelace)
+GMS,Global Management System,Global Messaging Service [Novell]
+GMR,Giant Magneto-Resistive
+ADL,Address Data Latch
+GMP,Global Mobile Professional
+HWCP,Hardware Code Page
+GMT,Greenwich Mean Time
+MCI,MCI Communications Corp. (name from initials of original company - Microwave Communications, Inc.),Media Control Interface [Microsoft]
+ODMA,Open Document Management API
+POTS,Plain Old Telephone Service
+NSSC,NASA Standard Spacecraft Computer
+CBCR,Channel Byte Count Register
+CIRC,Circular Reference,Cross-Interleaved Reed-Solomon Code
+BSAM,Basic Sequential Access Method
+LAPM,Link Access Procedure for Modems
+BRI,Basic Rate Interface,Brain Response Interface
+DEL,Delete
+LAPB,Link Access Procedure Balanced (protocol)
+LAPD,Link Access Procedure Direct (protocol)
+HQX,BinHex (file name extension) [Macintosh]
+IGRP,Interior Gateway Routing Protocol [Cisco]
+AS/U,Advanced Server for Unix
+MCB,Memory Control Block
+DISA,Data Interchange Standards Association
+CHOWN,Change Owner
+FTTC,Fiber To The Curb
+RADSL,Rate Adaptive Digital Subscriber Line
+PGUP,Page Up
+TWX,Teletypewriter Exchange Service
+NASDAQ,National Association of Securities Dealers Automatic Quotation
+LALL,Longest Allowed Lobe Length
+nl,Netherlands
+IDNX,Integrated Digital Network Exchange [IBM]
+no,Norway
+nz,New Zealand
+OFMT,Output Format for Numbers
+NISP,Networked Information Services Project
+EAR,External Access Register
+EAROM,Electrically Alterable Read Only Memory
+NIST,National Institute for Standards and Technology
+ECNE,Enterprise Certified NetWare Engineer [Novell]
+SCM,ScreenCam Format [Lotus],Software Configuration Management,Station Class Mark
+ESU,Electro-Static Unit
+STDPRN,Standard Printer
+ESS,Electronic Switching System
+ESR,Event Service Routine
+ESP,Emulation Sensing Processor,Enhanced Serial Port [Hayes],Estimated Selling Price
+FORTRAN,Formula Translator (Programming Language)(See HLL)
+CNAPS,Co-Processing Node Architecture for Parallel Systems
+ESD,Electronic Software Distribution,Electrostatic Discharge
+ESC,EISA System Component,Escape
+ESCON,Enterprise System Connection (Architecture) [IBM]
+ESA,Enterprise Systems Architecture [IBM],European Space Agency
+ORS,Output Record Separator
+GSTN,General Switched Telephone Network
+ESN,Electronic Security Number
+CIDR,Classless Inter-Domain Routing
+ESI,Enhanced Serial Interface (specification) [Hayes]
+KEYBGR,Foreign language KEYBoard program - Germany
+DNIC,Data Network Identification Code
+TIM,Technical Information Memo [Compaq]
+HPIB,Hewlett-Packard Interface Bus
+VSF,Vertical Scanning Frequency
+SCD,Standard Color Display
+KEYBSP,Foreign language KEYBoard program - Spain
+DNIS,Dialed Number Identification Service
+VSE,Virtual Storage Extended
+MBPS,Megabytes Per Second
+VSN,Volume Serial Number
+NCSC,National Computer Security Center
+EOC,End Of Conversion
+EOB,End Of Block
+EOA,End Of Address
+SCF,System Control Facility
+EOF,End Of File,Enterprise Objects Framework [Next Computer]
+PACS-L,Public Access Computer Systems List [Internet]
+EOJ,End Of Job
+EOI,End Of Interrupt,End Or Identify
+EOM,End Of Message
+EOL,End Of Line,End Of List
+EOS,Earth Observing System [NASA],End Of String
+EOR,Exclusive OR (Also XOR)
+VBRUN,Visual Basic Runtime
+EOT,End Of Table,End Of Tape (marker),End Of Text,End Of Transmission
+SECAM,Sequentiel Couleur Avec Memoire (Sequential Color With Memory)
+RADAR,Rights, Availabilities, Distribution Analysis and Reporting [Disney]
+SEM,Scanning Electron Microscope,Standard Electronic Module
+RAMP,Remote Access Maintenance Protocol [Internet]
+ANCOVA,Analysis of Covariance
+AUDIT,Automated Data Input Terminal
+FIP,File Processor Buffering
+VAN,Value Added Network
+VAL,Value,Voice Application Language,Validity Checks (file name extension) [Paradox]
+QPSK,Quadrature Phase Shift Keying
+FIX,Federal Internet Exchange
+KEYBUK,Foreign language KEYBoard program - United Kingdom
+OPC,Optical Photoconductor
+KEYBUS,Foreign language KEYBoard program - United States
+FIF,Fractal Image Format
+SAINT,* Symbolic Automatic Integrator
+VAR,Value Added Reseller,Value Added Retailer,Variable
+li,Liechtenstein
+VAP,Value Added Process
+CIOCS,Communication Input/Output Control System
+TTCN,Tree and Tabular Combined Notation
+PLATO,Programmed Logic for Automatic Teaching Operations
+MMIS,Materials Manager Information System
+TAPI,Telephony Applications Programming Interface
+PRACSA,Public Remote Access Computer Standards Association
+EFTS,Electronic Funds Transfer System
+TBBS,The Bread Board System (BBS)
+PSTN,Public Switched Telephone Network
+VERONICA,Very Easy Rodent-Oriented Net-Wide Index to Computer Archives [Internet]
+CMM,Capability Maturity Model
+CML,Conceptual Modelling Language,Computer Managed Learning,Current Mode Logic
+HTTP,HyperText Transport Protocol
+CMF,Creative Music Format
+NEST,Novell Embedded Systems Technology [Novell]
+CMD,Command (file name extension)
+CMC,Common Mail Calls,Common Messaging Calls,Communication Mangement Configuration,Complement Carry Flag,Computer-Mediated Communication [Internet]
+CMA,Concert Multi-thread Architecture
+LMU,LAN Management Utilities [IBM],LAN Manager for Unix
+ZDL,Zero Delay Lockout
+PCI,Peripheral Component Interconnect/Interface
+PCN,Personal Computer Network
+PCO,Point of Control and Observation
+CMY,Cyan-Magenta-Yellow (color model)
+PCM,Personal Computer Manufacturer,Pulse Code Modulation
+CMW,Compartmented Mode Workstation
+CMS,Code Management System,Compiler Monitor System,Conversation Monitor System
+NBS,National Bureau of Standards,Numeric Backspace
+CMP,Compare,Computer
+ARPANET,Advanced Research Projects Agency Network
+CSMA/CD,Carrier Sense Multiple Access/with Collision Detection
+SIGCAT,Special Interest Group on CD-ROM Applications and Technology
+CMYK,Cyan-Magenta-Yellow-Black (color model)
+bm,Bermuda
+MVGA,Monochrome Video Graphics Array
+SN,Serial Number
+DSW,Data Status Word,Device Status Word
+DSU,Data Service Unit,Digital Service Unit
+DSR,Data Set Ready,Device Status Register,Device Status Report
+DSS,Decision Support System,Digital Signature Standard
+DSP,Digital Signal Processing/Processor,Directory Synchronization Protocol [Lotus]
+TWAIN,Technology Without Any Interesting Name (connection between application and scanner software)
+SC,Script (file name extension)
+DSL,Digital Subscriber Line,Dynamic Simulation Language
+WGS,Work Group System
+DSE,Data Storage Equipment
+DSA,Directory System Agent
+ME,Opening Information (file name extension) (As in READ.ME)
+MD,Make Directory,Monochrome Display
+BLOS,Branch if Lower Or Same
+MB,Megabyte (1,024 kilobytes),Middle Button (of 3 button Mouse)
+INT,Integer,Internal,Interrupt,International (organization Domain name) [Internet]
+ML,Machine Language,Meta Language
+MO,Magneto-Optical (disk drive)
+VSM,Virtual Shared Memory,Virtual Storage Management,Visual System Management [IBM]
+MI,Management Interface
+RWM,Read-Write Memory
+LMBCS,Lotus Multibyte Character Set [Lotus]
+INS,Input String,Integrated Network Server
+INM,Integrated Network Management
+DMOS,Double-diffused Metal-Oxide Semiconductor
+BLOB,Binary Large Object
+MS,Memory System,Message Store,Microsecond,Microsoft Corporation,Millisecond
+MR,Magnetoresistive,Modem Ready
+IND,Index (file name extension)
+INF,Information (file name extension)
+MX,Mail Exchanger [Internet]
+VCC,Virtual Channel Connection
+INC,Increment
+COSE,Combined Office Standard Environment,Common Open Software/Systems Environment
+ORI,Online Retrieval Interface,Original (file name extension)
+QEMM,Quarterdeck Expanded Memory Manager [Quarterdeck Corp.]
+GLM,General Linear Models
+DDEML,Dynamic Data Exchange Manager Library [Microsoft]
+DOC,Document,Documentation (file name extensions)
+DOE,Distributed Objects Everywhere
+GLY,Glossary (file name extension) [Microsoft Word]
+COSS,Common Object Services Specification
+DOS,Disk Operating System
+PICS,Platform for Internet Content Selection
+TIIAP,Telecommunications and Information Infrastructure Assistance Program [NII]
+DOW,Day Of Week
+BSY,Busy
+BSV,BASIC Bsave Graphics (file name extension)
+BSR,Bit Scan Reverse
+BSS,Block Started by Symbol
+RIFF,Resource Interschange File Format [Microsoft]
+BSI,British Standards Institute
+BSD,Berkely Software/Standard Distribution
+BSF,Bit Scan Forward
+CISC,Complex Instruction Set Computing
+BSC,Binary Synchronous Communication,Boyan Script (file name extension) [Boyan Communications]
+CAP,Carrierless Amplitude and Phase-Modulation,Central Arbitration Point,Communication Application Platform,Computer Aided Publishing,Capture (file name extension)
+N/I,Non-Interlaced
+MCAD,Mechanical Computer Aided Design
+AUI,Attachment Unit Interface
+MNOS,Metal Nitride Oxide Semiconductor
+AUP,Acceptable Use Policy [Internet]
+ITU-TSS,ITU-Telecommunication Standarts Section
+CMIP,Common Management Information Protocol
+MAX,Maximum
+AUX,Auxiliary,(First Serial Port)
+MTTF,Mean Time To Failure
+SBR,Source Browser (file name extension) [Borland]
+PUN,Physical Unit Number
+NetBEUI,NetBIOS Extended User Interface [IBM]
+MMX,Matrix Manipulation Extensions [Intel],Multimedia Extensions
+MMU,Memory Management Unit
+PUB,Public (directory) [Internet],Publish,Publication (file name extension) [Ventura]
+SBB,Subtract With Borrow
+SBC,Single-Board Computer
+SBA,Scene Balance Algorithms [Kodak]
+MMI,Man-Machine Interface
+FC/AL,Fiber Channel/Arbitrated Loop
+SBI,Sound Blaster Instrument
+MMA,Microcomputer Managers Association
+MMC,Matched Memory Cycle,Microcomputer Marketing Council
+PUS,Processor Upgrade Socket
+BAT,Block Address Translation,Batch Processing (file name extension)
+BAS,Basic Language (file name extension)
+ERR,Error
+CLOS,Common Lisp Object System
+RIPS,Raster Image Processing System
+ERA,Extended Registry Attributes
+XID,Exchange Identifier
+BAL,Basic Assembly Language
+BAM,Boyan Action Module
+BAK,Binary Adaptation Kit [Microsoft],Backup (file name extension)
+VPT,Virtual Print Technology [Dataproducts]
+VPS,Voice Processing System
+DSSI,Digital Standard Systems Interconnect [DEC]
+VPE,Visual Programming Environment
+LASTport,Local Area Storage Transport (protocol) [DEC]
+DPI,Dots Per Inch
+VXD,Virtual Device (file name extension) [Microsoft]
+VPL,Virtual Programming Language
+PPDS,Personal Printer Data Stream [IBM]
+DSSS,Direct-Sequencing Spread Spectrum
+MPS,Multiprocessor Specification
+DSAP,Destination Service Access Point
+LF,Line Feed
+STF,Structured File (file name extension) [Lotus Agenda]
+STA,Spanning Tree Algorithm
+STB,Strobe
+STC,Set Carry Flag
+QBIC,Query By Image Content [IBM]
+MBONE,Multicast Backbone [Internet]
+SADL,Synchronous Data Link Control [Racal-Vadic]
+STI,Set Interrupt Flag
+KEYBHU,Foreign language KEYBoard program - Hungary
+STT,Secure Transaction Technology [Microsoft]
+STP,Secure Transfer Protocol,Shielded Twisted Pair (cable),Signal Transfer Point,Synchronized Transaction Processing
+STR,Store Task Register,Synchronous Transmitter Receiver
+STX,Start of Text
+STY,Style (file name extension) [Ventura, Word, WordPerfect]
+TFM,Tagged Font Metric (file name extension)
+AVG,Average
+TIP,Terminal Interface Processor
+CERN,The European Particle Physics Laboratory (initials originally from Conseil European pour la Recherche Nucleaire)
+NCR,National Cash Register (Company)
+USERID,User Identification
+SQRT,Square Root
+sk,Slovakia (Slovak Republic)
+CERT,Computer Emergency Response Team
+NCA,Network Communications Adapter
+NCC,Network Control Center
+NICAD,Nickel-Cadmium
+NCF,Netware Command File [Novell]
+CORBA,Common Object Request Broker Architecture
+FNT,Font
+LIB,Library (file name extension)
+LIC,Line Interface Coupler [IBM]
+LIM,Lotus/Intel/Microsoft
+VFD,Vacuum Fluorescent Display
+MICS,Macro Interpretive Commands
+ONDS,Open Network Distribution Services [IBM]
+LIP,Large Internet Packet
+VFW,Video For Windows [Microsoft]
+BCC:,Blind Carbon Copy
+HTTP-NG,HTTP Next Generation
+FILO,First-In, Last-Out
+SUB,Subroutine,Substitute,Subtract
+RT,Real Time,RISC Technology,Run Time
+VSIO,Virtual Serial Input Output
+RR,Real Reality
+RS,Radio Shack,Recommended Standard (as in RS-232) [EIA],Record Separator,Request to Send
+RX,Receiver
+QPG,Quantum Phase Gate
+RD,Receive Data,Remove Directory
+PRF,Pulse Repetition Frequency,Preferences (file name extension) [Grammatik IV]
+RF,Radio Frequency
+LU,Logical Unit (Also LUN)
+RA,Return Authorization
+RB,Right Button (of 2 or 3 button Mouse)
+SUN,Sun Microsystems, Inc.
+RM,Reset Mode
+RN,Read News [Internet]
+NED,NASA Extragalactic Database [NASA]
+CJLI,Command Job Language Interpreter
+TSTN,Triple Supertwisted Nematic
+A/D,Analog to Digital
+TPC,Transaction-Processing Performance Council
+TPM,Transactions Per Minute
+TPL,Table Producing Language
+TPI,Tracks Per Inch
+NEC,Nippon Electric Company
+TPW,Turbo Pascal for Windows
+TPS,Transactions Per Second,Transaction Processing System
+A/R,Accounts Receivable
+QBF,Query by Form
+A/P,Accounts Payable
+LADDR,Layered Device Driver Architecture [Microsoft]
+HRG,High Resolution Graphics
+BASM,Built-In Assembler
+PIER,Procedures for Internet/Enterprise Renumbering
+BASH,Bourne Again Shell [Unix]
+su,USSR (former)
+WISE,WordPerfect Information System Environment
+CP/M,Control Program for Microcomputers [Digital Research]
+tar.Z,Compressed Archived files (file name extension) [Unix]
+IDIV,Integer Divide
+X2D,Hexadecimal to Decimal [REXX]
+PILOT,Programmed Inquiry Learning Or Teaching
+G/L,General Ledger
+ee,Estonia
+eg,Egypt
+WCS,World Coordinate System
+ec,Ecuador
+COLL,Collision
+IUAP,Internet User Account Provider [Internet]
+COLD,Computer Output to Laser Disk
+NET,Network (organization Domain name) [Internet]
+es,Spain
+MADE,Manufacturing and Automated Design Engineering
+RTC,Real-Time Clock
+RTM,Response Time Monitor,Runtime Manager [Borland]
+RTL,Register Transfer Language/Level,Resistor Transistor Logic,Right-To-Left,Run Time Library
+SGML,Standard Generalized Markup Language
+DIBOL,DEC Business Oriented Language
+RTV,Real Time Video
+RTP,Rapid Transport Protocol,Real-Time Protocol
+RTS,Remote Takeover System,Request To Send
+TEML,Turbo Editor Macro Language [Borland]
+MAPICS,Manufacturing, Accounting and Production Information Control System [IBM]
+RFS,Remote File Sharing,Remote File System
+RFQ,Request for Quotation
+ENC,Encoded (file name extension)
+RFU,Reserved For Future Use
+RFT,Revisable Form Text,Rich Text Format
+X2C,Hexadecimal to Character [REXX]
+FPCE,Floating-Point C Extension (specification)
+RFC,Request For Comments [Internet]
+ENQ,Enquiry
+RFD,Request for Discussion [Internet]
+RASAPI,Remote Access Service Application Programming Interface [Microsoft]
+IOSGA,Input/Output Support Gate Array
+ICMP,Internet Control Message Protocol [Novell]
+DARMS,Digital Alternate Realization of Musical Symbols
+RTDM,Real-Time Data Migration
+LEAF,Law Enforcement Access Field
+RSTS,Resource Sharing Time Sharing [Digital]
+RALU,Register Arithmetic Logic Unit
+Z-CAV,Zoned Constant Angular Velocity
+IETF,Internet Engineering Task Force [Internet]
+ARTIC,A Real-Time Interface Copressor [IBM]
+PBGA,Plastic Ball Grid Array
+TEB,Thread Environment Block
+ATG,Advanced Technology Group
+ATE,Automated Test Equipment
+DDCS,Distributed Database Connection Services [IBM]
+ATA,Advanced Technology Attachment
+ISR,Information Storage and Retrieval,Interrupt Service Routine,Interrupt Status Register
+ATM,Adobe Typeface Manager,Asynchronous Transfer Mode,Automated Teller Machine
+ISV,Independent Software Vendor
+ATH,Attention Hang-Up (Modem command)
+ISI,Internally Specified Index
+ISH,Information Super Highway
+ATR,Automatic Terminal Recognition
+ATS,Administrative Terminal System,Apple Terminal Services
+ISM,Internet Service Manager [Mircrosoft]
+ISL,Interactive System Language
+ISC,Instruction Set Computer,Inter-Systems Communication [IBM]
+MAI,Mail (file name extension)
+ISA,Industry Standard Architecture,Instruction-Set Architecture
+ATZ,Attention Restore configuration profile from nonvolatile RAM (Modem command)
+CSNET,Computer Science Network
+IANA,Internet Assigned Numbers Authority [Internet]
+PRN,Printer
+PVS,Parallel Visualization Server
+SET,Secure Electronic Transaction,Softwave Engineering Technology,Driver Set (file name extension) [Lotus 1-2-3] [LDC],Image Settings (file name extension) [Paradox]
+SER,Serial
+NCMT,* Numerical Control for Machine Tools
+SWAIS,Simple Wide Area Information Server [Internet]
+DGIS,Direct Graphics Interface Standard
+SEG,Segment
+PVC,Permanent Virtual Circuit,Polyvinyl Chloride
+SED,Stream Editor,Stream-Oriented Editor
+SEC,Single Error Correction
+SEA,Standard Extended Attribute [OS/2],Self Extracting Archive (file name extension) [Macintosh]
+MIG,Metal In Gap
+SEL,Select
+PVM,Parallel Virtual Machine,Pass-through Virtual Machine (protocol) [IBM]
+ESDI,Enhanced Small/System Device Interface
+SEH,Structured Exception Handling
+FRC,Funtional Redundancy Checking
+IME,Input Method Editor
+CLI,Call-Level Interface,Clear Interrupt Flag,Command Line Interface
+IMG,Image
+CLK,Clock
+CLD,Clear Direction Flag
+PDU,Plug Distribution Unit
+PDT,Performance Diagnostic Tool [IBM],Programmable Drive Table
+PDS,Packet Driver Specification,Partitioned Data Set,Planetary Data System,Portable Document Software,Processor Direct Slot [Macintosh]
+IML,Initial Microcode Load [IBM]
+CLC,Clear Carry Flag
+FRS,WordPerfect Graphics Driver (file name extension)
+IMP,Information/Interface Message Processor
+IMS,Information Management System,Intermediate Maintenance Standards
+IMR,Internet Monthly Report [Internet]
+FIPS,Federal Information Processing Standard
+VIPER,Verifiable Integrated Processor for Enhanced Reliability
+CARL,Colorado Alliance of Research Libraries [Internet]
+RDCLK,Received Timing Clock
+PDF,Package Definition File,Portable Document Format,Portable Document File,Processor Defined Function,Program Development Facility,Printer Description (file name extension)[Borland,Lotus]
+CLV,Constant Linear Velocity
+PDD,Physical Device Driver
+CLP,Cell Loss Priority,Constraint Logic Programming,Clipboard (file name extension) [Windows]
+TER,Thermal Eclipse Reading [Sony]
+PDA,Personal Digital Assistant
+CLS,Clear Screen
+DDC1,Display Data Channel One
+LISP,List Processing (Language)(See HLL)
+SNMP,Simple Network Management Protocol
+RGB,Red-Green-Blue (color model)
+DSECT,Dummy Control Section
+UUI,User-To-User Information [AT&T]
+NBE,Not Below or Equal
+BRGC,Binary Reflected Gray Code
+CFG,Configuration (file name extension)
+UUE,UUEncoding [Unix]
+UUD,UUDecoding [Unix]
+DN,Down
+DO,Data Out,Distributed Objects
+DL,Download (also D/L)
+BPB,BIOS Parameter Block
+DI,Data In,Destination Index
+BPI,Bits Per Inch
+DD,Day,Digital Display,Double Density
+DE,Device End
+DB,Data Base,Data Buffer
+DC,Data Collection,Data Communication,Data Control,Device Control,Direct Current
+TSAPI,Telephony Services Application Program Interface [AT&T,Novell]
+BPS,Bits Per Second,Bytes Per Second
+BASIC,Beginner's All-purpose Symbolic Instruction Code
+DV,DESQview Script (file name extension)
+SWP,Swap (file name extension)
+DU,Disk Usage
+DR,Data Received
+DS,Data Segment,Data Send,Data Server,Double Sided
+DP,Data Processing
+SCI.,Science [USENET Newsgroup Category]
+SLMR,Silly Little Modem Reader
+ADP,Automatic Data Processing
+NANO,One thousand-millionth
+GEOS,Graphic Environment Operating System [Geoworks]
+OOOS,Object-Oriented Operating System
+ISKM,Internet Starter Kit for the Macintosh
+UDF,User Defined Functions
+RLOGIN,Remote Login
+MLC,Multilayer Ceramic,Multilevel Cell (program) [Internet]
+DHL,Dynamic Head Loading
+INTA,Interrupt Acknowledge
+HDCD,High Definition Compatible Digital
+PS,Proportional Spacing,PostScript (file name extension)
+CD_CHRDY,Card Channel Ready [IBM]
+INTO,Interrupt if Overflow occurs
+VLSIPS,Very Large Scale Immobilized Polymer Synthesis
+MLM,Mailing List Manager [Internet]
+DR-DOS,Digital Research-Disk Operating System
+RLN,Remote LAN Node [DCA]
+INI,Initialize (file name extension)
+GOV,Government (organization Domain name) [Internet]
+DHP,Dr. Halo PIC (file name extension)
+NRC,National Research Council (Canada)
+SONET,Synchronous Optical Network
+ZDS,Zenith Data Systems
+XGA,Extended Graphics Array [IBM]
+NRZ,Not Return to Zero
+GIGO,Garbage In, Garbage Out
+SQ,Squeezed (files)
+OPS,Operations
+WC,Word Count
+EBCDIC,Extended Binary Coded Decimal Interchange Code [IBM]
+TQM,Total Quality Management
+P/T,Part Time
+WL,Word Line
+ADN,Add In Utility (file name extension) [Lotus 1-2-3] [LDC]
+WT,Write Through
+WS,WordStar,Workstation
+WP,WordPerfect,Word Processing,Write Protected
+QAM,Quadrature Amplitude Modulation
+RAMDAC,Random Access Memory Digital-to-Analog Converter [Sierra]
+HSB,Hue, Saturation, Brightness (color model)
+HSC,High Speed Channel
+LICS,Lotus International Character Set [LDC]
+FARNET,Federation of American Research Networks [Internet]
+HSI,Hue, Saturation, Intensity
+RIP,Remote Imaging Protocol,Routing Information Protocol [Novell]
+HSM,Hierarchical Storage Management
+HSP,High Speed Printer
+RIM,Remote Installation and Maintenance [Microsoft]
+HSV,Hue Saturation Value
+CSMS,Customer Support Management System
+HST,High Speed Technology [U.S. Robotics],History,Host (file name extensions)
+ADI,AutoCad Device Interface (driver)
+BHIS,Branch if Higher or Same
+PW,Password
+HAL,Hard Array Logic,Hardware Abstraction Layer,House-Programmed Array Logic,* Heuristically Programmed Algorithmic (computer) [from 1968 movie "2001: A Space Odyssey"]
+PD,Public Domain
+BNS,Backbone Network Service
+H,Header (file name extension) [C]
+SGEN,Signal Generator,System Generator
+RISC,Reduced Instruction Set Computer
+GHZ,Gigahertz
+BNC,Bayonet Neill-Concelman (connector used with coaxial cable invented by Mr. Neill-Concelman)
+uy,Uruguay
+CTSS,* Compatible Time Sharing System
+BNF,Backus-Naur Form (also Backus-Normal Form) [developed by John Backus and Peter Naur]
+BNE,Branch if Not Equal
+NLSFUNC,National Language Support Function
+MIX,Member Information Exchange
+W/,With
+MEB,Memory Expansion Board
+CEMS,Constituent Electronic Mail System
+SYN,Synonym (file name extension)
+SYM,Symbols (file name extension)
+SYL,Syllabus (file name extension)
+SYS,System,System Configuration (file name extension),System Device Driver (file name extension)
+W4,What-Works-With-What
+W3,(see WWW)
+BITNIC,Bitnet Network Information Center
+SPEC,Systems Performance Evaluation Cooperative
+TFDD,Text File Device Driver
+EMA,Electronic Mail Association,Enterprise Management Architecture
+CNSS,Core Nodal Switching Subsystem [Internet]
+EMC,Electromagnetic Compatibility,Enhanced Memory Chip,E-Mail Connection,Extended Math Coprocessor
+EMB,Extended Memory Block [LIM/AST]
+EMM,Expanded Memory Manager
+EML,Electronic Mail (file name extension)
+STDIN,Standard Input
+EMI,Electromagnetic Interference
+LIF,Low Insertion Force
+EMS,Electronic Mail System,Electronic Message Service,Expanded Memory Specification [LIM]
+EMR,Electro-Magnetic Radiation,Enhanced Metafile Record
+PReP,Power PC Reference Platform [IBM/Motorola]
+SCADA,Supervisory Control and Data Aquisition
+LDC,Lotus Development Corporation
+LDA,Logical Device Address
+KEYBSL,Foreign language KEYBoard program - Czechoslovakia (Slovak)
+MET,Memory Enhancement Technology [Hewlitt-Packard],Metafile (file name extension)
+LDM,Long Distance Modem
+ODAPI,Open Database Application Programming Interface [Borland]
+LDT,Local Descriptor Table
+SMSW,Store Machine Status Word
+ROOM,Real-Time Object-Oriented Modeling
+CLUI,Command Line User Interface
+PWSCS,Programmable Workstation Communication Services [IBM]
+FOR,Fortran source code (file name extension)
+MV,Millivolt
+jp,Japan
+KEYBSF,Foreign language KEYBoard program - Swiss-French
+CPIO,Copy In and Out [Unix]
+ECHO,European Commission Host Organization [Internet]
+FOD,Fax On Demand
+jm,Jamaica
+FOG,First Osborne Group
+REXEC,Remote Execution
+FUNC,Function
+SBCS,Single-Byte Character Set
+FON,Font,Phone,Phone Directory (all file name extensions)
+VGC,Video Graphics Controller
+KEYBSV,Foreign language KEYBoard program - Sweden
+CLUT,Color Look-Up Table
+KEYBSU,Foreign language KEYBoard program - Finland
+WWW,World-Wide Web [Internet]
+MPEG,Moving Picture Experts Group
+VLSI,Very Large Scale Integration
+WINS,Windows-Internet Naming Service [Microsoft]
+InterNIC,Internet Network Information Center [Internet]
+SAA,Systems Application Architecture [IBM]
+WINE,Windows Emulator
+PC-DOS,Personal Computer - Disk Operating System [IBM]
+DISP,Displacement (offset)
+COS,Compatible Operating System
+MP,Massively Parallel (processing),Multiple Processors
+FSD,File System Driver [OS/2]
+FSE,Full Screen Editor
+FSF,Free Software Foundation [Internet]
+PET,Print Enhancement Technology [Compaq]
+FSK,Frequency Shift Keying
+PEP,Packetized Ensemble Protocol [Telebit]
+OPD,Operand
+FSN,Full Service Network
+PES,Positioning Error Signal,Processor Enhancement Socket Processor Upgrade Socket
+FSP,File Service Protocol
+PEM,Privacy-Enhanced Mail [Internet]
+FSR,Free System Resources
+COB,Chip-On-Board,COBOL source code (file name extension)
+FST,Flat Square Tube (monitor)
+COD,Code List (file name extension)
+COM,Commercial (organization Domain name) [Internet],Common Object Model [Microsoft],Command (file name extension)
+DTVC,Desktop Video Conferencing
+CON,Console (includes Keyboard and Screen)
+CASE,Computer Aided Software Engineering
+COM1,First serial Port (asynchronous port)
+CASL,Crosstalk Application Scripting Language [DCA]
+COM3,Third serial Port
+COM2,Second serial Port
+COM4,Fourth serial Port
+iBCS,Intel Binary Compatibility Specification
+TIGER,Topologically Integrated Geographic Encoding and Referencing
+SQL/DS,Structured Query Language/Data System [IBM]
+ZBR,Zone Bit Recording
+CASS,Computer Assisted Search Service
+CDFS,Compact Disc File System [Microsoft]
+WAN,Wide Area Network
+COMP,Compare,Communications
+DIMM,Dual-Inline Memory Module
+XPRM,Xerox Print Resources Manager [Xerox]
+SAS,Sales Accounting System,Single Attached Station,Single Audio System,Statistical Analysis System
+SAR,Shift Arithmetic Right,Successive Approximation Register,Synthetic Aperature Radar
+WAV,Waveform Audio (file name extension)
+NSLOOKUP,Name Server Lookup [Unix]
+JNGE,Jump if Not Greater or Equal
+OEP,Operand Execution Pipeline
+OEM,Original Equipment Manufacturer
+UFS,Unix File System
+DMMS,Dynamic Memory Management System
+BLMC,Buried Logic Macrocell
+PROLOG,Programming In Logic (Programming Language)(See HLL)
+CUTE,Clarkston University Terminal Emulator
+DIN,Deutsche Industrie Norm (German equivalent of EIA)
+DIO,Data Input-Output
+AIX,Advanced Interactive Executive [IBM]
+GNU,Gnu's Not Unix (operating system)
+DID,Direct Inward Dialing
+DIF,Data Interchange Format
+DIA,Document Interchange Architecture [IBM]
+DIB,Device Independent Bitmap,Directory Information Base
+HDLC,High-Level Data Link Control
+AIN,Advanced Intelligent Network [Bell Atlantic]
+GND,Ground (signal/system)
+DIT,Directory Information Tree
+DIV,Divide
+DIW,D-Inside Wire [AT&T]
+DIP,Dialup Internet Protocol [Internet],Digital Imaging Processing,Dual In-line Package,Dual In-line Pin
+DIR,Directory (file)
+DIS,Dynamic Impedance Stabilization [CompuCom]
+NSI,NASA Science Internet
+NSM,Netscape Server Manger [Netscape]
+SYSREQ,System Request
+il,Israel
+NSA,POLY  National Security Agency Polygraph
+ODBC,Open Data Base Connectivity [Microsoft]
+LCD,Liquid Crystal Display,Lowest Common Denominator
+NSF,National Science Foundation
+FCCSET,Federal Coordinating Council for Science, Engineering and Technology
+NSP,Native Signal Processing [Intel],Network Service Provider
+URN,Uniform Resource Name/Number
+PCACIAS,Personal Computer Automated Calibration Interval Analysis System
+IRX,Information Retrieval Experiment
+UTC,Coordinated Universal Time
+SDRAM,Synchronous Dynamic Random Access Memory
+ni,Nicaragua
+CD-R,Compact Disk - Recordable
+IP,Instruction Pointer,Internet Protocol
+IS,Information System,Interrupt Status
+IR,Infrared
+CD-V,Compact Disk - Video
+IT,Information Technology
+JPEG,Joint Photographic Experts Group
+CD-WO,Compact Disk - Write Once
+MESI,Modified, Exclusive, Shared and Invalid (protocol)
+CD-I,Compact Disk - Interactive
+IRL,Interactive Reader Language,Inter-Repeater Link
+IRM,Information Resource Management,Inherent Rights Mask
+IN,Input
+IC,Input Circuit,Integrated Circuit,Interrupt Controller
+IRC,Internet Relay Chat [Internet]
+IE,Internet Explorer [Microsoft]
+ID,Identification,Identifier
+IRF,Intermediate Routing Function,Inheritance Rights Filter [Novell]
+CD-E,Compact Disk - Erasable
+TK/TK,Track to Track
+SDV,Switched Digital Video [AT&T]
+HOTT,Hot Off The Tree (electronic newsletter)
+PWR,Power
+SDR,Streaming Data Request
+SDS,Sysops Distribution System
+OPI,Open Prepress Interface
+SDD,Software Description Database [Internet]
+PWD,Print Working Directory [Unix]
+MRO,Multi-Region Operation
+PWB,Printed Wire Board,Programmer's Workbench [Microsoft]
+SDA,Software Disk Array,Source Data Automation,System Display Architecture [Digital]
+SDB,Symbolic Debugger [Unix]
+SDM,System Development Multitasking
+SDN,Software Defined Network [AT&T]
+SDI,Selective Dissemination of Information,Single Document Interface Software Development Interface [Mosaic]
+SDK,Software Developer's Kit [Microsoft]
+NAC,Network Adapter Card
+PARC,Palo Alto Research Center [XEROX]
+RDBMS,Relational Database Mangement System
+PARA,Paragraph
+CTRL,Control
+NAK,Negative Acknowledgment
+BOS,Basic Operating System
+BOT,Beginning Of Table,Beginning of Tape
+EPS,Encapsulated PostScript (file name extension)
+EPP,Enhanced Parallel Port
+NAM,Number Assignment Module
+NAS,Network Application Support [DEC]
+EPL,Effective Privilege Level
+EPM,Enhanced Editor for Presentation Manager [IBM],Enterprise Process Management [IBM]
+ERAS,Electronic Routing and Approval System [Hughes Aircraft]
+BACP,Bandwidth Allocation Control Protocol
+NAU,Network Addressable Unit
+co,Columbia
+BOC,Basic Operator Console
+BOF,Beginning Of File
+STDM,Statistical Time Division Multiplexer
+S-HTTP,Secure Hypertext Transfer Protocol
+HPLJ,Hewlett-Packard Laser Jet
+KEYBDK,Foreign language KEYBoard program - Denmark
+DSMA,Digital Sense Multiple Access
+ca,Canada
+ACDI,Asynchronous Communications Device Interface
+SVM,System Virtual Machine [Microsoft]
+USART,Universal Synchronous-Asynchronous Reciever/Transmitter
+PPTP,Point-to-Point Tunneling Protocol
+SVC,Switched Virtual Circuit
+RSAC,Recreational Software Advisory Council
+COMET,Cornell Macintosh Terminal Emulator
+SVR,Server
+WATS,Wide Area Telecommunications Service
+PEL,Picture Element [IBM]
+LMSW,Load Machine Status Word
+PEN,SDK   Pen Computing Software Development Kit
+PowerPC,Performance Optimization with Enhanced RISC-Performance Computing
+AOCE,Apple Open Collaboration Environment
+ATTRIB,Attribute (also ATR)
+SFT,System Fault Tolerance
+ILS,International Language Support
+VDS,Virtual DMA Services
+IPI,Intelligent Peripheral Interface
+LASER,Light Amplification by Stimulated Emission of Radiation
+CLTP,Connectionless Transport Protocol
+CLTS,Clear Task Switch Flag
+VDISK,Virtual Disk
+ACTT,Advanced Communication and Timekeeping Technology [Seiko]
+CUPID,Completely Universal Processor I/O Design [AST]
+BiSYNC,(See BSYNC)
+VDE,Video Display Editor,Visual Development Environment
+FLL,FoxPro Link Library [Microsoft Fox Pro]
+cr,Costa Rica
+FLC,Ferro-electric Liquid Crystal
+DBF,Database (file name extension)
+VDM,Virtual DOS Machine [IBM]
+FLD,Field
+TRON,The Real-Time Operating System Nucleus
+W3A,World Wide Web Applets
+DBMS,Data Base Management System
+VSOS,Virtual Storage Operating System
+AGRAS,Antiglare-Antireflective-Antistatic
+BELLCORE,Bell Communications Research
+COL,Collision,Computer Oriented Language
+TRM,Terminal (file name extension)
+NACD,National Association of Computer Dealers
+TRN,Threaded Read News [Internet],Token Ring Network
+TFEL,Thin-Film Electroluminescent
+MISC,Miscellaneous
+BIZ.,Business [USENET Newsgroup Category]
+NACS,National Advisory Committee on Semiconductors
+RTEL,Reverse Telnet [Internet]
+CSAR,Channel System Address Register
+AS,Autonomous System [Internet]
+NITC,National Information Technology Center
+TE/2,Terminal Emulator/2 [Oberon]
+CONFIG,Configuration
+RAND,Random
+MC-QFP,Metallized Ceramic - Quad Flat Pack
+NGE,Not Greater or Equal
+VSYNC,Vertical Sync
+NL,New Line
+NDDK,Network Device Development Kid [Microsoft]
+NN,Network Node,No News [Internet]
+ODP,Open Distributed Processing
+NC,Network Computer,No Carry,Numerical Control
+COSMIC,Computer Software Management and Information Center [NASA]
+EPROM,Electrically Programmable Read Only Memory,Erasable Programmable Read Only Memory
+NG,No Good
+ODI,Open Datalink Interface [Novell],Open Device Interconnect [NetWare]
+ODM,Object Data Manager [IBM]
+CSLIP,Compressed Serial Line Interface Protocol [Internet]
+ODA,Office Document Architecture
+NS,Nanosecond,National Semiconductor (as in Ns16550 UART),Network Supervisor,Non Stop
+NDS,NetWare Directory Service [Novell]
+VOD,Video On Demand
+NV,No Overflow
+DRAW,Direct Read After Write
+NCOS,Network Computer Operating System
+RDP,Reliable Datagram Protocol
+ELC,Embedded Linking and Control
+ELF,Extremely Low Frequency
+RBBS,Remote Bulletin Board System
+NTIS,National Technical Information Service
+POSIX,Portable Operating System Interface for Unix
+RDB,Receive Data Buffer,Relational Database
+DRAM,Dynamic Random Access Memory
+ELS,Entry Level System
+ALGOL,Algorithmic Oriented Language (see IAL)
+NTIA,National Telecommunications and Information Administration
+LEA,Load Effective Address
+LEC,Local Exchange Carrier
+LED,Light Emitting Diode
+LEL,Link, Embed and Launch-to-edit [Lotus]
+LEM,Language Extension Module
+LEN,Low Entry Networking
+LET,Letter (file name extension)
+LEX,Lexicon
+FRAD,Frame Relay Access Device,Frame Relay Assembler/Disassembler
+ae,United Arab Emirates
+USB,Universal Serial Bus [Intel]
+ROP,Raster Operation,RISC Operation
+MVDM,Multiple Virtual DOS Machines
+al,Albania
+CDIA,Certified Document Imaging Architect
+IQL,Interactive Query Language
+ELAN,Emulated Local Area Network
+ar,Argentina
+au,Australia
+USR,US Robotics (corporation)
+USQ,Unsqueezed (files)
+NSAPI,Netscape Server API [Netscape]
+SGR,Set Graphics Rendition
+SIMTEL,Simulation and Teleprocessing
+SGI,Silicon Graphics, Inc.
+WNIM,Wide-Area Network Interface Module
+XIOS,Extended Input/Output System
+SGM,Shaded Graphics Modeling
+IGMP,Internet Group Multicast Protocol [Internet]
+OBD,On Board Diagnostics
+NCSI,Network Communications Services Interface [Network Products Corp.]
+CNV,Conventional (pertaining to Memory)
+ICI,Image Component Information
+ICO,Icon (file name extension)
+ICM,Image Color Matching [Kodak]
+ICL,Interface Clear
+FPM,Fast Page Mode
+ICB,Internet Citizen's Band
+ICA,Intra-application Communications Area
+DCAM,Direct Chip Attach Module
+ICE,In-Circuit Emulator [Intel]
+FPU,Floating Point Unit
+CNG,Calling (tone)
+CNE,Certified NetWare Engineer
+CNC,Computerized Numerical Control
+FPS,Favorite Picture Selection,Frames Per Second
+CNA,Certified NetWare Administrator [Novell]
+ICS,Intuitive Command Structure
+ICR,Intelligent Character Recognition
+ICP,Integrated Channel Processor
+ICU,ISA Configuration Utility
+CNI,Certified Novell Instructor [Novell]
+PFB,Printer Font Binary (file name extension)
+PFE,Programmer's File Editor
+PFM,Printer Font Metrics (file name extension) [Windows]
+NCSA,National Center for Supercomputing Applications
+CATS,Computer Assisted Training System
+COMDEX,Computer Dealers Exposition
+CATV,Community Antenna Television (this was the original name for what is now known as Cable TV)
+DXF,Drawing Exchange Format
+DXC,Data Exchange Control
+DXB,Drawing Interchange Binary (file name extension) [AutoCAD]
+BINAC,* Binary Automatic Computer
+SIR,Serial Infrared [Hewlett-Packard]
+POPA,Pop All Registers
+KEYBBR,Foreign language KEYBoard program - Brazil
+POPF,Pop Flags
+JFIF,JPEG File Interchange Format
+CD-RTOS,Compact Disk - Real Time Operating System
+TIGA,Texas Instruments Graphics Architecture
+VOC,Creative Voice (format) [Sound Blaster]
+SIC,Standard Industrial Code
+SIG,Special Interest Group
+SID,Security Identifier,Serial Input Data,Station Identification [AT&T],Symbolic Interactive Debugger
+SIO,Serial Input/Output (communications driver)
+SIM,Simulator
+BEDO,Burst Extended Data Out
+TAP,Telelocator Alphanumeric Protoco
+CNIDR,Clearinghouse for Network Information and Discovery and Retrieval [Internet],Clearinghouse for Networked Information and Retrieval
+ATPS,AppleTalk Printing Services [Macintosh]
+tw,Taiwan
+tt,Trinidad and Tobago
+tr,Turkey
+SAVDM,Single Application VDM
+TAD,Telephone Answering Device
+EPLD,Electrically Programmable Logic Device
+th,Thailand
+TFTP,Trivial File Transfer Protocol
+ISMF,Interactive Storage Management Facility
+DATACOM,Data Communications
+BPDU,Bridge Protocol Data Unit
+GIS,Geographic Information System,Global Information Solutions [AT&T]
+PLV,Production Level Video
+R&D,Research and Development
+GIX,Global Internet Exchange [Internet]
+GIF,Graphics Interchange Format (file name extension)
+SIPP,Single In-line Pin Package
+CSID,Call Subscriber ID
+NMOS,Negative Channel Metal-Oxide Semiconductor
+IRLAP,Infrared Link Access Protocol
+OLTP,On-Line Transaction Processing
+GII,Global Information Infrastructure
+CR/LF,Carriage Return/Line Feed
+ro,Romania
+NPI,Network Printer Interface
+MCNE,Master Certified Novell Engineer [Novell]
+CTCP,Client-To-Client Protocol
+LOOPNZ,Loop while Not Zero
+CHRP,Common Hardware Reference Platform
+NPA,Network Printer Alliance
+BOOTP,Bootstrap Protocol [Internet]
+PilotACE*,Pilot Automatic Computing Engine
+md,Moldova
+PACE,Priority Access Control Enabled [3Com]
+NPX,Numeric Processor Extension
+CBGA,Ceramic Ball Grid Array
+NPU,Natural Processing Unit
+VMOS,Vertical MOS
+ASCII,American Standard Code for Information Interchange
+NPS,Novell Productivity Specialist [Novell]
+gb,Great Britian
+TSO,Time Sharing Option
+IMACS,Image Management and Communication System
+GUI,Graphical User Interface
+TSE,The Semware Editor
+TSB,Termination Status Block
+TSA,Target Service Agent,Technical Support Alliance
+FOIRL,Fiber Optic Inter Repeater Link [IEEE]
+EIA,Electronic Industries Association
+EMACS,Editing Macros [Unix]
+CEOP,Conditional End Of Page
+TSV,Tab Separated Values
+MIPS,Million Instructions Per Second
+TST,Test (file name extension)
+TSR,Terminate and Stay Resident
+TSS,Task State Segment,Time Sharing System
+SHAR,Shell Archive
+SIDH,System Identification for Home Systems
+gl,Greenland
+CoREN,Corporation for Research and Enterprise Network
+KBD,Keyboard (also KEYB)
+RDRAM,Rambus Dynamic Random Access Memory
+HUT,Hopkins Ultraviolet Telescope
+PLD,Programmable Logic Device
+TIFF,Tagged Image File Format
+VTAM,Virtual Telecommunications Access Method [IBM]
+NFF,No Fault Found
+CDR,Call Detail Record,Call Detail Recording
+HCU,Home Computer User
+AFIRM,Automated Fingerprint Image Reporting and Match
+VHSIC,Very High Speed Integrated Circuit
+RTTY,Radio Teletypewriter (Communications)
+BORQU,Borland Quattro
+ADLAT,Adaptive Lattice Filter
+RIME,RelayNet International Message Exchange
+NFS,Network File System
+BLK,Block
+BLE,Branch if Less or Equal
+BLD,BASIC Bload Graphics (file name extension)
+DLL,Dynamic Link Library
+KEYBCZ,Foreign language KEYBoard program - Czechoslovakia (Czech)
+E-ZINE,Electronic Magazine
+IODE,Integrated Development and Debugging Environment [Symantec]
+LPT1,First Parallel Printer Port
+LPT2,Second Parallel Printer Port
+LPT3,Third Parallel Printer Port
+PPGA,Plastic Pin Grid Array
+GCR,Group Code Recording
+STDERR,Standard Error
+VLIW,Very Large Instruction Word
+KEYBCF,Foreign language KEYBoard program - Canadian-French
+VWB,Visual WorkBench [Microsoft]
+V.FC,Version.First Class (communications standard)
+REX,Relocatable Executable
+RES,Remote Execution Service,Reset,Resolution,Resource (file name extension)
+RBCS,Remote Bar Code System
+ETPL,Endorsed Tempest Products List
+RET,Resolution Enhancement Technology [HP],Return
+ABTS,ASCII Block Terminal Services
+REN,Rename
+REM,Remark,Remote,Ring Error Monitor
+REC,Recorder (file name extension)
+SVGA,Super Video Graphics Array
+REF,Reference (file name extension)
+REG,Register
+WQ!,Compressed Spreadsheet (file name extension) [BORPQU]
+FCR,FIFO Control Register
+FCS,Fiber Channel Standard,Frame Check Sequence
+IITF,Information Infrastructure Task Force
+YTD,Year To Date
+DEFRAG,Defragment
+LFI,Last File Indicator
+PUSHA,Push All Registers
+LFU,Least Frequently Used
+LFT,Low Function Terminal [IBM]
+FCB,File Control Block
+FCC,Federal Communications Commission
+FCI,Flux Changes per Inch
+CLAR,Channel Local Address Register
+fr,France
+OUT,Outlines (file name extension)
+LTR,Left-To-Right,Letter,Load Task Register
+VER,Verify,Version
+FMT,Format
+FMS,Forms Management System
+SATAN,Security Administrator Tool for Analyzing Networks
+AIS,Automated Identification System [NCIC]
+SPID,Service Profile/Provider Identifier
+LGDT,Load Global Descriptor Table
+ASYNC,Asynchronous
+DIC,Dictionary (file name extension)
+sg,Singapore
+SZ,Send ZModem [Unix]
+SCOPE,Simple Communications Programming Enironment [Hayes]
+SS,Stack Segment,Single Sided,Seconds
+SR,Shift Register
+MTBF,Mean Time Between Failures
+SP,Service Pack [IBM],Stack Pointer,System Product
+MAVDM,Multiple Application VDM
+SI,Shift-In,Source Index,System Information
+NTSA,NetWare Telephony Services Architecture [Novell]
+SM,Set Mode,Shared Memory
+MFFS,Microsoft Flash File System [Microsoft]
+SB,Sound Blaster [Creative Labs],Sound Board
+SA,Selective Availability
+SF,Sign Flag
+SD,Send Data,Super Density
+FIR,Finite Impulse Response
+IBM,International Business Machines (Corporation)
+CAS,Column Address Select,Communications Application Specification,Computer Aided Styling
+EHLLAPI,Emulator High Level Language Application Programming Interface [IBM]
+IBC,Instrument Bus Computer
+CAV,Constant Angular Velocity
+CAU,Controlled Access Unit
+CAT,Computer Aided Testing,Computer Aided Tomography,Computer Aided Transcription,Concatenate,Catalog (file name extension),SCAN  Computerized Axial Tomography Scan
+CAI,Computer Aided Instruction
+LODSB,Load String Byte
+CAN,Cancel
+CAM,Common Access Method,Computer Aided Manufacturing,Contents Addressable Memory
+CAL,Calendar,Computer Aided Learning
+CAG,Column Address Generator
+VRAM,Video Random Access Memory
+CAE,Client Application Enabler,Common Applications Environment,Computer Aided Engineering
+CAD,Computer Aided Design
+MOSFET,Metal Oxide Semiconductor Field Effect Transistor
+AIF,Audio Interchange Format
+PGC,Program Group Control [Microsoft]
+PGA,Pin Grid Array,Professional Graphics Adapter [IBM]
+ISP,Internet Service Provider [Internet],Interrupt Stack Pointer,Interrupt Status Port
+GNN,Global Network Navigator
+PGL,Graphics (file name extension) [Hewlett-Packard]
+PGM,Program
+ASIC,Application-Specific Integrated Circuit
+FQDN,Fully Qualified Domain Name [Internet]
+PDX,Paradox files (file name extension) [Borland],Printer Description Extension (file name extension)
+APCUG,Association of PC User Groups
+AIC,AIXwindows Interface Composer [IBM]
+PGP,Pretty Good Privacy (name of encryption program),ProGram Parameter (file name extension) [AutoCAD]
+ASIT,Advanced Security and Identification Technology
+BMIC,BusMaster Interface Controller [Intel]
+MANPAGE,Manual Page [Unix]
+RAID,Redundant Arrays of Independent Disks,Redundant Arrays of Independent Drives,Redundant Arrays of Inexpensive Disks
+CREN,Computer Research Education Network,Corporation for Research and Education Networking
+TXT2STF,Text To Structured File [Lotus Agenda]
+SMRAM,System Management Random Access Memory
+RAIS,Redundant Arrays of Inexpensive Systems
+IUS/ITB,Interchange Unit Separator/Intermediate Transmission Block
+VAD,Value Added Dealer
+SIMD,Single Instruction Multiple Data Stream (processor)
+SOE,Standard Operating Environment
+SIMM,Single In-line Memory Module
+WINForum,Wireless Information Networks Forum
+RSL,Request-and-Status Link
+UDP,User Datagram Protocol
+RSH,Remote Shell
+UDT,Uniform Data Transfer
+RSD,Route Server Daemon
+SSA,Serial Storage Architecture
+PPD,PostScript Printer Description (file name extension)
+HYTELNET,Hypertext-browser for Telnet Accessible Sites
+NDEF,Not to be Defined
+DMSD,Digital Multistandard Decoding
+UDC,User Defined Commands
+RSX,Real Time Resource Sharing Executive
+UDG,User Defined Gateway
+UDE,Universal Data Exchange
+DL/1,Data Manipulation Language 1 [IBM]
+LOCIS,Library of Congress Information System
+RSP,Required Space Character
+PFR,Power-Fail Restart
+MII,Microsoft/IBM/Intel
+EIDE,Enhanced Integrated Drive Electronics
+MIM,Metal-Insulator-Metal (screen)
+MIL,Machine Interface Layer [Go Corporation],Military (organization Domain name) [Internet]
+MIN,Minimum,Mobile Identification Number
+MIB,Management Information Base
+ANOVA,Analysis Of Variance
+MIF,Management Information Format,Management Information Files (file name extension)
+MICRO,One-millionth
+GPIB,General Purpose Interface Bus
+CSFI,Communication Subsystem For Interconnection
+JFS,Journaled File System [IBM]
+LUT,Lookup Table
+MIS,Management Information System,Multimedia Information Sources [Internet]
+FORTH,(Programming Language)(See HLL)
+NQS,Network Queing System [Cray]
+AOE,Application Operating Environment [AT&T]
+TDM,Technical Document Management,Time Division Multiplexing
+RI,Referential Integrity,Ring Indicate
+AOL,America Online
+PABX,Private Automatic Branch Exchange
+PPP,Point-to-Point Protocol [Internet]
+AOS,Add Or Subtract
+SEPP,Secure Encryption Payment Protocol
+MSACM,Microsoft Audio Compression Manager [Microsoft]
+KBPS,Kilobytes Per Second
+FHSS,Frequency-Hopping Spread Spectrum
+DMAC,DMA Controller
+URC,Uniform Resource Characteristics,Uniform Resource Citation
+URL,Uniform Resource Locator
+PALS,Principles of the Alphabet Literacy System
+MS-DOS,Microsoft - Disk Operating System [Microsoft]
+URI,Uniform Resource Identifier
+mt,Malta
+LIPS,Logical Inferences Per Second
+DMACS,Distributed Manufacturing Automation & Control Software
+PALC,Plasma-Addressed Liquid Crystal (display)
+yu,Yugoslavia
+ADMACS,Apple Document Mangagement And Conrol System
+IPC,Instructions Per Clock,Interprocess Communication
+SFX,Sound Effect(s)
+CD+G,Compact Disk plus Graphics
+EDVAC,* Electronic Discrete Variable Automatic Computer (First stored-program digital computer)
+ACTS,Automated Computer Time Service
+GDDM,Graphics Data Display Manager
+SFS,System File Server
+IPL,Initial Program Load/Loader,Ion Projection Lithography,* Information Programming Language
+IPM,Interpersonal Message
+TBGA,Tape Ball Grid Array
+IPX,Internetwork Packet Exchange [Novell]
+HPPI,High Performance Parallel Interface
+HDW,Hardware
+EROM,Erasable Read Only Memory
+XLM,Excel Macro Language [Microsoft]
+HDT,Host Digital Terminal
+HDR,Header
+KSR,Keyboard Send Receive
+ATDP,Attention Dial Pulse
+HDX,Half Duplex
+CTPA,Coax-to-Twisted-Pair Adapter
+HDF,Hierarchical Data Format [NCSA]
+ETOM,Electron-Trapping Optical Memory
+XSMD,Extended Storage Module Drive (interface)
+XTCLK,External Transmit Clock
+HDA,Head Disk Assembly
+DECNET,Digital Equipment Corporation Networking (protocol)
+KSH,Korn Shell (program) [Unix]
+HDI,Head to Disk Interference
+EROS,Earth Resources Observation System [U.S. Geological Survey]
+LOOPNE,Loop while Not Equal
+DUNCE,Dial Up Network Connection Enhancement
+BMI,Branch if Minus
+BMP,Basic Mapping Support,Batch Message Processing Program,Bitmap Picture (file name extension)
+IRQ,Interrupt Request
+BUBL,Bulletin Board for Libraries [Janet]
+KEYBBE,Foreign language KEYBoard program - Belgium
+DSOM,Distributed System Object Model
+EM,Electronic Mail,Emphasized,End of Medium,Expanded Memory
+EL,Electroluminescent (display),Erase Line
+SHR,Shift Logical Right
+UTI,Universal Text Interchange/Interface
+SHW,Show (file name extension)
+EE,Extended Edition [IBM]
+ED,Erase Display
+EA,Effective Address,Extended Attribute [OS/2]
+RMP,Remote Maintenance Processor [IBM]
+EC,Electronic Commerce,Error Control
+SHA,Secure Hash Algorithm [NSA]
+NTFS,New Technology File System [Microsoft]
+SHG,Segmented Hypergraphics
+EU,Execution Unit
+ET,Enhancement Technology
+POST,Power-On Self Test
+SHL,Shift Logical Left
+EP,Electrophotographic Engine
+ES,Extra Segment
+RMW,Read-Modify-Write
+MGA,Monochrome Graphics Adapter
+XOFF,Transmitter Off
+MGE,Modular GIS Environment
+SOTA,State Of The Art
+TBU,Tape Backup Unit
+UTP,Unshielded Twisted-Pair (cable)
+MGR,Manager
+TBK,Toolbook (file name extension)
+NASA,National Aeronautics and Space Administration
+LAR,Load Access Rights
+NASI,NetWare Asynchronous Services Interface [Novell]
+EBCT,Electron Beam Computed Tomography
+ADSR,Attack, Decay, Sustain, Release
+APPS,Applications
+IDEA,International Data Encryption Algorithm
+LUA,Logical Unit Application (interface)
+CMPS,Compare word String
+ADSC,Address Status Changed,Adobe Document Structuring Conventions
+LUI,Local User Input
+ADSL,Asymmetrical Digital Subscriber Line
+KEYBPO,Foreign language KEYBoard program - Portugal
+HPPA,Hewlett-Packard Precision Architecture
+LUN,Logical Unit Number
+KEYBPL,Foreign language KEYBoard program - Poland
+WDRAM,Windows Dynamic Random Access Memory
+MDIC,Manchester Decoder and Interface Chip [AT&T]
+IRD,Integrated Receiver/Descrambler
+TDMA,Time Division Multiple Access
+DBCS,Delivery Bar Code Sorter,Double-Byte Character Set
+WPS,Windows Printing System [Microsoft],Workplace Shell [OS2]
+APPN,Advanced Peer-to-Peer Networking [IBM]
+RIPEM,Riordan's Internet Privacy Enhanced Mail
+QTC,Quicktime Conferencing [Macintosh]
+APPI,Advanced Peer-to-Peer Internetworking
+JFET,Junction Field Effect Transistor
+TDMS,Terminal Display Management System
+WPG,WordPerfect Graphics (file name extension)
+APPC,Advanced Program-to-Program Communications [IBM]
+MPTS,Multi-Protocol Transport Services
+GTE,General Telephone Electronics (corporation)
+TLU,Table Lookup
+K-12,Kindergarten through 12th Grade [US Education System]
+TLX,Telex (file name extension)
+GTL,Gunning Transceiver Logic
+VLAN,Virtual Local Area Network
+GTO,Guide To Operations [IBM]
+TLB,Translation Lookaside Buffer
+TLA,Three-Letter Acronym
+PCT,Private Communications Technology,Picture (file name extension)
+MPTN,Multi-Protocol Transport Network
+ISPF,Interactive System Programming Facility
+QFA,Quick File Access
+OPUS,Octal Program Updating System
+RSCS,Remote Spooling Communications System
+HVP,Horizontal & Vertical Position
+MMPM,Multi Media Presentation Manager
+PCL,Printer Command Language [HP],Process Control Language
+OVL,Program Overlay (file name extension)
+PCB,Printed Circuit Board,Program Control Block
+PRISM,Photo-Refractive Information Storage Material
+CADD,Computer Aided Design and Drafting
+CADE,Client/server Application Development Environment
+ZSL,Zero Slot LAN
+LUIS,Library User Information Service
+SYSMOD,System Modification
+RPQ,Request for Price Quotation
+UCT,Universal Coordinated Time
+UCS,Unicode Conversion Support,Universal Character Set,User Coordinate System
+RPT,Repeat
+SDF,Space Delimited File,Space Delimited Format,Standard Data Format (file name extension)
+REREG,Re-Register
+RPC,Remote Procedure Call
+PCD,Photo Compact Disk
+DPAM,Demand Priority Access Method
+ViP,Visual Programming [Lotus]
+COSMOS,Computer System for Mainframe Operations
+UCL,Universal Communications Language
+CLASS,Client Access to Systems and Services,Cooperative Library Agency for Systems and Services,Custom Local-Area Signaling Services
+RPN,Real Page Number
+VERR,Verify Read Access
+PVP,Parallel Vector Processing
+SSEC,* Selective Sequence Electronic Calculator [IBM]
+VERW,Verify Write Access
+QFP,Quad Flat Pack
+ICAS,Intel Communicating Applications Specifications
+CODASYL,* Conference on Data System Languages (Group that designed COBOL)
+ICAP,Internet Calendar Access Protocol [Lotus]
+EMWAC,European Microsoft Windows NT Academic Centre
+BALUN,Balanced Unbalanced (device)
+MFLOPS,Million Floating Point Operations Per Second
+fo,Faroe Islands
+RLSI,* Ridiculously Large-Scale Integration
+HLLAPI,High Level Language Application Programming Interface
+OTA,Operation-Triggered Architecture
+OTF,Open Token Foundation
+NVOD,Near-Video On Demand
+IPCP,Internet Protocol Control Protocol
+kw,Kuwait
+OTP,One-Time Programmable
+PDSS,Post Development and Software Support
+TVFS,Toronto Virtual File System [IBM]
+NTRAS,NT Remote Access Services [Microsoft]
+DIZ,Description In Zip (file name extension)
+PLDS,Pilot Land Data System [NASA]
+CMVC,Configuration Management Version Control [IBM]
+KHz,Kilohertz
+JS,Jump if Sign
+JL,Jump if Less
+SIMULA,Simulation (language)
+JE,Jump if Equal
+DPSK,Differential Phase Shift Keying
+JG,Jump if Greater
+JA,Jump Address,Jump if Above
+JC,Jump if Carry set
+PL/1,* Programming Language One
+ENSS,Exterior Nodal Switching Subsystem [Internet]
+C2X,Character To Hexadecimal [REXX]
+NAE,Not Above or Equal
+NEXT,Near-End Crosstalk
+C2D,Character To Decimal [REXX]
+CYMK,Cyan-Yellow-Magenta-Black (color model)
+FRAG,Fragment,Fragmentation
+IAL,* International Algebraic Language (ALGOL was first called IAL)
+CICS/VS,Customer Information Control System/ Virtual Storage [IBM]
+IAK,Internet Access Kit [IBM]
+HMOS,High Density Metal Oxide Semiconductor,High Speed Metal Oxide Semiconductor
+HBA,Host Bus Adapter
+FRAM,Ferroelectric Random-Access Memory
+STDA,StreetTalk Directory Assistance [Banyan]
+IAC,Inter-Application Communication [Macintosh]
+IAB,Internet Architecture Board [Internet]
+OFS,Object File System [Microsoft],Output Field Separator
+CLNP,Connectionless Network Protocol
+PL/M,Programming Language for Micros
+IAT,Import Address Table
+FVT,Full Video Translation
+DASD,Direct Access Storage Device
+IAP,Internet Access Provider [Internet]
+WHAM,Waveform Hold and Modify [Microsoft]
+PHO,Phone List (file name extension)
+MZR,Multiple Zone Recording
+NCIC,National Crime Information Center
+NAP,Network Access Point
+SOCKS,Socket Secure (server) [Internet]
+ExCA,Exchangeable Card Architecture [Intel]
+PHS,Personal Handyphone System
+LANACS,Local Area Network Asynchronous Connection Server
+COFF,Common Object File Format [Unix]
+BOM,Beginning Of Message
+HPCC,High Performance Computing and Communications
+VMB,Virtual Machine Boot
+DTMF,Data Tone Multiple Frequency,Dual Tone Multifrequency
+ToC,Table Of Contents
+TID,Target ID
+RCL,Rotate Carry Left
+RPRINTER,Remote Printer [NetWare]
+TIES,Time Independent Escape Sequence
+MSDR,Multiplexed Streaming Data Request
+MSDS,Microsoft Developer Support [Microsoft]
+MFC,Microsoft Foundataion Class [Microsoft]
+GET,Get Execute Trigger
+JEDEC,Joint Electronic Devices Engineering Council
+MFM,Modified Frequency Modulation
+TIA,Telecommunications Industry Association,The Internet Adapter [Internet]
+MFP,Multi-Function Peripheral/Product
+NCGA,National Computer Graphics Association
+TCL,Tool Command Language
+MFS,Macintosh File System [Macintosh],Magnetic Tape Field Search,Memory File System Modified Filing System [Revelation Technologies]
+MFT,Master File Table,Multiprogramming with a Fixed number of Tasks
+ENDEC,Encoder/Decoder
+XLAT,Translate
+XCHG,Exchange
+GEO,Geostationary Earth Orbit
+GEM,Graphics Environment Manager (DRI Program)
+VAX/VMS,Virtual Address Extension/Virtual Memory System [DEC]
+FEFO,First-Ended, First-Out
+DDX,Digital Data Exchange
+COTS,Commercial Off-The-Shelf
+DDS,Digital Dataphone Service [AT&T],Design Data Sheet,Digital Data Storage,Distributed Database Services
+LIMS,Library Information Management System
+GKS,Graphical Kernal System
+DDP,Distributed Data Processing
+JGE,Jump if Greater or Equal
+ZOO,Compressed File (file name extension) [Dhesi]
+DDK,Device Driver Kit [Microsoft Windows]
+DDI,Device Driver Interface,Direct Dial In
+DDN,Defense Data Network
+DDM,Distributed Data Management
+DDL,Data Definition Language,Data Description Language
+DDC,Digital Data Channel [VESA],Display Data Channel
+DDB,Device Dependent Bitmap,Device Descriptor Block
+DDA,Distributed Data Access,Domain-Defined Attribute
+LIMA,Lotus/Intel/Microsoft/AST
+DDF,Display Data Channel,Dynamic Data Formatting [IBM]
+DDE,Direct Data Entry,Dynamic Data Exchange [Microsoft]
+DDD,Data Definition Language,Direct Distance Dialing
+NVT,Network Virtual Terminal,Novell Virtual Terminal [Novell]
+NVP,Nominal Velocity of Propagation
+ANN,Artificial Neural Network,Annotations (file name extension) [IBM]
+BTAM,Basic Telecommunications Access Method [IBM]
+ANI,Automatic Number Identification,Animated Cursor (file name extension) [Microsoft]
+MHz,Megahertz
+NVM,Non-Volatile Memory
+SODIMM,Small Outline DIMM
+TMP,Temporary
+AFTP,Anonymous File Transfer Protocol
+NAMPS,Narrow-Band Analog Mobile Phone Service [Motorola]
+COMP.,Computers [USENET Newsgroup Category]
+VUI,Video User Interface
+PASCAL,(Programming Language named for Blaise Pascal)
+VUP,VAX Unit of Performance
+REXX,Restructured Extended Executor (language) [IBM]
+WPHD,Write-Protect Hard Disk
+NJE,Network Job Entry (protocol) [IBM]
+MODEM,Modulator Demodulator
+HWD,Height-Width-Depth
+pe,Peru
+KDT,Key Definition Table
+pk,Pakistan
+ph,Phillipines
+APAR,Authorized Program Analysis Report [IBM]
+ARMA,Association of Records Managers and Administrators
+XMM,Extended Memory Manager [LIM/AST]
+ISOC,Internet Society
+NDN,Non-Delivery Notice
+KRS,Knowledge Retrieval System
+NDB,Non-Directional Beacon
+HEX,Hexadecimal
+ISO/OSI,International Standards Organization/Open Systems Interconnection (model)
+NDX,Index (file name extension)
+BCPL,Basic Computer Programming Language
+SLIP,Serial Line Interface Protocol
+NDP,Numeric Data Processor
+EMBARC,Electronic Mail Broadcast to a Roaming Computer [Motorola]
+HSSI,High Speed Serial Interface
+RADB,Routing Arbiter Data Base
+EARN,European Academic Research Network
+SRM,Security Reference Monitor
+XA,Extended Architecture,Extended Attribute
+BITNET,Because It's Time Network
+IPng,Internet Protocol, next generation
+MM,Minutes,Month
+WYSBYGI,What You See Before You Get It
+DHCP,Dynamic Host Configuration Protocol
+N-ISDN,Narrowband ISDN,National ISDN
+MADYMO,Mathematical Dynamic Modeling [TNO]
+EARS,Electronic Access to Reference Services
+EIS,Executive Information System
+SWISH,Simple Web Indexing System for Humans
+NCP,NetWare Core Protocol,Not Copy Protected,Network Control Processor/Program/Protocol
+DRDW,Direct Read During Write
+RCP,Remote Control Panel,Remote Copy [Internet],Restore Cursor Position
+RCR,Rotate Carry Right
+RCS,Records Communications Switching System,Revision Control System [Unix]
+HYP,Hyphenation (file name extension)
+ARCA,Advanced RISC Computing Architecture
+FPLA,Field Programmable Logic-Array
+DRDA,Distributed Relational Database Architecture [IBM]
+OWL,Object/Open Windows Library [Borland]
+FAX,Facsimile,Fax (file name extension)
+FAP,File Access Protocol
+FAQ,Frequently Asked Question
+FAT,File Allocation Table
+ETANN,Electrically Trainable Analog Neural Network (chip) [Intel]
+GW-BASIC,Gee Whiz BASIC
+FAB,Computer-Chip Fabrication Plant
+FAC,File Access Code
+DPtoTP,Display Coordinates to Tablet Coordinates (converting)
+HIMEM,High Memory
+DVMRP,Distance Vector Multicast Routing Protocol [Internet]
+IDDE,Integrated Development & Debugging Environment [Symantec]
+IOPL,Input/Output Priviledge Level
+XMS,Extended Memory Specification [LIM/AST]
+TS/SI,Top Secret/Sensitive Information
+ECTL,Electronic Communal Temporal Lobe
+OTDR,Optical Time Domain Reflectometer
+MIDI,Musical Instrument Digital Interface
+PING,Packet Internet Groper
+UNICOS,Universal Compiler FORTRAN compatible
+CHMOD,Change Mode
+VSLI,Very Large Scale Integration
+WPVM,Windows Parallel Virtual Machine
+UNICOM,Universal Integrated Communication (System)
+LINUX,(Operating system named after Linus Torvalds)
+XAPIA,X.400 Application Program Interface Association
+APSE,ADA Programming Support Environment
+OAG,Official Airline Guide,Online Air Guide
+OAD,Open Architecture Driver [Bernoulli]
+LISTSERV,List Server [Internet]
+OAB,One-to-All Broadcast
+CCP,Console Command Processor
+CCS,Common Command Set,Common Communications Services,Common Communications Support,Continuous Composite Servo,Color Calibration System (file name extension)
+DART,Digital Audio Reconstruction Technology
+CCL,Connection Control Language
+DARI,Database Application Remote Interface [IBM]
+CCI,Common Client Interface
+POP,Point Of Presence [MCI],Pop from Stack,Post Office Protocol
+LOGO,(Programming Language)(See HLL)
+CCD,Charged-Coupled Device
+PII,Program Integrated Information
+GREP,Global Regular Expression Print
+PIM,Personal Information Manager
+PIN,Personal Identification Number,Process Identification Number [Unix]
+PIO,Parallel Input/Output,Processor Input/Output,Programmed Input/Output
+PIA,Peripheral Interface Adapter
+PIC,Personal Intelligent Communicator,Priority Interrupt Controller,Program Interrupt Controller
+PID,Process Identification Number,Proportional, Integral, Derivative
+POL,Problem Oriented Language
+PIF,Picture Interchange Format File,Program Information File
+VCOS,Visual Caching Operating System [AT&T]
+COGO,Coordinate Geometry (Programming Language)
+PIP,Picture In Picture,Problem Isolation Procedure,Programmable Interconnect Point
+PHIGS,Programmers' Hierarchial Interactive Graphics Standards
+PIT,Programmable Interval Timer
+TUMS,Table Update and Management System [Stanford University]
+RPG,Report Program Generator (Programming Language)
+DIIP,Direct Interrupt Identification Port
+SMS,Storage Management Services [NetWare],Storage Management Subsystem/System,Systems Management Server [Microsoft]
+CAEX,Computer Aided Exploration
+ZPV,Zoomed Port Video [Toshiba]
+MRCF,Microsoft Realtime Compression Format
+WMC,Workflow Management Coalition
+MRCI,Microsoft Realtime Compression Interface
+WMF,Windows Metafile Format (file name extension) [Microsoft]
+SML,Standard Meta Language
+NIMH,Nickel-Metal Hydride
+DMQS,Display Mode Query and Set [IBM]
+OM,Object Manager
+CC:,Carbon Copy
+OF,Overflow Flag
+OC,Optical Carrier
+RPL,Resident Programming Language,Requested Privilege Level
+CROM,Control Read Only Memory
+OURS,Open Users Recommended Solutions
+UREP,Unix RSCS Emulation Protocol (protocol)
+OT,Object Technology
+OS,Operating System
+RBOC,Regional Bell Operating Company
+OP,Operation,Optical,Output
+SMI,System Management Interrupt [Intel]
+JDK,Java Development Kit
+WAITS,Wide Area Information Transfer System
+CSDS,Packet Switched Data Service
+DES,Data Encryption Standard,Data Entry Sheet,Description (file name extension)
+DET,Device Execute Trigger
+DEV,Device
+CHCK,Channel Check
+MSFR,Minimum Security Function Requirements [IBM]
+DEK,Data Encryption Key
+CHCP,Change Code Page
+DEM,Demonstration (file name extension)
+DEN,Document Enabled Networking [Novell-Xerox]
+DEC,Decrement,Device Clear,Digital Equipment Corporation
+DEF,Desktop Functional Equivalent [Compaq],Definitions,Defaults (file name extensions)
+UC2,Compressed File (file name extension) [UltraCompressor]
+AMI,American Megatrends, Inc.
+SMD,Surface Mounted Device
+CDDI,Copper Distributed Data Interface
+LILO,Last In, Last Out
+AMD,Active Matrix Display,Advanced Micro Devices, Inc.
+NSTL,National Software Testing Labs
+NSTC,National Science and Technology Council
+CTOS,Computerized Tomography Operating System,Convergent Technologies Operating System
+be,Belgium
+UPL,User Program Language
+UPM,Unix Programmer's Manual,User Profile Management [IBM]
+UPG,Upgrade
+bn,Brunei Darussalam
+bh,Bahrain
+UPC,Universal Product Code
+UAE,Unrecoverable Application Error
+PCBC,Plain Cipher Block Chaining
+bs,Bahamas
+MVIP,Multi-Vendor Integration Protocol
+UPS,Uninterruptible Power Supply,Uninterruptible Power System
+NDIS,Network Device/Driver Interface Specification
+IVL,Independent Vendor League,Intel Verification Lab
+am,Armenia
+IVT,Interrupt Vector Table
+IVR,Interactive Voice Response
+IVS,Interactive Videodisk System
+BoB,Break-out Box
+OOPL,Object-Oriented Programming Language
+ACC,Accumulator
+XNS,Xerox Network System (protocol) [Xerox]
+MDA,Monochrome Display Adapter,Multidimensional Analysis
+ACF,Access Control Field,Advanced Communications Function
+ACE,Advanced Computing Environment [SCO],Adverse Channel Enhancements [Microcom],*  Automatic Computing Engine
+ACD,Automated Call Distribution,Automatic Call Distributor
+ACK,Acknowledgment
+NEG,Negative,Negate
+HFS,Hierarchical File System [Macintosh]
+ACH,Automated Clearing House
+HFT,High Function Terminal [IBM]
+ACM,Association for Computing Machinery Audio Compression Manager [Microsoft]
+ACL,Access Control List
+ACS,Access,Access Control Set,Access Control System,Asynchronous Communication Server
+TAS,Telephone Access Server
+ACP,Ancillary Control Program,Auxillary Control Process
+ACU,Automatic Calling Unit
+NEW,New Information (file name extension)
+HFC,Hybrid Fiber-Coaxial
+NES,National Education Supercomputer
+NEP,Network Entry Point
+VDT,Video Dial Tone,Video Display Terminal
+LAWN,Local Area Wireless Network
+SMK,Software Migration Kit [Microsoft]
+WABI,Windows Application Binary Interface [SunSoft]
+WINWORD,Word For Windows [Microsoft]
+DSIS,Distributed Support Information Standard
+FFDC,First Failure Data Capture [IBM]
+SOHO,Small Office/Home Office
+D-CHANNEL,Data Channel
+OOPS,Object Oriented Programming and Systems
+BK!,Backup (file name extension) [WordPerfect]
+PSRT,PostScript Round Table [GEnie]
+gz,Compressed file (compressed filename extension - using GNU gzip compression/decompression program) [Unix]
+BGCOLOR,Background Color [HTML]
+GILS,Government Information Locator Service
+GDP,Graphic Draw Primitive
+VEGA,Video-7 Enhanced Graphics Adapter [Video-7, Inc.]
+MEG,Megabyte
+GDT,Geometric Dimensioning and Tolerancing,Global Descriptor Table,Graphics Development Toolkit
+KBD$,Keyboard [OS/2]
+MEM,Memory
+MEN,Menu (file name extension)
+us,United States
+OIDL,Object Interface Definition Language
+GDA,Global Data Area
+MES,Manufacturing Execution System
+GDG,Generation Data Group [IBM]
+GDI,Graphical Device Interface
+z,Packed file (file name extension - using Pack/Unpack program)..lower case z..[Unix]
+VDD,Virtual Device Driver
+NASKER,NASA Ames Kernel (benchmark)
+VHS,Very High Speed,Video Home System,Virtual Host Storage
+IPSE,Integrated Project Support Environment
+TZ,Time Zone [Unix]
+kr,Korea (South)
+TXF,Tax Exchange Format (file name extension)
+TT,Typewriter Text
+TXD,Transmit Data
+TR,Terminal Ready
+TS,Top Secret
+TN,Twisted Nematic
+Mac,Macintosh (Apple Macintosh Computer)
+TM,Trademark
+ABIST,Automatic Built-In Self-Test [IBM]
+TI,Texas Instruments, Inc.
+TD,Transmit Data
+TXT,Text
+TB,Terabyte (1,024 gigabytes)
+TC,Test Control,Transmission Control
+AA,Auto Answer
+AC,Autocheck,Automatic Computer,Alternating Current
+AE,Above or Equal
+AF,Auxiliary carry Flag
+AI,Analog Input,Artificial Intelligence
+W3C,World Wide Web Consortium
+AO,Analog Output
+AP,Adjunct Processor,Application Processor
+HDTV,High Definition Television
+AU,Audio (file name extension)
+AT,Advanced Technology,Attention
+TNC,Terminal Node Controller
+AV,Audio/Video,Audiovisual,Authenticity Verification
+AX,Architecture Extended,Automatic Transmission
+TNO,The Netherlands Organization
+GVT,Global Virtual Time
+ROM,Read Only Memory
+QDI,Dictionary (file name extension) [Quicken]
+XFCN,External Function
+QDT,Data (file name extension) [Quicken]
+ARLL,Advanced Run Length Limited
+OSP,On-Screen Programming,Optical Storage Processor
+BLAST,Blocked Asynchronous Transmission (protocol) [Communications Research Group]
+RTAM,Remote Terminal Access Method
+CPI,Characters Per Inch,Clock Per Instruction,Common Programming Interface [IBM],Code Page Information (file name extension) [MS-DOS]
+gt,Guatemala
+CPL,Current Privilege Level,Control Panel (file name extension)
+gr,Greece
+VSAT,Very Small Aperture Terminal
+CPA,Certified Public Accountant
+CPC,Constant Point Calculation
+CPE,Central Processing Element,Customer Premise Equipment,Customer Provided Equipment,Cover Page (file name extension)
+DUAT,Direct User Access Terminal
+CPG,Clock Pulse Generator
+VADSL,Very-High-Rate Asymmetric Digital Subscriber Line
+RDSR,Receiver Data Service Request
+CCFT,Cold Cathode Fluorescent Tube
+CPS,Characters Per Second,Cycles Per Second
+CPT,Command Pass Through
+CPU,Central Processing Unit
+VSAM,Virtual Storage Access Method
+ARPL,Adjust Requested Privilege Level
+JZ,Jump if Zero
+BISDN,Broadband Integrated Services Digital Network
+USENET,User's Network [Internet]
+JNLE,Jump if Not Less or Equal
+UNCOL,Universal Computed Oriented Language
+NTSC,National Television Standards Committee
+DMPC,Distributed Memory Parallel Computer
+PSPDN,Packet-Switched Public Data Network
+APAREN,Address Parity Enable [IBM]
+TPORT,Twisted Pair Port Transceiver [AT&T]
+WRI,Write (file name extension)
+OSA,Open Scripting/System Architecture
+BECN,Backward Explicit Congestion Notification
+APRP,Adaptive Pattern Recognition Processing
+OVR,Program Overlay (file name extension)
+LAN,Local Area Network
+FFT,Fast Fourier Transform,Final Form Text [IBM]
+FFS,Fast File System
+SNEWS,Secure News Server [Internet]
+ICCP,Institute for the Certification of Computing Professionals
+LAT,Local Access Terminal,Local Area Transport [DEC]
+EEPROM,Electrically Erasable Programmable Read-Only Memory
+PCS,Patchable Control Store,Personal Communication Services/System,Personal Conferencing Specification,Planning Control Sheet,Print Contrast Signal,Process Control Systems,Program Counter Store,Programmable Drive Table,Project Control System
+CODE,Client-Server Open Development Environment
+DTL,Dialog Tag Language [IBM],Diode-Transistor Logic
+DTC,Desktop Conferencing
+DTA,Disk Transfer Area,Data (file name extension)
+DTF,Distributed Test Facility
+DTE,Data Terminal Equipment,Dumb Terminal Emulator
+DTD,Document Type Definition
+PCEB,PCI to EISA Bridge [Intel]
+SSGA,System Suppport Gate Array
+SEAL,Segmentation and Reassembly Layer (protocol),Screening External Access Link [Digital-DEC]
+SEAC,* Name of first computer to use transistors, built by (National Bureau of) Standards Eastern Automatic Calculator (Also see SWAC)
+DTR,Data Terminal Ready,Data Transfer Rate
+DTP,Desktop Publishing,Distributed Transaction Process
+DTV,Desktop Video
+PAK,Packed (compressed file name extension) [NoGate Consulting]
+HTML,HyperText Markup Language
+STDAUX,Standard Auxillary
+SNOBOL,String Oriented Symbolic Language (Progamming Language)
+VRML,Virtual Reality Modeling Language (originally named Virtual Reality Markup Language)
+FTP,File Transfer Protocol [Internet]
+FTS,Federal Telecommunication System
+IGS,Internet Go Server [Internet]
+IFSM,Information Systems Management
+FTX,Fault Tolerant Unix
+NSERC,National Sciences and Engineering Research Council (Canada)
+IGC,Integrated Graphics Controller
+IMAX,Maximum Image
+IGA,Integrated Graphics Array
+REQ,Request
+FTM,Flat Tension Mask [Zenith]
+IMAP,Internet Message Access Protocol [Internet]
+B~K,Backup (file name extension)
+CBC,Cipher Block Chaining
+MRPL,Main Ring Path Length
+EXTRN,External Reference
+PUP,PARC Universal Packet (protocol)
+CBI,Computer Based Instruction
+MXS,Microsoft Exchange Server [Microsoft]
+CBL,Computer Based Learning,COBOL source code (file name extension)
+CBR,Constant Bit Rate
+MQI,Message Queue Interface
+CBW,Convert Byte to Word
+CBT,Computer Based Training
+SETEXT,Structure Enhanced Text [Internet]
+CBX,Computer-Controlled Branch Exchange
+NNTP,Network News Transfer Protocol [Internet]
+ASLM,Apple Shared Library Manager [Macintosh]
+MARVEL,Machine-Assisted Realization of the Virtual Electronic Library [Library of Congress]
+FS,File Separator
+AWS,Advanced Workstations and Systems (group) [IBM]
+SMU,System Management Utility
+SMT,Station Management (protocol),Surface-Mount Technology
+ACIS,American Committee for Interoperable Systems
+SMP,Simple Management Protocol,Symbolic Manipulation Program,Symmetrical Multi-Processing,Symmetric Multiprocessor,Sample (file name extension)
+SCCS,Source Code Control System
+IPTC,International Press Telecommunications Council
+SMM,System Mangement Mode [Intel]
+CODEC,Coder/Decoder,Compression/Decompression
+FD,Floppy Disk,Floppy Drive,Full Duplex
+FF,Flip-Flop,Form Feed
+FG,Floating Gate
+CHKDSK,Check Disk
+SMF,System Manager Facility [Compaq]
+C&T,Chips and Technologies
+PERL,Practical Extraction and Report Language [Unix]
+SMB,Server Message Block (protocol) [MII]
+IAUP,Internet User Account Provider [Internet]
+MDK,Multimedia Developers Kit [Microsoft]
+MDI,Multiple Document Interface
+GGP,Gateway-Gateway Protocol [Internet]
+DOSEM,DOS Emulation
+CONTONE,Continuous Tone
+MDF,Menu Definition File (file name extension)
+ASPI,Advanced SCSI Programming Interface [Adaptec]
+MPQP,Multi-Protocol Quad Port [IBM]
+MDY,Month Day Year
+S-VHS,Super VHS
+ASPS,Advanced Signal Processing System
+MDR,Minimum Design Requirement
+TASM,Turbo Assembler [Borland]
+VGA,Video Graphics Array
+BOND,Bandwidth On Demand
+MVP,Multimedia Video Processor
+JES,Job Entry System
+MVS,Multiple Virtual Storage
+MVT,Multiprogramming with a Variable number of Tasks
+DFU,Data File Utility
+DFT,Design For Testability,Diagnostic Funtion Test,Discrete Fourier Transform,Distributed Function Terminal
+NREN,National Research and Education Network
+DFS,Distributed File System
+DFM,Design For Manufacturability [IBM]
+MVB,Multimedia Viewer Book
+MVC,Multimedia Viewer Compiler
+PLA,Programmable Logic-Array
+DFC,Data Flow Control
+ALN,Asynchronous Learning Network
+CCITT,Comite Consultatif International Telegraphique et Telephonique/ Consultative Committee for International Telegraph and Telephone
+ALE,Address Latch Enable
+ALC,Arithmetic and Logic Circuits,Automatic Level Control
+BTOA,Binary To ASCII
+RLL,Run Length Limited
+VOL,Volume
+BSYNC,Binary Synchronous Communications (protocol)
+VOM,Volt-Ohm-Milliammeter
+ALT,Alternate (mode)
+ALU,Arithmetic Logic Unit
+ALR,Advanced Logic Research, Inc.
+NTF,No Trouble Found
+OFB,Output Feedback (mode)
+OBEX,Object Exchange [Borland]
+tar,Tape Archive (archived file name extension) [Unix]
+do,Dominican Republic
+MI/MIC,Mode Indicate/Mode Indicate Common
+TOP,Technical and Office Protocol
+ps.Z,Compressed PostScript (file name extension) [Unix]
+SPIRES,Stanford Public Information Retrieval System [Stanford University]
+UP,Uniprocessor
+GPSS,* General Purpose Systems Simulator (language)
+SEU,Smallest Executable Unit
+NISO,National Information Standards Organization
+ETACS,Extended Total Access Communication System [IBM]
+FLOPS,Floating Point Operations Per Second
+TOD,Time Of Day
+NHC,National Hurricane Center
+mo,Macau
+ISSN,International Standard Serial Number
+OMNS,Open Network Management System
+NOPAC,Network OPAC
+HIF,Hyper-G Interchange Format
+NHR,National Handwriting Recognition
+UI,Unix International,User Interface
+HIL,Human Interface Link [HP]
+CD-DA,Compact Disk -Digital Audio
+EDLC,Ethernet Data Link Control
+ISAM,Indexed Sequential-Access Management/Method
+ABC,*  Atanasoff-Berry Computer  (First digital calculating machine that used vacuum tubes)
+XOR,Exclusive OR (Also EOR)
+VOR,Visions Of Reality
+ABI,Application Binary Interface
+ABR,Available Bit Rate
+ABS,Absolute
+ABT,Abort
+ADCCP,Advanced Data Communication Control Procedures
+XON,Transmitter On
+ERLL,Enhanced Run Length Limited
+ENIAC,* Electronic Numerical Integrator Analyzer and Computer (First fully electronic digital computer)
+HGA,Hercules Graphics Adapter
+BHI,Branch if Higher
+MDLP,Modile Data Link Protocol
+STScI,Space Telescope Science Institute
+KEYBFR,Foreign language KEYBoard program - France
+LAVC,Local Area VAX Cluster
+HRMS,Human Resource Management System
+PEA,Pocket Ethernet Adapter
+CRAM,Cyberspatial Reality Advancement Movement
+DSHD,Double Sided, High Density (diskette)
+TAXI,Transparent Asynchronous Tranceiver/Receiver Interface
+ARAS,Antireflective-Antistatic
+TERMPWR,Terminator Power
+EGP,Exterior Gateway Protocol
+ARAG,Antireflective-Antiglare
+EGA,Enhanced Graphics Adapter
+VIF,Virtual Interface,Virtual Interrupt Flag
+ISAPI,Internet Servier API [Microsoft]
+RAG,Row Address Generator
+RAD,Rapid Application Development
+LBR,Librarian,Library (file name extension)
+lb,Lebanon
+LBT,Listen Before Talk
+VPD,Virtual Printer Device,Vital Product Data [IBM]
+LBX,Local Bus Accelerator
+RAM,Random Access Memory
+lk,Sri Lanka
+SMIT,System Management Interface Tool [IBM]
+LBA,Logical Block Addressing
+lt,Lithuania
+IMPA,Intelligent Multi-Port Adapter [DCA]
+RAS,Random Access Storage,Reader Admission System [British Library],Reliability, Availability and Serviceability,Remote Access Service,Row Address Select
+RAP,Rapid Application Prototyping
+IPDS,IBM Personal Dictation System [IBM],Intelligent Printer Data Stream [IBM]
+VLINK,Visited Link [HTML]
+OSPF,Open Shortest Path First
+IRDS,Information Resource Dictionary System
+VEMM,Virtual Expanded Memory Manager
+BFF,Binary File Format [IBM]
+LPT,Line Printer
+LPS,Low-Power Schottky
+CPCS,Check Processing Control System [IBM]
+za,South Africa
+E-MAIL,Electronic Mail
+LPM,Lines Per Minute
+LPL,Lotus Programming Language [Lotus 1-2-3] [LDC]
+LPI,Lines Per Inch
+BFT,Binary File Transfer
+LPD,Line Printer Daemon (protocol) [Berkley]
+LPC,Local Procedure Call
+FIRST,Forum of Incident Response and Security Teams
+VPN,Virtual Page Number,Virtual Private Network
+SRD,Screen Reader System
+MPCS,Mission Planning and Control Station (Software)
+VIE,Virtual Information Environment
+CLIST,Command List
+VIM,Vendor Independent Mail,Vendor Independent Messaging,Video Interface Module
+VIS,Video Information System [Tandy],Voice Information System
+VIP,Variable Information Processing,Video Information Provider,Virtual Interrupt Pending
+SDNS,Secure Data Network Service
+STD,Set Direction Flag,Standard
+IFP,Instruction Fetch Pipeline
+OCL,Operation Control Language,Operator Control Language
+IFS,Installable File System
+IHV,Independent Hardware Vendor
+OCE,Open Collaborative Environment [Apple]
+OCF,Objects Components Framework [Borland]
+IFD,Image File Directory
+IRDA,Infrared Data Association
+IFF,Interchangeable File Format [Amiga]
+IFG,Incoming Fax Gateway
+VPDS,Virtual Private Data Service [MCI]
+OCS,On-Card Sequencer
+OCR,Optical Character Recognition
+ru,Russian Federation
+FUI,File Update Information
+CEG,Continuous Edge Graphics
+ASMP,Asymmetric Multprocessing
+CEI,Conducted Electromagnetic Interference
+IEEE,Institute of Electrical and Electronics Engineers
+STN,Super-Twist Nematic
+CSM,Communications Services Manager
+CSL,Computer Sensitive Language
+CSO,Central Services Organization
+CSN,Card-Select Number
+CSI,Command Sequence Introducer,CompuServe Incorporated
+EDIFACT,EDI for Administration Commerce and Transport
+BKSP,Backspace
+CSD,Circuit-Switched Data,Computer Services Department,Corrective Service Diskette [IBM]
+CSG,Constructive Solid Geometry,Consulting Services Group [Lotus]
+CSA,Calendaring and Scheduling API [IBM]
+WOS,Workstation Operating System
+SYSOP,System Operator
+CSU,Channel Service Unit
+CSV,Circuit-Switched Voice,Comma-Separated Value/Variable,Common Services Verbs (interface) [Microsoft]
+CSP,Certified Systems Professional,Commercial Subroutine Package,CompuCom Speed Protocol [CompuCom]
+CSS,* Continuous System Simulator (Language),Cascading Style Sheets [Microsoft],Contact Start-Stop
+OUTS,Output String
+DFSMS,Data Facility Storage Management Subsystem [IBM]
+SGDT,Store Global Descriptor Table
+PMS,Policy Management System
+LN:DI,Lotus Notes:Document Imaging
+MUT,Monitor Under Test
+ODS,Open Data Services [Microsoft]
+EGREP,Extended Global Regular Expression Print [Unix]
+ODT,Open Desktop
+ESCM,Extended Services Communications Manager [IBM]
+MUX,Multiplexer
+PCX,Picture Image (file name extension)
+CHAR,Character
+MUD,Multi-User Dialogue/Dimension/Domain/Dungeon [Internet]
+CHAP,Challenge-Handshake Authentication Protocol
+CHAT,Conversational Hypertext Access Technology [Internet]
+FECN,Forward Explicit Congestion Notification
+MUL,Multiply
+ASR,Address Space Register,Automatic Send-Receive,Automatic Speech Recognition
+ASP,Association of Shareware Professionals
+PS/2,Programming System 2 [IBM]
+SWAC,* Mobile version of SEAC, built for deployment to White Sands, and named Standards Western Automatic Calculator
+AST,AST Research, Inc. (named from first initials of the founders: Albert Wong, Safi Qureshey, Thomas Yuen)
+MASM,Macro Assembler [Microsoft]
+WORM,Write Once, Read Many
+vBNS,Very High Speed Backbone Network Service [MCI,NSF]
+ASC,ASCII text (file name extension)
+NUL,Null,(dummy device),(no device)
+SPREAD,* Systems Programming, Research, Engineering and Development [IBM]
+MASS,Maximum Availability and Support Subsystem [Parallan]
+NUI,Network User Identification,Network User Interface,Notebook User Interface [Go Corporation]
+LORE,Line Oriented Editor
+ASN,Abstract Syntax Notation,Autonomous System Number
+ASM,Assembler Source Language (file name extension)
+ASL,Adaptive Speed Levelling
+Kb,Kilobit
+DUN,Dial-Up Networking [Microsoft]
+HERC,Hercules
+DUA,Directory User Agent
+CSTA,Computer-Supported Telephony Applications
+COEM,Commercial Original Equipment Manufacturer
+UNC,Universal Naming Convention,Uuencoded Netnews Collator [Unix]
+DOIP,Dial Other Internet Providers [IBM]
+FDISK,Fixed Disk
+UNI,User-Network Interface
+ITN,Identification Tasking and Networking
+KB,Keyboard,Kilobyte (1,024 bytes)
+OMA,Object Management Architecture [Microsoft]
+SCRS,Scalable Cluster of RISC Systems
+OMG,Object Management Group
+OMF,Object Module Format [Microsoft],Open Media Framework,Open Message Format
+OME,Open Messaging Environment (protocol)
+NT,New Technology [Microsoft]
+OMI,Open Messaging Interface [Lotus]
+ITB,Information Technology Branch,Intermediate Text Block
+ITC,International Typeface Corporation
+IRTF,Internet Research Task Force [Internet]
+EPSF,Encapsulated PostScript Files
+RPPROM,Reprogrammable PROM
+AEB,Analog Expansion Bus [Dialogic]
+ITX,Intermediate Text Block
+XTAL,Crystal
+ITV,Interactive Television
+ITU,International Telecommunication Union
+ITR,Internet Talk Radio
+SCRN,Screen (video display)
+ISBN,International Standard Book Number
+AAB,All-to-All Broadcast
+AAL,Asynchronous Transfer Mode Adaption Layer
+CUU,Cursor Up
+AAT,Average Access Time
+CMMU,Cache/Memory Management Unit [Motorola]
+CMMS,Computerized Maintenance Management Software
+AAP,Applications Access Point [DEC]
+AAS,All-to-All Scatter
+LIDT,Load Interrupt Descriptor Table
+EDOS,Enhanced DOS for Windows
+BIN,Binary (file name extension)
+BIM,Beginning of Information Marker
+BIB,Bibliography (file name extension)
+si,Slovenia
+SANE,Standare Apple Numeric Environment
+BIX,Byte Information Exchange (BBS)
+BIT,Binary Digit
+BIU,Bus Interface Unit
+BIS,Business Information System
+TCP/IP,Transmission Control Protocol/Internet Protocol
+SLU,Spoken Language Understanding
+STRESS,Structural Engineering System Solver (Programming Language)
+SNR,Signal-to-Noise Ratio
+SLM,Spatial Light Modulator
+TFT,Thin-Film Transistor (screens)
+MCM,Multi-Chip Module
+MCL,Microsoft Compatibility Labs [Microsoft]
+JPL,Jet Propulsion Laboratory
+JPO,Jump if Parity Odd
+hk,Hong Kong
+GRADD,Graphics Adapter Device Driver [IBM]
+JPE,Jump if Parity Even
+CUE,Custom Updates and Extras (card) [Egghead Software]
+MCA,Micro Channel Adapter/Architecture [IBM]
+AMMA,Advanced Memory Management Architecture [Everex Systems]
+CUD,Cursor Down
+zw,Zimbabwe
+se,Sweden
+RDA,Remote Database Access
+MCU,Multi-Chip Unit [DEC]
+AMANDDA,Automated Messaging and Directory Assistance
+MCR,Modem Control Register
+OS/E,Operating System/Environment
+PMOS,Positive Channel Metal Oxide Semiconductor
+BGA,Ball Grid Array
+EXE,Executable (file name extension)
+BGE,Branch if Greater or Equal
+BGI,Borland Graphic Interface (file name extension)
+EXM,Enterprise Messaging Exchange [Lotus]
+AS3AP,ANSI SQL Standard Scalable and Portable
+MUSE,Multi-User Shared Environment
+BGP,Border Gateway Protocol
+LQM,Link Quality Monitoring (protocol)
+EXT,External
+BGT,Branch if Greater Than
+SYSGEN,System Generator
+EXP,Exponent
+UIMS,User Interface Management System
+IVIS,Interactive Video Information System
+VNA,Virtual Network Architecture
+PICT,Picture
+GLOBE,Global Learning by Observations to Benefit the Environment [Internet]
+ARCnet,Attached Resource Computer Network
+TCM,Trellis-Coded Modulation
+VAM,Virtual Access Method
+S/H,Sample and Hold
+SDMS,SCSI Device Management System [NCR]
+VPDN,Virtual Private Data Network
+XDR,Extended/External Data Representation
+EDRAM,Extended Dynamic Random Access Memory
+KEYBNL,Foreign language KEYBoard program - Netherlands
+KEYBNO,Foreign language KEYBoard program - Norway
+GPI,Graphics Programming Interface
+HDVD,High Definition Volumetric Display
+ADMD,Administrative Management Domain [X.400]
+GAPI,Gateway Application Programming Interface
+GPF,General Protection Fault
+THS,Thesaurus (file name extension)
+THR,Transmit Holding Register
+MBCS,Multi-Byte Character Set [IBM]
+IAG,Instruction Address Generation
+PCMIM,Personal Computer Media Interface Module
+IESG,Internet Engineering Steering Group [Inernet]
+RQBE,Relational Query By Example [Fox Pro]
+THD,Total Harmonic Distortion,Thread (file name extension)
+GPR,General Purpose Register [IBM]
+GPS,Global Positioning Satellite/System
+OODB,Object-Oriented Database
+NII,National Information Infrastructure
+fi,Finland
+NIO,Native Input/Output
+NIM,Network Installation Management [IBM]
+KIS,Knowbot Information Service [Internet]
+NIC,Network Information Center [Internet],Network Interface Card,Numeric Intensive Computing
+NIA,Next Instruction Address
+RTOS,Real-Time Operating System
+NID,New Interactive Display [NEC],Next ID
+X2B,Hexadecimal to Binary [REXX]
+SPOOL,Simultaneous Peripheral Operations On Line
+NIR,Network Information Retrieval
+NIS,Network Information Service [Unix]
+NIU,Network Interface Unit
+NICOLAS,Network Information Center OnLine Aid System [NASA]
+ALT.,Alternate lifestyle [USENET Newsgroup Category]
+FDC,Floppy Disk Controller
+CRT,Cathode Ray Tube
+OSQL,Object Structured Query Language
+FDM,Frequency-Division Multiplexing
+SYNC,Synchronous
+FIFO,First-In, First-Out
+CRC,Cyclic Redundancy Check
+CRF,Cable Retransmission Facility,Cross Reference File
+CRD,Cardfile (file name extension)
+FDX,Full Duplex
+CRI,Color Reproduction Indices
+FESDK,Far East Software Development Kit [Microsoft]
+EDLIN,Editor (Line Text)
+JANET,Joint Academic Network
+PT,Page Table
+PX,Primary Index (file name extension) [Paradox]
+PC,Personal Computer,Printed Circuit,Program Counter
+FANS,Future Air Navigation System
+AUTOEXEC,Automatic Execution
+PE,Parity Even,Processing Element,Protect Enable
+PI,Program Interruption
+PN,Processing Node
+PO,Parity Odd
+PL,Plus
+PM,Presentation Manager [IBM],Preventative Maintenance,Process Manager
+AIIM,Association for Information and Image Management
+EFI,Electromechanical Frequency Interference,Electronics For Imaging
+UNIX,(AT&T Bell Laboratories Operating System)
+SGRAM,Synchronous Graphics RAM
+EFL,Emitter Follower Logic
+Y/N)?,(Asks for a YES or NO decision)
+EFA,Extended File Attribute
+SD-ROM,Super Density ROM
+EFF,Electronic Frontier Foundation
+OPT,Open Protocol Technology,Options (file name extension)
+EVGA,Extended Video Graphics Array,Extended Video Graphics Adapter
+MSO,Multiple-Systems Operator
+LCU,Last Cluster Used
+LCR,Line Control Register
+LCP,Link Control Protocol
+ECAL,Enjoy Computing And Learn
+RNG,Random Number Generator
+RND,Random
+LCF,Low Cost Fiber
+IOCTL,Input/Output Control
+LCC,Leadless Chip Carrier
+LCA,Lotus Communications Architecture [Lotus]
+OPM,Operations Per Minute
+RNP,Regional Network Provider
+LCK,Library Construction Kit [Mircrosoft FoxPro]
+ECAT,Electronic Card Assembly and Test [IBM]
+MSN,Microsoft Network [Microsoft]
+XMIT,Transmit
+ch,Switzerland
+DVI,Digital Video Interactive,Device Independent (file name extension)
+cn,China
+cl,Chile
+DVE,Digital Video Effect
+DVD,Digital Video Disk
+CD-ROM,Compact Disk - Read Only Memory
+VDDM,Virtual Device Driver Manager
+DVC,Desktop Video Conferencing
+cz,Czech Republic
+cy,Cyprus
+UMA,Unified Memory Architecture
+UMB,Upper Memory Block [LIM/AST]
+ALIWEB,Archie Like Indexing in the Web [Internet]
+CDSA,Common Data Security Architecture
+SPSS,Statistical Package for the Social Sciences
+DVR,Device Driver (file name extension) (Also see .DRV)
+lv,Latvia
+OLD,Old version (file name extension)
+OLE,Object Linking and Embedding [Microsoft]
+RARP,Reverse Address Resolution Protocol
+OLI,Optical Line Interface [AT&T]
+ANDF,Architecture-Neutral Distribution Format
+MHS,Message Handling Service,Message Handling System
+SCSA,Signal Computing System Architecture [Dialogic]
+lu,Luxembourg
+PC-I/O,Program Controlled I/O
+SCSI,Small Computer Systems Interface
+ACROSS,Automated Cargo Release and Operations Service System
+IDAPI,Integrated Database Application Programming Interface
+iKP,Internet Keyed Payments [IBM]
+OBJ,Object
+DPMI,DOS Protected Mode Interface [Microsoft]
+MSS,Mass Storage System
+IRET,Interrupt Return
+SMTP,Simple Mail Transfer Protocol
+DPMA,Data Processing Management Association
+FRED,Frame Editor,Front-End to Dish
+MUMPS,Massachusetts General Hospital Utility Multi-Programming System (Programming Language)
+IEN,Internet Engineering Notes
+IEC,International Electrotechnical Commission
+DPMS,Display Power Management Support
+IEF,Information Engineering Facility
+CDE,Common Desktop Environment,Complex Data Entry
+CDF,Comma Delimited Format (file name extension)
+PNP,Plug And Play
+PLS,Primary Link Station
+CDA,Compound Document Architecture [DEC]
+CDC,Control Data Corporation
+CDL,Computer Design Language
+PSM,Printing Systems Manager
+SIDT,Store Interrupt Descriptor Table
+LBL,Label
+CDT,Corel Draw Template (file name extension)
+MOS,Metal Oxide Semiconductor,Magneto-Optic Storage
+FEPI,Front End Programming Interface
+MSL,Map Specification Library,Mirrored Server Link
+PLC,Programmable Logic Controller
+RTF,Rich Text Format
+FAPI,Family Application Program Interface
+CDS,Current Directory Structure
+PLL,Phase Locked Loop,Prelinked Library (file name extension) [Clipper]
+CDX,Compound Index (file name extension) [Fox Pro]
+SIDF,System Independent Data Format
+at,Austria
+SCAM,SCSI Configuration Automatically
+ve,Venezuela
+STDOUT,Standard Output
+NSFNET,National Science Foundation Network
+VINES,Virtual Networking System [Banyan]
+CBMS,Computer-Based Mail System
+bg,Bulgaria
+SCAS,Scan String
+PCMCIA,Personal Computer Memory Card International Association
+SOA,Start Of Authority
+SOC,System On a Chip
+MSD,Mass Storage Device,Most Significant Digit,Microsoft System Diagnostics [Microsoft]
+DIFFSENS,Differential Sense
+CBEMA,Computer and Business Equipment Manufacturers Association
+SOH,Start of Header
+SOM,Start of Message,System Object Model [IBM]
+SOL,Simulation Oriented Language
+PPM,Pages Per Minute
+MSB,Most Significant Bit
+PPS,Packets Per Second,Power Personal Systems [IBM]
+SOP,Standard Operating Procedures
+SOS,Silicon On Sapphire,Sophisticated Operating System,Standards and Open Systems
+GAL,Generic Array Logic
+MBX,Mailbox
+SOX,Sound Exchange
+MBR,Master Boot Record
+AUTO,Automatic
+MTU,Maximum Transmission Unit
+DELSTR,Delete String [REXX]
+JCL,Job Control Language
+MTA,Message Transfer Agent,Multiple Terminal Access
+MTF,Microsoft Tape Format [Microsoft],Modulation Transfer Function
+ARP,Address Resolution Protocol [Novell]
+ARQ,Automatic Repeat Request
+WOSA,Windows Open Services/Systems Architecture [Microsoft]
+ARU,Audio Response Unit
+LPN,Logical Page Number
+MAPI,Mail/Messaging Applications Programming Interface [Microsoft]
+FAMOS,Floating Gate Avalanche MOS
+ARA,AppleTalk Remote Access
+ARC,Archive (file name extension)
+CSCW,Computer Supported Cooperative Work
+RSA129,(129 digit cryptographic security number named after its inventors: Drs. Ronald L. Rivest, Adi Shamir and Leonard M. Adelman)
+RLSD,Received Line Signal Detected
+CVIA,Computer Virus Industry Association
+ARJ,Compressed File (file name extension) [Jung]
+PSU,Power Supply Unit
+ARL,Adjusted Ring Length
+ARM,Advanced RISC Machine (processor),Annotated Reference Manual,Asynchronous Response Mode
+QBE,Query By Example
+BE,Below or Equal
+BF,Bad Flag
+uk,United Kingdom
+BL,Backlit,Bit Line
+BO,Binary Output
+ADLC,Adaptive Lossless Data Compression [IBM],Asynchronous Data Link Control
+BI,Binary Input
+BT,Bit Test
+BU,Branch Unit
+BP,Base Pointer
+BR,Bad Register
+BS,Backspace
+GSI,General Server Interface
+TIF,Tagged Image File (filename extension)
+GSM,Global Shared Memory,Global System for Mobile-Communications (network)
+PIXEL,Picture Element
+ODBMS,Object-Oriented Database Management System  (also see OODMS)
+NNI,Network-Network Interface
+SLSI,Super Large-Scale Integration
+QIF,Quicken Import File/Interchange Format (file name extension)
+QIC,Quality Information Using Cycle Time [Hewlett-Packard],Quarter-Inch Cartridge
+SLSS,Systems Library Subscription Service [IBM]
+GEIS,General Electric Information Service (company)
+SLED,Single Large Expensive Disk
+VBE/AI,Vesa Bios Extension/Audio Interface
+I/O,Input/Output
+I/F,Interface
+SYSLOG,System Log
+BVH,Base Video Handler
+PRAM,Parallel Random-Access Machine,Parameter Random Access Memory
+FTPD,File Transfer Protocol Daemon
+CASSIS,Classified and Search Support Information System
+SPIKE,Science Planning Intelligent Knowledge-Based Environment [STScI]
+CNT,Contents (file name extension)
+EES,Escrow Encryption Standard
+VIO,Video Input/Output,Virtual Input/Output
+EEM,Extended Memory Management
+EEL,Epsilon Extension Language
+ABEND,Abnormal End
+EEG,Electroencephalogram
+MOHLL,Machine Oriented High Level Language
+EEC,Extended Error Correction
+TAPCIS,The Access Program for the CompuServe Information Service
+ROL,Rotate Left
+FPC,Floating Point Calculation
+BCP,Best Current Practice,Bulk Copy Program
+ROB,Reorder Buffer [Intel]
+ADPCM,Adaptive Differential Pulse Code Modulation
+OSI,Open Systems Interconnection
+IPFC,Information Presentation Facility Compiler [IBM]
+OSM,Off-Screen Model
+TRADIC,* Transistorized Airborne Digital Computer (Name of first computer to be entirely transistorized)
+LLC,Logical Link Control
+ROR,Rotate Right
+ROS,Read-Only Storage [IBM]
+ROT,Running Object Table
+LLF,Low Level Format
+OSF,Open Software Foundation
+BDE,Borland Database Engine [Borland]
+BERT,Bit Error Rate Test/Tester
+BDA,Bios Data Area
+NASIRC,NASA Automated Systems Internet Response Capability
+MKDIR,Make Directory
+DSTN,Double Supertwisted Nematic
+MOTD,Message Of The Day
+CNX,Certified Network Expert
+BDR,Bus Device Request
+EWS,Employee Written Software [IBM]
+SPCL,Spectrum Cellular Corporation
+CNF,Configuration (file name extension)
+LRC,Local Register Cache,Longitudinal Redundancy Check
+JDBC,Java Database Connectivity
+pt,Portugal
+FPT,Forced Perfect Termination
+UU,Uuencode/Uudecode
+UT,User Terminal
+BIST,Built-In Self-Test
+UV,Ultraviolet
+LRM,Language Reference Manual,Least Recently-Used Master
+LRL,Least Recently Loaded
+US,Unit Separator
+UL,Underwriters Laboratories,Unordered List,Upload
+LRS,Language Resource (file name extension) [WordPerfect]
+LRU,Least Recently Used
+SDLC,Synchronous Data Link Control (protocol)
+VOS,Verbal/Voice Operating System
+MPMD,Multiple Processor/Multiple Data
+UG,User Group
+HPUX,Hewlett-Packard Unix
+UA,User Agent,User Area
+PSERVER,Print Server [NetWare]
+FPP,Fixed Path Protocol,Floating Point Processor
+FOSI,Format Option Specification Instance
+IMDS,Image Data Stream (format) [IBM]
+IDX,Index (file name extension)
+BLER,Block Error
+RMDIR,Remove Directory
+IDT,Interface Design Tool,Interrupt Descriptor Table
+FPR,Floating-Point Register
+IDR,Intelligent Document Recognition
+FOSE,Federal Office Systems Exposition
+IDP,Integrated Data Processing
+STOS,Store String
+CNN,Composite Network Node
+IDL,Interface Definition Language
+RELSECT,Relative Sector
+CUA,Common User Access [IBM]
+IDF,Intermediate Distribution Frame
+STAR,Self Defining Text Archival
+IDE,Imbedded Drive Electronics,Integrated Development Environment [Borland],Integrated Drive Electronics,Intelligent Drive Electronics,Interactive Design and Engineering,Interface Design Enhancement
+IDC,Integrated Database/Desktop Connector
+IDA,Integrated Digital Access,Intelligent Disk Array,Intelligent Drive Array
+CGI,Common Gateway Interface,Computer Generated Images,Computer Graphics Interface
+D2X,Decimal To Hexadecimal [REXX]
+ULA,Uncommitted Logic Array
+CGM,Computer Graphics Metafile (file name extension),Graph (file name extension) [Lotus 1-2-3] [LDC]
+PNA,Programmable Network Access
+PMR,Problem Management Report [IBM]
+CCSD,Cellular Circuit-Switched Data
+CGA,Color Graphics Adapter
+CGE,Common Graphics Environment
+BIOS,Basic Input/Output System
+D2C,Decimal To Character [REXX]
+FED,Field-Emitter Display
+CUT,Control Unit Terminal
+DLCI,Data Link Connection Identifier
+CUR,Cursor (file name extension)
+CUP,Cursor Position
+hr,Croatia
+OLMC,Output Logic Macrocell
+hu,Hungary
+CUF,Cursor Forward
+FET,Field Effect Transistor
+FGREP,Fixed Global Regular Expression Print [Unix]
+CUB,Cursor Backward
+FEP,Front End Processor
+SIT,Special Information Tones,Stuff-It (compressed file name extension) [Macintosh]
+CUI,Character-Oriented User Interface,Common User Interface [IBM]
+IBM-GL,IBM Graphics Language
+OCX,OLE Custom Control
+PGDN,Page Down
+ABLE,Adaptive Battery Life Extender
+XCOPY,Extended Copy
+EOSDIS,Earth Observing System Data and Information System [NASA]
+WIT,Web Interactive Talk [Internet]
+pl,Poland
+LSAPI,License Services Application Program Interface
+iCOMP,Intel Comparative Microprocessor Performance [Intel]
+CIA,Current Instruction Address
+CIF,Common Interchange/Intermediate Format,Crystallographic Information File,Customer Information Feed
+ALIBI,Adaptive Location of Internetworked Bases of Information
+CID,Charge-Injection Device,Configuration/Installation/Distribution
+MSW,Machine Status Word
+SRAM,Shadow Random Access Memory,Static Random Access Memory
+CIO,Chief Information Offier
+VLF,Very Low Frequency
+CIM,CompuServe Information Manager,Computer Integrated Manufacturing
+MSP,Microsoft Paint (file name extension) [Microsoft]
+CIS,Card Information Structure,Client Information System,CompuServe Information Service,Computer Information Systems,Contact Image Sensor,Customer Information System
+CIR,Committed Information Rate
+NAPLPS,North American Presentation Level Protocol Syntax (graphics)
+CIP,Command Interface Port
+MSI,Medium Scale Integration
+CIT,Computer-Integrated Telephony
+MSG,Message,Program Message (file name extension)
+NEWS,NetWare Early Warning System [Frye Computer],Network Extensible Window System
+CIX,Commercial Internet Exchange,Compulink Information Exchange
+ESMR,Enhanced Specialized Mobile Radio
+DAD,Desktop Application Director [Borland]
+DAA,Data Access Arrangement,Decimal Adjust for Addition
+DAC,Data Acquisition and Control,Digital to Analog Converter
+DAL,Data Access Language [Apple Computer],Disk Access Lockout
+DAM,Data Acquisition and Monitoring
+DAO,Data Access Object [Microsoft]
+DAI,Distributed Artificial Intelligence
+FCC:,File Carbon Copy
+WFW,Windows For Workgroups [Microsoft]
+DAT,Digital Audio Tape,Disk Array Technology,Data (file name extension)
+DAV,Digital Audio-Video
+PDIAL,Public Dialup Internet Access List [Internet]
+DAP,Data Access Protocol [DEC],Developer Assistance Program
+DAS,Decimal Adjust for Subtraction,Dual-Attached Station
+DCAF,Distributed Console Access Facility [IBM]
+MINUET,Minnesota Internet Users Essential Tools [Internet]
+SRO,Sharable and Read Only
+GLIS,Global Land Information System [US Geological Survey]
+JNAE,Jump if Not Above or Equal
+MCPS,Microsoft Certified Product Specialist [Microsoft]
+ULN,Universal Link Negotiation
+DWG,Drawing
+CDRL,Contract Data Requirements List
+CD,Carrier Detect,Change Directory,Collision Detection,Color Display,Compact Disk
+MACH,Multilayer Actuator Head [Epson]
+TEMP,Temporary
+OOL,Object-Oriented Language
+MTS,Message Transfer Service/System,Multichannel Television Sound
+OOT,Object-Oriented Technology
+OOS,Object-Oriented Systems,Off-line Operating Simulator
